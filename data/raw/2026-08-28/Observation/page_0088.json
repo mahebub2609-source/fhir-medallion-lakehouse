@@ -1,0 +1,1315 @@
+{
+  "resource_type": "Observation",
+  "extraction_timestamp": "2026-08-28T13:29:38.736569+00:00",
+  "extraction_date": "2026-08-28",
+  "api_url": "https://hapi.fhir.org/baseR4?_getpages=3806ac22-b723-4d64-b6d3-1545cfe8ae11&_getpagesoffset=1760&_count=20&_pretty=true&_bundletype=searchset",
+  "page_number": 88,
+  "entry_count": 20,
+  "response": {
+    "resourceType": "Bundle",
+    "id": "3806ac22-b723-4d64-b6d3-1545cfe8ae11",
+    "meta": {
+      "lastUpdated": "2026-08-28T09:29:38.799-04:00"
+    },
+    "type": "searchset",
+    "total": 1782,
+    "link": [
+      {
+        "relation": "self",
+        "url": "https://hapi.fhir.org/baseR4?_getpages=3806ac22-b723-4d64-b6d3-1545cfe8ae11&_getpagesoffset=1760&_count=20&_pretty=true&_bundletype=searchset"
+      },
+      {
+        "relation": "next",
+        "url": "https://hapi.fhir.org/baseR4?_getpages=3806ac22-b723-4d64-b6d3-1545cfe8ae11&_getpagesoffset=1780&_count=20&_pretty=true&_bundletype=searchset"
+      },
+      {
+        "relation": "previous",
+        "url": "https://hapi.fhir.org/baseR4?_getpages=3806ac22-b723-4d64-b6d3-1545cfe8ae11&_getpagesoffset=1740&_count=20&_pretty=true&_bundletype=searchset"
+      }
+    ],
+    "entry": [
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Observation/137605058",
+        "resource": {
+          "resourceType": "Observation",
+          "id": "137605058",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-28T08:39:44.157-04:00",
+            "source": "#eZ3oKds2FFsuuY8w",
+            "profile": [
+              "https://twcore.mohw.gov.tw/ig/twcore/StructureDefinition/Observation-simple-twcore"
+            ]
+          },
+          "identifier": [
+            {
+              "system": "https://ugym.test/fhir/qa/treatment-observation",
+              "value": "muscle-1787919120000-1787920680000-treatment-mode"
+            }
+          ],
+          "partOf": [
+            {
+              "reference": "Procedure/137605057"
+            }
+          ],
+          "status": "final",
+          "category": [
+            {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                  "code": "therapy",
+                  "display": "Therapy"
+                }
+              ]
+            }
+          ],
+          "code": {
+            "coding": [
+              {
+                "system": "https://ugym.test/fhir/observation",
+                "code": "treatment-mode",
+                "display": "MUSCLE treatment mode"
+              }
+            ]
+          },
+          "subject": {
+            "reference": "Patient/137327808"
+          },
+          "effectiveDateTime": "2026-08-28T12:12:00Z",
+          "valueCodeableConcept": {
+            "coding": [
+              {
+                "system": "https://ugym.test/fhir/observation",
+                "code": "tens-1",
+                "display": "TENS 1"
+              }
+            ]
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Observation/137605059",
+        "resource": {
+          "resourceType": "Observation",
+          "id": "137605059",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-28T08:39:44.157-04:00",
+            "source": "#eZ3oKds2FFsuuY8w",
+            "profile": [
+              "https://twcore.mohw.gov.tw/ig/twcore/StructureDefinition/Observation-simple-twcore"
+            ]
+          },
+          "identifier": [
+            {
+              "system": "https://ugym.test/fhir/qa/treatment-observation",
+              "value": "muscle-1787919120000-1787920680000-treatment-intensity"
+            }
+          ],
+          "partOf": [
+            {
+              "reference": "Procedure/137605057"
+            }
+          ],
+          "status": "final",
+          "category": [
+            {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                  "code": "therapy",
+                  "display": "Therapy"
+                }
+              ]
+            }
+          ],
+          "code": {
+            "coding": [
+              {
+                "system": "https://ugym.test/fhir/observation",
+                "code": "treatment-intensity",
+                "display": "MUSCLE treatment intensity"
+              }
+            ]
+          },
+          "subject": {
+            "reference": "Patient/137327808"
+          },
+          "effectiveDateTime": "2026-08-28T12:12:00Z",
+          "valueInteger": 4
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Observation/137605060",
+        "resource": {
+          "resourceType": "Observation",
+          "id": "137605060",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-28T08:39:44.157-04:00",
+            "source": "#eZ3oKds2FFsuuY8w",
+            "profile": [
+              "https://twcore.mohw.gov.tw/ig/twcore/StructureDefinition/Observation-simple-twcore"
+            ]
+          },
+          "identifier": [
+            {
+              "system": "https://ugym.test/fhir/qa/treatment-observation",
+              "value": "muscle-1787919120000-1787920680000-pain-score-before"
+            }
+          ],
+          "partOf": [
+            {
+              "reference": "Procedure/137605057"
+            }
+          ],
+          "status": "final",
+          "category": [
+            {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                  "code": "therapy",
+                  "display": "Therapy"
+                }
+              ]
+            }
+          ],
+          "code": {
+            "coding": [
+              {
+                "system": "https://ugym.test/fhir/observation",
+                "code": "pain-score-before",
+                "display": "Synthetic pain score before treatment"
+              }
+            ]
+          },
+          "subject": {
+            "reference": "Patient/137327808"
+          },
+          "effectiveDateTime": "2026-08-28T12:12:00Z",
+          "valueInteger": 2
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Observation/137605061",
+        "resource": {
+          "resourceType": "Observation",
+          "id": "137605061",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-28T08:39:44.157-04:00",
+            "source": "#eZ3oKds2FFsuuY8w",
+            "profile": [
+              "https://twcore.mohw.gov.tw/ig/twcore/StructureDefinition/Observation-simple-twcore"
+            ]
+          },
+          "identifier": [
+            {
+              "system": "https://ugym.test/fhir/qa/treatment-observation",
+              "value": "muscle-1787919120000-1787920680000-pain-score-after"
+            }
+          ],
+          "partOf": [
+            {
+              "reference": "Procedure/137605057"
+            }
+          ],
+          "status": "final",
+          "category": [
+            {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                  "code": "therapy",
+                  "display": "Therapy"
+                }
+              ]
+            }
+          ],
+          "code": {
+            "coding": [
+              {
+                "system": "https://ugym.test/fhir/observation",
+                "code": "pain-score-after",
+                "display": "Synthetic pain score after treatment"
+              }
+            ]
+          },
+          "subject": {
+            "reference": "Patient/137327808"
+          },
+          "effectiveDateTime": "2026-08-28T12:38:00Z",
+          "valueInteger": 3
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Observation/137605263",
+        "resource": {
+          "resourceType": "Observation",
+          "id": "137605263",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-28T08:45:53.666-04:00",
+            "source": "#rQ2q15YvMdg2PZT4"
+          },
+          "status": "final",
+          "category": [
+            {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                  "code": "laboratory",
+                  "display": "Laboratory"
+                }
+              ],
+              "text": "Laboratory"
+            }
+          ],
+          "code": {
+            "coding": [
+              {
+                "system": "http://loinc.org",
+                "code": "4548-4",
+                "display": "Hemoglobin A1c"
+              }
+            ],
+            "text": "Hemoglobin A1c"
+          },
+          "subject": {
+            "reference": "Patient/137605262",
+            "display": "Lerox Anonymized Patient"
+          },
+          "effectiveDateTime": "2024-08-25T20:00:00Z",
+          "valueQuantity": {
+            "value": 5.4,
+            "unit": "%",
+            "system": "http://unitsofmeasure.org",
+            "code": "%"
+          },
+          "interpretation": [
+            {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation",
+                  "code": "N",
+                  "display": "Normal"
+                }
+              ],
+              "text": "Normal"
+            }
+          ],
+          "referenceRange": [
+            {
+              "low": {
+                "value": 4.0,
+                "unit": "%",
+                "system": "http://unitsofmeasure.org",
+                "code": "%"
+              },
+              "high": {
+                "value": 5.7,
+                "unit": "%",
+                "system": "http://unitsofmeasure.org",
+                "code": "%"
+              },
+              "text": "4.0 - 5.7 %"
+            }
+          ]
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Observation/137605265",
+        "resource": {
+          "resourceType": "Observation",
+          "id": "137605265",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-28T08:45:53.982-04:00",
+            "source": "#ke4ET2dJUNHLUSKg"
+          },
+          "status": "final",
+          "category": [
+            {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                  "code": "laboratory",
+                  "display": "Laboratory"
+                }
+              ],
+              "text": "Laboratory"
+            }
+          ],
+          "code": {
+            "coding": [
+              {
+                "system": "http://loinc.org",
+                "code": "4548-4",
+                "display": "Hemoglobin A1c"
+              }
+            ],
+            "text": "Hemoglobin A1c"
+          },
+          "subject": {
+            "reference": "Patient/137605264",
+            "display": "Lerox Anonymized Subject"
+          },
+          "effectiveDateTime": "2024-08-25T20:00:00Z",
+          "valueQuantity": {
+            "value": 5.4,
+            "unit": "%",
+            "system": "http://unitsofmeasure.org",
+            "code": "%"
+          },
+          "interpretation": [
+            {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation",
+                  "code": "N",
+                  "display": "Normal"
+                }
+              ],
+              "text": "Normal"
+            }
+          ],
+          "referenceRange": [
+            {
+              "low": {
+                "value": 4.0,
+                "unit": "%",
+                "system": "http://unitsofmeasure.org",
+                "code": "%"
+              },
+              "high": {
+                "value": 5.7,
+                "unit": "%",
+                "system": "http://unitsofmeasure.org",
+                "code": "%"
+              },
+              "text": "4.0 - 5.7 %"
+            }
+          ]
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Observation/137605604",
+        "resource": {
+          "resourceType": "Observation",
+          "id": "137605604",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-28T08:55:50.260-04:00",
+            "source": "#yWU3F2284pjiBXq2"
+          },
+          "status": "final",
+          "category": [
+            {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                  "code": "laboratory",
+                  "display": "Laboratory"
+                }
+              ],
+              "text": "Laboratory"
+            }
+          ],
+          "code": {
+            "coding": [
+              {
+                "system": "http://loinc.org",
+                "code": "4548-4",
+                "display": "Hemoglobin A1c"
+              }
+            ],
+            "text": "Hemoglobin A1c"
+          },
+          "subject": {
+            "reference": "Patient/137605603",
+            "display": "Lerox Anonymized Patient"
+          },
+          "effectiveDateTime": "2024-08-25T20:00:00Z",
+          "valueQuantity": {
+            "value": 5.4,
+            "unit": "%",
+            "system": "http://unitsofmeasure.org",
+            "code": "%"
+          },
+          "interpretation": [
+            {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation",
+                  "code": "N",
+                  "display": "Normal"
+                }
+              ],
+              "text": "Normal"
+            }
+          ],
+          "referenceRange": [
+            {
+              "low": {
+                "value": 4.0,
+                "unit": "%",
+                "system": "http://unitsofmeasure.org",
+                "code": "%"
+              },
+              "high": {
+                "value": 5.7,
+                "unit": "%",
+                "system": "http://unitsofmeasure.org",
+                "code": "%"
+              },
+              "text": "4.0 - 5.7 %"
+            }
+          ]
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Observation/137605606",
+        "resource": {
+          "resourceType": "Observation",
+          "id": "137605606",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-28T08:55:50.594-04:00",
+            "source": "#uOEDIW1AKg1Wngzz"
+          },
+          "status": "final",
+          "category": [
+            {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                  "code": "laboratory",
+                  "display": "Laboratory"
+                }
+              ],
+              "text": "Laboratory"
+            }
+          ],
+          "code": {
+            "coding": [
+              {
+                "system": "http://loinc.org",
+                "code": "4548-4",
+                "display": "Hemoglobin A1c"
+              }
+            ],
+            "text": "Hemoglobin A1c"
+          },
+          "subject": {
+            "reference": "Patient/137605605",
+            "display": "Lerox Anonymized Subject"
+          },
+          "effectiveDateTime": "2024-08-25T20:00:00Z",
+          "valueQuantity": {
+            "value": 5.4,
+            "unit": "%",
+            "system": "http://unitsofmeasure.org",
+            "code": "%"
+          },
+          "interpretation": [
+            {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation",
+                  "code": "N",
+                  "display": "Normal"
+                }
+              ],
+              "text": "Normal"
+            }
+          ],
+          "referenceRange": [
+            {
+              "low": {
+                "value": 4.0,
+                "unit": "%",
+                "system": "http://unitsofmeasure.org",
+                "code": "%"
+              },
+              "high": {
+                "value": 5.7,
+                "unit": "%",
+                "system": "http://unitsofmeasure.org",
+                "code": "%"
+              },
+              "text": "4.0 - 5.7 %"
+            }
+          ]
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Observation/137605704",
+        "resource": {
+          "resourceType": "Observation",
+          "id": "137605704",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-28T08:58:36.411-04:00",
+            "source": "#A2JvXNfeycz91rD5",
+            "profile": [
+              "https://twcore.mohw.gov.tw/ig/twcore/StructureDefinition/Observation-simple-twcore"
+            ]
+          },
+          "identifier": [
+            {
+              "system": "https://ugym.test/fhir/qa/treatment-observation",
+              "value": "muscle-1787920860000-1787921880000-treatment-mode"
+            }
+          ],
+          "partOf": [
+            {
+              "reference": "Procedure/137605703"
+            }
+          ],
+          "status": "final",
+          "category": [
+            {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                  "code": "therapy",
+                  "display": "Therapy"
+                }
+              ]
+            }
+          ],
+          "code": {
+            "coding": [
+              {
+                "system": "https://ugym.test/fhir/observation",
+                "code": "treatment-mode",
+                "display": "MUSCLE treatment mode"
+              }
+            ]
+          },
+          "subject": {
+            "reference": "Patient/137327808"
+          },
+          "effectiveDateTime": "2026-08-28T12:41:00Z",
+          "valueCodeableConcept": {
+            "coding": [
+              {
+                "system": "https://ugym.test/fhir/observation",
+                "code": "tens-1",
+                "display": "TENS 1"
+              }
+            ]
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Observation/137605705",
+        "resource": {
+          "resourceType": "Observation",
+          "id": "137605705",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-28T08:58:36.411-04:00",
+            "source": "#A2JvXNfeycz91rD5",
+            "profile": [
+              "https://twcore.mohw.gov.tw/ig/twcore/StructureDefinition/Observation-simple-twcore"
+            ]
+          },
+          "identifier": [
+            {
+              "system": "https://ugym.test/fhir/qa/treatment-observation",
+              "value": "muscle-1787920860000-1787921880000-treatment-intensity"
+            }
+          ],
+          "partOf": [
+            {
+              "reference": "Procedure/137605703"
+            }
+          ],
+          "status": "final",
+          "category": [
+            {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                  "code": "therapy",
+                  "display": "Therapy"
+                }
+              ]
+            }
+          ],
+          "code": {
+            "coding": [
+              {
+                "system": "https://ugym.test/fhir/observation",
+                "code": "treatment-intensity",
+                "display": "MUSCLE treatment intensity"
+              }
+            ]
+          },
+          "subject": {
+            "reference": "Patient/137327808"
+          },
+          "effectiveDateTime": "2026-08-28T12:41:00Z",
+          "valueInteger": 2
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Observation/137605706",
+        "resource": {
+          "resourceType": "Observation",
+          "id": "137605706",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-28T08:58:36.411-04:00",
+            "source": "#A2JvXNfeycz91rD5",
+            "profile": [
+              "https://twcore.mohw.gov.tw/ig/twcore/StructureDefinition/Observation-simple-twcore"
+            ]
+          },
+          "identifier": [
+            {
+              "system": "https://ugym.test/fhir/qa/treatment-observation",
+              "value": "muscle-1787920860000-1787921880000-pain-score-before"
+            }
+          ],
+          "partOf": [
+            {
+              "reference": "Procedure/137605703"
+            }
+          ],
+          "status": "final",
+          "category": [
+            {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                  "code": "therapy",
+                  "display": "Therapy"
+                }
+              ]
+            }
+          ],
+          "code": {
+            "coding": [
+              {
+                "system": "https://ugym.test/fhir/observation",
+                "code": "pain-score-before",
+                "display": "Synthetic pain score before treatment"
+              }
+            ]
+          },
+          "subject": {
+            "reference": "Patient/137327808"
+          },
+          "effectiveDateTime": "2026-08-28T12:41:00Z",
+          "valueInteger": 9
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Observation/137605707",
+        "resource": {
+          "resourceType": "Observation",
+          "id": "137605707",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-28T08:58:36.411-04:00",
+            "source": "#A2JvXNfeycz91rD5",
+            "profile": [
+              "https://twcore.mohw.gov.tw/ig/twcore/StructureDefinition/Observation-simple-twcore"
+            ]
+          },
+          "identifier": [
+            {
+              "system": "https://ugym.test/fhir/qa/treatment-observation",
+              "value": "muscle-1787920860000-1787921880000-pain-score-after"
+            }
+          ],
+          "partOf": [
+            {
+              "reference": "Procedure/137605703"
+            }
+          ],
+          "status": "final",
+          "category": [
+            {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                  "code": "therapy",
+                  "display": "Therapy"
+                }
+              ]
+            }
+          ],
+          "code": {
+            "coding": [
+              {
+                "system": "https://ugym.test/fhir/observation",
+                "code": "pain-score-after",
+                "display": "Synthetic pain score after treatment"
+              }
+            ]
+          },
+          "subject": {
+            "reference": "Patient/137327808"
+          },
+          "effectiveDateTime": "2026-08-28T12:58:00Z",
+          "valueInteger": 3
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Observation/137605756",
+        "resource": {
+          "resourceType": "Observation",
+          "id": "137605756",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-28T08:59:15.329-04:00",
+            "source": "#dS5Izhj5jIebOyLF",
+            "profile": [
+              "http://hl7.org/fhir/StructureDefinition/bp"
+            ]
+          },
+          "status": "final",
+          "category": [
+            {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                  "code": "vital-signs",
+                  "display": "Vital Signs"
+                }
+              ]
+            }
+          ],
+          "code": {
+            "coding": [
+              {
+                "system": "http://loinc.org",
+                "code": "85354-9",
+                "display": "Blood pressure panel"
+              }
+            ],
+            "text": "Presi\u00f3n arterial"
+          },
+          "subject": {
+            "reference": "Patient/137597004",
+            "identifier": {
+              "system": "http://www.registrocivil.cl/run",
+              "value": "12345678-5"
+            },
+            "display": "Juan Andr\u00e9s P\u00e9rez Gonz\u00e1lez"
+          },
+          "encounter": {
+            "reference": "Encounter/137605751",
+            "display": "Atenci\u00f3n actual"
+          },
+          "effectiveDateTime": "2026-08-27T09:05:00-04:00",
+          "component": [
+            {
+              "code": {
+                "coding": [
+                  {
+                    "system": "http://loinc.org",
+                    "code": "8480-6",
+                    "display": "Systolic blood pressure"
+                  }
+                ]
+              },
+              "valueQuantity": {
+                "value": 120,
+                "unit": "mmHg",
+                "system": "http://unitsofmeasure.org",
+                "code": "mm[Hg]"
+              }
+            },
+            {
+              "code": {
+                "coding": [
+                  {
+                    "system": "http://loinc.org",
+                    "code": "8462-4",
+                    "display": "Diastolic blood pressure"
+                  }
+                ]
+              },
+              "valueQuantity": {
+                "value": 80,
+                "unit": "mmHg",
+                "system": "http://unitsofmeasure.org",
+                "code": "mm[Hg]"
+              }
+            }
+          ]
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Observation/137605757",
+        "resource": {
+          "resourceType": "Observation",
+          "id": "137605757",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-28T08:59:15.329-04:00",
+            "source": "#dS5Izhj5jIebOyLF"
+          },
+          "status": "final",
+          "category": [
+            {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                  "code": "vital-signs",
+                  "display": "Vital Signs"
+                }
+              ]
+            }
+          ],
+          "code": {
+            "coding": [
+              {
+                "system": "http://loinc.org",
+                "code": "8867-4",
+                "display": "Heart rate"
+              }
+            ],
+            "text": "Frecuencia card\u00edaca"
+          },
+          "subject": {
+            "reference": "Patient/137597004",
+            "identifier": {
+              "system": "http://www.registrocivil.cl/run",
+              "value": "12345678-5"
+            },
+            "display": "Juan Andr\u00e9s P\u00e9rez Gonz\u00e1lez"
+          },
+          "encounter": {
+            "reference": "Encounter/137605751",
+            "display": "Atenci\u00f3n actual"
+          },
+          "effectiveDateTime": "2026-08-27T09:05:00-04:00",
+          "valueQuantity": {
+            "value": 72,
+            "unit": "lpm",
+            "system": "http://unitsofmeasure.org",
+            "code": "/min"
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Observation/137605758",
+        "resource": {
+          "resourceType": "Observation",
+          "id": "137605758",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-28T08:59:15.329-04:00",
+            "source": "#dS5Izhj5jIebOyLF"
+          },
+          "status": "final",
+          "category": [
+            {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                  "code": "vital-signs",
+                  "display": "Vital Signs"
+                }
+              ]
+            }
+          ],
+          "code": {
+            "coding": [
+              {
+                "system": "http://loinc.org",
+                "code": "8310-5",
+                "display": "Body temperature"
+              }
+            ],
+            "text": "Temperatura"
+          },
+          "subject": {
+            "reference": "Patient/137597004",
+            "identifier": {
+              "system": "http://www.registrocivil.cl/run",
+              "value": "12345678-5"
+            },
+            "display": "Juan Andr\u00e9s P\u00e9rez Gonz\u00e1lez"
+          },
+          "encounter": {
+            "reference": "Encounter/137605751",
+            "display": "Atenci\u00f3n actual"
+          },
+          "effectiveDateTime": "2026-08-27T09:05:00-04:00",
+          "valueQuantity": {
+            "value": 36.7,
+            "unit": "\u00b0C",
+            "system": "http://unitsofmeasure.org",
+            "code": "Cel"
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Observation/137605759",
+        "resource": {
+          "resourceType": "Observation",
+          "id": "137605759",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-28T08:59:15.329-04:00",
+            "source": "#dS5Izhj5jIebOyLF"
+          },
+          "status": "final",
+          "category": [
+            {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                  "code": "vital-signs",
+                  "display": "Vital Signs"
+                }
+              ]
+            }
+          ],
+          "code": {
+            "coding": [
+              {
+                "system": "http://loinc.org",
+                "code": "29463-7",
+                "display": "Body weight"
+              }
+            ],
+            "text": "Peso"
+          },
+          "subject": {
+            "reference": "Patient/137597004",
+            "identifier": {
+              "system": "http://www.registrocivil.cl/run",
+              "value": "12345678-5"
+            },
+            "display": "Juan Andr\u00e9s P\u00e9rez Gonz\u00e1lez"
+          },
+          "encounter": {
+            "reference": "Encounter/137605751",
+            "display": "Atenci\u00f3n actual"
+          },
+          "effectiveDateTime": "2026-08-27T09:05:00-04:00",
+          "valueQuantity": {
+            "value": 72.5,
+            "unit": "kg",
+            "system": "http://unitsofmeasure.org",
+            "code": "kg"
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Observation/137605760",
+        "resource": {
+          "resourceType": "Observation",
+          "id": "137605760",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-28T08:59:15.329-04:00",
+            "source": "#dS5Izhj5jIebOyLF"
+          },
+          "status": "final",
+          "category": [
+            {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                  "code": "vital-signs",
+                  "display": "Vital Signs"
+                }
+              ]
+            }
+          ],
+          "code": {
+            "coding": [
+              {
+                "system": "http://loinc.org",
+                "code": "8302-2",
+                "display": "Body height"
+              }
+            ],
+            "text": "Talla"
+          },
+          "subject": {
+            "reference": "Patient/137597004",
+            "identifier": {
+              "system": "http://www.registrocivil.cl/run",
+              "value": "12345678-5"
+            },
+            "display": "Juan Andr\u00e9s P\u00e9rez Gonz\u00e1lez"
+          },
+          "encounter": {
+            "reference": "Encounter/137605751",
+            "display": "Atenci\u00f3n actual"
+          },
+          "effectiveDateTime": "2026-08-27T09:05:00-04:00",
+          "valueQuantity": {
+            "value": 175,
+            "unit": "cm",
+            "system": "http://unitsofmeasure.org",
+            "code": "cm"
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Observation/137605858",
+        "resource": {
+          "resourceType": "Observation",
+          "id": "137605858",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-28T09:01:58.246-04:00",
+            "source": "#SW7cIvPEh5F70y0y",
+            "profile": [
+              "http://hl7.org/fhir/StructureDefinition/bp"
+            ]
+          },
+          "status": "final",
+          "category": [
+            {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                  "code": "vital-signs",
+                  "display": "Vital Signs"
+                }
+              ]
+            }
+          ],
+          "code": {
+            "coding": [
+              {
+                "system": "http://loinc.org",
+                "code": "85354-9",
+                "display": "Blood pressure panel"
+              }
+            ],
+            "text": "Presi\u00f3n arterial"
+          },
+          "subject": {
+            "reference": "Patient/137597004",
+            "identifier": {
+              "system": "http://www.registrocivil.cl/run",
+              "value": "12345678-5"
+            },
+            "display": "Juan Andr\u00e9s P\u00e9rez Gonz\u00e1lez"
+          },
+          "encounter": {
+            "reference": "Encounter/137605853",
+            "display": "Atenci\u00f3n actual"
+          },
+          "effectiveDateTime": "2026-08-27T09:05:00-04:00",
+          "component": [
+            {
+              "code": {
+                "coding": [
+                  {
+                    "system": "http://loinc.org",
+                    "code": "8480-6",
+                    "display": "Systolic blood pressure"
+                  }
+                ]
+              },
+              "valueQuantity": {
+                "value": 120,
+                "unit": "mmHg",
+                "system": "http://unitsofmeasure.org",
+                "code": "mm[Hg]"
+              }
+            },
+            {
+              "code": {
+                "coding": [
+                  {
+                    "system": "http://loinc.org",
+                    "code": "8462-4",
+                    "display": "Diastolic blood pressure"
+                  }
+                ]
+              },
+              "valueQuantity": {
+                "value": 80,
+                "unit": "mmHg",
+                "system": "http://unitsofmeasure.org",
+                "code": "mm[Hg]"
+              }
+            }
+          ]
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Observation/137605859",
+        "resource": {
+          "resourceType": "Observation",
+          "id": "137605859",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-28T09:01:58.246-04:00",
+            "source": "#SW7cIvPEh5F70y0y"
+          },
+          "status": "final",
+          "category": [
+            {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                  "code": "vital-signs",
+                  "display": "Vital Signs"
+                }
+              ]
+            }
+          ],
+          "code": {
+            "coding": [
+              {
+                "system": "http://loinc.org",
+                "code": "8867-4",
+                "display": "Heart rate"
+              }
+            ],
+            "text": "Frecuencia card\u00edaca"
+          },
+          "subject": {
+            "reference": "Patient/137597004",
+            "identifier": {
+              "system": "http://www.registrocivil.cl/run",
+              "value": "12345678-5"
+            },
+            "display": "Juan Andr\u00e9s P\u00e9rez Gonz\u00e1lez"
+          },
+          "encounter": {
+            "reference": "Encounter/137605853",
+            "display": "Atenci\u00f3n actual"
+          },
+          "effectiveDateTime": "2026-08-27T09:05:00-04:00",
+          "valueQuantity": {
+            "value": 72,
+            "unit": "lpm",
+            "system": "http://unitsofmeasure.org",
+            "code": "/min"
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Observation/137605860",
+        "resource": {
+          "resourceType": "Observation",
+          "id": "137605860",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-28T09:01:58.246-04:00",
+            "source": "#SW7cIvPEh5F70y0y"
+          },
+          "status": "final",
+          "category": [
+            {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                  "code": "vital-signs",
+                  "display": "Vital Signs"
+                }
+              ]
+            }
+          ],
+          "code": {
+            "coding": [
+              {
+                "system": "http://loinc.org",
+                "code": "8310-5",
+                "display": "Body temperature"
+              }
+            ],
+            "text": "Temperatura"
+          },
+          "subject": {
+            "reference": "Patient/137597004",
+            "identifier": {
+              "system": "http://www.registrocivil.cl/run",
+              "value": "12345678-5"
+            },
+            "display": "Juan Andr\u00e9s P\u00e9rez Gonz\u00e1lez"
+          },
+          "encounter": {
+            "reference": "Encounter/137605853",
+            "display": "Atenci\u00f3n actual"
+          },
+          "effectiveDateTime": "2026-08-27T09:05:00-04:00",
+          "valueQuantity": {
+            "value": 36.7,
+            "unit": "\u00b0C",
+            "system": "http://unitsofmeasure.org",
+            "code": "Cel"
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      }
+    ]
+  }
+}
