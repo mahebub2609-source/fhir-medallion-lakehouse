@@ -1,0 +1,893 @@
+{
+  "resource_type": "Observation",
+  "extraction_timestamp": "2026-08-28T11:04:36.783636",
+  "extraction_date": "2026-08-28",
+  "api_url": "https://hapi.fhir.org/baseR4?_getpages=bd0d8def-7d79-4915-a54d-b81ea22d6c9a&_getpagesoffset=20&_count=20&_pretty=true&_bundletype=searchset",
+  "page_number": 1,
+  "entry_count": 20,
+  "response": {
+    "resourceType": "Bundle",
+    "id": "bd0d8def-7d79-4915-a54d-b81ea22d6c9a",
+    "meta": {
+      "lastUpdated": "2026-08-28T07:04:36.846-04:00"
+    },
+    "type": "searchset",
+    "link": [
+      {
+        "relation": "self",
+        "url": "https://hapi.fhir.org/baseR4?_getpages=bd0d8def-7d79-4915-a54d-b81ea22d6c9a&_getpagesoffset=20&_count=20&_pretty=true&_bundletype=searchset"
+      },
+      {
+        "relation": "next",
+        "url": "https://hapi.fhir.org/baseR4?_getpages=bd0d8def-7d79-4915-a54d-b81ea22d6c9a&_getpagesoffset=40&_count=20&_pretty=true&_bundletype=searchset"
+      },
+      {
+        "relation": "previous",
+        "url": "https://hapi.fhir.org/baseR4?_getpages=bd0d8def-7d79-4915-a54d-b81ea22d6c9a&_getpagesoffset=0&_count=20&_pretty=true&_bundletype=searchset"
+      }
+    ],
+    "entry": [
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Observation/137584543",
+        "resource": {
+          "resourceType": "Observation",
+          "id": "137584543",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-24T10:30:22.949-04:00",
+            "source": "#SLe9BWUbx866JZop"
+          },
+          "status": "final",
+          "code": {
+            "coding": [
+              {
+                "system": "http://fhir-learn-app/lesson-codes",
+                "code": "lesson-03",
+                "display": "HL7 \u662f\u4ec0\u9ebc\u3001FHIR \u5728\u6a19\u6e96\u6f14\u9032\u4e2d\u7684\u4f4d\u7f6e"
+              }
+            ]
+          },
+          "subject": {
+            "reference": "Patient/137584519"
+          },
+          "encounter": {
+            "reference": "Encounter/137584520"
+          },
+          "effectiveDateTime": "2026-08-24T14:30:24.179Z",
+          "valueQuantity": {
+            "value": 50,
+            "unit": "%"
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Observation/137584549",
+        "resource": {
+          "resourceType": "Observation",
+          "id": "137584549",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-24T10:30:50.539-04:00",
+            "source": "#I5XtdEbsipdF6C3c"
+          },
+          "status": "final",
+          "code": {
+            "coding": [
+              {
+                "system": "http://fhir-learn-app/lesson-codes",
+                "code": "lesson-04",
+                "display": "FHIR \u70ba\u4ec0\u9ebc\u63a1\u7528 JSON + REST API"
+              }
+            ]
+          },
+          "subject": {
+            "reference": "Patient/137584519"
+          },
+          "encounter": {
+            "reference": "Encounter/137584520"
+          },
+          "effectiveDateTime": "2026-08-24T14:30:51.684Z",
+          "valueQuantity": {
+            "value": 100,
+            "unit": "%"
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Observation/137584573",
+        "resource": {
+          "resourceType": "Observation",
+          "id": "137584573",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-24T11:29:25.338-04:00",
+            "source": "#L2vMWQxtal2vvn7A"
+          },
+          "status": "final",
+          "code": {
+            "coding": [
+              {
+                "system": "http://fhir-learn-app/lesson-codes",
+                "code": "lesson-01",
+                "display": "\u4ec0\u9ebc\u662f EMR/EHR"
+              }
+            ]
+          },
+          "subject": {
+            "reference": "Patient/137584519"
+          },
+          "encounter": {
+            "reference": "Encounter/137584520"
+          },
+          "effectiveDateTime": "2026-08-24T15:29:26.781Z",
+          "valueQuantity": {
+            "value": 80,
+            "unit": "%"
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Observation/137584574",
+        "resource": {
+          "resourceType": "Observation",
+          "id": "137584574",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-24T11:30:08.353-04:00",
+            "source": "#riSNwkndNqZc4ztP"
+          },
+          "status": "final",
+          "code": {
+            "coding": [
+              {
+                "system": "http://fhir-learn-app/lesson-codes",
+                "code": "lesson-05",
+                "display": "resourceType \u662f\u4ec0\u9ebc\uff0c\u7a0b\u5f0f\u600e\u9ebc\u9760\u5b83\u5224\u65b7\u8cc7\u6599\u7a2e\u985e"
+              }
+            ]
+          },
+          "subject": {
+            "reference": "Patient/137584519"
+          },
+          "encounter": {
+            "reference": "Encounter/137584520"
+          },
+          "effectiveDateTime": "2026-08-24T15:30:09.782Z",
+          "valueQuantity": {
+            "value": 100,
+            "unit": "%"
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Observation/137584577",
+        "resource": {
+          "resourceType": "Observation",
+          "id": "137584577",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-24T11:37:17.351-04:00",
+            "source": "#0C14WMuoWjAKOYxb"
+          },
+          "status": "final",
+          "category": [
+            {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                  "code": "vital-signs",
+                  "display": "Vital-Signs"
+                }
+              ]
+            }
+          ],
+          "code": {
+            "coding": [
+              {
+                "system": "http://loinc.org",
+                "code": "29463-7",
+                "display": "Body Weight"
+              }
+            ]
+          },
+          "subject": {
+            "reference": "Patient/137584576"
+          },
+          "effectiveDateTime": "2026-08-24T15:37:17.436Z",
+          "valueQuantity": {
+            "value": 60,
+            "unit": "kg",
+            "system": "http://unitsofmeasure.org",
+            "code": "kg"
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Observation/137584588",
+        "resource": {
+          "resourceType": "Observation",
+          "id": "137584588",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-24T11:40:08.369-04:00",
+            "source": "#1hic0s8z1xgqXGHK"
+          },
+          "status": "final",
+          "code": {
+            "text": "Blood Pressure"
+          },
+          "subject": {
+            "reference": "Patient/137584581"
+          },
+          "effectiveDateTime": "2026-08-06",
+          "component": [
+            {
+              "code": {
+                "text": "Systolic Blood Pressure"
+              },
+              "valueQuantity": {
+                "value": 123,
+                "unit": "mmHg"
+              }
+            },
+            {
+              "code": {
+                "text": "Diastolic Blood Pressure"
+              },
+              "valueQuantity": {
+                "value": 88,
+                "unit": "mmHg"
+              }
+            }
+          ]
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Observation/137584592",
+        "resource": {
+          "resourceType": "Observation",
+          "id": "137584592",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-24T11:40:45.803-04:00",
+            "source": "#hwp6Bd8mbRStwEOY"
+          },
+          "status": "final",
+          "code": {
+            "text": "Body Temperature"
+          },
+          "subject": {
+            "reference": "Patient/137584581"
+          },
+          "effectiveDateTime": "2026-08-06",
+          "valueQuantity": {
+            "value": 36.1,
+            "unit": "\u00b0C"
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Observation/137584593",
+        "resource": {
+          "resourceType": "Observation",
+          "id": "137584593",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-24T11:40:59.478-04:00",
+            "source": "#XPuNZVwTEh5cL89g"
+          },
+          "status": "final",
+          "code": {
+            "text": "Heart Rate"
+          },
+          "subject": {
+            "reference": "Patient/137584581"
+          },
+          "effectiveDateTime": "2026-08-06",
+          "valueQuantity": {
+            "value": 81,
+            "unit": "bpm"
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Observation/137584596",
+        "resource": {
+          "resourceType": "Observation",
+          "id": "137584596",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-24T11:42:49.055-04:00",
+            "source": "#bXuthMczsaOMFyhW"
+          },
+          "status": "final",
+          "category": [
+            {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                  "code": "vital-signs"
+                }
+              ]
+            }
+          ],
+          "code": {
+            "coding": [
+              {
+                "system": "http://loinc.org",
+                "code": "8867-4",
+                "display": "Heart rate"
+              }
+            ]
+          },
+          "subject": {
+            "reference": "Patient/137584595"
+          },
+          "effectiveDateTime": "2026-08-24T15:42:48Z",
+          "valueQuantity": {
+            "value": 78,
+            "unit": "/min",
+            "system": "http://unitsofmeasure.org",
+            "code": "/min"
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Observation/137584597",
+        "resource": {
+          "resourceType": "Observation",
+          "id": "137584597",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-24T11:42:49.223-04:00",
+            "source": "#lYOjkeImHXrFDXoI"
+          },
+          "status": "final",
+          "category": [
+            {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                  "code": "vital-signs"
+                }
+              ]
+            }
+          ],
+          "code": {
+            "coding": [
+              {
+                "system": "http://loinc.org",
+                "code": "8480-6",
+                "display": "Systolic blood pressure"
+              }
+            ]
+          },
+          "subject": {
+            "reference": "Patient/137584595"
+          },
+          "effectiveDateTime": "2026-08-24T15:42:49Z",
+          "valueQuantity": {
+            "value": 128,
+            "unit": "mm[Hg]",
+            "system": "http://unitsofmeasure.org",
+            "code": "mm[Hg]"
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Observation/137584598",
+        "resource": {
+          "resourceType": "Observation",
+          "id": "137584598",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-24T11:42:49.394-04:00",
+            "source": "#P7VVyYM45GteyrPT"
+          },
+          "status": "final",
+          "category": [
+            {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                  "code": "vital-signs"
+                }
+              ]
+            }
+          ],
+          "code": {
+            "coding": [
+              {
+                "system": "http://loinc.org",
+                "code": "8462-4",
+                "display": "Diastolic blood pressure"
+              }
+            ]
+          },
+          "subject": {
+            "reference": "Patient/137584595"
+          },
+          "effectiveDateTime": "2026-08-24T15:42:49Z",
+          "valueQuantity": {
+            "value": 82,
+            "unit": "mm[Hg]",
+            "system": "http://unitsofmeasure.org",
+            "code": "mm[Hg]"
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Observation/137584599",
+        "resource": {
+          "resourceType": "Observation",
+          "id": "137584599",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-24T11:42:49.565-04:00",
+            "source": "#A5tlyABbhdPtrmuG"
+          },
+          "status": "final",
+          "category": [
+            {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                  "code": "vital-signs"
+                }
+              ]
+            }
+          ],
+          "code": {
+            "coding": [
+              {
+                "system": "http://loinc.org",
+                "code": "8310-5",
+                "display": "Body temperature"
+              }
+            ]
+          },
+          "subject": {
+            "reference": "Patient/137584595"
+          },
+          "effectiveDateTime": "2026-08-24T15:42:49Z",
+          "valueQuantity": {
+            "value": 36.7,
+            "unit": "Cel",
+            "system": "http://unitsofmeasure.org",
+            "code": "Cel"
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Observation/137584615",
+        "resource": {
+          "resourceType": "Observation",
+          "id": "137584615",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-24T11:44:00.077-04:00",
+            "source": "#JuccIu9AwzP6Bkpx"
+          },
+          "status": "final",
+          "category": [
+            {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                  "code": "vital-signs",
+                  "display": "Vital-Signs"
+                }
+              ]
+            }
+          ],
+          "code": {
+            "coding": [
+              {
+                "system": "http://loinc.org",
+                "code": "29463-7",
+                "display": "Body Weight"
+              }
+            ]
+          },
+          "subject": {
+            "reference": "Patient/137584614"
+          },
+          "effectiveDateTime": "2026-08-24T15:44:00.171Z",
+          "valueQuantity": {
+            "value": 60,
+            "unit": "kg",
+            "system": "http://unitsofmeasure.org",
+            "code": "kg"
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Observation/137584625",
+        "resource": {
+          "resourceType": "Observation",
+          "id": "137584625",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-24T11:46:26.448-04:00",
+            "source": "#Uq6Kg8VL7CDWGMal",
+            "tag": [
+              {
+                "system": "https://kather.ai/p/fhir-client",
+                "code": "kather-fhir-client"
+              }
+            ]
+          },
+          "status": "final",
+          "category": [
+            {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                  "code": "laboratory"
+                }
+              ]
+            }
+          ],
+          "code": {
+            "coding": [
+              {
+                "system": "http://loinc.org",
+                "code": "2039-6",
+                "display": "CEA"
+              }
+            ],
+            "text": "CEA"
+          },
+          "subject": {
+            "reference": "Patient/137584620"
+          },
+          "effectiveDateTime": "2026-08-20T08:00:00Z",
+          "valueQuantity": {
+            "value": 7.8,
+            "unit": "ng/mL"
+          },
+          "referenceRange": [
+            {
+              "high": {
+                "value": 5,
+                "unit": "ng/mL"
+              }
+            }
+          ]
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Observation/137584626",
+        "resource": {
+          "resourceType": "Observation",
+          "id": "137584626",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-24T11:46:26.508-04:00",
+            "source": "#QfHjGBtPij8YJ1T2",
+            "tag": [
+              {
+                "system": "https://kather.ai/p/fhir-client",
+                "code": "kather-fhir-client"
+              }
+            ]
+          },
+          "status": "final",
+          "category": [
+            {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                  "code": "vital-signs"
+                }
+              ]
+            }
+          ],
+          "code": {
+            "coding": [
+              {
+                "system": "http://loinc.org",
+                "code": "8867-4",
+                "display": "Heart rate"
+              }
+            ],
+            "text": "Heart rate"
+          },
+          "subject": {
+            "reference": "Patient/137584620"
+          },
+          "effectiveDateTime": "2026-08-24T09:00:00Z",
+          "valueQuantity": {
+            "value": 72,
+            "unit": "/min",
+            "system": "http://unitsofmeasure.org",
+            "code": "/min"
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Observation/137584642",
+        "resource": {
+          "resourceType": "Observation",
+          "id": "137584642",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-24T11:52:04.330-04:00",
+            "source": "#SuTJjyFgjysboczo"
+          },
+          "status": "final",
+          "category": [
+            {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                  "code": "vital-signs",
+                  "display": "Vital-Signs"
+                }
+              ]
+            }
+          ],
+          "code": {
+            "coding": [
+              {
+                "system": "http://loinc.org",
+                "code": "29463-7",
+                "display": "Body Weight"
+              }
+            ]
+          },
+          "subject": {
+            "reference": "Patient/137584641"
+          },
+          "effectiveDateTime": "2026-08-24T15:52:04.428Z",
+          "valueQuantity": {
+            "value": 60,
+            "unit": "kg",
+            "system": "http://unitsofmeasure.org",
+            "code": "kg"
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Observation/137584643",
+        "resource": {
+          "resourceType": "Observation",
+          "id": "137584643",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-24T11:55:28.949-04:00",
+            "source": "#dg9eZG2VVBAhN4fr"
+          },
+          "identifier": [
+            {
+              "system": "http://hospital.smarthealth.org/obs",
+              "value": "OBS-112233"
+            }
+          ],
+          "status": "final",
+          "category": [
+            {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                  "code": "vital-signs",
+                  "display": "Vital Signs"
+                }
+              ]
+            }
+          ],
+          "code": {
+            "coding": [
+              {
+                "system": "http://loinc.org",
+                "code": "8310-5",
+                "display": "Body temperature"
+              }
+            ]
+          },
+          "subject": {
+            "reference": "Patient/137584536"
+          },
+          "effectiveDateTime": "2026-08-24T22:30:00+08:00",
+          "valueQuantity": {
+            "value": 37.2,
+            "unit": "\u00b0C",
+            "system": "http://unitsofmeasure.org",
+            "code": "Cel"
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Observation/137584645",
+        "resource": {
+          "resourceType": "Observation",
+          "id": "137584645",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-24T11:56:52.807-04:00",
+            "source": "#RfoPsOzXEp4F8Blq"
+          },
+          "status": "final",
+          "code": {
+            "text": "Body Temperature"
+          },
+          "subject": {
+            "reference": "Patient/137583924"
+          },
+          "valueQuantity": {
+            "value": 36.2,
+            "unit": "\u00b0C"
+          },
+          "component": [
+            {
+              "code": {
+                "text": "Height"
+              },
+              "valueQuantity": {
+                "value": 158,
+                "unit": "cm"
+              }
+            },
+            {
+              "code": {
+                "text": "Weight"
+              },
+              "valueQuantity": {
+                "value": 60,
+                "unit": "kg"
+              }
+            }
+          ]
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Observation/137584670",
+        "resource": {
+          "resourceType": "Observation",
+          "id": "137584670",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-24T12:04:03.164-04:00",
+            "source": "#c9FNOpNRK6oXnNSn"
+          },
+          "status": "final",
+          "category": [
+            {
+              "coding": [
+                {
+                  "system": "http://hl7.org",
+                  "code": "vital-signs",
+                  "display": "Vital Signs"
+                }
+              ]
+            }
+          ],
+          "code": {
+            "coding": [
+              {
+                "system": "http://loinc.org",
+                "code": "8867-4",
+                "display": "Heart rate"
+              }
+            ],
+            "text": "\u5fc3\u7387"
+          },
+          "subject": {
+            "reference": "Patient/137584497"
+          },
+          "effectiveDateTime": "2026-08-24T23:50:00+08:00",
+          "valueQuantity": {
+            "value": 80,
+            "unit": "beats/minute",
+            "system": "http://unitsofmeasure.org",
+            "code": "/min"
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Observation/137584671",
+        "resource": {
+          "resourceType": "Observation",
+          "id": "137584671",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-24T12:04:03.164-04:00",
+            "source": "#c9FNOpNRK6oXnNSn"
+          },
+          "status": "final",
+          "category": [
+            {
+              "coding": [
+                {
+                  "system": "http://hl7.org",
+                  "code": "vital-signs",
+                  "display": "Vital Signs"
+                }
+              ]
+            }
+          ],
+          "code": {
+            "coding": [
+              {
+                "system": "http://loinc.org",
+                "code": "8310-5",
+                "display": "Body temperature"
+              }
+            ],
+            "text": "\u9ad4\u6eab"
+          },
+          "subject": {
+            "reference": "Patient/137584497"
+          },
+          "effectiveDateTime": "2026-08-24T23:50:00+08:00",
+          "valueQuantity": {
+            "value": 36.8,
+            "unit": "C",
+            "system": "http://unitsofmeasure.org",
+            "code": "Cel"
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      }
+    ]
+  }
+}

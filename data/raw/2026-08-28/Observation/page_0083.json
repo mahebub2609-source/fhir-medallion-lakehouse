@@ -1,0 +1,1266 @@
+{
+  "resource_type": "Observation",
+  "extraction_timestamp": "2026-08-28T11:04:36.783636",
+  "extraction_date": "2026-08-28",
+  "api_url": "https://hapi.fhir.org/baseR4?_getpages=bd0d8def-7d79-4915-a54d-b81ea22d6c9a&_getpagesoffset=1660&_count=20&_pretty=true&_bundletype=searchset",
+  "page_number": 83,
+  "entry_count": 20,
+  "response": {
+    "resourceType": "Bundle",
+    "id": "bd0d8def-7d79-4915-a54d-b81ea22d6c9a",
+    "meta": {
+      "lastUpdated": "2026-08-28T07:04:36.846-04:00"
+    },
+    "type": "searchset",
+    "total": 1748,
+    "link": [
+      {
+        "relation": "self",
+        "url": "https://hapi.fhir.org/baseR4?_getpages=bd0d8def-7d79-4915-a54d-b81ea22d6c9a&_getpagesoffset=1660&_count=20&_pretty=true&_bundletype=searchset"
+      },
+      {
+        "relation": "next",
+        "url": "https://hapi.fhir.org/baseR4?_getpages=bd0d8def-7d79-4915-a54d-b81ea22d6c9a&_getpagesoffset=1680&_count=20&_pretty=true&_bundletype=searchset"
+      },
+      {
+        "relation": "previous",
+        "url": "https://hapi.fhir.org/baseR4?_getpages=bd0d8def-7d79-4915-a54d-b81ea22d6c9a&_getpagesoffset=1640&_count=20&_pretty=true&_bundletype=searchset"
+      }
+    ],
+    "entry": [
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Observation/137596852",
+        "resource": {
+          "resourceType": "Observation",
+          "id": "137596852",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-27T20:48:42.764-04:00",
+            "source": "#HpwTOPCUABgDgRhn"
+          },
+          "status": "final",
+          "category": [
+            {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                  "code": "vital-signs",
+                  "display": "Vital Signs"
+                }
+              ]
+            }
+          ],
+          "code": {
+            "coding": [
+              {
+                "system": "http://loinc.org",
+                "code": "29463-7",
+                "display": "Body Weight"
+              }
+            ],
+            "text": "Body Weight"
+          },
+          "subject": {
+            "reference": "Patient/137596851"
+          },
+          "effectiveDateTime": "2026-08-26T20:00:00Z",
+          "valueQuantity": {
+            "value": 72.5,
+            "unit": "kg",
+            "system": "http://unitsofmeasure.org",
+            "code": "kg"
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Observation/sim-fc8389bc80f40fb9168ad052f6de0fd0-obs1",
+        "resource": {
+          "resourceType": "Observation",
+          "id": "sim-fc8389bc80f40fb9168ad052f6de0fd0-obs1",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-27T20:52:17.004-04:00",
+            "source": "#MV3Q1lqf4gf2YSgr"
+          },
+          "status": "final",
+          "category": [
+            {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                  "code": "vital-signs",
+                  "display": "Vital Signs"
+                }
+              ]
+            }
+          ],
+          "code": {
+            "coding": [
+              {
+                "system": "http://loinc.org",
+                "code": "29463-7",
+                "display": "Body weight"
+              }
+            ]
+          },
+          "subject": {
+            "reference": "Patient/sim-fc8389bc80f40fb9168ad052f6de0fd0-pt"
+          },
+          "encounter": {
+            "reference": "Encounter/sim-fc8389bc80f40fb9168ad052f6de0fd0-enc"
+          },
+          "effectiveDateTime": "2026-08-28T10:05:00Z",
+          "valueQuantity": {
+            "value": 72.5,
+            "unit": "kg",
+            "system": "http://unitsofmeasure.org",
+            "code": "kg"
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Observation/sim-fc8389bc80f40fb9168ad052f6de0fd0-obs2",
+        "resource": {
+          "resourceType": "Observation",
+          "id": "sim-fc8389bc80f40fb9168ad052f6de0fd0-obs2",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-27T20:52:18.259-04:00",
+            "source": "#bvcPxyTYmFcoCCzQ"
+          },
+          "status": "final",
+          "category": [
+            {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                  "code": "vital-signs",
+                  "display": "Vital Signs"
+                }
+              ]
+            }
+          ],
+          "code": {
+            "coding": [
+              {
+                "system": "http://loinc.org",
+                "code": "59408-5",
+                "display": "Oxygen saturation in Arterial blood by Pulse oximetry"
+              }
+            ]
+          },
+          "subject": {
+            "reference": "Patient/sim-fc8389bc80f40fb9168ad052f6de0fd0-pt"
+          },
+          "encounter": {
+            "reference": "Encounter/sim-fc8389bc80f40fb9168ad052f6de0fd0-enc"
+          },
+          "effectiveDateTime": "2026-08-28T10:10:00Z",
+          "valueQuantity": {
+            "value": 98,
+            "unit": "%",
+            "system": "http://unitsofmeasure.org",
+            "code": "%"
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Observation/sim-fc8389bc80f40fb9168ad052f6de0fd0-obs3",
+        "resource": {
+          "resourceType": "Observation",
+          "id": "sim-fc8389bc80f40fb9168ad052f6de0fd0-obs3",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-27T20:52:19.677-04:00",
+            "source": "#5nQuLPS2IWNlusUJ"
+          },
+          "status": "final",
+          "category": [
+            {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                  "code": "vital-signs",
+                  "display": "Vital Signs"
+                }
+              ]
+            }
+          ],
+          "code": {
+            "coding": [
+              {
+                "system": "http://loinc.org",
+                "code": "39156-5",
+                "display": "Body mass index"
+              }
+            ]
+          },
+          "subject": {
+            "reference": "Patient/sim-fc8389bc80f40fb9168ad052f6de0fd0-pt"
+          },
+          "encounter": {
+            "reference": "Encounter/sim-fc8389bc80f40fb9168ad052f6de0fd0-enc"
+          },
+          "effectiveDateTime": "2026-08-28T10:06:00Z",
+          "valueQuantity": {
+            "value": 26.1,
+            "unit": "kg/m2",
+            "system": "http://unitsofmeasure.org",
+            "code": "kg/m2"
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Observation/137596859",
+        "resource": {
+          "resourceType": "Observation",
+          "id": "137596859",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-27T20:55:26.692-04:00",
+            "source": "#phEheiwS9KjPybC5"
+          },
+          "status": "final",
+          "category": [
+            {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                  "code": "vital-signs",
+                  "display": "Vital Signs"
+                }
+              ]
+            }
+          ],
+          "code": {
+            "coding": [
+              {
+                "system": "http://loinc.org",
+                "code": "29463-7",
+                "display": "Body Weight"
+              }
+            ],
+            "text": "Body Weight"
+          },
+          "subject": {
+            "reference": "Patient/137596858"
+          },
+          "effectiveDateTime": "2026-08-26T20:00:00Z",
+          "valueQuantity": {
+            "value": 72.5,
+            "unit": "kg",
+            "system": "http://unitsofmeasure.org",
+            "code": "kg"
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Observation/137596871",
+        "resource": {
+          "resourceType": "Observation",
+          "id": "137596871",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-27T21:30:49.915-04:00",
+            "source": "#9Fen6Ehqe1szGoZd"
+          },
+          "status": "final",
+          "category": [
+            {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                  "code": "vital-signs",
+                  "display": "Vital Signs"
+                }
+              ]
+            }
+          ],
+          "code": {
+            "coding": [
+              {
+                "system": "http://loinc.org",
+                "code": "29463-7",
+                "display": "Body Weight"
+              }
+            ],
+            "text": "Body Weight"
+          },
+          "subject": {
+            "reference": "Patient/137596870"
+          },
+          "effectiveDateTime": "2026-08-26T20:00:00Z",
+          "valueQuantity": {
+            "value": 72.5,
+            "unit": "kg",
+            "system": "http://unitsofmeasure.org",
+            "code": "kg"
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Observation/137596873",
+        "resource": {
+          "resourceType": "Observation",
+          "id": "137596873",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-27T22:10:15.559-04:00",
+            "source": "#sa12pGgxSzXqb6X9"
+          },
+          "status": "final",
+          "category": [
+            {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                  "code": "vital-signs",
+                  "display": "Vital Signs"
+                }
+              ]
+            }
+          ],
+          "code": {
+            "coding": [
+              {
+                "system": "http://loinc.org",
+                "code": "8867-4",
+                "display": "Heart rate"
+              }
+            ],
+            "text": "Heart rate"
+          },
+          "effectiveDateTime": "2026-06-26T03:45:16+00:00",
+          "valueQuantity": {
+            "value": 72,
+            "unit": "/min",
+            "system": "http://unitsofmeasure.org",
+            "code": "/min"
+          },
+          "device": {
+            "identifier": {
+              "system": "urn:devicelink:device",
+              "value": "DEV-IT-639234798150552667"
+            }
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Observation/137596875",
+        "resource": {
+          "resourceType": "Observation",
+          "id": "137596875",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-27T22:10:17.536-04:00",
+            "source": "#kHh8xbiarLgxiyTV"
+          },
+          "status": "final",
+          "category": [
+            {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                  "code": "vital-signs",
+                  "display": "Vital Signs"
+                }
+              ]
+            }
+          ],
+          "code": {
+            "coding": [
+              {
+                "system": "http://loinc.org",
+                "code": "85354-9",
+                "display": "Blood pressure panel"
+              }
+            ],
+            "text": "Blood pressure panel"
+          },
+          "subject": {
+            "reference": "Patient/137596874",
+            "display": "Patient P-IT-639234798169720914"
+          },
+          "effectiveDateTime": "2026-06-26T03:45:16+00:00",
+          "device": {
+            "identifier": {
+              "system": "urn:devicelink:device",
+              "value": "DEV-IT"
+            }
+          },
+          "component": [
+            {
+              "code": {
+                "coding": [
+                  {
+                    "system": "http://loinc.org",
+                    "code": "8480-6",
+                    "display": "Systolic blood pressure"
+                  }
+                ],
+                "text": "Systolic blood pressure"
+              },
+              "valueQuantity": {
+                "value": 120,
+                "unit": "mm[Hg]",
+                "system": "http://unitsofmeasure.org",
+                "code": "mm[Hg]"
+              }
+            },
+            {
+              "code": {
+                "coding": [
+                  {
+                    "system": "http://loinc.org",
+                    "code": "8462-4",
+                    "display": "Diastolic blood pressure"
+                  }
+                ],
+                "text": "Diastolic blood pressure"
+              },
+              "valueQuantity": {
+                "value": 80,
+                "unit": "mm[Hg]",
+                "system": "http://unitsofmeasure.org",
+                "code": "mm[Hg]"
+              }
+            },
+            {
+              "code": {
+                "coding": [
+                  {
+                    "system": "http://loinc.org",
+                    "code": "8478-0",
+                    "display": "Mean blood pressure"
+                  }
+                ],
+                "text": "Mean blood pressure"
+              },
+              "valueQuantity": {
+                "value": 93,
+                "unit": "mm[Hg]",
+                "system": "http://unitsofmeasure.org",
+                "code": "mm[Hg]"
+              }
+            }
+          ]
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Observation/137596938",
+        "resource": {
+          "resourceType": "Observation",
+          "id": "137596938",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-27T23:16:22.506-04:00",
+            "source": "#2qvCiGNhkx4nh0GZ"
+          },
+          "identifier": [
+            {
+              "system": "https://ncs.health/fhir/sid/ncs-notebook-observation",
+              "value": "abab39e4-199e-4943-bcfe-6887cc0cc794|8480-6"
+            }
+          ],
+          "status": "final",
+          "category": [
+            {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                  "code": "vital-signs",
+                  "display": "Vital Signs"
+                }
+              ],
+              "text": "Vital Signs"
+            }
+          ],
+          "code": {
+            "coding": [
+              {
+                "system": "http://loinc.org",
+                "code": "8480-6",
+                "display": "Systolic blood pressure"
+              }
+            ],
+            "text": "Systolic blood pressure"
+          },
+          "subject": {
+            "reference": "Patient/137596907"
+          },
+          "encounter": {
+            "reference": "Encounter/137596937"
+          },
+          "effectiveDateTime": "2026-08-28T03:12:14.758+00:00",
+          "valueQuantity": {
+            "value": 120,
+            "unit": "mmHg",
+            "system": "http://unitsofmeasure.org",
+            "code": "mmHg"
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Observation/137596939",
+        "resource": {
+          "resourceType": "Observation",
+          "id": "137596939",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-27T23:16:22.713-04:00",
+            "source": "#ZYFuDfZJTnZiRfFU"
+          },
+          "identifier": [
+            {
+              "system": "https://ncs.health/fhir/sid/ncs-notebook-observation",
+              "value": "abab39e4-199e-4943-bcfe-6887cc0cc794|8310-5"
+            }
+          ],
+          "status": "final",
+          "category": [
+            {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                  "code": "vital-signs",
+                  "display": "Vital Signs"
+                }
+              ],
+              "text": "Vital Signs"
+            }
+          ],
+          "code": {
+            "coding": [
+              {
+                "system": "http://loinc.org",
+                "code": "8310-5",
+                "display": "Body temperature"
+              }
+            ],
+            "text": "Body temperature"
+          },
+          "subject": {
+            "reference": "Patient/137596907"
+          },
+          "encounter": {
+            "reference": "Encounter/137596937"
+          },
+          "effectiveDateTime": "2026-08-28T03:12:14.758+00:00",
+          "valueQuantity": {
+            "value": 40,
+            "unit": "Cel",
+            "system": "http://unitsofmeasure.org",
+            "code": "Cel"
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Observation/137596941",
+        "resource": {
+          "resourceType": "Observation",
+          "id": "137596941",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-27T23:29:45.623-04:00",
+            "source": "#9gK8XTAIsgN2wr3e"
+          },
+          "extension": [
+            {
+              "url": "https://example.org/fhir/StructureDefinition/dataSource",
+              "valueString": "Fitbit"
+            }
+          ],
+          "identifier": [
+            {
+              "system": "urn:ai-health-platform:observation",
+              "value": "ACC-USER-DEMO-2026-08-28-8302-2"
+            }
+          ],
+          "status": "final",
+          "category": [
+            {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                  "code": "vital-signs",
+                  "display": "Vital Signs"
+                }
+              ]
+            }
+          ],
+          "code": {
+            "coding": [
+              {
+                "system": "http://loinc.org",
+                "code": "8302-2",
+                "display": "Body Height"
+              }
+            ],
+            "text": "Body Height"
+          },
+          "subject": {
+            "reference": "Patient/137534136"
+          },
+          "effectiveDateTime": "2026-08-28",
+          "valueQuantity": {
+            "value": 170,
+            "unit": "cm",
+            "system": "http://unitsofmeasure.org",
+            "code": "cm"
+          },
+          "device": {
+            "display": "Fitbit"
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Observation/137596942",
+        "resource": {
+          "resourceType": "Observation",
+          "id": "137596942",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-27T23:29:45.623-04:00",
+            "source": "#9gK8XTAIsgN2wr3e"
+          },
+          "extension": [
+            {
+              "url": "https://example.org/fhir/StructureDefinition/dataSource",
+              "valueString": "Fitbit"
+            }
+          ],
+          "identifier": [
+            {
+              "system": "urn:ai-health-platform:observation",
+              "value": "ACC-USER-DEMO-2026-08-28-29463-7"
+            }
+          ],
+          "status": "final",
+          "category": [
+            {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                  "code": "vital-signs",
+                  "display": "Vital Signs"
+                }
+              ]
+            }
+          ],
+          "code": {
+            "coding": [
+              {
+                "system": "http://loinc.org",
+                "code": "29463-7",
+                "display": "Body Weight"
+              }
+            ],
+            "text": "Body Weight"
+          },
+          "subject": {
+            "reference": "Patient/137534136"
+          },
+          "effectiveDateTime": "2026-08-28",
+          "valueQuantity": {
+            "value": 70.8,
+            "unit": "kg",
+            "system": "http://unitsofmeasure.org",
+            "code": "kg"
+          },
+          "device": {
+            "display": "Fitbit"
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Observation/137596943",
+        "resource": {
+          "resourceType": "Observation",
+          "id": "137596943",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-27T23:29:45.623-04:00",
+            "source": "#9gK8XTAIsgN2wr3e"
+          },
+          "extension": [
+            {
+              "url": "https://example.org/fhir/StructureDefinition/dataSource",
+              "valueString": "Fitbit"
+            }
+          ],
+          "identifier": [
+            {
+              "system": "urn:ai-health-platform:observation",
+              "value": "ACC-USER-DEMO-2026-08-28-39156-5"
+            }
+          ],
+          "status": "final",
+          "category": [
+            {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                  "code": "vital-signs",
+                  "display": "Vital Signs"
+                }
+              ]
+            }
+          ],
+          "code": {
+            "coding": [
+              {
+                "system": "http://loinc.org",
+                "code": "39156-5",
+                "display": "BMI"
+              }
+            ],
+            "text": "BMI"
+          },
+          "subject": {
+            "reference": "Patient/137534136"
+          },
+          "effectiveDateTime": "2026-08-28",
+          "valueQuantity": {
+            "value": 24.5,
+            "unit": "kg/m2",
+            "system": "http://unitsofmeasure.org",
+            "code": "kg/m2"
+          },
+          "device": {
+            "display": "Fitbit"
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Observation/137596944",
+        "resource": {
+          "resourceType": "Observation",
+          "id": "137596944",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-27T23:29:45.623-04:00",
+            "source": "#9gK8XTAIsgN2wr3e"
+          },
+          "extension": [
+            {
+              "url": "https://example.org/fhir/StructureDefinition/dataSource",
+              "valueString": "Fitbit"
+            }
+          ],
+          "identifier": [
+            {
+              "system": "urn:ai-health-platform:observation",
+              "value": "ACC-USER-DEMO-2026-08-28-85354-9"
+            }
+          ],
+          "status": "final",
+          "category": [
+            {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                  "code": "vital-signs",
+                  "display": "Vital Signs"
+                }
+              ]
+            }
+          ],
+          "code": {
+            "coding": [
+              {
+                "system": "http://loinc.org",
+                "code": "85354-9",
+                "display": "Blood Pressure"
+              }
+            ],
+            "text": "Blood Pressure"
+          },
+          "subject": {
+            "reference": "Patient/137534136"
+          },
+          "effectiveDateTime": "2026-08-28",
+          "device": {
+            "display": "Fitbit"
+          },
+          "component": [
+            {
+              "code": {
+                "coding": [
+                  {
+                    "system": "http://loinc.org",
+                    "code": "8480-6",
+                    "display": "Systolic Blood Pressure"
+                  }
+                ]
+              },
+              "valueQuantity": {
+                "value": 126,
+                "unit": "mmHg",
+                "system": "http://unitsofmeasure.org",
+                "code": "mm[Hg]"
+              }
+            },
+            {
+              "code": {
+                "coding": [
+                  {
+                    "system": "http://loinc.org",
+                    "code": "8462-4",
+                    "display": "Diastolic Blood Pressure"
+                  }
+                ]
+              },
+              "valueQuantity": {
+                "value": 82,
+                "unit": "mmHg",
+                "system": "http://unitsofmeasure.org",
+                "code": "mm[Hg]"
+              }
+            }
+          ]
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Observation/137596945",
+        "resource": {
+          "resourceType": "Observation",
+          "id": "137596945",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-27T23:29:45.623-04:00",
+            "source": "#9gK8XTAIsgN2wr3e"
+          },
+          "extension": [
+            {
+              "url": "https://example.org/fhir/StructureDefinition/dataSource",
+              "valueString": "Fitbit"
+            }
+          ],
+          "identifier": [
+            {
+              "system": "urn:ai-health-platform:observation",
+              "value": "ACC-USER-DEMO-2026-08-28-8867-4"
+            }
+          ],
+          "status": "final",
+          "category": [
+            {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                  "code": "vital-signs",
+                  "display": "Vital Signs"
+                }
+              ]
+            }
+          ],
+          "code": {
+            "coding": [
+              {
+                "system": "http://loinc.org",
+                "code": "8867-4",
+                "display": "Heart Rate"
+              }
+            ],
+            "text": "Heart Rate"
+          },
+          "subject": {
+            "reference": "Patient/137534136"
+          },
+          "effectiveDateTime": "2026-08-28",
+          "valueQuantity": {
+            "value": 70,
+            "unit": "beats/min",
+            "system": "http://unitsofmeasure.org",
+            "code": "/min"
+          },
+          "device": {
+            "display": "Fitbit"
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Observation/137596946",
+        "resource": {
+          "resourceType": "Observation",
+          "id": "137596946",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-27T23:29:45.623-04:00",
+            "source": "#9gK8XTAIsgN2wr3e"
+          },
+          "extension": [
+            {
+              "url": "https://example.org/fhir/StructureDefinition/dataSource",
+              "valueString": "Fitbit"
+            }
+          ],
+          "identifier": [
+            {
+              "system": "urn:ai-health-platform:observation",
+              "value": "ACC-USER-DEMO-2026-08-28-41950-7"
+            }
+          ],
+          "status": "final",
+          "category": [
+            {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                  "code": "vital-signs",
+                  "display": "Vital Signs"
+                }
+              ]
+            }
+          ],
+          "code": {
+            "coding": [
+              {
+                "system": "http://loinc.org",
+                "code": "41950-7",
+                "display": "Steps"
+              }
+            ],
+            "text": "Steps"
+          },
+          "subject": {
+            "reference": "Patient/137534136"
+          },
+          "effectiveDateTime": "2026-08-28",
+          "valueQuantity": {
+            "value": 7600,
+            "unit": "steps",
+            "system": "http://unitsofmeasure.org",
+            "code": "{steps}"
+          },
+          "device": {
+            "display": "Fitbit"
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Observation/137596947",
+        "resource": {
+          "resourceType": "Observation",
+          "id": "137596947",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-27T23:29:45.623-04:00",
+            "source": "#9gK8XTAIsgN2wr3e"
+          },
+          "extension": [
+            {
+              "url": "https://example.org/fhir/StructureDefinition/dataSource",
+              "valueString": "Fitbit"
+            }
+          ],
+          "identifier": [
+            {
+              "system": "urn:ai-health-platform:observation",
+              "value": "ACC-USER-DEMO-2026-08-28-93832-4"
+            }
+          ],
+          "status": "final",
+          "category": [
+            {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                  "code": "vital-signs",
+                  "display": "Vital Signs"
+                }
+              ]
+            }
+          ],
+          "code": {
+            "coding": [
+              {
+                "system": "http://loinc.org",
+                "code": "93832-4",
+                "display": "Sleep Duration"
+              }
+            ],
+            "text": "Sleep Duration"
+          },
+          "subject": {
+            "reference": "Patient/137534136"
+          },
+          "effectiveDateTime": "2026-08-28",
+          "valueQuantity": {
+            "value": 7.8,
+            "unit": "h",
+            "system": "http://unitsofmeasure.org",
+            "code": "h"
+          },
+          "device": {
+            "display": "Fitbit"
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Observation/137596948",
+        "resource": {
+          "resourceType": "Observation",
+          "id": "137596948",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-27T23:29:45.623-04:00",
+            "source": "#9gK8XTAIsgN2wr3e"
+          },
+          "extension": [
+            {
+              "url": "https://example.org/fhir/StructureDefinition/dataSource",
+              "valueString": "Fitbit"
+            }
+          ],
+          "identifier": [
+            {
+              "system": "urn:ai-health-platform:observation",
+              "value": "ACC-USER-DEMO-2026-08-28-41981-2"
+            }
+          ],
+          "status": "final",
+          "category": [
+            {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                  "code": "vital-signs",
+                  "display": "Vital Signs"
+                }
+              ]
+            }
+          ],
+          "code": {
+            "coding": [
+              {
+                "system": "http://loinc.org",
+                "code": "41981-2",
+                "display": "Calories Burned"
+              }
+            ],
+            "text": "Calories Burned"
+          },
+          "subject": {
+            "reference": "Patient/137534136"
+          },
+          "effectiveDateTime": "2026-08-28",
+          "valueQuantity": {
+            "value": 280,
+            "unit": "kcal",
+            "system": "http://unitsofmeasure.org",
+            "code": "kcal"
+          },
+          "device": {
+            "display": "Fitbit"
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Observation/137596949",
+        "resource": {
+          "resourceType": "Observation",
+          "id": "137596949",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-27T23:29:45.623-04:00",
+            "source": "#9gK8XTAIsgN2wr3e"
+          },
+          "extension": [
+            {
+              "url": "https://example.org/fhir/StructureDefinition/dataSource",
+              "valueString": "Fitbit"
+            }
+          ],
+          "identifier": [
+            {
+              "system": "urn:ai-health-platform:observation",
+              "value": "ACC-USER-DEMO-2026-08-28-55411-3"
+            }
+          ],
+          "status": "final",
+          "category": [
+            {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                  "code": "vital-signs",
+                  "display": "Vital Signs"
+                }
+              ]
+            }
+          ],
+          "code": {
+            "coding": [
+              {
+                "system": "http://loinc.org",
+                "code": "55411-3",
+                "display": "Exercise Duration"
+              }
+            ],
+            "text": "Exercise Duration"
+          },
+          "subject": {
+            "reference": "Patient/137534136"
+          },
+          "effectiveDateTime": "2026-08-28",
+          "valueQuantity": {
+            "value": 30,
+            "unit": "min",
+            "system": "http://unitsofmeasure.org",
+            "code": "min"
+          },
+          "device": {
+            "display": "Fitbit"
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Observation/137596999",
+        "resource": {
+          "resourceType": "Observation",
+          "id": "137596999",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-28T00:03:14.395-04:00",
+            "source": "#Q71sdD3vP4zb1861",
+            "profile": [
+              "http://hl7.org/fhir/StructureDefinition/bp"
+            ]
+          },
+          "status": "final",
+          "category": [
+            {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                  "code": "vital-signs",
+                  "display": "Vital Signs"
+                }
+              ]
+            }
+          ],
+          "code": {
+            "coding": [
+              {
+                "system": "http://loinc.org",
+                "code": "85354-9",
+                "display": "Blood pressure panel"
+              }
+            ],
+            "text": "Presi\u00f3n arterial"
+          },
+          "subject": {
+            "reference": "Patient/137597004",
+            "identifier": {
+              "system": "http://www.registrocivil.cl/run",
+              "value": "12345678-5"
+            },
+            "display": "Juan Andr\u00e9s P\u00e9rez Gonz\u00e1lez"
+          },
+          "encounter": {
+            "reference": "Encounter/137596994",
+            "display": "Atenci\u00f3n actual"
+          },
+          "effectiveDateTime": "2026-08-27T09:05:00-04:00",
+          "component": [
+            {
+              "code": {
+                "coding": [
+                  {
+                    "system": "http://loinc.org",
+                    "code": "8480-6",
+                    "display": "Systolic blood pressure"
+                  }
+                ]
+              },
+              "valueQuantity": {
+                "value": 120,
+                "unit": "mmHg",
+                "system": "http://unitsofmeasure.org",
+                "code": "mm[Hg]"
+              }
+            },
+            {
+              "code": {
+                "coding": [
+                  {
+                    "system": "http://loinc.org",
+                    "code": "8462-4",
+                    "display": "Diastolic blood pressure"
+                  }
+                ]
+              },
+              "valueQuantity": {
+                "value": 80,
+                "unit": "mmHg",
+                "system": "http://unitsofmeasure.org",
+                "code": "mm[Hg]"
+              }
+            }
+          ]
+        },
+        "search": {
+          "mode": "match"
+        }
+      }
+    ]
+  }
+}

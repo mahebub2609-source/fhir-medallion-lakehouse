@@ -1,0 +1,1432 @@
+{
+  "resource_type": "Patient",
+  "extraction_timestamp": "2026-08-28T11:03:42.913603",
+  "extraction_date": "2026-08-28",
+  "api_url": "https://hapi.fhir.org/baseR4?_getpages=88da3fc4-0522-4d60-8b4a-bdba09e762a5&_getpagesoffset=260&_count=20&_pretty=true&_bundletype=searchset",
+  "page_number": 13,
+  "entry_count": 20,
+  "response": {
+    "resourceType": "Bundle",
+    "id": "88da3fc4-0522-4d60-8b4a-bdba09e762a5",
+    "meta": {
+      "lastUpdated": "2026-08-28T07:02:54.029-04:00"
+    },
+    "type": "searchset",
+    "link": [
+      {
+        "relation": "self",
+        "url": "https://hapi.fhir.org/baseR4?_getpages=88da3fc4-0522-4d60-8b4a-bdba09e762a5&_getpagesoffset=260&_count=20&_pretty=true&_bundletype=searchset"
+      },
+      {
+        "relation": "next",
+        "url": "https://hapi.fhir.org/baseR4?_getpages=88da3fc4-0522-4d60-8b4a-bdba09e762a5&_getpagesoffset=280&_count=20&_pretty=true&_bundletype=searchset"
+      },
+      {
+        "relation": "previous",
+        "url": "https://hapi.fhir.org/baseR4?_getpages=88da3fc4-0522-4d60-8b4a-bdba09e762a5&_getpagesoffset=240&_count=20&_pretty=true&_bundletype=searchset"
+      }
+    ],
+    "entry": [
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Patient/137594140",
+        "resource": {
+          "resourceType": "Patient",
+          "id": "137594140",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-25T16:27:22.037-04:00",
+            "source": "#6m00toqz3qKvgcVj"
+          },
+          "text": {
+            "status": "generated",
+            "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>urn:uuid:lerox-care-share-7d070809-bb5b-4bfb-8a2a-bf4ca99cd9ce</td></tr></tbody></table></div>"
+          },
+          "identifier": [
+            {
+              "system": "urn:ietf:rfc:3986",
+              "value": "urn:uuid:lerox-care-share-7d070809-bb5b-4bfb-8a2a-bf4ca99cd9ce"
+            }
+          ],
+          "active": true
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Patient/137594142",
+        "resource": {
+          "resourceType": "Patient",
+          "id": "137594142",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-25T16:27:22.377-04:00",
+            "source": "#81Xot8XwyrqinxE2"
+          },
+          "text": {
+            "status": "generated",
+            "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>urn:uuid:lerox-patient-8a2d4260-5e11-412d-9927-353bbcff33a9</td></tr></tbody></table></div>"
+          },
+          "identifier": [
+            {
+              "system": "urn:ietf:rfc:3986",
+              "value": "urn:uuid:lerox-patient-8a2d4260-5e11-412d-9927-353bbcff33a9"
+            }
+          ],
+          "active": true
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Patient/137594145",
+        "resource": {
+          "resourceType": "Patient",
+          "id": "137594145",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-25T16:45:25.112-04:00",
+            "source": "#YFVGkwzty6NFboV5"
+          },
+          "text": {
+            "status": "generated",
+            "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">MELVA ANA <b>CASANA </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>12340001</td></tr><tr><td>Address</td><td><span>AV. AREQUIPA 1234 DPTO 502xx </span><br/><span>SAN ISIDRO </span><span>LIMA </span><span>PER </span></td></tr><tr><td>Date of birth</td><td><span>14 July 1985</span></td></tr></tbody></table></div>"
+          },
+          "identifier": [
+            {
+              "use": "official",
+              "type": {
+                "extension": [
+                  {
+                    "url": "https://www.gob.pe/minsa/RENHICE/fhir/StructureDefinition/pe-pais",
+                    "valueCodeableConcept": {
+                      "coding": [
+                        {
+                          "system": "https://www.gob.pe/minsa/RENHICE/fhir/CodeSystem/PaisesCS",
+                          "code": "PER"
+                        }
+                      ]
+                    }
+                  }
+                ],
+                "coding": [
+                  {
+                    "system": "https://www.gob.pe/minsa/RENHICE/fhir/CodeSystem/IdspersonaPeru",
+                    "code": "1",
+                    "display": "DNI"
+                  }
+                ]
+              },
+              "value": "12340001"
+            }
+          ],
+          "active": true,
+          "name": [
+            {
+              "family": "CASANA",
+              "_family": {
+                "extension": [
+                  {
+                    "url": "http://hl7.org/fhir/StructureDefinition/humanname-mothers-family",
+                    "valueString": "BACCA"
+                  }
+                ]
+              },
+              "given": [
+                "MELVA",
+                "ANA"
+              ]
+            }
+          ],
+          "telecom": [
+            {
+              "system": "email",
+              "value": "prueba@prueba.com.pe"
+            },
+            {
+              "system": "phone",
+              "value": "+51987654321",
+              "use": "mobile"
+            }
+          ],
+          "gender": "male",
+          "birthDate": "1985-07-14",
+          "_birthDate": {
+            "extension": [
+              {
+                "url": "https://www.gob.pe/minsa/RENHICE/fhir/StructureDefinition/pe-pais",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "https://www.gob.pe/minsa/RENHICE/fhir/CodeSystem/PaisesCS",
+                      "code": "PER"
+                    }
+                  ]
+                }
+              },
+              {
+                "url": "https://www.gob.pe/minsa/RENHICE/fhir/StructureDefinition/pe-ubigeo",
+                "valueString": "150131"
+              }
+            ]
+          },
+          "address": [
+            {
+              "extension": [
+                {
+                  "url": "https://www.gob.pe/minsa/RENHICE/fhir/StructureDefinition/pe-ubigeo",
+                  "valueString": "150131"
+                }
+              ],
+              "line": [
+                "AV. AREQUIPA 1234 DPTO 502xx"
+              ],
+              "city": "SAN ISIDRO",
+              "district": "SAN ISIDRO",
+              "state": "LIMA",
+              "country": "PER"
+            }
+          ]
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Patient/137594146",
+        "resource": {
+          "resourceType": "Patient",
+          "id": "137594146",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-25T16:45:46.312-04:00",
+            "source": "#UUh9Kx9UFSFQo4JH"
+          },
+          "text": {
+            "status": "generated",
+            "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">MELVA ANA <b>CASANA </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>12340001</td></tr><tr><td>Address</td><td><span>AV. AREQUIPA 1234 DPTO 502 HOSPITAL VITARTE </span><br/><span>SAN ISIDRO </span><span>LIMA </span><span>PER </span></td></tr><tr><td>Date of birth</td><td><span>14 July 1985</span></td></tr></tbody></table></div>"
+          },
+          "identifier": [
+            {
+              "use": "official",
+              "type": {
+                "extension": [
+                  {
+                    "url": "https://www.gob.pe/minsa/RENHICE/fhir/StructureDefinition/pe-pais",
+                    "valueCodeableConcept": {
+                      "coding": [
+                        {
+                          "system": "https://www.gob.pe/minsa/RENHICE/fhir/CodeSystem/PaisesCS",
+                          "code": "PER"
+                        }
+                      ]
+                    }
+                  }
+                ],
+                "coding": [
+                  {
+                    "system": "https://www.gob.pe/minsa/RENHICE/fhir/CodeSystem/IdspersonaPeru",
+                    "code": "1",
+                    "display": "DNI"
+                  }
+                ]
+              },
+              "value": "12340001"
+            }
+          ],
+          "active": true,
+          "name": [
+            {
+              "family": "CASANA",
+              "_family": {
+                "extension": [
+                  {
+                    "url": "http://hl7.org/fhir/StructureDefinition/humanname-mothers-family",
+                    "valueString": "BACCA"
+                  }
+                ]
+              },
+              "given": [
+                "MELVA",
+                "ANA"
+              ]
+            }
+          ],
+          "telecom": [
+            {
+              "system": "email",
+              "value": "prueba@prueba.com.pe"
+            },
+            {
+              "system": "phone",
+              "value": "+51987654321",
+              "use": "mobile"
+            }
+          ],
+          "gender": "male",
+          "birthDate": "1985-07-14",
+          "_birthDate": {
+            "extension": [
+              {
+                "url": "https://www.gob.pe/minsa/RENHICE/fhir/StructureDefinition/pe-pais",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "https://www.gob.pe/minsa/RENHICE/fhir/CodeSystem/PaisesCS",
+                      "code": "PER"
+                    }
+                  ]
+                }
+              },
+              {
+                "url": "https://www.gob.pe/minsa/RENHICE/fhir/StructureDefinition/pe-ubigeo",
+                "valueString": "150131"
+              }
+            ]
+          },
+          "address": [
+            {
+              "extension": [
+                {
+                  "url": "https://www.gob.pe/minsa/RENHICE/fhir/StructureDefinition/pe-ubigeo",
+                  "valueString": "150131"
+                }
+              ],
+              "line": [
+                "AV. AREQUIPA 1234 DPTO 502 HOSPITAL VITARTE"
+              ],
+              "city": "SAN ISIDRO",
+              "district": "SAN ISIDRO",
+              "state": "LIMA",
+              "country": "PER"
+            }
+          ]
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Patient/137594147",
+        "resource": {
+          "resourceType": "Patient",
+          "id": "137594147",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-25T16:47:12.044-04:00",
+            "source": "#tOc7U5J3Mjof7pF0"
+          },
+          "text": {
+            "status": "generated",
+            "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">JULIO CESAR <b>MEZA </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>72192793</td></tr><tr><td>Address</td><td><span>AV. AREQUIPA 1234 DPTO 502 </span><br/><span>SAN ISIDRO </span><span>LIMA </span><span>PER </span></td></tr><tr><td>Date of birth</td><td><span>16 December 1996</span></td></tr></tbody></table></div>"
+          },
+          "identifier": [
+            {
+              "use": "official",
+              "type": {
+                "extension": [
+                  {
+                    "url": "https://www.gob.pe/minsa/RENHICE/fhir/StructureDefinition/pe-pais",
+                    "valueCodeableConcept": {
+                      "coding": [
+                        {
+                          "system": "https://www.gob.pe/minsa/RENHICE/fhir/CodeSystem/PaisesCS",
+                          "code": "PER"
+                        }
+                      ]
+                    }
+                  }
+                ],
+                "coding": [
+                  {
+                    "system": "https://www.gob.pe/minsa/RENHICE/fhir/CodeSystem/IdspersonaPeru",
+                    "code": "1",
+                    "display": "DNI"
+                  }
+                ]
+              },
+              "value": "72192793"
+            }
+          ],
+          "active": true,
+          "name": [
+            {
+              "family": "MEZA",
+              "_family": {
+                "extension": [
+                  {
+                    "url": "http://hl7.org/fhir/StructureDefinition/humanname-mothers-family",
+                    "valueString": "ZARATE"
+                  }
+                ]
+              },
+              "given": [
+                "JULIO",
+                "CESAR"
+              ]
+            }
+          ],
+          "telecom": [
+            {
+              "system": "email",
+              "value": "prueba@prueba.com.pe"
+            },
+            {
+              "system": "phone",
+              "value": "+51957528865",
+              "use": "mobile"
+            }
+          ],
+          "gender": "male",
+          "birthDate": "1996-12-16",
+          "_birthDate": {
+            "extension": [
+              {
+                "url": "https://www.gob.pe/minsa/RENHICE/fhir/StructureDefinition/pe-pais",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "https://www.gob.pe/minsa/RENHICE/fhir/CodeSystem/PaisesCS",
+                      "code": "PER"
+                    }
+                  ]
+                }
+              },
+              {
+                "url": "https://www.gob.pe/minsa/RENHICE/fhir/StructureDefinition/pe-ubigeo",
+                "valueString": "150131"
+              }
+            ]
+          },
+          "address": [
+            {
+              "extension": [
+                {
+                  "url": "https://www.gob.pe/minsa/RENHICE/fhir/StructureDefinition/pe-ubigeo",
+                  "valueString": "150131"
+                }
+              ],
+              "line": [
+                "AV. AREQUIPA 1234 DPTO 502"
+              ],
+              "city": "SAN ISIDRO",
+              "district": "SAN ISIDRO",
+              "state": "LIMA",
+              "country": "PER"
+            }
+          ]
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Patient/137594149",
+        "resource": {
+          "resourceType": "Patient",
+          "id": "137594149",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-25T16:47:27.532-04:00",
+            "source": "#EFzQCNz2gJKjjr11"
+          },
+          "text": {
+            "status": "generated",
+            "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">MELVA ANA <b>CASANA </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>12340001</td></tr><tr><td>Address</td><td><span>AV. ALAMDEDA 511 </span><br/><span>LIMA </span><span>LIMA </span><span>PER </span></td></tr><tr><td>Date of birth</td><td><span>14 July 1985</span></td></tr></tbody></table></div>"
+          },
+          "identifier": [
+            {
+              "use": "official",
+              "type": {
+                "extension": [
+                  {
+                    "url": "https://www.gob.pe/minsa/RENHICE/fhir/StructureDefinition/pe-pais",
+                    "valueCodeableConcept": {
+                      "coding": [
+                        {
+                          "system": "https://www.gob.pe/minsa/RENHICE/fhir/CodeSystem/PaisesCS",
+                          "code": "PER"
+                        }
+                      ]
+                    }
+                  }
+                ],
+                "coding": [
+                  {
+                    "system": "https://www.gob.pe/minsa/RENHICE/fhir/CodeSystem/IdspersonaPeru",
+                    "code": "1",
+                    "display": "DNI"
+                  }
+                ]
+              },
+              "value": "12340001"
+            }
+          ],
+          "active": true,
+          "name": [
+            {
+              "family": "CASANA",
+              "_family": {
+                "extension": [
+                  {
+                    "url": "http://hl7.org/fhir/StructureDefinition/humanname-mothers-family",
+                    "valueString": "BACCA"
+                  }
+                ]
+              },
+              "given": [
+                "MELVA",
+                "ANA"
+              ]
+            }
+          ],
+          "telecom": [
+            {
+              "system": "email",
+              "value": "jmayta.f92@gmail.com"
+            },
+            {
+              "system": "phone",
+              "value": "+51983818923",
+              "use": "mobile"
+            }
+          ],
+          "gender": "male",
+          "birthDate": "1985-07-14",
+          "_birthDate": {
+            "extension": [
+              {
+                "url": "https://www.gob.pe/minsa/RENHICE/fhir/StructureDefinition/pe-pais",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "https://www.gob.pe/minsa/RENHICE/fhir/CodeSystem/PaisesCS",
+                      "code": "PER"
+                    }
+                  ]
+                }
+              },
+              {
+                "url": "https://www.gob.pe/minsa/RENHICE/fhir/StructureDefinition/pe-ubigeo",
+                "valueString": "150131"
+              }
+            ]
+          },
+          "address": [
+            {
+              "extension": [
+                {
+                  "url": "https://www.gob.pe/minsa/RENHICE/fhir/StructureDefinition/pe-ubigeo",
+                  "valueString": "150131"
+                }
+              ],
+              "line": [
+                "AV. ALAMDEDA 511"
+              ],
+              "city": "LIMA",
+              "district": "CHORRILLOS",
+              "state": "LIMA",
+              "country": "PER"
+            }
+          ]
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Patient/137594150",
+        "resource": {
+          "resourceType": "Patient",
+          "id": "137594150",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-25T16:47:56.255-04:00",
+            "source": "#TVYgtWetsFHxjLnb"
+          },
+          "text": {
+            "status": "generated",
+            "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">MELVA ANA <b>CASANA </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>12340001</td></tr><tr><td>Address</td><td><span>AV. AREQUIPA 1234 DPTO 400 </span><br/><span>SAN ISIDRO </span><span>LIMA </span><span>PER </span></td></tr><tr><td>Date of birth</td><td><span>14 July 1985</span></td></tr></tbody></table></div>"
+          },
+          "identifier": [
+            {
+              "use": "official",
+              "type": {
+                "extension": [
+                  {
+                    "url": "https://www.gob.pe/minsa/RENHICE/fhir/StructureDefinition/pe-pais",
+                    "valueCodeableConcept": {
+                      "coding": [
+                        {
+                          "system": "https://www.gob.pe/minsa/RENHICE/fhir/CodeSystem/PaisesCS",
+                          "code": "PER"
+                        }
+                      ]
+                    }
+                  }
+                ],
+                "coding": [
+                  {
+                    "system": "https://www.gob.pe/minsa/RENHICE/fhir/CodeSystem/IdspersonaPeru",
+                    "code": "1",
+                    "display": "DNI"
+                  }
+                ]
+              },
+              "value": "12340001"
+            }
+          ],
+          "active": true,
+          "name": [
+            {
+              "family": "CASANA",
+              "_family": {
+                "extension": [
+                  {
+                    "url": "http://hl7.org/fhir/StructureDefinition/humanname-mothers-family",
+                    "valueString": "BACCA"
+                  }
+                ]
+              },
+              "given": [
+                "MELVA",
+                "ANA"
+              ]
+            }
+          ],
+          "telecom": [
+            {
+              "system": "email",
+              "value": "prueba@prueba.com.pe"
+            },
+            {
+              "system": "phone",
+              "value": "+51987654321",
+              "use": "mobile"
+            }
+          ],
+          "gender": "male",
+          "birthDate": "1985-07-14",
+          "_birthDate": {
+            "extension": [
+              {
+                "url": "https://www.gob.pe/minsa/RENHICE/fhir/StructureDefinition/pe-pais",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "https://www.gob.pe/minsa/RENHICE/fhir/CodeSystem/PaisesCS",
+                      "code": "PER"
+                    }
+                  ]
+                }
+              },
+              {
+                "url": "https://www.gob.pe/minsa/RENHICE/fhir/StructureDefinition/pe-ubigeo",
+                "valueString": "150131"
+              }
+            ]
+          },
+          "address": [
+            {
+              "extension": [
+                {
+                  "url": "https://www.gob.pe/minsa/RENHICE/fhir/StructureDefinition/pe-ubigeo",
+                  "valueString": "150131"
+                }
+              ],
+              "line": [
+                "AV. AREQUIPA 1234 DPTO 400"
+              ],
+              "city": "SAN ISIDRO",
+              "district": "SAN ISIDRO",
+              "state": "LIMA",
+              "country": "PER"
+            }
+          ]
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Patient/137594151",
+        "resource": {
+          "resourceType": "Patient",
+          "id": "137594151",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-25T16:48:59.674-04:00",
+            "source": "#ZCR0cqCAeRwBVZ4T"
+          },
+          "text": {
+            "status": "generated",
+            "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">JORGE OSCAR <b>VELASQUEZ </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>41672535</td></tr><tr><td>Address</td><td><span>AV STA ELVIRA 6021 URB VILLA SOL </span><br/><span>LOS OLIVOS </span><span>LIMA </span><span>PER </span></td></tr><tr><td>Date of birth</td><td><span>13 December 1982</span></td></tr></tbody></table></div>"
+          },
+          "identifier": [
+            {
+              "use": "official",
+              "type": {
+                "extension": [
+                  {
+                    "url": "https://www.gob.pe/minsa/RENHICE/fhir/StructureDefinition/pe-pais",
+                    "valueCodeableConcept": {
+                      "coding": [
+                        {
+                          "system": "https://www.gob.pe/minsa/RENHICE/fhir/CodeSystem/PaisesCS",
+                          "code": "PER"
+                        }
+                      ]
+                    }
+                  }
+                ],
+                "coding": [
+                  {
+                    "system": "https://www.gob.pe/minsa/RENHICE/fhir/CodeSystem/IdspersonaPeru",
+                    "code": "1",
+                    "display": "DNI"
+                  }
+                ]
+              },
+              "value": "41672535"
+            }
+          ],
+          "active": true,
+          "name": [
+            {
+              "family": "VELASQUEZ",
+              "_family": {
+                "extension": [
+                  {
+                    "url": "http://hl7.org/fhir/StructureDefinition/humanname-mothers-family",
+                    "valueString": "CONTRERAS"
+                  }
+                ]
+              },
+              "given": [
+                "JORGE",
+                "OSCAR"
+              ]
+            }
+          ],
+          "telecom": [
+            {
+              "system": "email",
+              "value": "jovc121382@gmail.com"
+            },
+            {
+              "system": "phone",
+              "value": "+51995850175",
+              "use": "mobile"
+            }
+          ],
+          "gender": "male",
+          "birthDate": "1982-12-13",
+          "_birthDate": {
+            "extension": [
+              {
+                "url": "https://www.gob.pe/minsa/RENHICE/fhir/StructureDefinition/pe-pais",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "https://www.gob.pe/minsa/RENHICE/fhir/CodeSystem/PaisesCS",
+                      "code": "PER"
+                    }
+                  ]
+                }
+              },
+              {
+                "url": "https://www.gob.pe/minsa/RENHICE/fhir/StructureDefinition/pe-ubigeo",
+                "valueString": "150131"
+              }
+            ]
+          },
+          "address": [
+            {
+              "extension": [
+                {
+                  "url": "https://www.gob.pe/minsa/RENHICE/fhir/StructureDefinition/pe-ubigeo",
+                  "valueString": "150117"
+                }
+              ],
+              "line": [
+                "AV STA ELVIRA 6021 URB VILLA SOL"
+              ],
+              "city": "LOS OLIVOS",
+              "district": "LOS OLIVOS",
+              "state": "LIMA",
+              "country": "PER"
+            }
+          ]
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Patient/137594152",
+        "resource": {
+          "resourceType": "Patient",
+          "id": "137594152",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-25T16:49:18.574-04:00",
+            "source": "#LCxcqwt1ffYBjpzk"
+          },
+          "text": {
+            "status": "generated",
+            "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">JOSE ARTURO <b>GUTI </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>43533333</td></tr><tr><td>Address</td><td><span>AV. AREQUIPA 998 DPTO 001 </span><br/><span>SAN ISIDRO </span><span>LIMA </span><span>PER </span></td></tr><tr><td>Date of birth</td><td><span>28 July 1985</span></td></tr></tbody></table></div>"
+          },
+          "identifier": [
+            {
+              "use": "official",
+              "type": {
+                "extension": [
+                  {
+                    "url": "https://www.gob.pe/minsa/RENHICE/fhir/StructureDefinition/pe-pais",
+                    "valueCodeableConcept": {
+                      "coding": [
+                        {
+                          "system": "https://www.gob.pe/minsa/RENHICE/fhir/CodeSystem/PaisesCS",
+                          "code": "PER"
+                        }
+                      ]
+                    }
+                  }
+                ],
+                "coding": [
+                  {
+                    "system": "https://www.gob.pe/minsa/RENHICE/fhir/CodeSystem/IdspersonaPeru",
+                    "code": "1",
+                    "display": "DNI"
+                  }
+                ]
+              },
+              "value": "43533333"
+            }
+          ],
+          "active": true,
+          "name": [
+            {
+              "family": "GUTI",
+              "_family": {
+                "extension": [
+                  {
+                    "url": "http://hl7.org/fhir/StructureDefinition/humanname-mothers-family",
+                    "valueString": "BACCA"
+                  }
+                ]
+              },
+              "given": [
+                "JOSE",
+                "ARTURO"
+              ]
+            }
+          ],
+          "telecom": [
+            {
+              "system": "email",
+              "value": "JOSEA@prueba.com.pe"
+            },
+            {
+              "system": "phone",
+              "value": "+51999922",
+              "use": "mobile"
+            }
+          ],
+          "gender": "male",
+          "birthDate": "1985-07-28",
+          "_birthDate": {
+            "extension": [
+              {
+                "url": "https://www.gob.pe/minsa/RENHICE/fhir/StructureDefinition/pe-pais",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "https://www.gob.pe/minsa/RENHICE/fhir/CodeSystem/PaisesCS",
+                      "code": "PER"
+                    }
+                  ]
+                }
+              },
+              {
+                "url": "https://www.gob.pe/minsa/RENHICE/fhir/StructureDefinition/pe-ubigeo",
+                "valueString": "150131"
+              }
+            ]
+          },
+          "address": [
+            {
+              "extension": [
+                {
+                  "url": "https://www.gob.pe/minsa/RENHICE/fhir/StructureDefinition/pe-ubigeo",
+                  "valueString": "150131"
+                }
+              ],
+              "line": [
+                "AV. AREQUIPA 998 DPTO 001"
+              ],
+              "city": "SAN ISIDRO",
+              "district": "SAN ISIDRO",
+              "state": "LIMA",
+              "country": "PER"
+            }
+          ]
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Patient/137594148",
+        "resource": {
+          "resourceType": "Patient",
+          "id": "137594148",
+          "meta": {
+            "versionId": "2",
+            "lastUpdated": "2026-08-25T16:50:06.243-04:00",
+            "source": "#AOcBDlvsC0Ot3NJo"
+          },
+          "text": {
+            "status": "generated",
+            "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">HERNAN MARTIN <b>VARILLAS </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>00947540</td></tr><tr><td>Address</td><td><span>AV. AREQUIPA 1234 DPTO 980 </span><br/><span>SAN ISIDRO </span><span>LIMA </span><span>PER </span></td></tr><tr><td>Date of birth</td><td><span>14 July 1993</span></td></tr></tbody></table></div>"
+          },
+          "identifier": [
+            {
+              "use": "official",
+              "type": {
+                "extension": [
+                  {
+                    "url": "https://www.gob.pe/minsa/RENHICE/fhir/StructureDefinition/pe-pais",
+                    "valueCodeableConcept": {
+                      "coding": [
+                        {
+                          "system": "https://www.gob.pe/minsa/RENHICE/fhir/CodeSystem/PaisesCS",
+                          "code": "PER"
+                        }
+                      ]
+                    }
+                  }
+                ],
+                "coding": [
+                  {
+                    "system": "https://www.gob.pe/minsa/RENHICE/fhir/CodeSystem/IdspersonaPeru",
+                    "code": "1",
+                    "display": "DNI"
+                  }
+                ]
+              },
+              "value": "00947540"
+            }
+          ],
+          "active": true,
+          "name": [
+            {
+              "family": "VARILLAS",
+              "_family": {
+                "extension": [
+                  {
+                    "url": "http://hl7.org/fhir/StructureDefinition/humanname-mothers-family",
+                    "valueString": "FERNANDEZ"
+                  }
+                ]
+              },
+              "given": [
+                "HERNAN",
+                "MARTIN"
+              ]
+            }
+          ],
+          "telecom": [
+            {
+              "system": "email",
+              "value": "HERNAN.VARILLAS@prueba.com.pe"
+            },
+            {
+              "system": "phone",
+              "value": "+51987654897",
+              "use": "mobile"
+            }
+          ],
+          "gender": "male",
+          "birthDate": "1993-07-14",
+          "_birthDate": {
+            "extension": [
+              {
+                "url": "https://www.gob.pe/minsa/RENHICE/fhir/StructureDefinition/pe-pais",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "https://www.gob.pe/minsa/RENHICE/fhir/CodeSystem/PaisesCS",
+                      "code": "PER"
+                    }
+                  ]
+                }
+              },
+              {
+                "url": "https://www.gob.pe/minsa/RENHICE/fhir/StructureDefinition/pe-ubigeo",
+                "valueString": "150170"
+              }
+            ]
+          },
+          "address": [
+            {
+              "extension": [
+                {
+                  "url": "https://www.gob.pe/minsa/RENHICE/fhir/StructureDefinition/pe-ubigeo",
+                  "valueString": "150701"
+                }
+              ],
+              "line": [
+                "AV. AREQUIPA 1234 DPTO 980"
+              ],
+              "city": "SAN ISIDRO",
+              "district": "SAN ISIDRO",
+              "state": "LIMA",
+              "country": "PER"
+            }
+          ]
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Patient/137594153",
+        "resource": {
+          "resourceType": "Patient",
+          "id": "137594153",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-25T16:50:17.352-04:00",
+            "source": "#4OsPd8yEpuLXjUyc"
+          },
+          "text": {
+            "status": "generated",
+            "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">MELVA ANA <b>GONZALES </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>12340001</td></tr><tr><td>Address</td><td><span>AV. AREQUIPA 1234 DPTO 502 </span><br/><span>SAN ISIDRO </span><span>LIMA </span><span>PER </span></td></tr><tr><td>Date of birth</td><td><span>14 July 1985</span></td></tr></tbody></table></div>"
+          },
+          "identifier": [
+            {
+              "use": "official",
+              "type": {
+                "extension": [
+                  {
+                    "url": "https://www.gob.pe/minsa/RENHICE/fhir/StructureDefinition/pe-pais",
+                    "valueCodeableConcept": {
+                      "coding": [
+                        {
+                          "system": "https://www.gob.pe/minsa/RENHICE/fhir/CodeSystem/PaisesCS",
+                          "code": "PER"
+                        }
+                      ]
+                    }
+                  }
+                ],
+                "coding": [
+                  {
+                    "system": "https://www.gob.pe/minsa/RENHICE/fhir/CodeSystem/IdspersonaPeru",
+                    "code": "1",
+                    "display": "DNI"
+                  }
+                ]
+              },
+              "value": "12340001"
+            }
+          ],
+          "active": true,
+          "name": [
+            {
+              "family": "GONZALES",
+              "_family": {
+                "extension": [
+                  {
+                    "url": "http://hl7.org/fhir/StructureDefinition/humanname-mothers-family",
+                    "valueString": "BACCA"
+                  }
+                ]
+              },
+              "given": [
+                "MELVA",
+                "ANA"
+              ]
+            }
+          ],
+          "telecom": [
+            {
+              "system": "email",
+              "value": "prueba@prueba.com.pe"
+            },
+            {
+              "system": "phone",
+              "value": "+51987654321",
+              "use": "mobile"
+            }
+          ],
+          "gender": "male",
+          "birthDate": "1985-07-14",
+          "_birthDate": {
+            "extension": [
+              {
+                "url": "https://www.gob.pe/minsa/RENHICE/fhir/StructureDefinition/pe-pais",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "https://www.gob.pe/minsa/RENHICE/fhir/CodeSystem/PaisesCS",
+                      "code": "PER"
+                    }
+                  ]
+                }
+              },
+              {
+                "url": "https://www.gob.pe/minsa/RENHICE/fhir/StructureDefinition/pe-ubigeo",
+                "valueString": "150131"
+              }
+            ]
+          },
+          "address": [
+            {
+              "extension": [
+                {
+                  "url": "https://www.gob.pe/minsa/RENHICE/fhir/StructureDefinition/pe-ubigeo",
+                  "valueString": "150131"
+                }
+              ],
+              "line": [
+                "AV. AREQUIPA 1234 DPTO 502"
+              ],
+              "city": "SAN ISIDRO",
+              "district": "SAN ISIDRO",
+              "state": "LIMA",
+              "country": "PER"
+            }
+          ]
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Patient/137594155",
+        "resource": {
+          "resourceType": "Patient",
+          "id": "137594155",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-25T16:55:11.726-04:00",
+            "source": "#UEBG7ryXeQryMfuW"
+          },
+          "text": {
+            "status": "generated",
+            "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>urn:uuid:lerox-care-share-e699794c-63ac-4e3e-bdf2-046c82a4b2a5</td></tr></tbody></table></div>"
+          },
+          "identifier": [
+            {
+              "system": "urn:ietf:rfc:3986",
+              "value": "urn:uuid:lerox-care-share-e699794c-63ac-4e3e-bdf2-046c82a4b2a5"
+            }
+          ],
+          "active": true
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Patient/137594157",
+        "resource": {
+          "resourceType": "Patient",
+          "id": "137594157",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-25T16:55:12.078-04:00",
+            "source": "#3cweXCyhPuJaQ719"
+          },
+          "text": {
+            "status": "generated",
+            "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>urn:uuid:lerox-patient-bd743382-906d-4a36-a521-55ef89b2d168</td></tr></tbody></table></div>"
+          },
+          "identifier": [
+            {
+              "system": "urn:ietf:rfc:3986",
+              "value": "urn:uuid:lerox-patient-bd743382-906d-4a36-a521-55ef89b2d168"
+            }
+          ],
+          "active": true
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Patient/137594170",
+        "resource": {
+          "resourceType": "Patient",
+          "id": "137594170",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-25T17:11:16.486-04:00",
+            "source": "#KTGlBU2p9Pul5b24"
+          },
+          "text": {
+            "status": "generated",
+            "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">XANDE PABLO <b>SULCA </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>095101103</td></tr><tr><td>Address</td><td><span>AV. JOSE CARLOS MARIATEGUI 1234 502 </span><br/><span>EL AGUSTINO </span><span>LIMA </span><span>PER </span></td></tr><tr><td>Date of birth</td><td><span>14 July 1985</span></td></tr></tbody></table></div>"
+          },
+          "identifier": [
+            {
+              "use": "official",
+              "type": {
+                "extension": [
+                  {
+                    "url": "https://www.gob.pe/minsa/RENHICE/fhir/StructureDefinition/pe-pais",
+                    "valueCodeableConcept": {
+                      "coding": [
+                        {
+                          "system": "https://www.gob.pe/minsa/RENHICE/fhir/CodeSystem/PaisesCS",
+                          "code": "PER"
+                        }
+                      ]
+                    }
+                  }
+                ],
+                "coding": [
+                  {
+                    "system": "https://www.gob.pe/minsa/RENHICE/fhir/CodeSystem/IdspersonaPeru",
+                    "code": "1",
+                    "display": "DNI"
+                  }
+                ]
+              },
+              "value": "095101103"
+            }
+          ],
+          "active": true,
+          "name": [
+            {
+              "family": "SULCA",
+              "_family": {
+                "extension": [
+                  {
+                    "url": "http://hl7.org/fhir/StructureDefinition/humanname-mothers-family",
+                    "valueString": "MEDINA"
+                  }
+                ]
+              },
+              "given": [
+                "XANDE",
+                "PABLO"
+              ]
+            }
+          ],
+          "telecom": [
+            {
+              "system": "email",
+              "value": "pablo@prueba.com.pe"
+            },
+            {
+              "system": "phone",
+              "value": "+51967634321",
+              "use": "mobile"
+            }
+          ],
+          "gender": "male",
+          "birthDate": "1985-07-14",
+          "_birthDate": {
+            "extension": [
+              {
+                "url": "https://www.gob.pe/minsa/RENHICE/fhir/StructureDefinition/pe-pais",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "https://www.gob.pe/minsa/RENHICE/fhir/CodeSystem/PaisesCS",
+                      "code": "PER"
+                    }
+                  ]
+                }
+              },
+              {
+                "url": "https://www.gob.pe/minsa/RENHICE/fhir/StructureDefinition/pe-ubigeo",
+                "valueString": "150131"
+              }
+            ]
+          },
+          "address": [
+            {
+              "extension": [
+                {
+                  "url": "https://www.gob.pe/minsa/RENHICE/fhir/StructureDefinition/pe-ubigeo",
+                  "valueString": "150131"
+                }
+              ],
+              "line": [
+                "AV. JOSE CARLOS MARIATEGUI 1234 502"
+              ],
+              "city": "EL AGUSTINO",
+              "district": "EL AGUSTINO",
+              "state": "LIMA",
+              "country": "PER"
+            }
+          ]
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Patient/137594171",
+        "resource": {
+          "resourceType": "Patient",
+          "id": "137594171",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-25T17:13:17.285-04:00",
+            "source": "#lqlVYBHUqsR6KfkG"
+          },
+          "text": {
+            "status": "generated",
+            "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>urn:uuid:lerox-care-share-1d82812f-5ec1-4464-9250-8d8b72c1f01d</td></tr></tbody></table></div>"
+          },
+          "identifier": [
+            {
+              "system": "urn:ietf:rfc:3986",
+              "value": "urn:uuid:lerox-care-share-1d82812f-5ec1-4464-9250-8d8b72c1f01d"
+            }
+          ],
+          "active": true
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Patient/137594173",
+        "resource": {
+          "resourceType": "Patient",
+          "id": "137594173",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-25T17:13:17.614-04:00",
+            "source": "#bGxaub6PFArhcgYi"
+          },
+          "text": {
+            "status": "generated",
+            "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>urn:uuid:lerox-patient-77f21e4e-6c21-4996-86c3-4264a1998892</td></tr></tbody></table></div>"
+          },
+          "identifier": [
+            {
+              "system": "urn:ietf:rfc:3986",
+              "value": "urn:uuid:lerox-patient-77f21e4e-6c21-4996-86c3-4264a1998892"
+            }
+          ],
+          "active": true
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Patient/137594175",
+        "resource": {
+          "resourceType": "Patient",
+          "id": "137594175",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-25T17:25:25.619-04:00",
+            "source": "#jPQwmT0s6xSsU8oI"
+          },
+          "text": {
+            "status": "generated",
+            "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>urn:uuid:lerox-care-share-eda7ce22-00df-4747-96fa-3cece86db6f4</td></tr></tbody></table></div>"
+          },
+          "identifier": [
+            {
+              "system": "urn:ietf:rfc:3986",
+              "value": "urn:uuid:lerox-care-share-eda7ce22-00df-4747-96fa-3cece86db6f4"
+            }
+          ],
+          "active": true
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Patient/137594177",
+        "resource": {
+          "resourceType": "Patient",
+          "id": "137594177",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-25T17:25:25.937-04:00",
+            "source": "#Jn3olVpuLKqafnGB"
+          },
+          "text": {
+            "status": "generated",
+            "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>urn:uuid:lerox-patient-ff01d803-060e-4147-8b43-63bd61151da4</td></tr></tbody></table></div>"
+          },
+          "identifier": [
+            {
+              "system": "urn:ietf:rfc:3986",
+              "value": "urn:uuid:lerox-patient-ff01d803-060e-4147-8b43-63bd61151da4"
+            }
+          ],
+          "active": true
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Patient/137594183",
+        "resource": {
+          "resourceType": "Patient",
+          "id": "137594183",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-25T17:43:33.534-04:00",
+            "source": "#pGXvNuuZZ6aOifzV"
+          },
+          "text": {
+            "status": "generated",
+            "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>urn:uuid:lerox-care-share-d41948da-7cab-4468-af58-4234ef61e44e</td></tr></tbody></table></div>"
+          },
+          "identifier": [
+            {
+              "system": "urn:ietf:rfc:3986",
+              "value": "urn:uuid:lerox-care-share-d41948da-7cab-4468-af58-4234ef61e44e"
+            }
+          ],
+          "active": true
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Patient/137594185",
+        "resource": {
+          "resourceType": "Patient",
+          "id": "137594185",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-25T17:43:33.894-04:00",
+            "source": "#uGFGLHxY8etkpso2"
+          },
+          "text": {
+            "status": "generated",
+            "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>urn:uuid:lerox-patient-e9556672-1289-43e4-8702-e826c047640f</td></tr></tbody></table></div>"
+          },
+          "identifier": [
+            {
+              "system": "urn:ietf:rfc:3986",
+              "value": "urn:uuid:lerox-patient-e9556672-1289-43e4-8702-e826c047640f"
+            }
+          ],
+          "active": true
+        },
+        "search": {
+          "mode": "match"
+        }
+      }
+    ]
+  }
+}

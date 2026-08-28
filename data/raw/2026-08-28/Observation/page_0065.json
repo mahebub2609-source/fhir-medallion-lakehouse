@@ -1,0 +1,838 @@
+{
+  "resource_type": "Observation",
+  "extraction_timestamp": "2026-08-28T11:04:36.783636",
+  "extraction_date": "2026-08-28",
+  "api_url": "https://hapi.fhir.org/baseR4?_getpages=bd0d8def-7d79-4915-a54d-b81ea22d6c9a&_getpagesoffset=1300&_count=20&_pretty=true&_bundletype=searchset",
+  "page_number": 65,
+  "entry_count": 20,
+  "response": {
+    "resourceType": "Bundle",
+    "id": "bd0d8def-7d79-4915-a54d-b81ea22d6c9a",
+    "meta": {
+      "lastUpdated": "2026-08-28T07:04:36.846-04:00"
+    },
+    "type": "searchset",
+    "total": 1748,
+    "link": [
+      {
+        "relation": "self",
+        "url": "https://hapi.fhir.org/baseR4?_getpages=bd0d8def-7d79-4915-a54d-b81ea22d6c9a&_getpagesoffset=1300&_count=20&_pretty=true&_bundletype=searchset"
+      },
+      {
+        "relation": "next",
+        "url": "https://hapi.fhir.org/baseR4?_getpages=bd0d8def-7d79-4915-a54d-b81ea22d6c9a&_getpagesoffset=1320&_count=20&_pretty=true&_bundletype=searchset"
+      },
+      {
+        "relation": "previous",
+        "url": "https://hapi.fhir.org/baseR4?_getpages=bd0d8def-7d79-4915-a54d-b81ea22d6c9a&_getpagesoffset=1280&_count=20&_pretty=true&_bundletype=searchset"
+      }
+    ],
+    "entry": [
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Observation/137593958",
+        "resource": {
+          "resourceType": "Observation",
+          "id": "137593958",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-25T09:25:25.635-04:00",
+            "source": "#TcrWjuq6nhEjmrYm"
+          },
+          "status": "final",
+          "code": {
+            "coding": [
+              {
+                "system": "http://fhir-learn-app/lesson-codes",
+                "code": "lesson-10",
+                "display": "\u9078\u5c0d\u4ee3\u78bc\u7cfb\u7d71"
+              }
+            ]
+          },
+          "subject": {
+            "reference": "Patient/137593941"
+          },
+          "encounter": {
+            "reference": "Encounter/137593942"
+          },
+          "effectiveDateTime": "2026-08-25T13:25:26.258Z",
+          "method": {
+            "coding": [
+              {
+                "system": "http://fhir-learn-app/placement-method",
+                "code": "skip",
+                "display": "\u524d\u6e2c\u8df3\u904e"
+              }
+            ]
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Observation/137593963",
+        "resource": {
+          "resourceType": "Observation",
+          "id": "137593963",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-25T09:26:00.154-04:00",
+            "source": "#yteVcFFoz2fIlXoJ"
+          },
+          "status": "final",
+          "category": [
+            {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                  "code": "vital-signs"
+                }
+              ]
+            }
+          ],
+          "code": {
+            "coding": [
+              {
+                "system": "http://loinc.org",
+                "code": "8867-4",
+                "display": "Heart rate"
+              }
+            ]
+          },
+          "subject": {
+            "reference": "Patient/137593961"
+          },
+          "encounter": {
+            "reference": "Encounter/137593962"
+          },
+          "effectiveDateTime": "2026-08-25T10:05:00+08:00",
+          "valueQuantity": {
+            "value": 72,
+            "unit": "beats/minute",
+            "system": "http://unitsofmeasure.org",
+            "code": "/min"
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Observation/137594028",
+        "resource": {
+          "resourceType": "Observation",
+          "id": "137594028",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-25T12:42:58.865-04:00",
+            "source": "#jQoVo4gHljPEQoAi"
+          },
+          "text": {
+            "status": "generated",
+            "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative with Details</b></p><p><b>identifier</b>: 6323 (OFFICIAL)</p><p><b>status</b>: final</p><p><b>code</b>: Glucose [Moles/volume] in Blood <span>(Details : {LOINC code '15074-8' = 'Glucose [Moles/volume] in Blood', given as 'Glucose [Moles/volume] in Blood'})</span></p><p><b>subject</b>: <a>P. van de Heuvel</a></p><p><b>effective</b>: Apr 2, 2013 9:30:10 AM --&gt; Apr 5, 2013 9:30:10 AM</p><p><b>issued</b>: Apr 3, 2013 3:30:10 PM</p><p><b>performer</b>: <a>A. Langeveld</a></p><p><b>value</b>: 6.3 mmol/l<span> (Details: http://unitsofmeasure.org code mmol/L = 'mmol/L')</span></p><p><b>interpretation</b>: High <span>(Details : {http://hl7.org/fhir/v2/0078 code 'H' = 'High', given as 'High'})</span></p><h3>ReferenceRanges</h3><table><tr><td>-</td><td><b>Low</b></td><td><b>High</b></td></tr><tr><td>*</td><td>3.1 mmol/l<span> (Details: http://unitsofmeasure.org code mmol/L = 'mmol/L')</span></td><td>6.2 mmol/l<span> (Details: http://unitsofmeasure.org code mmol/L = 'mmol/L')</span></td></tr></table></div>"
+          },
+          "identifier": [
+            {
+              "use": "official",
+              "system": "http://www.bmc.nl/zorgportal/identifiers/observations",
+              "value": "6323"
+            }
+          ],
+          "status": "final",
+          "code": {
+            "coding": [
+              {
+                "system": "http://loinc.org",
+                "code": "15074-8",
+                "display": "Glucose [Moles/volume] in Blood"
+              }
+            ]
+          },
+          "subject": {
+            "reference": "Patient/137594025",
+            "display": "P. van de Heuvel"
+          },
+          "effectivePeriod": {
+            "start": "2013-04-02T09:30:10+01:00",
+            "end": "2013-04-05T09:30:10+01:00"
+          },
+          "issued": "2013-04-03T15:30:10+01:00",
+          "valueQuantity": {
+            "value": 6.3,
+            "unit": "mmol/l",
+            "system": "http://unitsofmeasure.org",
+            "code": "mmol/L"
+          },
+          "interpretation": [
+            {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/v2-0078",
+                  "code": "H",
+                  "display": "High"
+                }
+              ]
+            }
+          ],
+          "referenceRange": [
+            {
+              "low": {
+                "value": 3.1,
+                "unit": "mmol/l",
+                "system": "http://unitsofmeasure.org",
+                "code": "mmol/L"
+              },
+              "high": {
+                "value": 6.2,
+                "unit": "mmol/l",
+                "system": "http://unitsofmeasure.org",
+                "code": "mmol/L"
+              }
+            }
+          ]
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Observation/137594029",
+        "resource": {
+          "resourceType": "Observation",
+          "id": "137594029",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-25T12:42:59.323-04:00",
+            "source": "#MHLHF6zm90xtgnPB"
+          },
+          "text": {
+            "status": "generated",
+            "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative with Details</b></p><p><b>identifier</b>: 6324 (OFFICIAL)</p><p><b>status</b>: final</p><p><b>code</b>: Base excess in Blood by calculation <span>(Details : {LOINC code '11555-0' = 'Base excess in Blood by calculation', given as 'Base excess in Blood by calculation'})</span></p><p><b>subject</b>: <a>P. van de Heuvel</a></p><p><b>effective</b>: Apr 2, 2013 10:30:10 AM --&gt; Apr 5, 2013 10:30:10 AM</p><p><b>issued</b>: Apr 3, 2013 3:30:10 PM</p><p><b>performer</b>: <a>A. Langeveld</a></p><p><b>value</b>: 12.6 mmol/l<span> (Details: http://unitsofmeasure.org code mmol/L = 'mmol/L')</span></p><p><b>interpretation</b>: High <span>(Details : {http://hl7.org/fhir/v2/0078 code 'H' = 'High', given as 'High'})</span></p><h3>ReferenceRanges</h3><table><tr><td>-</td><td><b>Low</b></td><td><b>High</b></td></tr><tr><td>*</td><td>7.1 mmol/l<span> (Details: http://unitsofmeasure.org code mmol/L = 'mmol/L')</span></td><td>11.2 mmol/l<span> (Details: http://unitsofmeasure.org code mmol/L = 'mmol/L')</span></td></tr></table></div>"
+          },
+          "identifier": [
+            {
+              "use": "official",
+              "system": "http://www.bmc.nl/zorgportal/identifiers/observations",
+              "value": "6324"
+            }
+          ],
+          "status": "final",
+          "code": {
+            "coding": [
+              {
+                "system": "http://loinc.org",
+                "code": "11555-0",
+                "display": "Base excess in Blood by calculation"
+              }
+            ]
+          },
+          "subject": {
+            "reference": "Patient/137594025",
+            "display": "P. van de Heuvel"
+          },
+          "effectivePeriod": {
+            "start": "2013-04-02T10:30:10+01:00",
+            "end": "2013-04-05T10:30:10+01:00"
+          },
+          "issued": "2013-04-03T15:30:10+01:00",
+          "valueQuantity": {
+            "value": 12.6,
+            "unit": "mmol/l",
+            "system": "http://unitsofmeasure.org",
+            "code": "mmol/L"
+          },
+          "interpretation": [
+            {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/v2-0078",
+                  "code": "H",
+                  "display": "High"
+                }
+              ]
+            }
+          ],
+          "referenceRange": [
+            {
+              "low": {
+                "value": 7.1,
+                "unit": "mmol/l",
+                "system": "http://unitsofmeasure.org",
+                "code": "mmol/L"
+              },
+              "high": {
+                "value": 11.2,
+                "unit": "mmol/l",
+                "system": "http://unitsofmeasure.org",
+                "code": "mmol/L"
+              }
+            }
+          ]
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Observation/137594063",
+        "resource": {
+          "resourceType": "Observation",
+          "id": "137594063",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-25T13:48:20.970-04:00",
+            "source": "#UdW70OxtW0UOMoQT"
+          },
+          "status": "final",
+          "code": {
+            "coding": [
+              {
+                "system": "http://loinc.org",
+                "code": "8310-5",
+                "display": "Body temperature"
+              }
+            ]
+          },
+          "subject": {
+            "reference": "Patient/137594024"
+          },
+          "effectiveDateTime": "2026-08-25T09:00:00",
+          "valueQuantity": {
+            "value": 37.1,
+            "unit": "Cel"
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Observation/137594064",
+        "resource": {
+          "resourceType": "Observation",
+          "id": "137594064",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-25T13:48:21.593-04:00",
+            "source": "#iR2pO4sA9MVIk1mW"
+          },
+          "status": "final",
+          "code": {
+            "coding": [
+              {
+                "system": "http://loinc.org",
+                "code": "8867-4",
+                "display": "Heart rate"
+              }
+            ]
+          },
+          "subject": {
+            "reference": "Patient/137594024"
+          },
+          "effectiveDateTime": "2026-08-25T09:00:00",
+          "valueQuantity": {
+            "value": 72,
+            "unit": "/min"
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Observation/137594066",
+        "resource": {
+          "resourceType": "Observation",
+          "id": "137594066",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-25T13:48:22.828-04:00",
+            "source": "#g7HGtSodCZPrWaXs"
+          },
+          "status": "final",
+          "code": {
+            "coding": [
+              {
+                "system": "http://loinc.org",
+                "code": "8310-5",
+                "display": "Body temperature"
+              }
+            ]
+          },
+          "subject": {
+            "reference": "Patient/137594065"
+          },
+          "effectiveDateTime": "2026-08-25T09:00:00",
+          "valueQuantity": {
+            "value": 36.8,
+            "unit": "Cel"
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Observation/137594067",
+        "resource": {
+          "resourceType": "Observation",
+          "id": "137594067",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-25T13:48:23.429-04:00",
+            "source": "#eiWyYIMyixkoaXNy"
+          },
+          "status": "final",
+          "code": {
+            "coding": [
+              {
+                "system": "http://loinc.org",
+                "code": "8867-4",
+                "display": "Heart rate"
+              }
+            ]
+          },
+          "subject": {
+            "reference": "Patient/137594065"
+          },
+          "effectiveDateTime": "2026-08-25T09:00:00",
+          "valueQuantity": {
+            "value": 68,
+            "unit": "/min"
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Observation/137594069",
+        "resource": {
+          "resourceType": "Observation",
+          "id": "137594069",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-25T13:48:24.692-04:00",
+            "source": "#Qi3zoQzpTnwc3rFW"
+          },
+          "status": "final",
+          "code": {
+            "coding": [
+              {
+                "system": "http://loinc.org",
+                "code": "8310-5",
+                "display": "Body temperature"
+              }
+            ]
+          },
+          "subject": {
+            "reference": "Patient/137594068"
+          },
+          "effectiveDateTime": "2026-08-25T09:00:00",
+          "valueQuantity": {
+            "value": 38.2,
+            "unit": "Cel"
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Observation/137594070",
+        "resource": {
+          "resourceType": "Observation",
+          "id": "137594070",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-25T13:48:25.290-04:00",
+            "source": "#ben3JybFKl2433aW"
+          },
+          "status": "final",
+          "code": {
+            "coding": [
+              {
+                "system": "http://loinc.org",
+                "code": "8867-4",
+                "display": "Heart rate"
+              }
+            ]
+          },
+          "subject": {
+            "reference": "Patient/137594068"
+          },
+          "effectiveDateTime": "2026-08-25T09:00:00",
+          "valueQuantity": {
+            "value": 95,
+            "unit": "/min"
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Observation/137594076",
+        "resource": {
+          "resourceType": "Observation",
+          "id": "137594076",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-25T14:21:24.453-04:00",
+            "source": "#rSpR9LErFNJEXPY6"
+          },
+          "status": "final",
+          "category": [
+            {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                  "code": "vital-signs",
+                  "display": "Vital Signs"
+                }
+              ]
+            }
+          ],
+          "code": {
+            "coding": [
+              {
+                "system": "http://loinc.org",
+                "code": "8310-5",
+                "display": "Body temperature"
+              }
+            ],
+            "text": "Temperatura corporal"
+          },
+          "subject": {
+            "reference": "Patient/137202509"
+          },
+          "effectiveDateTime": "2026-08-25T18:21:23.769165+00:00",
+          "valueQuantity": {
+            "value": 36.7,
+            "unit": "\u00b0C",
+            "system": "http://unitsofmeasure.org",
+            "code": "Cel"
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Observation/137594092",
+        "resource": {
+          "resourceType": "Observation",
+          "id": "137594092",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-25T14:40:47.269-04:00",
+            "source": "#Wi0tW0tsQOs702Ca"
+          },
+          "status": "final",
+          "code": {
+            "coding": [
+              {
+                "system": "http://loinc.org",
+                "code": "8310-5",
+                "display": "Body temperature"
+              }
+            ]
+          },
+          "subject": {
+            "reference": "Patient/137202509"
+          },
+          "effectiveDateTime": "2026-08-25T15:40:46.575409-03:00",
+          "valueQuantity": {
+            "value": 36.7,
+            "unit": "\u00b0C",
+            "system": "http://unitsofmeasure.org",
+            "code": "Cel"
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Observation/137594093",
+        "resource": {
+          "resourceType": "Observation",
+          "id": "137594093",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-25T14:40:52.180-04:00",
+            "source": "#fn4flfl405MG7E1n"
+          },
+          "status": "final",
+          "code": {
+            "coding": [
+              {
+                "system": "http://loinc.org",
+                "code": "8310-5",
+                "display": "Body temperature"
+              }
+            ]
+          },
+          "subject": {
+            "reference": "Patient/137202509"
+          },
+          "effectiveDateTime": "2026-08-25T15:40:51.495494-03:00",
+          "valueQuantity": {
+            "value": 36.7,
+            "unit": "\u00b0C",
+            "system": "http://unitsofmeasure.org",
+            "code": "Cel"
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Observation/137594094",
+        "resource": {
+          "resourceType": "Observation",
+          "id": "137594094",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-25T14:41:18.165-04:00",
+            "source": "#JJYXNMEmaZHAGUSM"
+          },
+          "status": "final",
+          "code": {
+            "coding": [
+              {
+                "system": "http://loinc.org",
+                "code": "8310-5",
+                "display": "Body temperature"
+              }
+            ]
+          },
+          "subject": {
+            "reference": "Patient/137202509"
+          },
+          "effectiveDateTime": "2026-08-25T15:41:17.472125-03:00",
+          "valueQuantity": {
+            "value": 36.7,
+            "unit": "\u00b0C",
+            "system": "http://unitsofmeasure.org",
+            "code": "Cel"
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Observation/137594095",
+        "resource": {
+          "resourceType": "Observation",
+          "id": "137594095",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-25T14:45:23.457-04:00",
+            "source": "#cyGlsutJsawKVmB2"
+          },
+          "status": "final",
+          "code": {
+            "coding": [
+              {
+                "system": "http://loinc.org",
+                "code": "8310-5",
+                "display": "Body temperature"
+              }
+            ]
+          },
+          "subject": {
+            "reference": "Patient/137202509"
+          },
+          "effectiveDateTime": "2026-08-25T15:45:22.747683-03:00",
+          "valueQuantity": {
+            "value": 36.7,
+            "unit": "\u00b0C",
+            "system": "http://unitsofmeasure.org",
+            "code": "Cel"
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Observation/137594096",
+        "resource": {
+          "resourceType": "Observation",
+          "id": "137594096",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-25T14:46:17.673-04:00",
+            "source": "#NUp0PiZQ86IX2xU6"
+          },
+          "status": "final",
+          "code": {
+            "coding": [
+              {
+                "system": "http://loinc.org",
+                "code": "8310-5",
+                "display": "Body temperature"
+              }
+            ]
+          },
+          "subject": {
+            "reference": "Patient/137202509"
+          },
+          "effectiveDateTime": "2026-08-25T15:46:16.989640-03:00",
+          "valueQuantity": {
+            "value": 36.7,
+            "unit": "\u00b0C",
+            "system": "http://unitsofmeasure.org",
+            "code": "Cel"
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Observation/137594097",
+        "resource": {
+          "resourceType": "Observation",
+          "id": "137594097",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-25T14:46:34.674-04:00",
+            "source": "#6VM290GmBw0OWYss"
+          },
+          "status": "final",
+          "code": {
+            "coding": [
+              {
+                "system": "http://loinc.org",
+                "code": "8310-5",
+                "display": "Body temperature"
+              }
+            ]
+          },
+          "subject": {
+            "reference": "Patient/137202509"
+          },
+          "effectiveDateTime": "2026-08-25T15:46:33.995602-03:00",
+          "valueQuantity": {
+            "value": 36.7,
+            "unit": "\u00b0C",
+            "system": "http://unitsofmeasure.org",
+            "code": "Cel"
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Observation/137594098",
+        "resource": {
+          "resourceType": "Observation",
+          "id": "137594098",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-25T14:47:43.875-04:00",
+            "source": "#gaop2069h8QucZ52"
+          },
+          "status": "final",
+          "code": {
+            "coding": [
+              {
+                "system": "http://loinc.org",
+                "code": "8310-5",
+                "display": "Body temperature"
+              }
+            ]
+          },
+          "subject": {
+            "reference": "Patient/137202509"
+          },
+          "effectiveDateTime": "2026-08-25T15:47:43.167485-03:00",
+          "valueQuantity": {
+            "value": 36.7,
+            "unit": "\u00b0C",
+            "system": "http://unitsofmeasure.org",
+            "code": "Cel"
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Observation/137594099",
+        "resource": {
+          "resourceType": "Observation",
+          "id": "137594099",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-25T14:48:12.355-04:00",
+            "source": "#YAdvUBzU9wk8uXQW"
+          },
+          "status": "final",
+          "code": {
+            "coding": [
+              {
+                "system": "http://loinc.org",
+                "code": "8310-5",
+                "display": "Body temperature"
+              }
+            ]
+          },
+          "subject": {
+            "reference": "Patient/137202509"
+          },
+          "effectiveDateTime": "2026-08-25T15:48:11.661580-03:00",
+          "valueQuantity": {
+            "value": 36.7,
+            "unit": "\u00b0C",
+            "system": "http://unitsofmeasure.org",
+            "code": "Cel"
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Observation/137594100",
+        "resource": {
+          "resourceType": "Observation",
+          "id": "137594100",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-25T14:48:24.236-04:00",
+            "source": "#zOGGtT91wwhguhST"
+          },
+          "status": "final",
+          "code": {
+            "coding": [
+              {
+                "system": "http://loinc.org",
+                "code": "8310-5",
+                "display": "Body temperature"
+              }
+            ]
+          },
+          "subject": {
+            "reference": "Patient/137202509"
+          },
+          "effectiveDateTime": "2026-08-25T15:48:23.557058-03:00",
+          "valueQuantity": {
+            "value": 36.7,
+            "unit": "\u00b0C",
+            "system": "http://unitsofmeasure.org",
+            "code": "Cel"
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,853 @@
+{
+  "resource_type": "Observation",
+  "extraction_timestamp": "2026-08-28T11:04:36.783636",
+  "extraction_date": "2026-08-28",
+  "api_url": "https://hapi.fhir.org/baseR4?_getpages=bd0d8def-7d79-4915-a54d-b81ea22d6c9a&_getpagesoffset=1280&_count=20&_pretty=true&_bundletype=searchset",
+  "page_number": 64,
+  "entry_count": 20,
+  "response": {
+    "resourceType": "Bundle",
+    "id": "bd0d8def-7d79-4915-a54d-b81ea22d6c9a",
+    "meta": {
+      "lastUpdated": "2026-08-28T07:04:36.846-04:00"
+    },
+    "type": "searchset",
+    "total": 1748,
+    "link": [
+      {
+        "relation": "self",
+        "url": "https://hapi.fhir.org/baseR4?_getpages=bd0d8def-7d79-4915-a54d-b81ea22d6c9a&_getpagesoffset=1280&_count=20&_pretty=true&_bundletype=searchset"
+      },
+      {
+        "relation": "next",
+        "url": "https://hapi.fhir.org/baseR4?_getpages=bd0d8def-7d79-4915-a54d-b81ea22d6c9a&_getpagesoffset=1300&_count=20&_pretty=true&_bundletype=searchset"
+      },
+      {
+        "relation": "previous",
+        "url": "https://hapi.fhir.org/baseR4?_getpages=bd0d8def-7d79-4915-a54d-b81ea22d6c9a&_getpagesoffset=1260&_count=20&_pretty=true&_bundletype=searchset"
+      }
+    ],
+    "entry": [
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Observation/137593909",
+        "resource": {
+          "resourceType": "Observation",
+          "id": "137593909",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-25T09:16:33.970-04:00",
+            "source": "#E84dnfNOTH6JYh96"
+          },
+          "status": "final",
+          "code": {
+            "coding": [
+              {
+                "system": "http://fhir-learn-app/lesson-codes",
+                "code": "lesson-08",
+                "display": "FHIR \u9663\u5217\u8a2d\u8a08\u7684\u908f\u8f2f"
+              }
+            ]
+          },
+          "subject": {
+            "reference": "Patient/137593898"
+          },
+          "encounter": {
+            "reference": "Encounter/137593899"
+          },
+          "effectiveDateTime": "2026-08-25T13:16:34.585Z",
+          "method": {
+            "coding": [
+              {
+                "system": "http://fhir-learn-app/placement-method",
+                "code": "skip",
+                "display": "\u524d\u6e2c\u8df3\u904e"
+              }
+            ]
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Observation/137593910",
+        "resource": {
+          "resourceType": "Observation",
+          "id": "137593910",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-25T09:16:34.182-04:00",
+            "source": "#6vjhrAUTYfSO7sDo"
+          },
+          "status": "final",
+          "code": {
+            "coding": [
+              {
+                "system": "http://fhir-learn-app/lesson-codes",
+                "code": "lesson-09",
+                "display": "CodeableConcept \u662f\u4ec0\u9ebc"
+              }
+            ]
+          },
+          "subject": {
+            "reference": "Patient/137593898"
+          },
+          "encounter": {
+            "reference": "Encounter/137593899"
+          },
+          "effectiveDateTime": "2026-08-25T13:16:34.799Z",
+          "method": {
+            "coding": [
+              {
+                "system": "http://fhir-learn-app/placement-method",
+                "code": "skip",
+                "display": "\u524d\u6e2c\u8df3\u904e"
+              }
+            ]
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Observation/137593911",
+        "resource": {
+          "resourceType": "Observation",
+          "id": "137593911",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-25T09:16:34.462-04:00",
+            "source": "#qsPQoo2s5fw567Ho"
+          },
+          "status": "final",
+          "code": {
+            "coding": [
+              {
+                "system": "http://fhir-learn-app/lesson-codes",
+                "code": "lesson-10",
+                "display": "\u9078\u5c0d\u4ee3\u78bc\u7cfb\u7d71"
+              }
+            ]
+          },
+          "subject": {
+            "reference": "Patient/137593898"
+          },
+          "encounter": {
+            "reference": "Encounter/137593899"
+          },
+          "effectiveDateTime": "2026-08-25T13:16:35.076Z",
+          "method": {
+            "coding": [
+              {
+                "system": "http://fhir-learn-app/placement-method",
+                "code": "skip",
+                "display": "\u524d\u6e2c\u8df3\u904e"
+              }
+            ]
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Observation/137593921",
+        "resource": {
+          "resourceType": "Observation",
+          "id": "137593921",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-25T09:17:59.450-04:00",
+            "source": "#IPeaL4lcOTJuHTx0"
+          },
+          "status": "final",
+          "code": {
+            "coding": [
+              {
+                "system": "http://fhir-learn-app/lesson-codes",
+                "code": "lesson-01",
+                "display": "\u4ec0\u9ebc\u662f EMR/EHR"
+              }
+            ]
+          },
+          "subject": {
+            "reference": "Patient/137593917"
+          },
+          "encounter": {
+            "reference": "Encounter/137593918"
+          },
+          "effectiveDateTime": "2026-08-25T13:17:59.771Z",
+          "method": {
+            "coding": [
+              {
+                "system": "http://fhir-learn-app/placement-method",
+                "code": "skip",
+                "display": "\u524d\u6e2c\u8df3\u904e"
+              }
+            ]
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Observation/137593922",
+        "resource": {
+          "resourceType": "Observation",
+          "id": "137593922",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-25T09:17:59.770-04:00",
+            "source": "#z0dIObO2ww3k31Fr"
+          },
+          "status": "final",
+          "code": {
+            "coding": [
+              {
+                "system": "http://fhir-learn-app/lesson-codes",
+                "code": "lesson-02",
+                "display": "Interoperability\uff08\u4e92\u901a\u6027\uff09\u9019\u500b\u6838\u5fc3\u554f\u984c"
+              }
+            ]
+          },
+          "subject": {
+            "reference": "Patient/137593917"
+          },
+          "encounter": {
+            "reference": "Encounter/137593918"
+          },
+          "effectiveDateTime": "2026-08-25T13:18:00.380Z",
+          "method": {
+            "coding": [
+              {
+                "system": "http://fhir-learn-app/placement-method",
+                "code": "skip",
+                "display": "\u524d\u6e2c\u8df3\u904e"
+              }
+            ]
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Observation/137593923",
+        "resource": {
+          "resourceType": "Observation",
+          "id": "137593923",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-25T09:18:00.084-04:00",
+            "source": "#ywUMujJMQ2gfedqf"
+          },
+          "status": "final",
+          "code": {
+            "coding": [
+              {
+                "system": "http://fhir-learn-app/lesson-codes",
+                "code": "lesson-03",
+                "display": "HL7 \u662f\u4ec0\u9ebc\u3001FHIR \u5728\u6a19\u6e96\u6f14\u9032\u4e2d\u7684\u4f4d\u7f6e"
+              }
+            ]
+          },
+          "subject": {
+            "reference": "Patient/137593917"
+          },
+          "encounter": {
+            "reference": "Encounter/137593918"
+          },
+          "effectiveDateTime": "2026-08-25T13:18:00.684Z",
+          "method": {
+            "coding": [
+              {
+                "system": "http://fhir-learn-app/placement-method",
+                "code": "skip",
+                "display": "\u524d\u6e2c\u8df3\u904e"
+              }
+            ]
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Observation/137593924",
+        "resource": {
+          "resourceType": "Observation",
+          "id": "137593924",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-25T09:18:00.320-04:00",
+            "source": "#i5RCwep2ogqjyDJP"
+          },
+          "status": "final",
+          "code": {
+            "coding": [
+              {
+                "system": "http://fhir-learn-app/lesson-codes",
+                "code": "lesson-04",
+                "display": "FHIR \u70ba\u4ec0\u9ebc\u63a1\u7528 JSON + REST API"
+              }
+            ]
+          },
+          "subject": {
+            "reference": "Patient/137593917"
+          },
+          "encounter": {
+            "reference": "Encounter/137593918"
+          },
+          "effectiveDateTime": "2026-08-25T13:18:00.928Z",
+          "method": {
+            "coding": [
+              {
+                "system": "http://fhir-learn-app/placement-method",
+                "code": "skip",
+                "display": "\u524d\u6e2c\u8df3\u904e"
+              }
+            ]
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Observation/137593927",
+        "resource": {
+          "resourceType": "Observation",
+          "id": "137593927",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-25T09:19:33.974-04:00",
+            "source": "#5XlnJ1a3zBM8vu1I"
+          },
+          "status": "final",
+          "code": {
+            "coding": [
+              {
+                "system": "http://fhir-learn-app/lesson-codes",
+                "code": "lesson-01",
+                "display": "\u4ec0\u9ebc\u662f EMR/EHR"
+              }
+            ]
+          },
+          "subject": {
+            "reference": "Patient/137593925"
+          },
+          "encounter": {
+            "reference": "Encounter/137593926"
+          },
+          "effectiveDateTime": "2026-08-25T13:19:34.354Z",
+          "method": {
+            "coding": [
+              {
+                "system": "http://fhir-learn-app/placement-method",
+                "code": "skip",
+                "display": "\u524d\u6e2c\u8df3\u904e"
+              }
+            ]
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Observation/137593928",
+        "resource": {
+          "resourceType": "Observation",
+          "id": "137593928",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-25T09:19:34.207-04:00",
+            "source": "#HCrzx2uiCFkLCbDY"
+          },
+          "status": "final",
+          "code": {
+            "coding": [
+              {
+                "system": "http://fhir-learn-app/lesson-codes",
+                "code": "lesson-02",
+                "display": "Interoperability\uff08\u4e92\u901a\u6027\uff09\u9019\u500b\u6838\u5fc3\u554f\u984c"
+              }
+            ]
+          },
+          "subject": {
+            "reference": "Patient/137593925"
+          },
+          "encounter": {
+            "reference": "Encounter/137593926"
+          },
+          "effectiveDateTime": "2026-08-25T13:19:34.814Z",
+          "method": {
+            "coding": [
+              {
+                "system": "http://fhir-learn-app/placement-method",
+                "code": "skip",
+                "display": "\u524d\u6e2c\u8df3\u904e"
+              }
+            ]
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Observation/137593929",
+        "resource": {
+          "resourceType": "Observation",
+          "id": "137593929",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-25T09:19:34.484-04:00",
+            "source": "#tm5xqjYikZsJbTiD"
+          },
+          "status": "final",
+          "code": {
+            "coding": [
+              {
+                "system": "http://fhir-learn-app/lesson-codes",
+                "code": "lesson-03",
+                "display": "HL7 \u662f\u4ec0\u9ebc\u3001FHIR \u5728\u6a19\u6e96\u6f14\u9032\u4e2d\u7684\u4f4d\u7f6e"
+              }
+            ]
+          },
+          "subject": {
+            "reference": "Patient/137593925"
+          },
+          "encounter": {
+            "reference": "Encounter/137593926"
+          },
+          "effectiveDateTime": "2026-08-25T13:19:35.105Z",
+          "method": {
+            "coding": [
+              {
+                "system": "http://fhir-learn-app/placement-method",
+                "code": "skip",
+                "display": "\u524d\u6e2c\u8df3\u904e"
+              }
+            ]
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Observation/137593930",
+        "resource": {
+          "resourceType": "Observation",
+          "id": "137593930",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-25T09:19:34.719-04:00",
+            "source": "#uTcZz2Qj0XsTSb7h"
+          },
+          "status": "final",
+          "code": {
+            "coding": [
+              {
+                "system": "http://fhir-learn-app/lesson-codes",
+                "code": "lesson-04",
+                "display": "FHIR \u70ba\u4ec0\u9ebc\u63a1\u7528 JSON + REST API"
+              }
+            ]
+          },
+          "subject": {
+            "reference": "Patient/137593925"
+          },
+          "encounter": {
+            "reference": "Encounter/137593926"
+          },
+          "effectiveDateTime": "2026-08-25T13:19:35.329Z",
+          "method": {
+            "coding": [
+              {
+                "system": "http://fhir-learn-app/placement-method",
+                "code": "skip",
+                "display": "\u524d\u6e2c\u8df3\u904e"
+              }
+            ]
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Observation/137593949",
+        "resource": {
+          "resourceType": "Observation",
+          "id": "137593949",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-25T09:25:23.281-04:00",
+            "source": "#9oboydsoQ870J7df"
+          },
+          "status": "final",
+          "code": {
+            "coding": [
+              {
+                "system": "http://fhir-learn-app/lesson-codes",
+                "code": "lesson-01",
+                "display": "\u4ec0\u9ebc\u662f EMR/EHR"
+              }
+            ]
+          },
+          "subject": {
+            "reference": "Patient/137593941"
+          },
+          "encounter": {
+            "reference": "Encounter/137593942"
+          },
+          "effectiveDateTime": "2026-08-25T13:25:23.678Z",
+          "method": {
+            "coding": [
+              {
+                "system": "http://fhir-learn-app/placement-method",
+                "code": "skip",
+                "display": "\u524d\u6e2c\u8df3\u904e"
+              }
+            ]
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Observation/137593950",
+        "resource": {
+          "resourceType": "Observation",
+          "id": "137593950",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-25T09:25:23.542-04:00",
+            "source": "#0zYq1G8NOC19NRC0"
+          },
+          "status": "final",
+          "code": {
+            "coding": [
+              {
+                "system": "http://fhir-learn-app/lesson-codes",
+                "code": "lesson-02",
+                "display": "Interoperability\uff08\u4e92\u901a\u6027\uff09\u9019\u500b\u6838\u5fc3\u554f\u984c"
+              }
+            ]
+          },
+          "subject": {
+            "reference": "Patient/137593941"
+          },
+          "encounter": {
+            "reference": "Encounter/137593942"
+          },
+          "effectiveDateTime": "2026-08-25T13:25:24.158Z",
+          "method": {
+            "coding": [
+              {
+                "system": "http://fhir-learn-app/placement-method",
+                "code": "skip",
+                "display": "\u524d\u6e2c\u8df3\u904e"
+              }
+            ]
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Observation/137593951",
+        "resource": {
+          "resourceType": "Observation",
+          "id": "137593951",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-25T09:25:23.801-04:00",
+            "source": "#aruP6TXCI1YTQfLe"
+          },
+          "status": "final",
+          "code": {
+            "coding": [
+              {
+                "system": "http://fhir-learn-app/lesson-codes",
+                "code": "lesson-03",
+                "display": "HL7 \u662f\u4ec0\u9ebc\u3001FHIR \u5728\u6a19\u6e96\u6f14\u9032\u4e2d\u7684\u4f4d\u7f6e"
+              }
+            ]
+          },
+          "subject": {
+            "reference": "Patient/137593941"
+          },
+          "encounter": {
+            "reference": "Encounter/137593942"
+          },
+          "effectiveDateTime": "2026-08-25T13:25:24.399Z",
+          "method": {
+            "coding": [
+              {
+                "system": "http://fhir-learn-app/placement-method",
+                "code": "skip",
+                "display": "\u524d\u6e2c\u8df3\u904e"
+              }
+            ]
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Observation/137593952",
+        "resource": {
+          "resourceType": "Observation",
+          "id": "137593952",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-25T09:25:24.045-04:00",
+            "source": "#OZ31vLLVekjbrmyA"
+          },
+          "status": "final",
+          "code": {
+            "coding": [
+              {
+                "system": "http://fhir-learn-app/lesson-codes",
+                "code": "lesson-04",
+                "display": "FHIR \u70ba\u4ec0\u9ebc\u63a1\u7528 JSON + REST API"
+              }
+            ]
+          },
+          "subject": {
+            "reference": "Patient/137593941"
+          },
+          "encounter": {
+            "reference": "Encounter/137593942"
+          },
+          "effectiveDateTime": "2026-08-25T13:25:24.657Z",
+          "method": {
+            "coding": [
+              {
+                "system": "http://fhir-learn-app/placement-method",
+                "code": "skip",
+                "display": "\u524d\u6e2c\u8df3\u904e"
+              }
+            ]
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Observation/137593953",
+        "resource": {
+          "resourceType": "Observation",
+          "id": "137593953",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-25T09:25:24.286-04:00",
+            "source": "#iEXkbWNARxTDP4tw"
+          },
+          "status": "final",
+          "code": {
+            "coding": [
+              {
+                "system": "http://fhir-learn-app/lesson-codes",
+                "code": "lesson-05",
+                "display": "resourceType \u662f\u4ec0\u9ebc\uff0c\u7a0b\u5f0f\u600e\u9ebc\u9760\u5b83\u5224\u65b7\u8cc7\u6599\u7a2e\u985e"
+              }
+            ]
+          },
+          "subject": {
+            "reference": "Patient/137593941"
+          },
+          "encounter": {
+            "reference": "Encounter/137593942"
+          },
+          "effectiveDateTime": "2026-08-25T13:25:24.909Z",
+          "method": {
+            "coding": [
+              {
+                "system": "http://fhir-learn-app/placement-method",
+                "code": "skip",
+                "display": "\u524d\u6e2c\u8df3\u904e"
+              }
+            ]
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Observation/137593954",
+        "resource": {
+          "resourceType": "Observation",
+          "id": "137593954",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-25T09:25:24.592-04:00",
+            "source": "#M1AhJUJiZC4USPwz"
+          },
+          "status": "final",
+          "code": {
+            "coding": [
+              {
+                "system": "http://fhir-learn-app/lesson-codes",
+                "code": "lesson-06",
+                "display": "id \u662f\u4ec0\u9ebc\uff08\u4f3a\u670d\u5668\u5167\u90e8\u9580\u724c\u865f\uff09"
+              }
+            ]
+          },
+          "subject": {
+            "reference": "Patient/137593941"
+          },
+          "encounter": {
+            "reference": "Encounter/137593942"
+          },
+          "effectiveDateTime": "2026-08-25T13:25:25.206Z",
+          "method": {
+            "coding": [
+              {
+                "system": "http://fhir-learn-app/placement-method",
+                "code": "skip",
+                "display": "\u524d\u6e2c\u8df3\u904e"
+              }
+            ]
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Observation/137593955",
+        "resource": {
+          "resourceType": "Observation",
+          "id": "137593955",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-25T09:25:24.903-04:00",
+            "source": "#f8IIMxHA53yhY2tL"
+          },
+          "status": "final",
+          "code": {
+            "coding": [
+              {
+                "system": "http://fhir-learn-app/lesson-codes",
+                "code": "lesson-07",
+                "display": "identifier \u662f\u4ec0\u9ebc\u3001\u8ddf id \u7684\u5dee\u5225"
+              }
+            ]
+          },
+          "subject": {
+            "reference": "Patient/137593941"
+          },
+          "encounter": {
+            "reference": "Encounter/137593942"
+          },
+          "effectiveDateTime": "2026-08-25T13:25:25.525Z",
+          "method": {
+            "coding": [
+              {
+                "system": "http://fhir-learn-app/placement-method",
+                "code": "skip",
+                "display": "\u524d\u6e2c\u8df3\u904e"
+              }
+            ]
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Observation/137593956",
+        "resource": {
+          "resourceType": "Observation",
+          "id": "137593956",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-25T09:25:25.138-04:00",
+            "source": "#AHdfJKp2dGiKaDj5"
+          },
+          "status": "final",
+          "code": {
+            "coding": [
+              {
+                "system": "http://fhir-learn-app/lesson-codes",
+                "code": "lesson-08",
+                "display": "FHIR \u9663\u5217\u8a2d\u8a08\u7684\u908f\u8f2f"
+              }
+            ]
+          },
+          "subject": {
+            "reference": "Patient/137593941"
+          },
+          "encounter": {
+            "reference": "Encounter/137593942"
+          },
+          "effectiveDateTime": "2026-08-25T13:25:25.755Z",
+          "method": {
+            "coding": [
+              {
+                "system": "http://fhir-learn-app/placement-method",
+                "code": "skip",
+                "display": "\u524d\u6e2c\u8df3\u904e"
+              }
+            ]
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Observation/137593957",
+        "resource": {
+          "resourceType": "Observation",
+          "id": "137593957",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-25T09:25:25.416-04:00",
+            "source": "#q567Aw4orIorldcP"
+          },
+          "status": "final",
+          "code": {
+            "coding": [
+              {
+                "system": "http://fhir-learn-app/lesson-codes",
+                "code": "lesson-09",
+                "display": "CodeableConcept \u662f\u4ec0\u9ebc"
+              }
+            ]
+          },
+          "subject": {
+            "reference": "Patient/137593941"
+          },
+          "encounter": {
+            "reference": "Encounter/137593942"
+          },
+          "effectiveDateTime": "2026-08-25T13:25:26.037Z",
+          "method": {
+            "coding": [
+              {
+                "system": "http://fhir-learn-app/placement-method",
+                "code": "skip",
+                "display": "\u524d\u6e2c\u8df3\u904e"
+              }
+            ]
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      }
+    ]
+  }
+}

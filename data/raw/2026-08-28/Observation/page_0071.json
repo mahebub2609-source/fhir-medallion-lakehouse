@@ -1,0 +1,1479 @@
+{
+  "resource_type": "Observation",
+  "extraction_timestamp": "2026-08-28T11:04:36.783636",
+  "extraction_date": "2026-08-28",
+  "api_url": "https://hapi.fhir.org/baseR4?_getpages=bd0d8def-7d79-4915-a54d-b81ea22d6c9a&_getpagesoffset=1420&_count=20&_pretty=true&_bundletype=searchset",
+  "page_number": 71,
+  "entry_count": 20,
+  "response": {
+    "resourceType": "Bundle",
+    "id": "bd0d8def-7d79-4915-a54d-b81ea22d6c9a",
+    "meta": {
+      "lastUpdated": "2026-08-28T07:04:36.846-04:00"
+    },
+    "type": "searchset",
+    "total": 1748,
+    "link": [
+      {
+        "relation": "self",
+        "url": "https://hapi.fhir.org/baseR4?_getpages=bd0d8def-7d79-4915-a54d-b81ea22d6c9a&_getpagesoffset=1420&_count=20&_pretty=true&_bundletype=searchset"
+      },
+      {
+        "relation": "next",
+        "url": "https://hapi.fhir.org/baseR4?_getpages=bd0d8def-7d79-4915-a54d-b81ea22d6c9a&_getpagesoffset=1440&_count=20&_pretty=true&_bundletype=searchset"
+      },
+      {
+        "relation": "previous",
+        "url": "https://hapi.fhir.org/baseR4?_getpages=bd0d8def-7d79-4915-a54d-b81ea22d6c9a&_getpagesoffset=1400&_count=20&_pretty=true&_bundletype=searchset"
+      }
+    ],
+    "entry": [
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Observation/137594880",
+        "resource": {
+          "resourceType": "Observation",
+          "id": "137594880",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-26T07:58:46.082-04:00",
+            "source": "#OTO2ZITw2Y55k3qy"
+          },
+          "identifier": [
+            {
+              "system": "https://ncs.health/fhir/sid/ncs-notebook-observation",
+              "value": "07be63fc-f458-4088-b944-dc26b8b05239|8480-6"
+            }
+          ],
+          "status": "final",
+          "category": [
+            {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                  "code": "vital-signs",
+                  "display": "Vital Signs"
+                }
+              ],
+              "text": "Vital Signs"
+            }
+          ],
+          "code": {
+            "coding": [
+              {
+                "system": "http://loinc.org",
+                "code": "8480-6",
+                "display": "Systolic blood pressure"
+              }
+            ],
+            "text": "Systolic blood pressure"
+          },
+          "subject": {
+            "reference": "Patient/137584342"
+          },
+          "encounter": {
+            "reference": "Encounter/137594879"
+          },
+          "effectiveDateTime": "2026-08-26T11:58:38.106+00:00",
+          "valueQuantity": {
+            "value": 120,
+            "unit": "mmHg",
+            "system": "http://unitsofmeasure.org",
+            "code": "mmHg"
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Observation/137594881",
+        "resource": {
+          "resourceType": "Observation",
+          "id": "137594881",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-26T07:58:46.290-04:00",
+            "source": "#pzrikEdRkw5E8qps"
+          },
+          "identifier": [
+            {
+              "system": "https://ncs.health/fhir/sid/ncs-notebook-observation",
+              "value": "07be63fc-f458-4088-b944-dc26b8b05239|8310-5"
+            }
+          ],
+          "status": "final",
+          "category": [
+            {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                  "code": "vital-signs",
+                  "display": "Vital Signs"
+                }
+              ],
+              "text": "Vital Signs"
+            }
+          ],
+          "code": {
+            "coding": [
+              {
+                "system": "http://loinc.org",
+                "code": "8310-5",
+                "display": "Body temperature"
+              }
+            ],
+            "text": "Body temperature"
+          },
+          "subject": {
+            "reference": "Patient/137584342"
+          },
+          "encounter": {
+            "reference": "Encounter/137594879"
+          },
+          "effectiveDateTime": "2026-08-26T11:58:38.106+00:00",
+          "valueQuantity": {
+            "value": 37,
+            "unit": "Cel",
+            "system": "http://unitsofmeasure.org",
+            "code": "Cel"
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Observation/137594884",
+        "resource": {
+          "resourceType": "Observation",
+          "id": "137594884",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-26T08:04:49.497-04:00",
+            "source": "#E0HStqh4qgBbokvp"
+          },
+          "status": "final",
+          "category": [
+            {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                  "code": "vital-signs",
+                  "display": "Vital Signs"
+                }
+              ]
+            }
+          ],
+          "code": {
+            "coding": [
+              {
+                "system": "http://loinc.org",
+                "code": "8867-4",
+                "display": "Heart rate"
+              }
+            ],
+            "text": "Heart rate"
+          },
+          "subject": {
+            "identifier": {
+              "system": "https://example.org/fhir/identifier/patient-id",
+              "value": "P001"
+            },
+            "display": "P001"
+          },
+          "effectiveDateTime": "2026-08-24T08:00:00.000Z",
+          "issued": "2026-08-26T12:04:49.127Z",
+          "valueQuantity": {
+            "value": 78,
+            "unit": "beats/minute",
+            "system": "http://unitsofmeasure.org",
+            "code": "/min"
+          },
+          "note": [
+            {
+              "text": "Source: wearable"
+            }
+          ]
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Observation/137594896",
+        "resource": {
+          "resourceType": "Observation",
+          "id": "137594896",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-26T08:10:54.120-04:00",
+            "source": "#o5Z2r7wfKeZHqyTs"
+          },
+          "status": "final",
+          "category": [
+            {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                  "code": "laboratory",
+                  "display": "Laboratory"
+                }
+              ],
+              "text": "Laboratory"
+            }
+          ],
+          "code": {
+            "coding": [
+              {
+                "system": "http://loinc.org",
+                "code": "4548-4",
+                "display": "Hemoglobin A1c"
+              }
+            ],
+            "text": "Hemoglobin A1c"
+          },
+          "subject": {
+            "reference": "Patient/137594895",
+            "display": "Lerox Anonymized Patient"
+          },
+          "effectiveDateTime": "2024-08-25T20:00:00Z",
+          "valueQuantity": {
+            "value": 5.4,
+            "unit": "%",
+            "system": "http://unitsofmeasure.org",
+            "code": "%"
+          },
+          "interpretation": [
+            {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation",
+                  "code": "N",
+                  "display": "Normal"
+                }
+              ],
+              "text": "Normal"
+            }
+          ],
+          "referenceRange": [
+            {
+              "low": {
+                "value": 4.0,
+                "unit": "%",
+                "system": "http://unitsofmeasure.org",
+                "code": "%"
+              },
+              "high": {
+                "value": 5.7,
+                "unit": "%",
+                "system": "http://unitsofmeasure.org",
+                "code": "%"
+              },
+              "text": "4.0 - 5.7 %"
+            }
+          ]
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Observation/137594898",
+        "resource": {
+          "resourceType": "Observation",
+          "id": "137594898",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-26T08:10:54.431-04:00",
+            "source": "#c1NLE4GvOpXoOEOG"
+          },
+          "status": "final",
+          "category": [
+            {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                  "code": "laboratory",
+                  "display": "Laboratory"
+                }
+              ],
+              "text": "Laboratory"
+            }
+          ],
+          "code": {
+            "coding": [
+              {
+                "system": "http://loinc.org",
+                "code": "4548-4",
+                "display": "Hemoglobin A1c"
+              }
+            ],
+            "text": "Hemoglobin A1c"
+          },
+          "subject": {
+            "reference": "Patient/137594897",
+            "display": "Lerox Anonymized Subject"
+          },
+          "effectiveDateTime": "2024-08-25T20:00:00Z",
+          "valueQuantity": {
+            "value": 5.4,
+            "unit": "%",
+            "system": "http://unitsofmeasure.org",
+            "code": "%"
+          },
+          "interpretation": [
+            {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation",
+                  "code": "N",
+                  "display": "Normal"
+                }
+              ],
+              "text": "Normal"
+            }
+          ],
+          "referenceRange": [
+            {
+              "low": {
+                "value": 4.0,
+                "unit": "%",
+                "system": "http://unitsofmeasure.org",
+                "code": "%"
+              },
+              "high": {
+                "value": 5.7,
+                "unit": "%",
+                "system": "http://unitsofmeasure.org",
+                "code": "%"
+              },
+              "text": "4.0 - 5.7 %"
+            }
+          ]
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Observation/137594966",
+        "resource": {
+          "resourceType": "Observation",
+          "id": "137594966",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-26T09:24:16.509-04:00",
+            "source": "#mr4IZLPKNWmyjEic"
+          },
+          "status": "final",
+          "category": [
+            {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                  "code": "laboratory",
+                  "display": "Laboratory"
+                }
+              ],
+              "text": "Laboratory"
+            }
+          ],
+          "code": {
+            "coding": [
+              {
+                "system": "http://loinc.org",
+                "code": "4548-4",
+                "display": "Hemoglobin A1c"
+              }
+            ],
+            "text": "Hemoglobin A1c"
+          },
+          "subject": {
+            "reference": "Patient/137594965",
+            "display": "Lerox Anonymized Patient"
+          },
+          "effectiveDateTime": "2024-08-25T20:00:00Z",
+          "valueQuantity": {
+            "value": 5.4,
+            "unit": "%",
+            "system": "http://unitsofmeasure.org",
+            "code": "%"
+          },
+          "interpretation": [
+            {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation",
+                  "code": "N",
+                  "display": "Normal"
+                }
+              ],
+              "text": "Normal"
+            }
+          ],
+          "referenceRange": [
+            {
+              "low": {
+                "value": 4.0,
+                "unit": "%",
+                "system": "http://unitsofmeasure.org",
+                "code": "%"
+              },
+              "high": {
+                "value": 5.7,
+                "unit": "%",
+                "system": "http://unitsofmeasure.org",
+                "code": "%"
+              },
+              "text": "4.0 - 5.7 %"
+            }
+          ]
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Observation/137594968",
+        "resource": {
+          "resourceType": "Observation",
+          "id": "137594968",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-26T09:24:16.854-04:00",
+            "source": "#4jYU5rjF9UxgNaAO"
+          },
+          "status": "final",
+          "category": [
+            {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                  "code": "laboratory",
+                  "display": "Laboratory"
+                }
+              ],
+              "text": "Laboratory"
+            }
+          ],
+          "code": {
+            "coding": [
+              {
+                "system": "http://loinc.org",
+                "code": "4548-4",
+                "display": "Hemoglobin A1c"
+              }
+            ],
+            "text": "Hemoglobin A1c"
+          },
+          "subject": {
+            "reference": "Patient/137594967",
+            "display": "Lerox Anonymized Subject"
+          },
+          "effectiveDateTime": "2024-08-25T20:00:00Z",
+          "valueQuantity": {
+            "value": 5.4,
+            "unit": "%",
+            "system": "http://unitsofmeasure.org",
+            "code": "%"
+          },
+          "interpretation": [
+            {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation",
+                  "code": "N",
+                  "display": "Normal"
+                }
+              ],
+              "text": "Normal"
+            }
+          ],
+          "referenceRange": [
+            {
+              "low": {
+                "value": 4.0,
+                "unit": "%",
+                "system": "http://unitsofmeasure.org",
+                "code": "%"
+              },
+              "high": {
+                "value": 5.7,
+                "unit": "%",
+                "system": "http://unitsofmeasure.org",
+                "code": "%"
+              },
+              "text": "4.0 - 5.7 %"
+            }
+          ]
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Observation/137594977",
+        "resource": {
+          "resourceType": "Observation",
+          "id": "137594977",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-26T09:34:59.193-04:00",
+            "source": "#aXlJdtS5vSj3auqR"
+          },
+          "status": "final",
+          "code": {
+            "coding": [
+              {
+                "system": "http://baxter.com/fhir/exam-observation",
+                "code": "exam-finding"
+              }
+            ]
+          },
+          "subject": {
+            "reference": "Patient/137204170"
+          },
+          "encounter": {
+            "reference": "Encounter/137594976"
+          },
+          "effectiveDateTime": "2026-08-26T13:34:57.231Z",
+          "component": [
+            {
+              "code": {
+                "coding": [
+                  {
+                    "system": "http://baxter.com/fhir/exam-observation",
+                    "code": "exam-finding-0"
+                  }
+                ]
+              },
+              "valueInteger": 34
+            },
+            {
+              "code": {
+                "coding": [
+                  {
+                    "system": "http://baxter.com/fhir/exam-observation",
+                    "code": "exam-finding-1"
+                  }
+                ]
+              },
+              "valueInteger": 80
+            },
+            {
+              "code": {
+                "coding": [
+                  {
+                    "system": "http://baxter.com/fhir/exam-observation",
+                    "code": "exam-finding-2"
+                  }
+                ]
+              },
+              "valueInteger": 13
+            }
+          ]
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Observation/137594979",
+        "resource": {
+          "resourceType": "Observation",
+          "id": "137594979",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-26T09:37:51.778-04:00",
+            "source": "#WsInkvcWWzPovAyN"
+          },
+          "status": "final",
+          "category": [
+            {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                  "code": "laboratory",
+                  "display": "Laboratory"
+                }
+              ],
+              "text": "Laboratory"
+            }
+          ],
+          "code": {
+            "coding": [
+              {
+                "system": "http://loinc.org",
+                "code": "4548-4",
+                "display": "Hemoglobin A1c"
+              }
+            ],
+            "text": "Hemoglobin A1c"
+          },
+          "subject": {
+            "reference": "Patient/137594978",
+            "display": "Lerox Anonymized Patient"
+          },
+          "effectiveDateTime": "2024-08-25T20:00:00Z",
+          "valueQuantity": {
+            "value": 5.4,
+            "unit": "%",
+            "system": "http://unitsofmeasure.org",
+            "code": "%"
+          },
+          "interpretation": [
+            {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation",
+                  "code": "N",
+                  "display": "Normal"
+                }
+              ],
+              "text": "Normal"
+            }
+          ],
+          "referenceRange": [
+            {
+              "low": {
+                "value": 4.0,
+                "unit": "%",
+                "system": "http://unitsofmeasure.org",
+                "code": "%"
+              },
+              "high": {
+                "value": 5.7,
+                "unit": "%",
+                "system": "http://unitsofmeasure.org",
+                "code": "%"
+              },
+              "text": "4.0 - 5.7 %"
+            }
+          ]
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Observation/137594981",
+        "resource": {
+          "resourceType": "Observation",
+          "id": "137594981",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-26T09:37:52.116-04:00",
+            "source": "#qbINeRnJV3gZDOYe"
+          },
+          "status": "final",
+          "category": [
+            {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                  "code": "laboratory",
+                  "display": "Laboratory"
+                }
+              ],
+              "text": "Laboratory"
+            }
+          ],
+          "code": {
+            "coding": [
+              {
+                "system": "http://loinc.org",
+                "code": "4548-4",
+                "display": "Hemoglobin A1c"
+              }
+            ],
+            "text": "Hemoglobin A1c"
+          },
+          "subject": {
+            "reference": "Patient/137594980",
+            "display": "Lerox Anonymized Subject"
+          },
+          "effectiveDateTime": "2024-08-25T20:00:00Z",
+          "valueQuantity": {
+            "value": 5.4,
+            "unit": "%",
+            "system": "http://unitsofmeasure.org",
+            "code": "%"
+          },
+          "interpretation": [
+            {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation",
+                  "code": "N",
+                  "display": "Normal"
+                }
+              ],
+              "text": "Normal"
+            }
+          ],
+          "referenceRange": [
+            {
+              "low": {
+                "value": 4.0,
+                "unit": "%",
+                "system": "http://unitsofmeasure.org",
+                "code": "%"
+              },
+              "high": {
+                "value": 5.7,
+                "unit": "%",
+                "system": "http://unitsofmeasure.org",
+                "code": "%"
+              },
+              "text": "4.0 - 5.7 %"
+            }
+          ]
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Observation/137594987",
+        "resource": {
+          "resourceType": "Observation",
+          "id": "137594987",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-26T09:44:58.726-04:00",
+            "source": "#plupXRV6zQTjGLIk"
+          },
+          "status": "final",
+          "category": [
+            {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                  "code": "laboratory",
+                  "display": "Laboratory"
+                }
+              ],
+              "text": "Laboratory"
+            }
+          ],
+          "code": {
+            "coding": [
+              {
+                "system": "http://loinc.org",
+                "code": "4548-4",
+                "display": "Hemoglobin A1c"
+              }
+            ],
+            "text": "Hemoglobin A1c"
+          },
+          "subject": {
+            "reference": "Patient/137594986",
+            "display": "Lerox Anonymized Patient"
+          },
+          "effectiveDateTime": "2024-08-25T20:00:00Z",
+          "valueQuantity": {
+            "value": 5.4,
+            "unit": "%",
+            "system": "http://unitsofmeasure.org",
+            "code": "%"
+          },
+          "interpretation": [
+            {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation",
+                  "code": "N",
+                  "display": "Normal"
+                }
+              ],
+              "text": "Normal"
+            }
+          ],
+          "referenceRange": [
+            {
+              "low": {
+                "value": 4.0,
+                "unit": "%",
+                "system": "http://unitsofmeasure.org",
+                "code": "%"
+              },
+              "high": {
+                "value": 5.7,
+                "unit": "%",
+                "system": "http://unitsofmeasure.org",
+                "code": "%"
+              },
+              "text": "4.0 - 5.7 %"
+            }
+          ]
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Observation/137594989",
+        "resource": {
+          "resourceType": "Observation",
+          "id": "137594989",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-26T09:44:59.060-04:00",
+            "source": "#5CaO9fTnLI7zUtXF"
+          },
+          "status": "final",
+          "category": [
+            {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                  "code": "laboratory",
+                  "display": "Laboratory"
+                }
+              ],
+              "text": "Laboratory"
+            }
+          ],
+          "code": {
+            "coding": [
+              {
+                "system": "http://loinc.org",
+                "code": "4548-4",
+                "display": "Hemoglobin A1c"
+              }
+            ],
+            "text": "Hemoglobin A1c"
+          },
+          "subject": {
+            "reference": "Patient/137594988",
+            "display": "Lerox Anonymized Subject"
+          },
+          "effectiveDateTime": "2024-08-25T20:00:00Z",
+          "valueQuantity": {
+            "value": 5.4,
+            "unit": "%",
+            "system": "http://unitsofmeasure.org",
+            "code": "%"
+          },
+          "interpretation": [
+            {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation",
+                  "code": "N",
+                  "display": "Normal"
+                }
+              ],
+              "text": "Normal"
+            }
+          ],
+          "referenceRange": [
+            {
+              "low": {
+                "value": 4.0,
+                "unit": "%",
+                "system": "http://unitsofmeasure.org",
+                "code": "%"
+              },
+              "high": {
+                "value": 5.7,
+                "unit": "%",
+                "system": "http://unitsofmeasure.org",
+                "code": "%"
+              },
+              "text": "4.0 - 5.7 %"
+            }
+          ]
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Observation/137594991",
+        "resource": {
+          "resourceType": "Observation",
+          "id": "137594991",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-26T09:53:28.640-04:00",
+            "source": "#lWsWIOGwCnm27iqJ"
+          },
+          "status": "final",
+          "category": [
+            {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                  "code": "laboratory",
+                  "display": "Laboratory"
+                }
+              ],
+              "text": "Laboratory"
+            }
+          ],
+          "code": {
+            "coding": [
+              {
+                "system": "http://loinc.org",
+                "code": "4548-4",
+                "display": "Hemoglobin A1c"
+              }
+            ],
+            "text": "Hemoglobin A1c"
+          },
+          "subject": {
+            "reference": "Patient/137594990",
+            "display": "Lerox Anonymized Patient"
+          },
+          "effectiveDateTime": "2024-08-25T20:00:00Z",
+          "valueQuantity": {
+            "value": 5.4,
+            "unit": "%",
+            "system": "http://unitsofmeasure.org",
+            "code": "%"
+          },
+          "interpretation": [
+            {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation",
+                  "code": "N",
+                  "display": "Normal"
+                }
+              ],
+              "text": "Normal"
+            }
+          ],
+          "referenceRange": [
+            {
+              "low": {
+                "value": 4.0,
+                "unit": "%",
+                "system": "http://unitsofmeasure.org",
+                "code": "%"
+              },
+              "high": {
+                "value": 5.7,
+                "unit": "%",
+                "system": "http://unitsofmeasure.org",
+                "code": "%"
+              },
+              "text": "4.0 - 5.7 %"
+            }
+          ]
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Observation/137594993",
+        "resource": {
+          "resourceType": "Observation",
+          "id": "137594993",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-26T09:53:28.974-04:00",
+            "source": "#d86bIVe0BPvBHnUx"
+          },
+          "status": "final",
+          "category": [
+            {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                  "code": "laboratory",
+                  "display": "Laboratory"
+                }
+              ],
+              "text": "Laboratory"
+            }
+          ],
+          "code": {
+            "coding": [
+              {
+                "system": "http://loinc.org",
+                "code": "4548-4",
+                "display": "Hemoglobin A1c"
+              }
+            ],
+            "text": "Hemoglobin A1c"
+          },
+          "subject": {
+            "reference": "Patient/137594992",
+            "display": "Lerox Anonymized Subject"
+          },
+          "effectiveDateTime": "2024-08-25T20:00:00Z",
+          "valueQuantity": {
+            "value": 5.4,
+            "unit": "%",
+            "system": "http://unitsofmeasure.org",
+            "code": "%"
+          },
+          "interpretation": [
+            {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation",
+                  "code": "N",
+                  "display": "Normal"
+                }
+              ],
+              "text": "Normal"
+            }
+          ],
+          "referenceRange": [
+            {
+              "low": {
+                "value": 4.0,
+                "unit": "%",
+                "system": "http://unitsofmeasure.org",
+                "code": "%"
+              },
+              "high": {
+                "value": 5.7,
+                "unit": "%",
+                "system": "http://unitsofmeasure.org",
+                "code": "%"
+              },
+              "text": "4.0 - 5.7 %"
+            }
+          ]
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Observation/137594996",
+        "resource": {
+          "resourceType": "Observation",
+          "id": "137594996",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-26T10:12:31.870-04:00",
+            "source": "#OmxUdxVvzuGW7a2v"
+          },
+          "status": "final",
+          "code": {
+            "coding": [
+              {
+                "system": "http://baxter.com/fhir/exam-observation",
+                "code": "exam-finding"
+              }
+            ]
+          },
+          "subject": {
+            "reference": "Patient/137328158"
+          },
+          "encounter": {
+            "reference": "Encounter/137594995"
+          },
+          "effectiveDateTime": "2026-08-26T14:12:30.989Z",
+          "component": [
+            {
+              "code": {
+                "coding": [
+                  {
+                    "system": "http://baxter.com/fhir/exam-observation",
+                    "code": "exam-finding-0"
+                  }
+                ]
+              },
+              "valueInteger": 75
+            }
+          ]
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Observation/137594999",
+        "resource": {
+          "resourceType": "Observation",
+          "id": "137594999",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-26T10:20:50.417-04:00",
+            "source": "#sjDM27r1DDG6moNe"
+          },
+          "status": "final",
+          "category": [
+            {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                  "code": "laboratory",
+                  "display": "Laboratory"
+                }
+              ],
+              "text": "Laboratory"
+            }
+          ],
+          "code": {
+            "coding": [
+              {
+                "system": "http://loinc.org",
+                "code": "4548-4",
+                "display": "Hemoglobin A1c"
+              }
+            ],
+            "text": "Hemoglobin A1c"
+          },
+          "subject": {
+            "reference": "Patient/137594998",
+            "display": "Lerox Anonymized Patient"
+          },
+          "effectiveDateTime": "2024-08-25T20:00:00Z",
+          "valueQuantity": {
+            "value": 5.4,
+            "unit": "%",
+            "system": "http://unitsofmeasure.org",
+            "code": "%"
+          },
+          "interpretation": [
+            {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation",
+                  "code": "N",
+                  "display": "Normal"
+                }
+              ],
+              "text": "Normal"
+            }
+          ],
+          "referenceRange": [
+            {
+              "low": {
+                "value": 4.0,
+                "unit": "%",
+                "system": "http://unitsofmeasure.org",
+                "code": "%"
+              },
+              "high": {
+                "value": 5.7,
+                "unit": "%",
+                "system": "http://unitsofmeasure.org",
+                "code": "%"
+              },
+              "text": "4.0 - 5.7 %"
+            }
+          ]
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Observation/137595001",
+        "resource": {
+          "resourceType": "Observation",
+          "id": "137595001",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-26T10:20:50.730-04:00",
+            "source": "#qTZk1OHcTAWSl59m"
+          },
+          "status": "final",
+          "category": [
+            {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                  "code": "laboratory",
+                  "display": "Laboratory"
+                }
+              ],
+              "text": "Laboratory"
+            }
+          ],
+          "code": {
+            "coding": [
+              {
+                "system": "http://loinc.org",
+                "code": "4548-4",
+                "display": "Hemoglobin A1c"
+              }
+            ],
+            "text": "Hemoglobin A1c"
+          },
+          "subject": {
+            "reference": "Patient/137595000",
+            "display": "Lerox Anonymized Subject"
+          },
+          "effectiveDateTime": "2024-08-25T20:00:00Z",
+          "valueQuantity": {
+            "value": 5.4,
+            "unit": "%",
+            "system": "http://unitsofmeasure.org",
+            "code": "%"
+          },
+          "interpretation": [
+            {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation",
+                  "code": "N",
+                  "display": "Normal"
+                }
+              ],
+              "text": "Normal"
+            }
+          ],
+          "referenceRange": [
+            {
+              "low": {
+                "value": 4.0,
+                "unit": "%",
+                "system": "http://unitsofmeasure.org",
+                "code": "%"
+              },
+              "high": {
+                "value": 5.7,
+                "unit": "%",
+                "system": "http://unitsofmeasure.org",
+                "code": "%"
+              },
+              "text": "4.0 - 5.7 %"
+            }
+          ]
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Observation/137595004",
+        "resource": {
+          "resourceType": "Observation",
+          "id": "137595004",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-26T10:24:25.841-04:00",
+            "source": "#DXiPsSwNGSJ8iSnL"
+          },
+          "status": "final",
+          "category": [
+            {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                  "code": "laboratory",
+                  "display": "Laboratory"
+                }
+              ],
+              "text": "Laboratory"
+            }
+          ],
+          "code": {
+            "coding": [
+              {
+                "system": "http://loinc.org",
+                "code": "4548-4",
+                "display": "Hemoglobin A1c"
+              }
+            ],
+            "text": "Hemoglobin A1c"
+          },
+          "subject": {
+            "reference": "Patient/137595003",
+            "display": "Lerox Anonymized Patient"
+          },
+          "effectiveDateTime": "2024-08-25T20:00:00Z",
+          "valueQuantity": {
+            "value": 5.4,
+            "unit": "%",
+            "system": "http://unitsofmeasure.org",
+            "code": "%"
+          },
+          "interpretation": [
+            {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation",
+                  "code": "N",
+                  "display": "Normal"
+                }
+              ],
+              "text": "Normal"
+            }
+          ],
+          "referenceRange": [
+            {
+              "low": {
+                "value": 4.0,
+                "unit": "%",
+                "system": "http://unitsofmeasure.org",
+                "code": "%"
+              },
+              "high": {
+                "value": 5.7,
+                "unit": "%",
+                "system": "http://unitsofmeasure.org",
+                "code": "%"
+              },
+              "text": "4.0 - 5.7 %"
+            }
+          ]
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Observation/137595006",
+        "resource": {
+          "resourceType": "Observation",
+          "id": "137595006",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-26T10:24:26.176-04:00",
+            "source": "#455IninJXHjTIazR"
+          },
+          "status": "final",
+          "category": [
+            {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                  "code": "laboratory",
+                  "display": "Laboratory"
+                }
+              ],
+              "text": "Laboratory"
+            }
+          ],
+          "code": {
+            "coding": [
+              {
+                "system": "http://loinc.org",
+                "code": "4548-4",
+                "display": "Hemoglobin A1c"
+              }
+            ],
+            "text": "Hemoglobin A1c"
+          },
+          "subject": {
+            "reference": "Patient/137595005",
+            "display": "Lerox Anonymized Subject"
+          },
+          "effectiveDateTime": "2024-08-25T20:00:00Z",
+          "valueQuantity": {
+            "value": 5.4,
+            "unit": "%",
+            "system": "http://unitsofmeasure.org",
+            "code": "%"
+          },
+          "interpretation": [
+            {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation",
+                  "code": "N",
+                  "display": "Normal"
+                }
+              ],
+              "text": "Normal"
+            }
+          ],
+          "referenceRange": [
+            {
+              "low": {
+                "value": 4.0,
+                "unit": "%",
+                "system": "http://unitsofmeasure.org",
+                "code": "%"
+              },
+              "high": {
+                "value": 5.7,
+                "unit": "%",
+                "system": "http://unitsofmeasure.org",
+                "code": "%"
+              },
+              "text": "4.0 - 5.7 %"
+            }
+          ]
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Observation/137595014",
+        "resource": {
+          "resourceType": "Observation",
+          "id": "137595014",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-26T10:39:20.394-04:00",
+            "source": "#bWlXQ0EF2q0BSAlA"
+          },
+          "identifier": [
+            {
+              "system": "https://integration-lab.example.org/fhir/identifier/observation",
+              "value": "ORU-FHIR-0001-1"
+            }
+          ],
+          "basedOn": [
+            {
+              "reference": "ServiceRequest/137595013"
+            }
+          ],
+          "status": "final",
+          "category": [
+            {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                  "code": "laboratory",
+                  "display": "Laboratory"
+                }
+              ]
+            }
+          ],
+          "code": {
+            "coding": [
+              {
+                "system": "http://loinc.org",
+                "code": "718-7",
+                "display": "Hemoglobin"
+              }
+            ],
+            "text": "Hemoglobin"
+          },
+          "subject": {
+            "reference": "Patient/137595012"
+          },
+          "effectiveDateTime": "2026-08-25T15:30:00-03:00",
+          "valueQuantity": {
+            "value": 12.8,
+            "unit": "g/dL",
+            "system": "http://unitsofmeasure.org",
+            "code": "g/dL"
+          },
+          "interpretation": [
+            {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation",
+                  "code": "N"
+                }
+              ]
+            }
+          ],
+          "referenceRange": [
+            {
+              "text": "12.0-16.0"
+            }
+          ]
+        },
+        "search": {
+          "mode": "match"
+        }
+      }
+    ]
+  }
+}

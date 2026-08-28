@@ -1,0 +1,1187 @@
+{
+  "resource_type": "Observation",
+  "extraction_timestamp": "2026-08-28T11:04:36.783636",
+  "extraction_date": "2026-08-28",
+  "api_url": "https://hapi.fhir.org/baseR4?_getpages=bd0d8def-7d79-4915-a54d-b81ea22d6c9a&_getpagesoffset=1440&_count=20&_pretty=true&_bundletype=searchset",
+  "page_number": 72,
+  "entry_count": 20,
+  "response": {
+    "resourceType": "Bundle",
+    "id": "bd0d8def-7d79-4915-a54d-b81ea22d6c9a",
+    "meta": {
+      "lastUpdated": "2026-08-28T07:04:36.846-04:00"
+    },
+    "type": "searchset",
+    "total": 1748,
+    "link": [
+      {
+        "relation": "self",
+        "url": "https://hapi.fhir.org/baseR4?_getpages=bd0d8def-7d79-4915-a54d-b81ea22d6c9a&_getpagesoffset=1440&_count=20&_pretty=true&_bundletype=searchset"
+      },
+      {
+        "relation": "next",
+        "url": "https://hapi.fhir.org/baseR4?_getpages=bd0d8def-7d79-4915-a54d-b81ea22d6c9a&_getpagesoffset=1460&_count=20&_pretty=true&_bundletype=searchset"
+      },
+      {
+        "relation": "previous",
+        "url": "https://hapi.fhir.org/baseR4?_getpages=bd0d8def-7d79-4915-a54d-b81ea22d6c9a&_getpagesoffset=1420&_count=20&_pretty=true&_bundletype=searchset"
+      }
+    ],
+    "entry": [
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Observation/137595015",
+        "resource": {
+          "resourceType": "Observation",
+          "id": "137595015",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-26T10:39:20.394-04:00",
+            "source": "#bWlXQ0EF2q0BSAlA"
+          },
+          "identifier": [
+            {
+              "system": "https://integration-lab.example.org/fhir/identifier/observation",
+              "value": "ORU-FHIR-0001-2"
+            }
+          ],
+          "basedOn": [
+            {
+              "reference": "ServiceRequest/137595013"
+            }
+          ],
+          "status": "final",
+          "category": [
+            {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                  "code": "laboratory",
+                  "display": "Laboratory"
+                }
+              ]
+            }
+          ],
+          "code": {
+            "coding": [
+              {
+                "system": "http://loinc.org",
+                "code": "6690-2",
+                "display": "Leukocytes"
+              }
+            ],
+            "text": "Leukocytes"
+          },
+          "subject": {
+            "reference": "Patient/137595012"
+          },
+          "effectiveDateTime": "2026-08-25T15:30:00-03:00",
+          "valueQuantity": {
+            "value": 7.4,
+            "unit": "10*3/uL",
+            "system": "http://unitsofmeasure.org",
+            "code": "10*3/uL"
+          },
+          "interpretation": [
+            {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation",
+                  "code": "N"
+                }
+              ]
+            }
+          ],
+          "referenceRange": [
+            {
+              "text": "4.0-11.0"
+            }
+          ]
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Observation/137595016",
+        "resource": {
+          "resourceType": "Observation",
+          "id": "137595016",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-26T10:39:20.394-04:00",
+            "source": "#bWlXQ0EF2q0BSAlA"
+          },
+          "identifier": [
+            {
+              "system": "https://integration-lab.example.org/fhir/identifier/observation",
+              "value": "ORU-FHIR-0001-3"
+            }
+          ],
+          "basedOn": [
+            {
+              "reference": "ServiceRequest/137595013"
+            }
+          ],
+          "status": "final",
+          "category": [
+            {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                  "code": "laboratory",
+                  "display": "Laboratory"
+                }
+              ]
+            }
+          ],
+          "code": {
+            "coding": [
+              {
+                "system": "http://loinc.org",
+                "code": "777-3",
+                "display": "Platelets"
+              }
+            ],
+            "text": "Platelets"
+          },
+          "subject": {
+            "reference": "Patient/137595012"
+          },
+          "effectiveDateTime": "2026-08-25T15:30:00-03:00",
+          "valueQuantity": {
+            "value": 345,
+            "unit": "10*3/uL",
+            "system": "http://unitsofmeasure.org",
+            "code": "10*3/uL"
+          },
+          "interpretation": [
+            {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation",
+                  "code": "N"
+                }
+              ]
+            }
+          ],
+          "referenceRange": [
+            {
+              "text": "150-450"
+            }
+          ]
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Observation/137595017",
+        "resource": {
+          "resourceType": "Observation",
+          "id": "137595017",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-26T10:39:20.394-04:00",
+            "source": "#bWlXQ0EF2q0BSAlA"
+          },
+          "identifier": [
+            {
+              "system": "https://integration-lab.example.org/fhir/identifier/observation",
+              "value": "ORU-FHIR-0001-4"
+            }
+          ],
+          "basedOn": [
+            {
+              "reference": "ServiceRequest/137595013"
+            }
+          ],
+          "status": "final",
+          "category": [
+            {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                  "code": "laboratory",
+                  "display": "Laboratory"
+                }
+              ]
+            }
+          ],
+          "code": {
+            "coding": [
+              {
+                "system": "http://loinc.org",
+                "code": "2345-7",
+                "display": "Glucose"
+              }
+            ],
+            "text": "Glucose"
+          },
+          "subject": {
+            "reference": "Patient/137595012"
+          },
+          "effectiveDateTime": "2026-08-25T15:30:00-03:00",
+          "valueQuantity": {
+            "value": 92,
+            "unit": "mg/dL",
+            "system": "http://unitsofmeasure.org",
+            "code": "mg/dL"
+          },
+          "interpretation": [
+            {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation",
+                  "code": "N"
+                }
+              ]
+            }
+          ],
+          "referenceRange": [
+            {
+              "text": "70-99"
+            }
+          ]
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Observation/137595028",
+        "resource": {
+          "resourceType": "Observation",
+          "id": "137595028",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-26T10:46:41.442-04:00",
+            "source": "#3OLYRGHxwslNd8lG"
+          },
+          "status": "final",
+          "category": [
+            {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                  "code": "laboratory",
+                  "display": "Laboratory"
+                }
+              ],
+              "text": "Laboratory"
+            }
+          ],
+          "code": {
+            "coding": [
+              {
+                "system": "http://loinc.org",
+                "code": "4548-4",
+                "display": "Hemoglobin A1c"
+              }
+            ],
+            "text": "Hemoglobin A1c"
+          },
+          "subject": {
+            "reference": "Patient/137595027",
+            "display": "Lerox Anonymized Patient"
+          },
+          "effectiveDateTime": "2024-08-25T20:00:00Z",
+          "valueQuantity": {
+            "value": 5.4,
+            "unit": "%",
+            "system": "http://unitsofmeasure.org",
+            "code": "%"
+          },
+          "interpretation": [
+            {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation",
+                  "code": "N",
+                  "display": "Normal"
+                }
+              ],
+              "text": "Normal"
+            }
+          ],
+          "referenceRange": [
+            {
+              "low": {
+                "value": 4.0,
+                "unit": "%",
+                "system": "http://unitsofmeasure.org",
+                "code": "%"
+              },
+              "high": {
+                "value": 5.7,
+                "unit": "%",
+                "system": "http://unitsofmeasure.org",
+                "code": "%"
+              },
+              "text": "4.0 - 5.7 %"
+            }
+          ]
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Observation/137595030",
+        "resource": {
+          "resourceType": "Observation",
+          "id": "137595030",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-26T10:46:41.767-04:00",
+            "source": "#2WEvEfwHpjh325vf"
+          },
+          "status": "final",
+          "category": [
+            {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                  "code": "laboratory",
+                  "display": "Laboratory"
+                }
+              ],
+              "text": "Laboratory"
+            }
+          ],
+          "code": {
+            "coding": [
+              {
+                "system": "http://loinc.org",
+                "code": "4548-4",
+                "display": "Hemoglobin A1c"
+              }
+            ],
+            "text": "Hemoglobin A1c"
+          },
+          "subject": {
+            "reference": "Patient/137595029",
+            "display": "Lerox Anonymized Subject"
+          },
+          "effectiveDateTime": "2024-08-25T20:00:00Z",
+          "valueQuantity": {
+            "value": 5.4,
+            "unit": "%",
+            "system": "http://unitsofmeasure.org",
+            "code": "%"
+          },
+          "interpretation": [
+            {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation",
+                  "code": "N",
+                  "display": "Normal"
+                }
+              ],
+              "text": "Normal"
+            }
+          ],
+          "referenceRange": [
+            {
+              "low": {
+                "value": 4.0,
+                "unit": "%",
+                "system": "http://unitsofmeasure.org",
+                "code": "%"
+              },
+              "high": {
+                "value": 5.7,
+                "unit": "%",
+                "system": "http://unitsofmeasure.org",
+                "code": "%"
+              },
+              "text": "4.0 - 5.7 %"
+            }
+          ]
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Observation/137595032",
+        "resource": {
+          "resourceType": "Observation",
+          "id": "137595032",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-26T10:47:04.132-04:00",
+            "source": "#aQT06tCUf6xiZAIu"
+          },
+          "status": "final",
+          "category": [
+            {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                  "code": "laboratory",
+                  "display": "Laboratory"
+                }
+              ],
+              "text": "Laboratory"
+            }
+          ],
+          "code": {
+            "coding": [
+              {
+                "system": "http://loinc.org",
+                "code": "4548-4",
+                "display": "Hemoglobin A1c"
+              }
+            ],
+            "text": "Hemoglobin A1c"
+          },
+          "subject": {
+            "reference": "Patient/137595031",
+            "display": "Lerox Anonymized Patient"
+          },
+          "effectiveDateTime": "2024-08-25T20:00:00Z",
+          "valueQuantity": {
+            "value": 5.4,
+            "unit": "%",
+            "system": "http://unitsofmeasure.org",
+            "code": "%"
+          },
+          "interpretation": [
+            {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation",
+                  "code": "N",
+                  "display": "Normal"
+                }
+              ],
+              "text": "Normal"
+            }
+          ],
+          "referenceRange": [
+            {
+              "low": {
+                "value": 4.0,
+                "unit": "%",
+                "system": "http://unitsofmeasure.org",
+                "code": "%"
+              },
+              "high": {
+                "value": 5.7,
+                "unit": "%",
+                "system": "http://unitsofmeasure.org",
+                "code": "%"
+              },
+              "text": "4.0 - 5.7 %"
+            }
+          ]
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Observation/137595034",
+        "resource": {
+          "resourceType": "Observation",
+          "id": "137595034",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-26T10:47:04.468-04:00",
+            "source": "#TCXdNKxRbQSC4DNl"
+          },
+          "status": "final",
+          "category": [
+            {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                  "code": "laboratory",
+                  "display": "Laboratory"
+                }
+              ],
+              "text": "Laboratory"
+            }
+          ],
+          "code": {
+            "coding": [
+              {
+                "system": "http://loinc.org",
+                "code": "4548-4",
+                "display": "Hemoglobin A1c"
+              }
+            ],
+            "text": "Hemoglobin A1c"
+          },
+          "subject": {
+            "reference": "Patient/137595033",
+            "display": "Lerox Anonymized Subject"
+          },
+          "effectiveDateTime": "2024-08-25T20:00:00Z",
+          "valueQuantity": {
+            "value": 5.4,
+            "unit": "%",
+            "system": "http://unitsofmeasure.org",
+            "code": "%"
+          },
+          "interpretation": [
+            {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation",
+                  "code": "N",
+                  "display": "Normal"
+                }
+              ],
+              "text": "Normal"
+            }
+          ],
+          "referenceRange": [
+            {
+              "low": {
+                "value": 4.0,
+                "unit": "%",
+                "system": "http://unitsofmeasure.org",
+                "code": "%"
+              },
+              "high": {
+                "value": 5.7,
+                "unit": "%",
+                "system": "http://unitsofmeasure.org",
+                "code": "%"
+              },
+              "text": "4.0 - 5.7 %"
+            }
+          ]
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Observation/137595036",
+        "resource": {
+          "resourceType": "Observation",
+          "id": "137595036",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-26T11:06:05.142-04:00",
+            "source": "#IpClmie3LYPHHMwb"
+          },
+          "status": "final",
+          "category": [
+            {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                  "code": "laboratory",
+                  "display": "Laboratory"
+                }
+              ],
+              "text": "Laboratory"
+            }
+          ],
+          "code": {
+            "coding": [
+              {
+                "system": "http://loinc.org",
+                "code": "4548-4",
+                "display": "Hemoglobin A1c"
+              }
+            ],
+            "text": "Hemoglobin A1c"
+          },
+          "subject": {
+            "reference": "Patient/137595035",
+            "display": "Lerox Anonymized Patient"
+          },
+          "effectiveDateTime": "2024-08-25T20:00:00Z",
+          "valueQuantity": {
+            "value": 5.4,
+            "unit": "%",
+            "system": "http://unitsofmeasure.org",
+            "code": "%"
+          },
+          "interpretation": [
+            {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation",
+                  "code": "N",
+                  "display": "Normal"
+                }
+              ],
+              "text": "Normal"
+            }
+          ],
+          "referenceRange": [
+            {
+              "low": {
+                "value": 4.0,
+                "unit": "%",
+                "system": "http://unitsofmeasure.org",
+                "code": "%"
+              },
+              "high": {
+                "value": 5.7,
+                "unit": "%",
+                "system": "http://unitsofmeasure.org",
+                "code": "%"
+              },
+              "text": "4.0 - 5.7 %"
+            }
+          ]
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Observation/137595038",
+        "resource": {
+          "resourceType": "Observation",
+          "id": "137595038",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-26T11:06:05.462-04:00",
+            "source": "#Uu9XwnAZK0b8Exzh"
+          },
+          "status": "final",
+          "category": [
+            {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                  "code": "laboratory",
+                  "display": "Laboratory"
+                }
+              ],
+              "text": "Laboratory"
+            }
+          ],
+          "code": {
+            "coding": [
+              {
+                "system": "http://loinc.org",
+                "code": "4548-4",
+                "display": "Hemoglobin A1c"
+              }
+            ],
+            "text": "Hemoglobin A1c"
+          },
+          "subject": {
+            "reference": "Patient/137595037",
+            "display": "Lerox Anonymized Subject"
+          },
+          "effectiveDateTime": "2024-08-25T20:00:00Z",
+          "valueQuantity": {
+            "value": 5.4,
+            "unit": "%",
+            "system": "http://unitsofmeasure.org",
+            "code": "%"
+          },
+          "interpretation": [
+            {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation",
+                  "code": "N",
+                  "display": "Normal"
+                }
+              ],
+              "text": "Normal"
+            }
+          ],
+          "referenceRange": [
+            {
+              "low": {
+                "value": 4.0,
+                "unit": "%",
+                "system": "http://unitsofmeasure.org",
+                "code": "%"
+              },
+              "high": {
+                "value": 5.7,
+                "unit": "%",
+                "system": "http://unitsofmeasure.org",
+                "code": "%"
+              },
+              "text": "4.0 - 5.7 %"
+            }
+          ]
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Observation/137595064",
+        "resource": {
+          "resourceType": "Observation",
+          "id": "137595064",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-26T11:52:33.282-04:00",
+            "source": "#0SijaC100tlFXlvT"
+          },
+          "status": "final",
+          "code": {
+            "coding": [
+              {
+                "system": "http://fhir-learn-app/lesson-codes",
+                "code": "lesson-01",
+                "display": "\u4ec0\u9ebc\u662f EMR/EHR"
+              }
+            ]
+          },
+          "subject": {
+            "reference": "Patient/137595062"
+          },
+          "encounter": {
+            "reference": "Encounter/137595063"
+          },
+          "effectiveDateTime": "2026-08-26T15:52:34.531Z",
+          "method": {
+            "coding": [
+              {
+                "system": "http://fhir-learn-app/placement-method",
+                "code": "skip",
+                "display": "\u524d\u6e2c\u8df3\u904e"
+              }
+            ]
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Observation/137595065",
+        "resource": {
+          "resourceType": "Observation",
+          "id": "137595065",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-26T11:52:33.493-04:00",
+            "source": "#6X7qWp8oI8zVmzAg"
+          },
+          "status": "final",
+          "code": {
+            "coding": [
+              {
+                "system": "http://fhir-learn-app/lesson-codes",
+                "code": "lesson-02",
+                "display": "Interoperability\uff08\u4e92\u901a\u6027\uff09\u9019\u500b\u6838\u5fc3\u554f\u984c"
+              }
+            ]
+          },
+          "subject": {
+            "reference": "Patient/137595062"
+          },
+          "encounter": {
+            "reference": "Encounter/137595063"
+          },
+          "effectiveDateTime": "2026-08-26T15:52:35.547Z",
+          "method": {
+            "coding": [
+              {
+                "system": "http://fhir-learn-app/placement-method",
+                "code": "skip",
+                "display": "\u524d\u6e2c\u8df3\u904e"
+              }
+            ]
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Observation/137595066",
+        "resource": {
+          "resourceType": "Observation",
+          "id": "137595066",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-26T11:52:33.792-04:00",
+            "source": "#fOlVSzDUBYHCboPF"
+          },
+          "status": "final",
+          "code": {
+            "coding": [
+              {
+                "system": "http://fhir-learn-app/lesson-codes",
+                "code": "lesson-03",
+                "display": "HL7 \u662f\u4ec0\u9ebc\u3001FHIR \u5728\u6a19\u6e96\u6f14\u9032\u4e2d\u7684\u4f4d\u7f6e"
+              }
+            ]
+          },
+          "subject": {
+            "reference": "Patient/137595062"
+          },
+          "encounter": {
+            "reference": "Encounter/137595063"
+          },
+          "effectiveDateTime": "2026-08-26T15:52:35.848Z",
+          "method": {
+            "coding": [
+              {
+                "system": "http://fhir-learn-app/placement-method",
+                "code": "skip",
+                "display": "\u524d\u6e2c\u8df3\u904e"
+              }
+            ]
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Observation/137595067",
+        "resource": {
+          "resourceType": "Observation",
+          "id": "137595067",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-26T11:52:34.100-04:00",
+            "source": "#VoaEQlpNuznuywC1"
+          },
+          "status": "final",
+          "code": {
+            "coding": [
+              {
+                "system": "http://fhir-learn-app/lesson-codes",
+                "code": "lesson-04",
+                "display": "FHIR \u70ba\u4ec0\u9ebc\u63a1\u7528 JSON + REST API"
+              }
+            ]
+          },
+          "subject": {
+            "reference": "Patient/137595062"
+          },
+          "encounter": {
+            "reference": "Encounter/137595063"
+          },
+          "effectiveDateTime": "2026-08-26T15:52:36.155Z",
+          "method": {
+            "coding": [
+              {
+                "system": "http://fhir-learn-app/placement-method",
+                "code": "skip",
+                "display": "\u524d\u6e2c\u8df3\u904e"
+              }
+            ]
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Observation/137595068",
+        "resource": {
+          "resourceType": "Observation",
+          "id": "137595068",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-26T11:52:34.404-04:00",
+            "source": "#bWgF6DX4Jgg8kdV3"
+          },
+          "status": "final",
+          "code": {
+            "coding": [
+              {
+                "system": "http://fhir-learn-app/lesson-codes",
+                "code": "lesson-05",
+                "display": "resourceType \u662f\u4ec0\u9ebc\uff0c\u7a0b\u5f0f\u600e\u9ebc\u9760\u5b83\u5224\u65b7\u8cc7\u6599\u7a2e\u985e"
+              }
+            ]
+          },
+          "subject": {
+            "reference": "Patient/137595062"
+          },
+          "encounter": {
+            "reference": "Encounter/137595063"
+          },
+          "effectiveDateTime": "2026-08-26T15:52:36.461Z",
+          "method": {
+            "coding": [
+              {
+                "system": "http://fhir-learn-app/placement-method",
+                "code": "skip",
+                "display": "\u524d\u6e2c\u8df3\u904e"
+              }
+            ]
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Observation/137595069",
+        "resource": {
+          "resourceType": "Observation",
+          "id": "137595069",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-26T11:52:34.715-04:00",
+            "source": "#cS7YuRoxQTCE5orT"
+          },
+          "status": "final",
+          "code": {
+            "coding": [
+              {
+                "system": "http://fhir-learn-app/lesson-codes",
+                "code": "lesson-06",
+                "display": "id \u662f\u4ec0\u9ebc\uff08\u4f3a\u670d\u5668\u5167\u90e8\u9580\u724c\u865f\uff09"
+              }
+            ]
+          },
+          "subject": {
+            "reference": "Patient/137595062"
+          },
+          "encounter": {
+            "reference": "Encounter/137595063"
+          },
+          "effectiveDateTime": "2026-08-26T15:52:36.768Z",
+          "method": {
+            "coding": [
+              {
+                "system": "http://fhir-learn-app/placement-method",
+                "code": "skip",
+                "display": "\u524d\u6e2c\u8df3\u904e"
+              }
+            ]
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Observation/137595070",
+        "resource": {
+          "resourceType": "Observation",
+          "id": "137595070",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-26T11:52:34.931-04:00",
+            "source": "#oyCalYGlxwkXL0NF"
+          },
+          "status": "final",
+          "code": {
+            "coding": [
+              {
+                "system": "http://fhir-learn-app/lesson-codes",
+                "code": "lesson-07",
+                "display": "identifier \u662f\u4ec0\u9ebc\u3001\u8ddf id \u7684\u5dee\u5225"
+              }
+            ]
+          },
+          "subject": {
+            "reference": "Patient/137595062"
+          },
+          "encounter": {
+            "reference": "Encounter/137595063"
+          },
+          "effectiveDateTime": "2026-08-26T15:52:36.988Z",
+          "method": {
+            "coding": [
+              {
+                "system": "http://fhir-learn-app/placement-method",
+                "code": "skip",
+                "display": "\u524d\u6e2c\u8df3\u904e"
+              }
+            ]
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Observation/137595071",
+        "resource": {
+          "resourceType": "Observation",
+          "id": "137595071",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-26T11:52:35.234-04:00",
+            "source": "#fhSab4WqbynsrrgD"
+          },
+          "status": "final",
+          "code": {
+            "coding": [
+              {
+                "system": "http://fhir-learn-app/lesson-codes",
+                "code": "lesson-08",
+                "display": "FHIR \u9663\u5217\u8a2d\u8a08\u7684\u908f\u8f2f"
+              }
+            ]
+          },
+          "subject": {
+            "reference": "Patient/137595062"
+          },
+          "encounter": {
+            "reference": "Encounter/137595063"
+          },
+          "effectiveDateTime": "2026-08-26T15:52:37.282Z",
+          "method": {
+            "coding": [
+              {
+                "system": "http://fhir-learn-app/placement-method",
+                "code": "skip",
+                "display": "\u524d\u6e2c\u8df3\u904e"
+              }
+            ]
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Observation/137595072",
+        "resource": {
+          "resourceType": "Observation",
+          "id": "137595072",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-26T11:52:35.438-04:00",
+            "source": "#aQGniVxagJehmnRl"
+          },
+          "status": "final",
+          "code": {
+            "coding": [
+              {
+                "system": "http://fhir-learn-app/lesson-codes",
+                "code": "lesson-09",
+                "display": "CodeableConcept \u662f\u4ec0\u9ebc"
+              }
+            ]
+          },
+          "subject": {
+            "reference": "Patient/137595062"
+          },
+          "encounter": {
+            "reference": "Encounter/137595063"
+          },
+          "effectiveDateTime": "2026-08-26T15:52:37.494Z",
+          "method": {
+            "coding": [
+              {
+                "system": "http://fhir-learn-app/placement-method",
+                "code": "skip",
+                "display": "\u524d\u6e2c\u8df3\u904e"
+              }
+            ]
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Observation/137595073",
+        "resource": {
+          "resourceType": "Observation",
+          "id": "137595073",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-26T11:52:35.649-04:00",
+            "source": "#bp6m6A3U5Qikl32p"
+          },
+          "status": "final",
+          "code": {
+            "coding": [
+              {
+                "system": "http://fhir-learn-app/lesson-codes",
+                "code": "lesson-10",
+                "display": "\u9078\u5c0d\u4ee3\u78bc\u7cfb\u7d71"
+              }
+            ]
+          },
+          "subject": {
+            "reference": "Patient/137595062"
+          },
+          "encounter": {
+            "reference": "Encounter/137595063"
+          },
+          "effectiveDateTime": "2026-08-26T15:52:37.704Z",
+          "method": {
+            "coding": [
+              {
+                "system": "http://fhir-learn-app/placement-method",
+                "code": "skip",
+                "display": "\u524d\u6e2c\u8df3\u904e"
+              }
+            ]
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Observation/137595075",
+        "resource": {
+          "resourceType": "Observation",
+          "id": "137595075",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-26T12:42:08.355-04:00",
+            "source": "#Y5hFcJOVFetbccFN"
+          },
+          "status": "final",
+          "category": [
+            {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                  "code": "vital-signs",
+                  "display": "Vital Signs"
+                }
+              ]
+            }
+          ],
+          "code": {
+            "coding": [
+              {
+                "system": "http://loinc.org",
+                "code": "8867-4",
+                "display": "Heart rate"
+              }
+            ],
+            "text": "Heart rate"
+          },
+          "subject": {
+            "identifier": {
+              "system": "https://example.org/fhir/identifier/patient-id",
+              "value": "P001"
+            },
+            "display": "P001"
+          },
+          "effectiveDateTime": "2026-08-24T08:00:00.000Z",
+          "issued": "2026-08-26T16:42:07.958Z",
+          "valueQuantity": {
+            "value": 78,
+            "unit": "beats/minute",
+            "system": "http://unitsofmeasure.org",
+            "code": "/min"
+          },
+          "note": [
+            {
+              "text": "Source: wearable"
+            }
+          ]
+        },
+        "search": {
+          "mode": "match"
+        }
+      }
+    ]
+  }
+}

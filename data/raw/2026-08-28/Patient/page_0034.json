@@ -1,0 +1,1133 @@
+{
+  "resource_type": "Patient",
+  "extraction_timestamp": "2026-08-28T11:03:42.913603",
+  "extraction_date": "2026-08-28",
+  "api_url": "https://hapi.fhir.org/baseR4?_getpages=88da3fc4-0522-4d60-8b4a-bdba09e762a5&_getpagesoffset=680&_count=20&_pretty=true&_bundletype=searchset",
+  "page_number": 34,
+  "entry_count": 20,
+  "response": {
+    "resourceType": "Bundle",
+    "id": "88da3fc4-0522-4d60-8b4a-bdba09e762a5",
+    "meta": {
+      "lastUpdated": "2026-08-28T07:02:54.029-04:00"
+    },
+    "type": "searchset",
+    "total": 921,
+    "link": [
+      {
+        "relation": "self",
+        "url": "https://hapi.fhir.org/baseR4?_getpages=88da3fc4-0522-4d60-8b4a-bdba09e762a5&_getpagesoffset=680&_count=20&_pretty=true&_bundletype=searchset"
+      },
+      {
+        "relation": "next",
+        "url": "https://hapi.fhir.org/baseR4?_getpages=88da3fc4-0522-4d60-8b4a-bdba09e762a5&_getpagesoffset=700&_count=20&_pretty=true&_bundletype=searchset"
+      },
+      {
+        "relation": "previous",
+        "url": "https://hapi.fhir.org/baseR4?_getpages=88da3fc4-0522-4d60-8b4a-bdba09e762a5&_getpagesoffset=660&_count=20&_pretty=true&_bundletype=searchset"
+      }
+    ],
+    "entry": [
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Patient/ca6117-patient-001",
+        "resource": {
+          "resourceType": "Patient",
+          "id": "ca6117-patient-001",
+          "meta": {
+            "versionId": "2",
+            "lastUpdated": "2026-08-27T08:13:31.198-04:00",
+            "source": "#4Y3jd1MyqKiI8v43",
+            "tag": [
+              {
+                "system": "https://example.edu/ca6117",
+                "code": "SYNTHETIC",
+                "display": "Synthetic classroom data"
+              }
+            ]
+          },
+          "text": {
+            "status": "generated",
+            "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">Alex <b>TAN </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>MRN-000001</td></tr><tr><td>Address</td><td><span>Singapore </span><span>SG </span></td></tr><tr><td>Date of birth</td><td><span>01 January 2001</span></td></tr></tbody></table></div>"
+          },
+          "extension": [
+            {
+              "url": "https://example.edu/ca6117/StructureDefinition/sex-at-birth",
+              "valueCode": "female"
+            }
+          ],
+          "identifier": [
+            {
+              "system": "https://hospital.example.org/mrn",
+              "value": "MRN-000001"
+            }
+          ],
+          "name": [
+            {
+              "use": "official",
+              "family": "Tan",
+              "given": [
+                "Alex"
+              ]
+            }
+          ],
+          "gender": "female",
+          "birthDate": "2001-01-01",
+          "address": [
+            {
+              "city": "Singapore",
+              "country": "SG"
+            }
+          ]
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Patient/ca6117-patient-002",
+        "resource": {
+          "resourceType": "Patient",
+          "id": "ca6117-patient-002",
+          "meta": {
+            "versionId": "2",
+            "lastUpdated": "2026-08-27T08:13:31.198-04:00",
+            "source": "#4Y3jd1MyqKiI8v43",
+            "tag": [
+              {
+                "system": "https://example.edu/ca6117",
+                "code": "SYNTHETIC",
+                "display": "Synthetic classroom data"
+              }
+            ]
+          },
+          "text": {
+            "status": "generated",
+            "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">Ben <b>LIM </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>MRN-000002</td></tr><tr><td>Address</td><td><span>Singapore </span><span>SG </span></td></tr><tr><td>Date of birth</td><td><span>20 February 1968</span></td></tr></tbody></table></div>"
+          },
+          "extension": [
+            {
+              "url": "https://example.edu/ca6117/StructureDefinition/sex-at-birth",
+              "valueCode": "male"
+            }
+          ],
+          "identifier": [
+            {
+              "system": "https://hospital.example.org/mrn",
+              "value": "MRN-000002"
+            }
+          ],
+          "name": [
+            {
+              "use": "official",
+              "family": "Lim",
+              "given": [
+                "Ben"
+              ]
+            }
+          ],
+          "gender": "male",
+          "birthDate": "1968-02-20",
+          "address": [
+            {
+              "city": "Singapore",
+              "country": "SG"
+            }
+          ]
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Patient/ca6117-patient-003",
+        "resource": {
+          "resourceType": "Patient",
+          "id": "ca6117-patient-003",
+          "meta": {
+            "versionId": "2",
+            "lastUpdated": "2026-08-27T08:13:31.198-04:00",
+            "source": "#4Y3jd1MyqKiI8v43",
+            "tag": [
+              {
+                "system": "https://example.edu/ca6117",
+                "code": "SYNTHETIC",
+                "display": "Synthetic classroom data"
+              }
+            ]
+          },
+          "text": {
+            "status": "generated",
+            "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">Mei <b>WONG </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>MRN-000003</td></tr><tr><td>Address</td><td><span>Singapore </span><span>SG </span></td></tr><tr><td>Date of birth</td><td><span>02 November 1945</span></td></tr></tbody></table></div>"
+          },
+          "extension": [
+            {
+              "url": "https://example.edu/ca6117/StructureDefinition/sex-at-birth",
+              "valueCode": "female"
+            }
+          ],
+          "identifier": [
+            {
+              "system": "https://hospital.example.org/mrn",
+              "value": "MRN-000003"
+            }
+          ],
+          "name": [
+            {
+              "use": "official",
+              "family": "Wong",
+              "given": [
+                "Mei"
+              ]
+            }
+          ],
+          "gender": "female",
+          "birthDate": "1945-11-02",
+          "address": [
+            {
+              "city": "Singapore",
+              "country": "SG"
+            }
+          ]
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Patient/ca6117-patient-004",
+        "resource": {
+          "resourceType": "Patient",
+          "id": "ca6117-patient-004",
+          "meta": {
+            "versionId": "2",
+            "lastUpdated": "2026-08-27T08:13:31.198-04:00",
+            "source": "#4Y3jd1MyqKiI8v43",
+            "tag": [
+              {
+                "system": "https://example.edu/ca6117",
+                "code": "SYNTHETIC",
+                "display": "Synthetic classroom data"
+              }
+            ]
+          },
+          "text": {
+            "status": "generated",
+            "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">Kumar <b>RAJ </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>MRN-000004</td></tr><tr><td>Address</td><td><span>Singapore </span><span>SG </span></td></tr><tr><td>Date of birth</td><td><span>15 June 1981</span></td></tr></tbody></table></div>"
+          },
+          "extension": [
+            {
+              "url": "https://example.edu/ca6117/StructureDefinition/sex-at-birth",
+              "valueCode": "male"
+            }
+          ],
+          "identifier": [
+            {
+              "system": "https://hospital.example.org/mrn",
+              "value": "MRN-000004"
+            }
+          ],
+          "name": [
+            {
+              "use": "official",
+              "family": "Raj",
+              "given": [
+                "Kumar"
+              ]
+            }
+          ],
+          "gender": "male",
+          "birthDate": "1981-06-15",
+          "address": [
+            {
+              "city": "Singapore",
+              "country": "SG"
+            }
+          ]
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Patient/ca6117-patient-005",
+        "resource": {
+          "resourceType": "Patient",
+          "id": "ca6117-patient-005",
+          "meta": {
+            "versionId": "2",
+            "lastUpdated": "2026-08-27T08:13:31.198-04:00",
+            "source": "#4Y3jd1MyqKiI8v43",
+            "tag": [
+              {
+                "system": "https://example.edu/ca6117",
+                "code": "SYNTHETIC",
+                "display": "Synthetic classroom data"
+              }
+            ]
+          },
+          "text": {
+            "status": "generated",
+            "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">Sara <b>LEE </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>MRN-000005</td></tr><tr><td>Address</td><td><span>Singapore </span><span>SG </span></td></tr><tr><td>Date of birth</td><td><span>09 January 1959</span></td></tr></tbody></table></div>"
+          },
+          "extension": [
+            {
+              "url": "https://example.edu/ca6117/StructureDefinition/sex-at-birth",
+              "valueCode": "female"
+            }
+          ],
+          "identifier": [
+            {
+              "system": "https://hospital.example.org/mrn",
+              "value": "MRN-000005"
+            }
+          ],
+          "name": [
+            {
+              "use": "official",
+              "family": "Lee",
+              "given": [
+                "Sara"
+              ]
+            }
+          ],
+          "gender": "female",
+          "birthDate": "1959-01-09",
+          "address": [
+            {
+              "city": "Singapore",
+              "country": "SG"
+            }
+          ]
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Patient/ca6117-patient-006",
+        "resource": {
+          "resourceType": "Patient",
+          "id": "ca6117-patient-006",
+          "meta": {
+            "versionId": "2",
+            "lastUpdated": "2026-08-27T08:13:31.198-04:00",
+            "source": "#4Y3jd1MyqKiI8v43",
+            "tag": [
+              {
+                "system": "https://example.edu/ca6117",
+                "code": "SYNTHETIC",
+                "display": "Synthetic classroom data"
+              }
+            ]
+          },
+          "text": {
+            "status": "generated",
+            "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">Daniel <b>NG </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>MRN-000006</td></tr><tr><td>Address</td><td><span>Singapore </span><span>SG </span></td></tr><tr><td>Date of birth</td><td><span>30 September 1949</span></td></tr></tbody></table></div>"
+          },
+          "extension": [
+            {
+              "url": "https://example.edu/ca6117/StructureDefinition/sex-at-birth",
+              "valueCode": "male"
+            }
+          ],
+          "identifier": [
+            {
+              "system": "https://hospital.example.org/mrn",
+              "value": "MRN-000006"
+            }
+          ],
+          "name": [
+            {
+              "use": "official",
+              "family": "Ng",
+              "given": [
+                "Daniel"
+              ]
+            }
+          ],
+          "gender": "male",
+          "birthDate": "1949-09-30",
+          "address": [
+            {
+              "city": "Singapore",
+              "country": "SG"
+            }
+          ]
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Patient/ca6117-patient-007",
+        "resource": {
+          "resourceType": "Patient",
+          "id": "ca6117-patient-007",
+          "meta": {
+            "versionId": "2",
+            "lastUpdated": "2026-08-27T08:13:31.198-04:00",
+            "source": "#4Y3jd1MyqKiI8v43",
+            "tag": [
+              {
+                "system": "https://example.edu/ca6117",
+                "code": "SYNTHETIC",
+                "display": "Synthetic classroom data"
+              }
+            ]
+          },
+          "text": {
+            "status": "generated",
+            "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">Aisha <b>RAHMAN </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>MRN-000007</td></tr><tr><td>Address</td><td><span>Singapore </span><span>SG </span></td></tr><tr><td>Date of birth</td><td><span>22 March 1992</span></td></tr></tbody></table></div>"
+          },
+          "extension": [
+            {
+              "url": "https://example.edu/ca6117/StructureDefinition/sex-at-birth",
+              "valueCode": "female"
+            }
+          ],
+          "identifier": [
+            {
+              "system": "https://hospital.example.org/mrn",
+              "value": "MRN-000007"
+            }
+          ],
+          "name": [
+            {
+              "use": "official",
+              "family": "Rahman",
+              "given": [
+                "Aisha"
+              ]
+            }
+          ],
+          "gender": "female",
+          "birthDate": "1992-03-22",
+          "address": [
+            {
+              "city": "Singapore",
+              "country": "SG"
+            }
+          ]
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Patient/ca6117-patient-008",
+        "resource": {
+          "resourceType": "Patient",
+          "id": "ca6117-patient-008",
+          "meta": {
+            "versionId": "2",
+            "lastUpdated": "2026-08-27T08:13:31.198-04:00",
+            "source": "#4Y3jd1MyqKiI8v43",
+            "tag": [
+              {
+                "system": "https://example.edu/ca6117",
+                "code": "SYNTHETIC",
+                "display": "Synthetic classroom data"
+              }
+            ]
+          },
+          "text": {
+            "status": "generated",
+            "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">Wei <b>CHEN </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>MRN-000008</td></tr><tr><td>Address</td><td><span>Singapore </span><span>SG </span></td></tr><tr><td>Date of birth</td><td><span>18 July 1965</span></td></tr></tbody></table></div>"
+          },
+          "extension": [
+            {
+              "url": "https://example.edu/ca6117/StructureDefinition/sex-at-birth",
+              "valueCode": "male"
+            }
+          ],
+          "identifier": [
+            {
+              "system": "https://hospital.example.org/mrn",
+              "value": "MRN-000008"
+            }
+          ],
+          "name": [
+            {
+              "use": "official",
+              "family": "Chen",
+              "given": [
+                "Wei"
+              ]
+            }
+          ],
+          "gender": "male",
+          "birthDate": "1965-07-18",
+          "address": [
+            {
+              "city": "Singapore",
+              "country": "SG"
+            }
+          ]
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Patient/ca6117-patient-009",
+        "resource": {
+          "resourceType": "Patient",
+          "id": "ca6117-patient-009",
+          "meta": {
+            "versionId": "2",
+            "lastUpdated": "2026-08-27T08:13:31.198-04:00",
+            "source": "#4Y3jd1MyqKiI8v43",
+            "tag": [
+              {
+                "system": "https://example.edu/ca6117",
+                "code": "SYNTHETIC",
+                "display": "Synthetic classroom data"
+              }
+            ]
+          },
+          "text": {
+            "status": "generated",
+            "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">Priya <b>NAIR </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>MRN-000009</td></tr><tr><td>Address</td><td><span>Singapore </span><span>SG </span></td></tr><tr><td>Date of birth</td><td><span>05 December 1953</span></td></tr></tbody></table></div>"
+          },
+          "extension": [
+            {
+              "url": "https://example.edu/ca6117/StructureDefinition/sex-at-birth",
+              "valueCode": "female"
+            }
+          ],
+          "identifier": [
+            {
+              "system": "https://hospital.example.org/mrn",
+              "value": "MRN-000009"
+            }
+          ],
+          "name": [
+            {
+              "use": "official",
+              "family": "Nair",
+              "given": [
+                "Priya"
+              ]
+            }
+          ],
+          "gender": "female",
+          "birthDate": "1953-12-05",
+          "address": [
+            {
+              "city": "Singapore",
+              "country": "SG"
+            }
+          ]
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Patient/ca6117-patient-010",
+        "resource": {
+          "resourceType": "Patient",
+          "id": "ca6117-patient-010",
+          "meta": {
+            "versionId": "2",
+            "lastUpdated": "2026-08-27T08:13:31.198-04:00",
+            "source": "#4Y3jd1MyqKiI8v43",
+            "tag": [
+              {
+                "system": "https://example.edu/ca6117",
+                "code": "SYNTHETIC",
+                "display": "Synthetic classroom data"
+              }
+            ]
+          },
+          "text": {
+            "status": "generated",
+            "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">Thomas <b>GOH </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>MRN-000010</td></tr><tr><td>Address</td><td><span>Singapore </span><span>SG </span></td></tr><tr><td>Date of birth</td><td><span>01 May 1974</span></td></tr></tbody></table></div>"
+          },
+          "extension": [
+            {
+              "url": "https://example.edu/ca6117/StructureDefinition/sex-at-birth",
+              "valueCode": "male"
+            }
+          ],
+          "identifier": [
+            {
+              "system": "https://hospital.example.org/mrn",
+              "value": "MRN-000010"
+            }
+          ],
+          "name": [
+            {
+              "use": "official",
+              "family": "Goh",
+              "given": [
+                "Thomas"
+              ]
+            }
+          ],
+          "gender": "male",
+          "birthDate": "1974-05-01",
+          "address": [
+            {
+              "city": "Singapore",
+              "country": "SG"
+            }
+          ]
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Patient/ca6117-patient-011",
+        "resource": {
+          "resourceType": "Patient",
+          "id": "ca6117-patient-011",
+          "meta": {
+            "versionId": "2",
+            "lastUpdated": "2026-08-27T08:13:31.198-04:00",
+            "source": "#4Y3jd1MyqKiI8v43",
+            "tag": [
+              {
+                "system": "https://example.edu/ca6117",
+                "code": "SYNTHETIC",
+                "display": "Synthetic classroom data"
+              }
+            ]
+          },
+          "text": {
+            "status": "generated",
+            "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">Maria <b>SANTOS </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>MRN-000011</td></tr><tr><td>Address</td><td><span>Singapore </span><span>SG </span></td></tr><tr><td>Date of birth</td><td><span>14 March 1957</span></td></tr></tbody></table></div>"
+          },
+          "extension": [
+            {
+              "url": "https://example.edu/ca6117/StructureDefinition/sex-at-birth",
+              "valueCode": "female"
+            }
+          ],
+          "identifier": [
+            {
+              "system": "https://hospital.example.org/mrn",
+              "value": "MRN-000011"
+            }
+          ],
+          "name": [
+            {
+              "use": "official",
+              "family": "Santos",
+              "given": [
+                "Maria"
+              ]
+            }
+          ],
+          "gender": "female",
+          "birthDate": "1957-03-14",
+          "address": [
+            {
+              "city": "Singapore",
+              "country": "SG"
+            }
+          ]
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Patient/ca6117-patient-012",
+        "resource": {
+          "resourceType": "Patient",
+          "id": "ca6117-patient-012",
+          "meta": {
+            "versionId": "2",
+            "lastUpdated": "2026-08-27T08:13:31.198-04:00",
+            "source": "#4Y3jd1MyqKiI8v43",
+            "tag": [
+              {
+                "system": "https://example.edu/ca6117",
+                "code": "SYNTHETIC",
+                "display": "Synthetic classroom data"
+              }
+            ]
+          },
+          "text": {
+            "status": "generated",
+            "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">Harish <b>MENON </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>MRN-000012</td></tr><tr><td>Address</td><td><span>Singapore </span><span>SG </span></td></tr><tr><td>Date of birth</td><td><span>30 April 1963</span></td></tr></tbody></table></div>"
+          },
+          "extension": [
+            {
+              "url": "https://example.edu/ca6117/StructureDefinition/sex-at-birth",
+              "valueCode": "male"
+            }
+          ],
+          "identifier": [
+            {
+              "system": "https://hospital.example.org/mrn",
+              "value": "MRN-000012"
+            }
+          ],
+          "name": [
+            {
+              "use": "official",
+              "family": "Menon",
+              "given": [
+                "Harish"
+              ]
+            }
+          ],
+          "gender": "male",
+          "birthDate": "1963-04-30",
+          "address": [
+            {
+              "city": "Singapore",
+              "country": "SG"
+            }
+          ]
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Patient/ca6117-patient-013",
+        "resource": {
+          "resourceType": "Patient",
+          "id": "ca6117-patient-013",
+          "meta": {
+            "versionId": "2",
+            "lastUpdated": "2026-08-27T08:13:31.198-04:00",
+            "source": "#4Y3jd1MyqKiI8v43",
+            "tag": [
+              {
+                "system": "https://example.edu/ca6117",
+                "code": "SYNTHETIC",
+                "display": "Synthetic classroom data"
+              }
+            ]
+          },
+          "text": {
+            "status": "generated",
+            "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">Nur <b>AZIZ </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>MRN-000013</td></tr><tr><td>Address</td><td><span>Singapore </span><span>SG </span></td></tr><tr><td>Date of birth</td><td><span>26 January 1969</span></td></tr></tbody></table></div>"
+          },
+          "extension": [
+            {
+              "url": "https://example.edu/ca6117/StructureDefinition/sex-at-birth",
+              "valueCode": "female"
+            }
+          ],
+          "identifier": [
+            {
+              "system": "https://hospital.example.org/mrn",
+              "value": "MRN-000013"
+            }
+          ],
+          "name": [
+            {
+              "use": "official",
+              "family": "Aziz",
+              "given": [
+                "Nur"
+              ]
+            }
+          ],
+          "gender": "female",
+          "birthDate": "1969-01-26",
+          "address": [
+            {
+              "city": "Singapore",
+              "country": "SG"
+            }
+          ]
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Patient/ca6117-patient-014",
+        "resource": {
+          "resourceType": "Patient",
+          "id": "ca6117-patient-014",
+          "meta": {
+            "versionId": "2",
+            "lastUpdated": "2026-08-27T08:13:31.198-04:00",
+            "source": "#4Y3jd1MyqKiI8v43",
+            "tag": [
+              {
+                "system": "https://example.edu/ca6117",
+                "code": "SYNTHETIC",
+                "display": "Synthetic classroom data"
+              }
+            ]
+          },
+          "text": {
+            "status": "generated",
+            "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">George <b>PEREIRA </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>MRN-000014</td></tr><tr><td>Address</td><td><span>Singapore </span><span>SG </span></td></tr><tr><td>Date of birth</td><td><span>17 February 1947</span></td></tr></tbody></table></div>"
+          },
+          "extension": [
+            {
+              "url": "https://example.edu/ca6117/StructureDefinition/sex-at-birth",
+              "valueCode": "male"
+            }
+          ],
+          "identifier": [
+            {
+              "system": "https://hospital.example.org/mrn",
+              "value": "MRN-000014"
+            }
+          ],
+          "name": [
+            {
+              "use": "official",
+              "family": "Pereira",
+              "given": [
+                "George"
+              ]
+            }
+          ],
+          "gender": "male",
+          "birthDate": "1947-02-17",
+          "address": [
+            {
+              "city": "Singapore",
+              "country": "SG"
+            }
+          ]
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Patient/ca6117-patient-015",
+        "resource": {
+          "resourceType": "Patient",
+          "id": "ca6117-patient-015",
+          "meta": {
+            "versionId": "2",
+            "lastUpdated": "2026-08-27T08:13:31.198-04:00",
+            "source": "#4Y3jd1MyqKiI8v43",
+            "tag": [
+              {
+                "system": "https://example.edu/ca6117",
+                "code": "SYNTHETIC",
+                "display": "Synthetic classroom data"
+              }
+            ]
+          },
+          "text": {
+            "status": "generated",
+            "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">Liyana <b>MUSA </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>MRN-000015</td></tr><tr><td>Address</td><td><span>Singapore </span><span>SG </span></td></tr><tr><td>Date of birth</td><td><span>12 May 1997</span></td></tr></tbody></table></div>"
+          },
+          "extension": [
+            {
+              "url": "https://example.edu/ca6117/StructureDefinition/sex-at-birth",
+              "valueCode": "female"
+            }
+          ],
+          "identifier": [
+            {
+              "system": "https://hospital.example.org/mrn",
+              "value": "MRN-000015"
+            }
+          ],
+          "name": [
+            {
+              "use": "official",
+              "family": "Musa",
+              "given": [
+                "Liyana"
+              ]
+            }
+          ],
+          "gender": "female",
+          "birthDate": "1997-05-12",
+          "address": [
+            {
+              "city": "Singapore",
+              "country": "SG"
+            }
+          ]
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Patient/ca6117-patient-016",
+        "resource": {
+          "resourceType": "Patient",
+          "id": "ca6117-patient-016",
+          "meta": {
+            "versionId": "2",
+            "lastUpdated": "2026-08-27T08:13:31.198-04:00",
+            "source": "#4Y3jd1MyqKiI8v43",
+            "tag": [
+              {
+                "system": "https://example.edu/ca6117",
+                "code": "SYNTHETIC",
+                "display": "Synthetic classroom data"
+              }
+            ]
+          },
+          "text": {
+            "status": "generated",
+            "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">Robert <b>ONG </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>MRN-000016</td></tr><tr><td>Address</td><td><span>Singapore </span><span>SG </span></td></tr><tr><td>Date of birth</td><td><span>19 August 1955</span></td></tr></tbody></table></div>"
+          },
+          "extension": [
+            {
+              "url": "https://example.edu/ca6117/StructureDefinition/sex-at-birth",
+              "valueCode": "male"
+            }
+          ],
+          "identifier": [
+            {
+              "system": "https://hospital.example.org/mrn",
+              "value": "MRN-000016"
+            }
+          ],
+          "name": [
+            {
+              "use": "official",
+              "family": "Ong",
+              "given": [
+                "Robert"
+              ]
+            }
+          ],
+          "gender": "male",
+          "birthDate": "1955-08-19",
+          "address": [
+            {
+              "city": "Singapore",
+              "country": "SG"
+            }
+          ]
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Patient/ca6117-patient-017",
+        "resource": {
+          "resourceType": "Patient",
+          "id": "ca6117-patient-017",
+          "meta": {
+            "versionId": "2",
+            "lastUpdated": "2026-08-27T08:13:31.198-04:00",
+            "source": "#4Y3jd1MyqKiI8v43",
+            "tag": [
+              {
+                "system": "https://example.edu/ca6117",
+                "code": "SYNTHETIC",
+                "display": "Synthetic classroom data"
+              }
+            ]
+          },
+          "text": {
+            "status": "generated",
+            "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">Fatimah <b>ALI </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>MRN-000017</td></tr><tr><td>Address</td><td><span>Singapore </span><span>SG </span></td></tr><tr><td>Date of birth</td><td><span>08 October 1952</span></td></tr></tbody></table></div>"
+          },
+          "extension": [
+            {
+              "url": "https://example.edu/ca6117/StructureDefinition/sex-at-birth",
+              "valueCode": "female"
+            }
+          ],
+          "identifier": [
+            {
+              "system": "https://hospital.example.org/mrn",
+              "value": "MRN-000017"
+            }
+          ],
+          "name": [
+            {
+              "use": "official",
+              "family": "Ali",
+              "given": [
+                "Fatimah"
+              ]
+            }
+          ],
+          "gender": "female",
+          "birthDate": "1952-10-08",
+          "address": [
+            {
+              "city": "Singapore",
+              "country": "SG"
+            }
+          ]
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Patient/ca6117-patient-018",
+        "resource": {
+          "resourceType": "Patient",
+          "id": "ca6117-patient-018",
+          "meta": {
+            "versionId": "2",
+            "lastUpdated": "2026-08-27T08:13:31.198-04:00",
+            "source": "#4Y3jd1MyqKiI8v43",
+            "tag": [
+              {
+                "system": "https://example.edu/ca6117",
+                "code": "SYNTHETIC",
+                "display": "Synthetic classroom data"
+              }
+            ]
+          },
+          "text": {
+            "status": "generated",
+            "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">Michael <b>TEO </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>MRN-000018</td></tr><tr><td>Address</td><td><span>Singapore </span><span>SG </span></td></tr><tr><td>Date of birth</td><td><span>02 June 1958</span></td></tr></tbody></table></div>"
+          },
+          "extension": [
+            {
+              "url": "https://example.edu/ca6117/StructureDefinition/sex-at-birth",
+              "valueCode": "male"
+            }
+          ],
+          "identifier": [
+            {
+              "system": "https://hospital.example.org/mrn",
+              "value": "MRN-000018"
+            }
+          ],
+          "name": [
+            {
+              "use": "official",
+              "family": "Teo",
+              "given": [
+                "Michael"
+              ]
+            }
+          ],
+          "gender": "male",
+          "birthDate": "1958-06-02",
+          "address": [
+            {
+              "city": "Singapore",
+              "country": "SG"
+            }
+          ]
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Patient/ca6117-patient-019",
+        "resource": {
+          "resourceType": "Patient",
+          "id": "ca6117-patient-019",
+          "meta": {
+            "versionId": "2",
+            "lastUpdated": "2026-08-27T08:13:31.198-04:00",
+            "source": "#4Y3jd1MyqKiI8v43",
+            "tag": [
+              {
+                "system": "https://example.edu/ca6117",
+                "code": "SYNTHETIC",
+                "display": "Synthetic classroom data"
+              }
+            ]
+          },
+          "text": {
+            "status": "generated",
+            "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">Siti <b>NOOR </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>MRN-000019</td></tr><tr><td>Address</td><td><span>Singapore </span><span>SG </span></td></tr><tr><td>Date of birth</td><td><span>11 July 1944</span></td></tr></tbody></table></div>"
+          },
+          "extension": [
+            {
+              "url": "https://example.edu/ca6117/StructureDefinition/sex-at-birth",
+              "valueCode": "female"
+            }
+          ],
+          "identifier": [
+            {
+              "system": "https://hospital.example.org/mrn",
+              "value": "MRN-000019"
+            }
+          ],
+          "name": [
+            {
+              "use": "official",
+              "family": "Noor",
+              "given": [
+                "Siti"
+              ]
+            }
+          ],
+          "gender": "female",
+          "birthDate": "1944-07-11",
+          "address": [
+            {
+              "city": "Singapore",
+              "country": "SG"
+            }
+          ]
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Patient/ca6117-patient-020",
+        "resource": {
+          "resourceType": "Patient",
+          "id": "ca6117-patient-020",
+          "meta": {
+            "versionId": "2",
+            "lastUpdated": "2026-08-27T08:13:31.198-04:00",
+            "source": "#4Y3jd1MyqKiI8v43",
+            "tag": [
+              {
+                "system": "https://example.edu/ca6117",
+                "code": "SYNTHETIC",
+                "display": "Synthetic classroom data"
+              }
+            ]
+          },
+          "text": {
+            "status": "generated",
+            "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">James <b>KOH </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>MRN-000020</td></tr><tr><td>Address</td><td><span>Singapore </span><span>SG </span></td></tr><tr><td>Date of birth</td><td><span>21 September 1960</span></td></tr></tbody></table></div>"
+          },
+          "extension": [
+            {
+              "url": "https://example.edu/ca6117/StructureDefinition/sex-at-birth",
+              "valueCode": "male"
+            }
+          ],
+          "identifier": [
+            {
+              "system": "https://hospital.example.org/mrn",
+              "value": "MRN-000020"
+            }
+          ],
+          "name": [
+            {
+              "use": "official",
+              "family": "Koh",
+              "given": [
+                "James"
+              ]
+            }
+          ],
+          "gender": "male",
+          "birthDate": "1960-09-21",
+          "address": [
+            {
+              "city": "Singapore",
+              "country": "SG"
+            }
+          ]
+        },
+        "search": {
+          "mode": "match"
+        }
+      }
+    ]
+  }
+}

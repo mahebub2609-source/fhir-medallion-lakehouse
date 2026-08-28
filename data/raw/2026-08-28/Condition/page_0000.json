@@ -1,0 +1,850 @@
+{
+  "resource_type": "Condition",
+  "extraction_timestamp": "2026-08-28T11:05:58.757513",
+  "extraction_date": "2026-08-28",
+  "api_url": "https://hapi.fhir.org/baseR4/Condition?_lastUpdated=ge2026-08-25&_count=20",
+  "page_number": 0,
+  "entry_count": 20,
+  "response": {
+    "resourceType": "Bundle",
+    "id": "2d1f13dc-4131-4aa9-a6e8-d5f07ce998ea",
+    "meta": {
+      "lastUpdated": "2026-08-28T07:05:58.820-04:00"
+    },
+    "type": "searchset",
+    "link": [
+      {
+        "relation": "self",
+        "url": "https://hapi.fhir.org/baseR4/Condition?_count=20&_lastUpdated=ge2026-08-25"
+      },
+      {
+        "relation": "next",
+        "url": "https://hapi.fhir.org/baseR4?_getpages=2d1f13dc-4131-4aa9-a6e8-d5f07ce998ea&_getpagesoffset=20&_count=20&_pretty=true&_bundletype=searchset"
+      }
+    ],
+    "entry": [
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Condition/137584301",
+        "resource": {
+          "resourceType": "Condition",
+          "id": "137584301",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-24T06:22:30.528-04:00",
+            "source": "#OkWfrDuIYtPKe2dB"
+          },
+          "clinicalStatus": {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+                "code": "active"
+              }
+            ]
+          },
+          "code": {
+            "coding": [
+              {
+                "system": "http://hl7.org/fhir/sid/icd-10-cm",
+                "code": "E11.65",
+                "display": "Type 2 diabetes mellitus with hyperglycemia"
+              }
+            ],
+            "text": "Type 2 diabetes mellitus with hyperglycemia"
+          },
+          "subject": {
+            "reference": "Patient/137584300"
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Condition/137584308",
+        "resource": {
+          "resourceType": "Condition",
+          "id": "137584308",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-24T06:29:05.486-04:00",
+            "source": "#sK0m14kuJdik7wnY"
+          },
+          "identifier": [
+            {
+              "system": "https://carebridge.example/chronic-condition",
+              "value": "CB-F9B0DB99"
+            }
+          ],
+          "code": {
+            "text": "\u7cd6\u5c3f\u75c5"
+          },
+          "subject": {
+            "reference": "Patient/137584307"
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Condition/137584390",
+        "resource": {
+          "resourceType": "Condition",
+          "id": "137584390",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-24T09:02:05.521-04:00",
+            "source": "#ArwTVX3tQWwl2TGN"
+          },
+          "clinicalStatus": {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+                "code": "active"
+              }
+            ]
+          },
+          "code": {
+            "coding": [
+              {
+                "system": "http://hl7.org/fhir/sid/icd-10-cm",
+                "code": "E11.65",
+                "display": "Type 2 diabetes mellitus with hyperglycemia"
+              }
+            ],
+            "text": "Type 2 diabetes mellitus with hyperglycemia"
+          },
+          "subject": {
+            "reference": "Patient/137584389"
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Condition/137584545",
+        "resource": {
+          "resourceType": "Condition",
+          "id": "137584545",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-24T10:30:30.381-04:00",
+            "source": "#7Ee7uHSnAS2WT8uq"
+          },
+          "identifier": [
+            {
+              "system": "https://carebridge.example/chronic-condition",
+              "value": "CB-7914AD89"
+            }
+          ],
+          "code": {
+            "text": "\u9ad8\u8840\u58d3"
+          },
+          "subject": {
+            "reference": "Patient/137584544"
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Condition/137584551",
+        "resource": {
+          "resourceType": "Condition",
+          "id": "137584551",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-24T10:31:06.200-04:00",
+            "source": "#crADMWN0g4VaFFBj"
+          },
+          "identifier": [
+            {
+              "system": "https://carebridge.example/condition",
+              "value": "CB-7914AD89-21"
+            }
+          ],
+          "code": {
+            "text": "\u61f6\u60f0"
+          },
+          "subject": {
+            "reference": "Patient/137584544"
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Condition/137584555",
+        "resource": {
+          "resourceType": "Condition",
+          "id": "137584555",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-24T10:35:09.481-04:00",
+            "source": "#OTC6FlrFADtQYR93"
+          },
+          "identifier": [
+            {
+              "system": "https://carebridge.example/condition",
+              "value": "CB-90FD5B7C-25"
+            }
+          ],
+          "code": {
+            "text": "\u904e\u5ea6\u75b2\u52de\u6050\u5f15\u767c\u54ee\u5598\u4f75\u767c\u75c7"
+          },
+          "subject": {
+            "reference": "Patient/137553513"
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Condition/137584560",
+        "resource": {
+          "resourceType": "Condition",
+          "id": "137584560",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-24T10:37:15.379-04:00",
+            "source": "#SVwuad7s4llTCrta"
+          },
+          "identifier": [
+            {
+              "system": "https://carebridge.example/condition",
+              "value": "CB-F1F6A055-27"
+            }
+          ],
+          "code": {
+            "text": "\u611f\u5192"
+          },
+          "subject": {
+            "reference": "Patient/137552818"
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Condition/137584566",
+        "resource": {
+          "resourceType": "Condition",
+          "id": "137584566",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-24T10:55:38.780-04:00",
+            "source": "#OhMJKliBMXn9IiyB"
+          },
+          "clinicalStatus": {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+                "code": "active"
+              }
+            ]
+          },
+          "code": {
+            "coding": [
+              {
+                "system": "http://hl7.org/fhir/sid/icd-10-cm",
+                "code": "E11.65",
+                "display": "Type 2 diabetes mellitus with hyperglycemia"
+              }
+            ],
+            "text": "Type 2 diabetes mellitus with hyperglycemia"
+          },
+          "subject": {
+            "reference": "Patient/137584565"
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Condition/137584621",
+        "resource": {
+          "resourceType": "Condition",
+          "id": "137584621",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-24T11:46:26.207-04:00",
+            "source": "#3kyr7POgHKJZyVpm",
+            "tag": [
+              {
+                "system": "https://kather.ai/p/fhir-client",
+                "code": "kather-fhir-client"
+              }
+            ]
+          },
+          "clinicalStatus": {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+                "code": "active"
+              }
+            ]
+          },
+          "verificationStatus": {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+                "code": "confirmed"
+              }
+            ]
+          },
+          "code": {
+            "coding": [
+              {
+                "system": "http://hl7.org/fhir/sid/icd-10",
+                "code": "C18.7",
+                "display": "Colorectal adenocarcinoma"
+              }
+            ],
+            "text": "Colorectal adenocarcinoma"
+          },
+          "subject": {
+            "reference": "Patient/137584620"
+          },
+          "onsetDateTime": "2024-11-03"
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Condition/137584622",
+        "resource": {
+          "resourceType": "Condition",
+          "id": "137584622",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-24T11:46:26.269-04:00",
+            "source": "#lysVGQksVAWaunC2",
+            "tag": [
+              {
+                "system": "https://kather.ai/p/fhir-client",
+                "code": "kather-fhir-client"
+              }
+            ]
+          },
+          "clinicalStatus": {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+                "code": "active"
+              }
+            ]
+          },
+          "code": {
+            "coding": [
+              {
+                "system": "http://hl7.org/fhir/sid/icd-10",
+                "code": "E11.9"
+              }
+            ],
+            "text": "Type 2 diabetes mellitus"
+          },
+          "subject": {
+            "reference": "Patient/137584620"
+          },
+          "onsetDateTime": "2015-06-01"
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Condition/cond-pa-demo-02-knee-pain",
+        "resource": {
+          "resourceType": "Condition",
+          "id": "cond-pa-demo-02-knee-pain",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-24T16:17:28.810-04:00",
+            "source": "#KpzmeEa5foGDdsfp"
+          },
+          "clinicalStatus": {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+                "code": "active",
+                "display": "Active"
+              }
+            ]
+          },
+          "verificationStatus": {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+                "code": "confirmed",
+                "display": "Confirmed"
+              }
+            ]
+          },
+          "category": [
+            {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                  "code": "encounter-diagnosis",
+                  "display": "Encounter Diagnosis"
+                }
+              ]
+            }
+          ],
+          "code": {
+            "coding": [
+              {
+                "system": "http://hl7.org/fhir/sid/icd-10-cm",
+                "code": "M25.561",
+                "display": "Pain in right knee"
+              }
+            ]
+          },
+          "subject": {
+            "reference": "Patient/pa-demo-02"
+          },
+          "onsetDateTime": "2026-04-02",
+          "recordedDate": "2026-04-05"
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Condition/cond-pa-demo-02-oa",
+        "resource": {
+          "resourceType": "Condition",
+          "id": "cond-pa-demo-02-oa",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-24T16:17:28.810-04:00",
+            "source": "#KpzmeEa5foGDdsfp"
+          },
+          "clinicalStatus": {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+                "code": "active",
+                "display": "Active"
+              }
+            ]
+          },
+          "verificationStatus": {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+                "code": "confirmed",
+                "display": "Confirmed"
+              }
+            ]
+          },
+          "category": [
+            {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                  "code": "encounter-diagnosis",
+                  "display": "Encounter Diagnosis"
+                }
+              ]
+            }
+          ],
+          "code": {
+            "coding": [
+              {
+                "system": "http://hl7.org/fhir/sid/icd-10-cm",
+                "code": "M17.11",
+                "display": "Unilateral primary osteoarthritis, right knee"
+              }
+            ]
+          },
+          "subject": {
+            "reference": "Patient/pa-demo-02"
+          },
+          "onsetDateTime": "2026-05-10",
+          "recordedDate": "2026-05-12"
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Condition/cond-pa-demo-03-radiculopathy",
+        "resource": {
+          "resourceType": "Condition",
+          "id": "cond-pa-demo-03-radiculopathy",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-24T16:17:29.377-04:00",
+            "source": "#XFLisB5NdG3Sp548"
+          },
+          "clinicalStatus": {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+                "code": "active",
+                "display": "Active"
+              }
+            ]
+          },
+          "verificationStatus": {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+                "code": "confirmed",
+                "display": "Confirmed"
+              }
+            ]
+          },
+          "category": [
+            {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                  "code": "encounter-diagnosis",
+                  "display": "Encounter Diagnosis"
+                }
+              ]
+            }
+          ],
+          "code": {
+            "coding": [
+              {
+                "system": "http://hl7.org/fhir/sid/icd-10-cm",
+                "code": "M54.12",
+                "display": "Radiculopathy, cervical region"
+              }
+            ]
+          },
+          "subject": {
+            "reference": "Patient/pa-demo-03"
+          },
+          "onsetDateTime": "2026-05-01",
+          "recordedDate": "2026-05-04"
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Condition/cond-pa-demo-03-neck-pain",
+        "resource": {
+          "resourceType": "Condition",
+          "id": "cond-pa-demo-03-neck-pain",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-24T16:17:29.377-04:00",
+            "source": "#XFLisB5NdG3Sp548"
+          },
+          "clinicalStatus": {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+                "code": "active",
+                "display": "Active"
+              }
+            ]
+          },
+          "verificationStatus": {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+                "code": "confirmed",
+                "display": "Confirmed"
+              }
+            ]
+          },
+          "category": [
+            {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                  "code": "encounter-diagnosis",
+                  "display": "Encounter Diagnosis"
+                }
+              ]
+            }
+          ],
+          "code": {
+            "coding": [
+              {
+                "system": "http://hl7.org/fhir/sid/icd-10-cm",
+                "code": "M54.2",
+                "display": "Cervicalgia"
+              }
+            ]
+          },
+          "subject": {
+            "reference": "Patient/pa-demo-03"
+          },
+          "onsetDateTime": "2026-04-28",
+          "recordedDate": "2026-05-04"
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Condition/137588796",
+        "resource": {
+          "resourceType": "Condition",
+          "id": "137588796",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-24T17:49:34.526-04:00",
+            "source": "#GR9AV9X5zRHt0iUX",
+            "tag": [
+              {
+                "system": "http://international-second-opinion.example.org/tags",
+                "code": "IMSO-PROTO-DEMO",
+                "display": "International Medical Second Opinion prototype"
+              }
+            ]
+          },
+          "clinicalStatus": {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+                "code": "active"
+              }
+            ]
+          },
+          "code": {
+            "text": "Paradontitis"
+          },
+          "subject": {
+            "reference": "Patient/137586375"
+          },
+          "onsetDateTime": "2026-08-01",
+          "recordedDate": "2026-08-24T21:49:30.756Z"
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Condition/137588832",
+        "resource": {
+          "resourceType": "Condition",
+          "id": "137588832",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-24T18:17:58.661-04:00",
+            "source": "#6E7Q4QtyiTzWHvDv",
+            "tag": [
+              {
+                "system": "http://international-second-opinion.example.org/tags",
+                "code": "IMSO-PROTO-DEMO",
+                "display": "International Medical Second Opinion prototype"
+              }
+            ]
+          },
+          "clinicalStatus": {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+                "code": "active"
+              }
+            ]
+          },
+          "code": {
+            "text": "Paradontitis"
+          },
+          "subject": {
+            "reference": "Patient/137588819"
+          },
+          "onsetDateTime": "2026-01-01",
+          "recordedDate": "2026-08-24T22:17:54.901Z"
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Condition/137588910",
+        "resource": {
+          "resourceType": "Condition",
+          "id": "137588910",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-24T22:42:23.295-04:00",
+            "source": "#ivoMClI8JAgoxhGe"
+          },
+          "clinicalStatus": {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+                "code": "active"
+              }
+            ]
+          },
+          "code": {
+            "coding": [
+              {
+                "system": "http://hl7.org/fhir/sid/icd-10-cm",
+                "code": "E11.65",
+                "display": "Type 2 diabetes mellitus with hyperglycemia"
+              }
+            ],
+            "text": "Type 2 diabetes mellitus with hyperglycemia"
+          },
+          "subject": {
+            "reference": "Patient/137588909"
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Condition/137588917",
+        "resource": {
+          "resourceType": "Condition",
+          "id": "137588917",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-24T22:49:19.181-04:00",
+            "source": "#iCsfneqReQwKrVi2"
+          },
+          "clinicalStatus": {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+                "code": "active"
+              }
+            ]
+          },
+          "code": {
+            "coding": [
+              {
+                "system": "http://hl7.org/fhir/sid/icd-10-cm",
+                "code": "E11.65",
+                "display": "Type 2 diabetes mellitus with hyperglycemia"
+              }
+            ],
+            "text": "Type 2 diabetes mellitus with hyperglycemia"
+          },
+          "subject": {
+            "reference": "Patient/137588916"
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Condition/137591407",
+        "resource": {
+          "resourceType": "Condition",
+          "id": "137591407",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-25T04:24:26.193-04:00",
+            "source": "#AFVo9WNkaq3neVcq"
+          },
+          "clinicalStatus": {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+                "code": "active",
+                "display": "Active"
+              }
+            ]
+          },
+          "verificationStatus": {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+                "code": "confirmed",
+                "display": "Confirmed"
+              }
+            ]
+          },
+          "category": [
+            {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                  "code": "encounter-diagnosis",
+                  "display": "Encounter Diagnosis"
+                }
+              ]
+            }
+          ],
+          "code": {
+            "coding": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "54150009",
+                "display": "Acute upper respiratory infection"
+              }
+            ],
+            "text": "Acute upper respiratory infection"
+          },
+          "subject": {
+            "reference": "Patient/137591404"
+          },
+          "encounter": {
+            "reference": "Encounter/137591406"
+          },
+          "recordedDate": "2026-08-25T08:24:27.400Z",
+          "recorder": {
+            "reference": "Practitioner/137591403"
+          },
+          "asserter": {
+            "reference": "Practitioner/137591403"
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Condition/137591418",
+        "resource": {
+          "resourceType": "Condition",
+          "id": "137591418",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-25T04:28:34.834-04:00",
+            "source": "#AaguOmduDoVU96xF"
+          },
+          "clinicalStatus": {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+                "code": "active"
+              }
+            ]
+          },
+          "code": {
+            "coding": [
+              {
+                "system": "http://hl7.org/fhir/sid/icd-10",
+                "code": "J06.9",
+                "display": "\u6025\u6027\u4e0a\u547c\u5438\u9053\u611f\u67d3\uff0c\u672a\u660e\u793a\u8005 (\u611f\u5192)"
+              }
+            ],
+            "text": "\u6025\u6027\u4e0a\u547c\u5438\u9053\u611f\u67d3\uff0c\u672a\u660e\u793a\u8005 (\u611f\u5192)"
+          },
+          "subject": {
+            "reference": "Patient/137591415"
+          },
+          "encounter": {
+            "reference": "Encounter/137591417"
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      }
+    ]
+  }
+}

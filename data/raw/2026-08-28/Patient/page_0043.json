@@ -1,0 +1,1037 @@
+{
+  "resource_type": "Patient",
+  "extraction_timestamp": "2026-08-28T11:03:42.913603",
+  "extraction_date": "2026-08-28",
+  "api_url": "https://hapi.fhir.org/baseR4?_getpages=88da3fc4-0522-4d60-8b4a-bdba09e762a5&_getpagesoffset=860&_count=20&_pretty=true&_bundletype=searchset",
+  "page_number": 43,
+  "entry_count": 20,
+  "response": {
+    "resourceType": "Bundle",
+    "id": "88da3fc4-0522-4d60-8b4a-bdba09e762a5",
+    "meta": {
+      "lastUpdated": "2026-08-28T07:02:54.029-04:00"
+    },
+    "type": "searchset",
+    "total": 921,
+    "link": [
+      {
+        "relation": "self",
+        "url": "https://hapi.fhir.org/baseR4?_getpages=88da3fc4-0522-4d60-8b4a-bdba09e762a5&_getpagesoffset=860&_count=20&_pretty=true&_bundletype=searchset"
+      },
+      {
+        "relation": "next",
+        "url": "https://hapi.fhir.org/baseR4?_getpages=88da3fc4-0522-4d60-8b4a-bdba09e762a5&_getpagesoffset=880&_count=20&_pretty=true&_bundletype=searchset"
+      },
+      {
+        "relation": "previous",
+        "url": "https://hapi.fhir.org/baseR4?_getpages=88da3fc4-0522-4d60-8b4a-bdba09e762a5&_getpagesoffset=840&_count=20&_pretty=true&_bundletype=searchset"
+      }
+    ],
+    "entry": [
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Patient/137596877",
+        "resource": {
+          "resourceType": "Patient",
+          "id": "137596877",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-27T22:18:24.383-04:00",
+            "source": "#beowJRzhE4xRjArd"
+          },
+          "text": {
+            "status": "generated",
+            "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">Sarah <b>THOMPSON </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>ARC-DEMO-THOMPSON-DOC-001</td></tr><tr><td>Date of birth</td><td><span>12 April 1962</span></td></tr></tbody></table></div>"
+          },
+          "identifier": [
+            {
+              "system": "https://arca.demo/mrn",
+              "value": "ARC-DEMO-THOMPSON-DOC-001"
+            },
+            {
+              "system": "https://arca.demo/seed-token",
+              "value": "084c8235-0e91-4795-bc64-04cc96fecb63"
+            }
+          ],
+          "name": [
+            {
+              "family": "Thompson",
+              "given": [
+                "Sarah"
+              ]
+            }
+          ],
+          "gender": "female",
+          "birthDate": "1962-04-12"
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Patient/137596905",
+        "resource": {
+          "resourceType": "Patient",
+          "id": "137596905",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-27T22:43:53.882-04:00",
+            "source": "#svra9zfatGui7yIA"
+          },
+          "text": {
+            "status": "generated",
+            "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">Henry <b>LEWIS </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>5c576836-3473-4764-9cce-4e90397e5b00</td></tr><tr><td>Address</td><td><span>852 Hickory St, Nashville, TN </span><br/><span>USA </span></td></tr><tr><td>Date of birth</td><td><span>21 June 2000</span></td></tr></tbody></table></div>"
+          },
+          "identifier": [
+            {
+              "system": "https://ncs.health/fhir/sid/ncs-patient-id",
+              "value": "5c576836-3473-4764-9cce-4e90397e5b00"
+            }
+          ],
+          "active": true,
+          "name": [
+            {
+              "family": "Lewis",
+              "given": [
+                "Henry"
+              ]
+            }
+          ],
+          "telecom": [
+            {
+              "system": "phone",
+              "value": "8317660183",
+              "use": "home",
+              "rank": 1
+            }
+          ],
+          "gender": "male",
+          "birthDate": "2000-06-21",
+          "address": [
+            {
+              "use": "home",
+              "type": "physical",
+              "line": [
+                "852 Hickory St, Nashville, TN"
+              ],
+              "country": "USA"
+            }
+          ]
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Patient/137596906",
+        "resource": {
+          "resourceType": "Patient",
+          "id": "137596906",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-27T22:44:03.406-04:00",
+            "source": "#sFKDaHmdbyIWCVzB"
+          },
+          "text": {
+            "status": "generated",
+            "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">Isabella <b>MARTIN </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>2c238cf0-a971-4a22-9ee2-77c05303ef33</td></tr><tr><td>Address</td><td><span>741 Cypress Ln, Jacksonville, FL </span><br/><span>USA </span></td></tr><tr><td>Date of birth</td><td><span>21 June 2021</span></td></tr></tbody></table></div>"
+          },
+          "identifier": [
+            {
+              "system": "https://ncs.health/fhir/sid/ncs-patient-id",
+              "value": "2c238cf0-a971-4a22-9ee2-77c05303ef33"
+            }
+          ],
+          "active": true,
+          "name": [
+            {
+              "family": "Martin",
+              "given": [
+                "Isabella"
+              ]
+            }
+          ],
+          "telecom": [
+            {
+              "system": "phone",
+              "value": "2343432434",
+              "use": "home",
+              "rank": 1
+            }
+          ],
+          "gender": "female",
+          "birthDate": "2021-06-21",
+          "address": [
+            {
+              "use": "home",
+              "type": "physical",
+              "line": [
+                "741 Cypress Ln, Jacksonville, FL"
+              ],
+              "country": "USA"
+            }
+          ]
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Patient/137596907",
+        "resource": {
+          "resourceType": "Patient",
+          "id": "137596907",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-27T22:44:09.759-04:00",
+            "source": "#sFmBev3Z8cdybPNH"
+          },
+          "text": {
+            "status": "generated",
+            "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">Benjamin <b>JACKSON </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>89819955-1ee9-4fc6-9662-1b6c9651590a</td></tr><tr><td>Address</td><td><span>963 Redwood Rd, Columbus, OH </span><br/><span>USA </span></td></tr><tr><td>Date of birth</td><td><span>21 June 2013</span></td></tr></tbody></table></div>"
+          },
+          "identifier": [
+            {
+              "system": "https://ncs.health/fhir/sid/ncs-patient-id",
+              "value": "89819955-1ee9-4fc6-9662-1b6c9651590a"
+            }
+          ],
+          "active": true,
+          "name": [
+            {
+              "family": "Jackson",
+              "given": [
+                "Benjamin"
+              ]
+            }
+          ],
+          "telecom": [
+            {
+              "system": "phone",
+              "value": "1555555678",
+              "use": "home",
+              "rank": 1
+            }
+          ],
+          "gender": "male",
+          "birthDate": "2013-06-21",
+          "address": [
+            {
+              "use": "home",
+              "type": "physical",
+              "line": [
+                "963 Redwood Rd, Columbus, OH"
+              ],
+              "country": "USA"
+            }
+          ]
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Patient/137596908",
+        "resource": {
+          "resourceType": "Patient",
+          "id": "137596908",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-27T22:44:15.320-04:00",
+            "source": "#5MXEYMyx4j2KmJXB"
+          },
+          "text": {
+            "status": "generated",
+            "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">Mia <b>WHITE </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>d316794f-5ae9-40a8-856b-193a975a8a36</td></tr><tr><td>Address</td><td><span>258 Willow St, Charlotte, NC </span><br/><span>USA </span></td></tr><tr><td>Date of birth</td><td><span>21 February 2010</span></td></tr></tbody></table></div>"
+          },
+          "identifier": [
+            {
+              "system": "https://ncs.health/fhir/sid/ncs-patient-id",
+              "value": "d316794f-5ae9-40a8-856b-193a975a8a36"
+            }
+          ],
+          "active": true,
+          "name": [
+            {
+              "family": "White",
+              "given": [
+                "Mia"
+              ]
+            }
+          ],
+          "telecom": [
+            {
+              "system": "phone",
+              "value": "8593713071",
+              "use": "home",
+              "rank": 1
+            }
+          ],
+          "gender": "female",
+          "birthDate": "2010-02-21",
+          "address": [
+            {
+              "use": "home",
+              "type": "physical",
+              "line": [
+                "258 Willow St, Charlotte, NC"
+              ],
+              "country": "USA"
+            }
+          ]
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Patient/137596909",
+        "resource": {
+          "resourceType": "Patient",
+          "id": "137596909",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-27T22:44:20.977-04:00",
+            "source": "#6DNjsLuyLHY7xvA6"
+          },
+          "text": {
+            "status": "generated",
+            "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">Lucas <b>HARRIS </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>41749e36-8a83-46fb-99ee-198ccf907ab4</td></tr><tr><td>Address</td><td><span>147 Magnolia Ave, Indianapolis, IN </span><br/><span>USA </span></td></tr><tr><td>Date of birth</td><td><span>21 February 2006</span></td></tr></tbody></table></div>"
+          },
+          "identifier": [
+            {
+              "system": "https://ncs.health/fhir/sid/ncs-patient-id",
+              "value": "41749e36-8a83-46fb-99ee-198ccf907ab4"
+            }
+          ],
+          "active": true,
+          "name": [
+            {
+              "family": "Harris",
+              "given": [
+                "Lucas"
+              ]
+            }
+          ],
+          "telecom": [
+            {
+              "system": "phone",
+              "value": "8593713071",
+              "use": "home",
+              "rank": 1
+            }
+          ],
+          "gender": "male",
+          "birthDate": "2006-02-21",
+          "address": [
+            {
+              "use": "home",
+              "type": "physical",
+              "line": [
+                "147 Magnolia Ave, Indianapolis, IN"
+              ],
+              "country": "USA"
+            }
+          ]
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Patient/137596910",
+        "resource": {
+          "resourceType": "Patient",
+          "id": "137596910",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-27T22:44:28.939-04:00",
+            "source": "#UC28aPahcmrapNA5"
+          },
+          "text": {
+            "status": "generated",
+            "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">Amelia <b>CLARK </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>ab6304c3-a50c-4798-9503-909b2bf8ff5b</td></tr><tr><td>Address</td><td><span>369 Poplar Ln, San Antonio, TX </span><br/><span>USA </span></td></tr><tr><td>Date of birth</td><td><span>01 February 2022</span></td></tr></tbody></table></div>"
+          },
+          "identifier": [
+            {
+              "system": "https://ncs.health/fhir/sid/ncs-patient-id",
+              "value": "ab6304c3-a50c-4798-9503-909b2bf8ff5b"
+            }
+          ],
+          "active": true,
+          "name": [
+            {
+              "family": "Clark",
+              "given": [
+                "Amelia"
+              ]
+            }
+          ],
+          "telecom": [
+            {
+              "system": "phone",
+              "value": "3254652617",
+              "use": "home",
+              "rank": 1
+            }
+          ],
+          "gender": "female",
+          "birthDate": "2022-02-01",
+          "address": [
+            {
+              "use": "home",
+              "type": "physical",
+              "line": [
+                "369 Poplar Ln, San Antonio, TX"
+              ],
+              "country": "USA"
+            }
+          ]
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Patient/137596913",
+        "resource": {
+          "resourceType": "Patient",
+          "id": "137596913",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-27T22:51:01.846-04:00",
+            "source": "#yia09JbR5nEvdAJr"
+          },
+          "text": {
+            "status": "generated",
+            "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\"/><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>A123456780</td></tr><tr><td>Date of birth</td><td><span>12 September 1990</span></td></tr></tbody></table></div>"
+          },
+          "identifier": [
+            {
+              "system": "http://www.moi.gov.tw/",
+              "value": "A123456780"
+            }
+          ],
+          "name": [
+            {
+              "text": "\u6797\u7c73\u679c"
+            }
+          ],
+          "gender": "male",
+          "birthDate": "1990-09-12"
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Patient/137596991",
+        "resource": {
+          "resourceType": "Patient",
+          "id": "137596991",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-28T00:00:26.818-04:00",
+            "source": "#9W6NUSKCRkPPDv6c"
+          },
+          "text": {
+            "status": "generated",
+            "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">Sarah <b>THOMPSON </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>ARC-DEMO-THOMPSON-001</td></tr><tr><td>Date of birth</td><td><span>12 April 1962</span></td></tr></tbody></table></div>"
+          },
+          "identifier": [
+            {
+              "system": "https://arca.demo/mrn",
+              "value": "ARC-DEMO-THOMPSON-001"
+            },
+            {
+              "system": "https://arca.demo/seed-token",
+              "value": "dac29b30-8e9f-49bc-9bde-02ee69e35867"
+            }
+          ],
+          "name": [
+            {
+              "family": "Thompson",
+              "given": [
+                "Sarah"
+              ]
+            }
+          ],
+          "gender": "female",
+          "birthDate": "1962-04-12"
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Patient/137596992",
+        "resource": {
+          "resourceType": "Patient",
+          "id": "137596992",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-28T00:00:29.098-04:00",
+            "source": "#XN5TLpfLwGTLrx3j"
+          },
+          "text": {
+            "status": "generated",
+            "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">Sarah <b>THOMPSON </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>ARC-DEMO-THOMPSON-DOC-001</td></tr><tr><td>Date of birth</td><td><span>12 April 1962</span></td></tr></tbody></table></div>"
+          },
+          "identifier": [
+            {
+              "system": "https://arca.demo/mrn",
+              "value": "ARC-DEMO-THOMPSON-DOC-001"
+            },
+            {
+              "system": "https://arca.demo/seed-token",
+              "value": "dac29b30-8e9f-49bc-9bde-02ee69e35867"
+            }
+          ],
+          "name": [
+            {
+              "family": "Thompson",
+              "given": [
+                "Sarah"
+              ]
+            }
+          ],
+          "gender": "female",
+          "birthDate": "1962-04-12"
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Patient/137597004",
+        "resource": {
+          "resourceType": "Patient",
+          "id": "137597004",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-28T00:03:14.395-04:00",
+            "source": "#Q71sdD3vP4zb1861",
+            "profile": [
+              "https://hl7chile.cl/fhir/ig/clcore/StructureDefinition/CorePatient"
+            ]
+          },
+          "identifier": [
+            {
+              "use": "official",
+              "type": {
+                "coding": [
+                  {
+                    "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+                    "code": "NNCLR",
+                    "display": "National Person Identifier Chile"
+                  }
+                ]
+              },
+              "system": "http://www.registrocivil.cl/run",
+              "value": "12345678-5"
+            }
+          ],
+          "active": true,
+          "name": [
+            {
+              "use": "official",
+              "family": "P\u00e9rez Gonz\u00e1lez",
+              "_family": {
+                "extension": [
+                  {
+                    "url": "https://hl7chile.cl/fhir/ig/clcore/StructureDefinition/ApellidoPaterno",
+                    "valueString": "P\u00e9rez"
+                  },
+                  {
+                    "url": "https://hl7chile.cl/fhir/ig/clcore/StructureDefinition/ApellidoMaterno",
+                    "valueString": "Gonz\u00e1lez"
+                  }
+                ]
+              },
+              "given": [
+                "Juan",
+                "Andr\u00e9s"
+              ]
+            }
+          ],
+          "telecom": [
+            {
+              "system": "phone",
+              "value": "+56912345678",
+              "use": "mobile"
+            },
+            {
+              "system": "email",
+              "value": "juan.perez@ejemplo.cl"
+            }
+          ],
+          "gender": "male",
+          "_gender": {
+            "extension": [
+              {
+                "url": "http://hl7.org/fhir/StructureDefinition/data-absent-reason",
+                "valueString": "Masculino"
+              }
+            ]
+          },
+          "birthDate": "1985-04-12",
+          "address": [
+            {
+              "use": "home",
+              "line": [
+                "Av. Providencia 1234"
+              ],
+              "city": "Providencia",
+              "state": "Metropolitana",
+              "country": "CL"
+            }
+          ]
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Patient/137597123",
+        "resource": {
+          "resourceType": "Patient",
+          "id": "137597123",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-28T01:02:29.215-04:00",
+            "source": "#WlmE9Dh53iPE1eWu"
+          },
+          "text": {
+            "status": "generated",
+            "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">Animesh <b>SAMANTA </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Address</td><td><span>1 Main Street </span><br/><span>New York </span><span>NY </span></td></tr><tr><td>Date of birth</td><td><span>28 August 2000</span></td></tr></tbody></table></div>"
+          },
+          "name": [
+            {
+              "use": "official",
+              "family": "Samanta",
+              "given": [
+                "Animesh"
+              ]
+            }
+          ],
+          "telecom": [
+            {
+              "system": "phone",
+              "value": "+1-555-1001"
+            },
+            {
+              "system": "email",
+              "value": "animesh.samanta@example.com"
+            }
+          ],
+          "gender": "female",
+          "birthDate": "2000-08-28",
+          "address": [
+            {
+              "use": "home",
+              "type": "physical",
+              "line": [
+                "1 Main Street"
+              ],
+              "city": "New York",
+              "state": "NY",
+              "postalCode": "10001"
+            }
+          ]
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Patient/137597124",
+        "resource": {
+          "resourceType": "Patient",
+          "id": "137597124",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-28T01:02:29.825-04:00",
+            "source": "#K33SrJfxhqqIugt3"
+          },
+          "text": {
+            "status": "generated",
+            "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">Chandan <b>KUMAR </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Address</td><td><span>2 Main Street </span><br/><span>New York </span><span>NY </span></td></tr><tr><td>Date of birth</td><td><span>28 August 1999</span></td></tr></tbody></table></div>"
+          },
+          "name": [
+            {
+              "use": "official",
+              "family": "Kumar",
+              "given": [
+                "Chandan"
+              ]
+            }
+          ],
+          "telecom": [
+            {
+              "system": "phone",
+              "value": "+1-555-1002"
+            },
+            {
+              "system": "email",
+              "value": "chandan.kumar@example.com"
+            }
+          ],
+          "gender": "male",
+          "birthDate": "1999-08-28",
+          "address": [
+            {
+              "use": "home",
+              "type": "physical",
+              "line": [
+                "2 Main Street"
+              ],
+              "city": "New York",
+              "state": "NY",
+              "postalCode": "10001"
+            }
+          ]
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Patient/137597125",
+        "resource": {
+          "resourceType": "Patient",
+          "id": "137597125",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-28T01:02:30.384-04:00",
+            "source": "#51yvS461GoDufYxT"
+          },
+          "text": {
+            "status": "generated",
+            "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">Darshit <b>PATEL </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Address</td><td><span>3 Main Street </span><br/><span>New York </span><span>NY </span></td></tr><tr><td>Date of birth</td><td><span>28 August 1998</span></td></tr></tbody></table></div>"
+          },
+          "name": [
+            {
+              "use": "official",
+              "family": "Patel",
+              "given": [
+                "Darshit"
+              ]
+            }
+          ],
+          "telecom": [
+            {
+              "system": "phone",
+              "value": "+1-555-1003"
+            },
+            {
+              "system": "email",
+              "value": "darshit.patel@example.com"
+            }
+          ],
+          "gender": "female",
+          "birthDate": "1998-08-28",
+          "address": [
+            {
+              "use": "home",
+              "type": "physical",
+              "line": [
+                "3 Main Street"
+              ],
+              "city": "New York",
+              "state": "NY",
+              "postalCode": "10001"
+            }
+          ]
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Patient/137597126",
+        "resource": {
+          "resourceType": "Patient",
+          "id": "137597126",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-28T01:02:30.931-04:00",
+            "source": "#KO3ZuB0OFXb82dSw"
+          },
+          "text": {
+            "status": "generated",
+            "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">Sunny <b>SINGH </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Address</td><td><span>4 Main Street </span><br/><span>New York </span><span>NY </span></td></tr><tr><td>Date of birth</td><td><span>28 August 1997</span></td></tr></tbody></table></div>"
+          },
+          "name": [
+            {
+              "use": "official",
+              "family": "Singh",
+              "given": [
+                "Sunny"
+              ]
+            }
+          ],
+          "telecom": [
+            {
+              "system": "phone",
+              "value": "+1-555-1004"
+            },
+            {
+              "system": "email",
+              "value": "sunny.singh@example.com"
+            }
+          ],
+          "gender": "male",
+          "birthDate": "1997-08-28",
+          "address": [
+            {
+              "use": "home",
+              "type": "physical",
+              "line": [
+                "4 Main Street"
+              ],
+              "city": "New York",
+              "state": "NY",
+              "postalCode": "10001"
+            }
+          ]
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Patient/137597127",
+        "resource": {
+          "resourceType": "Patient",
+          "id": "137597127",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-28T01:02:31.498-04:00",
+            "source": "#V2dlbJ0h9JvmwUxk"
+          },
+          "text": {
+            "status": "generated",
+            "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">Modi <b>SHARMA </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Address</td><td><span>5 Main Street </span><br/><span>New York </span><span>NY </span></td></tr><tr><td>Date of birth</td><td><span>28 August 1996</span></td></tr></tbody></table></div>"
+          },
+          "name": [
+            {
+              "use": "official",
+              "family": "Sharma",
+              "given": [
+                "Modi"
+              ]
+            }
+          ],
+          "telecom": [
+            {
+              "system": "phone",
+              "value": "+1-555-1005"
+            },
+            {
+              "system": "email",
+              "value": "modi.sharma@example.com"
+            }
+          ],
+          "gender": "female",
+          "birthDate": "1996-08-28",
+          "address": [
+            {
+              "use": "home",
+              "type": "physical",
+              "line": [
+                "5 Main Street"
+              ],
+              "city": "New York",
+              "state": "NY",
+              "postalCode": "10001"
+            }
+          ]
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Patient/137597128",
+        "resource": {
+          "resourceType": "Patient",
+          "id": "137597128",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-28T01:02:32.013-04:00",
+            "source": "#Io9GaIVWwJ0RfBrZ"
+          },
+          "text": {
+            "status": "generated",
+            "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">Rahul <b>VERMA </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Address</td><td><span>6 Main Street </span><br/><span>New York </span><span>NY </span></td></tr><tr><td>Date of birth</td><td><span>28 August 1995</span></td></tr></tbody></table></div>"
+          },
+          "name": [
+            {
+              "use": "official",
+              "family": "Verma",
+              "given": [
+                "Rahul"
+              ]
+            }
+          ],
+          "telecom": [
+            {
+              "system": "phone",
+              "value": "+1-555-1006"
+            },
+            {
+              "system": "email",
+              "value": "rahul.verma@example.com"
+            }
+          ],
+          "gender": "male",
+          "birthDate": "1995-08-28",
+          "address": [
+            {
+              "use": "home",
+              "type": "physical",
+              "line": [
+                "6 Main Street"
+              ],
+              "city": "New York",
+              "state": "NY",
+              "postalCode": "10001"
+            }
+          ]
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Patient/137597129",
+        "resource": {
+          "resourceType": "Patient",
+          "id": "137597129",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-28T01:02:32.513-04:00",
+            "source": "#wOnM7KhxZBt5nwpK"
+          },
+          "text": {
+            "status": "generated",
+            "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">Amit <b>GUPTA </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Address</td><td><span>7 Main Street </span><br/><span>New York </span><span>NY </span></td></tr><tr><td>Date of birth</td><td><span>28 August 1994</span></td></tr></tbody></table></div>"
+          },
+          "name": [
+            {
+              "use": "official",
+              "family": "Gupta",
+              "given": [
+                "Amit"
+              ]
+            }
+          ],
+          "telecom": [
+            {
+              "system": "phone",
+              "value": "+1-555-1007"
+            },
+            {
+              "system": "email",
+              "value": "amit.gupta@example.com"
+            }
+          ],
+          "gender": "female",
+          "birthDate": "1994-08-28",
+          "address": [
+            {
+              "use": "home",
+              "type": "physical",
+              "line": [
+                "7 Main Street"
+              ],
+              "city": "New York",
+              "state": "NY",
+              "postalCode": "10001"
+            }
+          ]
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Patient/137597159",
+        "resource": {
+          "resourceType": "Patient",
+          "id": "137597159",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-28T02:10:00.031-04:00",
+            "source": "#8DXDlmbxrIl5ivSU"
+          },
+          "text": {
+            "status": "generated",
+            "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">Sarah <b>THOMPSON </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>ARC-DEMO-THOMPSON-001</td></tr><tr><td>Date of birth</td><td><span>12 April 1962</span></td></tr></tbody></table></div>"
+          },
+          "identifier": [
+            {
+              "system": "https://arca.demo/mrn",
+              "value": "ARC-DEMO-THOMPSON-001"
+            },
+            {
+              "system": "https://arca.demo/seed-token",
+              "value": "c5b7aaff-fca4-4c2e-a7e3-ec6a6ffedb82"
+            }
+          ],
+          "name": [
+            {
+              "family": "Thompson",
+              "given": [
+                "Sarah"
+              ]
+            }
+          ],
+          "gender": "female",
+          "birthDate": "1962-04-12"
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Patient/137597160",
+        "resource": {
+          "resourceType": "Patient",
+          "id": "137597160",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-28T02:10:03.566-04:00",
+            "source": "#8mw9dqyoGfg3wNA8"
+          },
+          "text": {
+            "status": "generated",
+            "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">Sarah <b>THOMPSON </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>ARC-DEMO-THOMPSON-DOC-001</td></tr><tr><td>Date of birth</td><td><span>12 April 1962</span></td></tr></tbody></table></div>"
+          },
+          "identifier": [
+            {
+              "system": "https://arca.demo/mrn",
+              "value": "ARC-DEMO-THOMPSON-DOC-001"
+            },
+            {
+              "system": "https://arca.demo/seed-token",
+              "value": "c5b7aaff-fca4-4c2e-a7e3-ec6a6ffedb82"
+            }
+          ],
+          "name": [
+            {
+              "family": "Thompson",
+              "given": [
+                "Sarah"
+              ]
+            }
+          ],
+          "gender": "female",
+          "birthDate": "1962-04-12"
+        },
+        "search": {
+          "mode": "match"
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,1046 @@
+{
+  "resource_type": "Condition",
+  "extraction_timestamp": "2026-08-28T11:05:58.757513",
+  "extraction_date": "2026-08-28",
+  "api_url": "https://hapi.fhir.org/baseR4?_getpages=2d1f13dc-4131-4aa9-a6e8-d5f07ce998ea&_getpagesoffset=20&_count=20&_pretty=true&_bundletype=searchset",
+  "page_number": 1,
+  "entry_count": 20,
+  "response": {
+    "resourceType": "Bundle",
+    "id": "2d1f13dc-4131-4aa9-a6e8-d5f07ce998ea",
+    "meta": {
+      "lastUpdated": "2026-08-28T07:05:58.820-04:00"
+    },
+    "type": "searchset",
+    "link": [
+      {
+        "relation": "self",
+        "url": "https://hapi.fhir.org/baseR4?_getpages=2d1f13dc-4131-4aa9-a6e8-d5f07ce998ea&_getpagesoffset=20&_count=20&_pretty=true&_bundletype=searchset"
+      },
+      {
+        "relation": "next",
+        "url": "https://hapi.fhir.org/baseR4?_getpages=2d1f13dc-4131-4aa9-a6e8-d5f07ce998ea&_getpagesoffset=40&_count=20&_pretty=true&_bundletype=searchset"
+      },
+      {
+        "relation": "previous",
+        "url": "https://hapi.fhir.org/baseR4?_getpages=2d1f13dc-4131-4aa9-a6e8-d5f07ce998ea&_getpagesoffset=0&_count=20&_pretty=true&_bundletype=searchset"
+      }
+    ],
+    "entry": [
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Condition/137593714",
+        "resource": {
+          "resourceType": "Condition",
+          "id": "137593714",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-25T05:25:40.480-04:00",
+            "source": "#qD6OGBgdnhYE0QGv",
+            "tag": [
+              {
+                "system": "http://international-second-opinion.example.org/tags",
+                "code": "IMSO-PROTO-DEMO1",
+                "display": "International Medical Second Opinion prototype"
+              }
+            ]
+          },
+          "identifier": [
+            {
+              "system": "http://international-second-opinion.example.org/ids",
+              "value": "condition-demo"
+            }
+          ],
+          "clinicalStatus": {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+                "code": "active"
+              }
+            ]
+          },
+          "code": {
+            "text": "Osteoarthritis of the right knee, total replacement proposed"
+          },
+          "subject": {
+            "reference": "Patient/137593713"
+          },
+          "onsetDateTime": "2023-06-01",
+          "recordedDate": "2026-08-25T09:25:35.777Z",
+          "note": [
+            {
+              "text": "Surgery recommended locally; the patient wants an independent view first."
+            }
+          ]
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Condition/137594516",
+        "resource": {
+          "resourceType": "Condition",
+          "id": "137594516",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-26T01:07:43.809-04:00",
+            "source": "#bX4inn2zfllprH3q"
+          },
+          "identifier": [
+            {
+              "system": "https://carebridge.example/condition",
+              "value": "CB-F1F6A055-30"
+            }
+          ],
+          "code": {
+            "text": "\\87\r\n54"
+          },
+          "subject": {
+            "reference": "Patient/137552818"
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Condition/137594660",
+        "resource": {
+          "resourceType": "Condition",
+          "id": "137594660",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-26T05:08:23.022-04:00",
+            "source": "#qYJKTyMB8EcWmueU",
+            "tag": [
+              {
+                "system": "http://ihuanfhir.org/platform",
+                "code": "team-ihuanfhir"
+              }
+            ]
+          },
+          "clinicalStatus": {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+                "code": "active"
+              }
+            ]
+          },
+          "verificationStatus": {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+                "code": "confirmed"
+              }
+            ]
+          },
+          "category": [
+            {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                  "code": "encounter-diagnosis"
+                }
+              ],
+              "text": "\u904b\u52d5\u640d\u50b7"
+            }
+          ],
+          "severity": {
+            "text": "\u7b2c\u4e00\u7d1a (Grade I) \u8f15\u5ea6"
+          },
+          "code": {
+            "text": "\u53f3\u80a9\u65cb\u8f49\u808c\u8896\u90e8\u5206\u6495\u88c2"
+          },
+          "bodySite": [
+            {
+              "text": "Right arm"
+            }
+          ],
+          "subject": {
+            "reference": "Patient/137579164",
+            "display": "\u6797\u5927\u540c"
+          },
+          "encounter": {
+            "reference": "Encounter/137594659"
+          },
+          "onsetDateTime": "2026-08-26",
+          "recordedDate": "2026-08-26",
+          "note": [
+            {
+              "text": "test"
+            }
+          ]
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Condition/137594952",
+        "resource": {
+          "resourceType": "Condition",
+          "id": "137594952",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-26T09:12:12.382-04:00",
+            "source": "#QhNI8HByzohEJ6qs"
+          },
+          "identifier": [
+            {
+              "system": "https://carebridge.example/condition",
+              "value": "CB-F1F6A055-31"
+            }
+          ],
+          "code": {
+            "text": "\u6d41\u611f"
+          },
+          "subject": {
+            "reference": "Patient/137552818"
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Condition/137594963",
+        "resource": {
+          "resourceType": "Condition",
+          "id": "137594963",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-26T09:22:25.981-04:00",
+            "source": "#3WEqDbfswLtKhFBy"
+          },
+          "identifier": [
+            {
+              "system": "https://carebridge.example/condition",
+              "value": "CB-90FD5B7C-32"
+            }
+          ],
+          "code": {
+            "text": "77\r\n542"
+          },
+          "subject": {
+            "reference": "Patient/137553513"
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Condition/137595021",
+        "resource": {
+          "resourceType": "Condition",
+          "id": "137595021",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-26T10:40:53.711-04:00",
+            "source": "#Vcu8DLG9tNan1May"
+          },
+          "identifier": [
+            {
+              "system": "https://carebridge.example/condition",
+              "value": "CB-31B022C3-33"
+            }
+          ],
+          "code": {
+            "text": "\u5feb\u4fee\u597d\u4e86!!!"
+          },
+          "subject": {
+            "reference": "Patient/137551239"
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Condition/137595114",
+        "resource": {
+          "resourceType": "Condition",
+          "id": "137595114",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-26T14:07:41.928-04:00",
+            "source": "#CMBFvWH8jUtjsghz",
+            "profile": [
+              "https://dsacms.github.io/cmmi-access-model/StructureDefinition/access-msk-condition"
+            ]
+          },
+          "clinicalStatus": {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+                "code": "active"
+              }
+            ]
+          },
+          "verificationStatus": {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+                "code": "confirmed"
+              }
+            ]
+          },
+          "category": [
+            {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                  "code": "encounter-diagnosis"
+                }
+              ]
+            }
+          ],
+          "code": {
+            "coding": [
+              {
+                "system": "http://hl7.org/fhir/sid/icd-10-cm",
+                "code": "M19.90",
+                "display": "Unspecified osteoarthritis, unspecified site"
+              }
+            ]
+          },
+          "subject": {
+            "reference": "Patient/137595113"
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Condition/137595352",
+        "resource": {
+          "resourceType": "Condition",
+          "id": "137595352",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-27T00:01:29.605-04:00",
+            "source": "#bwvTCaA6D5UlXtS6"
+          },
+          "clinicalStatus": {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+                "code": "active"
+              }
+            ]
+          },
+          "verificationStatus": {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+                "code": "unconfirmed"
+              }
+            ]
+          },
+          "category": [
+            {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                  "code": "problem-list-item"
+                }
+              ]
+            }
+          ],
+          "severity": {
+            "text": "\u4e2d\u5ea6\u75bc\u75db (4-6\u5206)"
+          },
+          "code": {
+            "text": "\u54b3\u55fd / \u5589\u56a8\u5982\u5200\u5272\u822c\u75bc\u75db\u3001 \u6301\u7e8c\u9ad8\u71d2 / \u754f\u5bd2\u6230\u6144"
+          },
+          "subject": {
+            "reference": "Patient/137595374"
+          },
+          "onsetDateTime": "2026-08-24T03:47:09.624Z",
+          "note": [
+            {
+              "text": "\u7531\u500b\u4eba\u5065\u5eb7\u52a9\u624b\u75c7\u72c0\u6642\u9593\u8ef8\u532f\u51fa\uff1b\u975e\u91ab\u5e2b\u8a3a\u65b7\u3002"
+            }
+          ]
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Condition/137595354",
+        "resource": {
+          "resourceType": "Condition",
+          "id": "137595354",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-27T00:01:29.605-04:00",
+            "source": "#bwvTCaA6D5UlXtS6"
+          },
+          "clinicalStatus": {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+                "code": "active"
+              }
+            ]
+          },
+          "verificationStatus": {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+                "code": "unconfirmed"
+              }
+            ]
+          },
+          "category": [
+            {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                  "code": "problem-list-item"
+                }
+              ]
+            }
+          ],
+          "severity": {
+            "text": "\u4e2d\u5ea6\u75bc\u75db (4-6\u5206)"
+          },
+          "code": {
+            "text": "\u60a3\u90e8\u7167\u7247 AI \u5206\u6790\u8207\u554f\u5377\u8a55\u4f30\u3001 \u5200\u5272\u5272\u50b7 / \u523a\u50b7 / \u5272\u88c2\u6df1\u50b7\u53e3"
+          },
+          "subject": {
+            "reference": "Patient/137595374"
+          },
+          "onsetDateTime": "2026-08-24T02:02:36.912Z",
+          "note": [
+            {
+              "text": "\u7531\u500b\u4eba\u5065\u5eb7\u52a9\u624b\u75c7\u72c0\u6642\u9593\u8ef8\u532f\u51fa\uff1b\u975e\u91ab\u5e2b\u8a3a\u65b7\u3002"
+            }
+          ]
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Condition/137595356",
+        "resource": {
+          "resourceType": "Condition",
+          "id": "137595356",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-27T00:01:29.605-04:00",
+            "source": "#bwvTCaA6D5UlXtS6"
+          },
+          "clinicalStatus": {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+                "code": "active"
+              }
+            ]
+          },
+          "verificationStatus": {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+                "code": "unconfirmed"
+              }
+            ]
+          },
+          "category": [
+            {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                  "code": "problem-list-item"
+                }
+              ]
+            }
+          ],
+          "severity": {
+            "text": "\u4e2d\u5ea6\u75bc\u75db (4-6\u5206)"
+          },
+          "code": {
+            "text": "\u60a3\u90e8\u7167\u7247 AI \u5206\u6790\u8207\u554f\u5377\u8a55\u4f30\u3001 \u5200\u5272\u5272\u50b7 / \u523a\u50b7 / \u5272\u88c2\u6df1\u50b7\u53e3\u3001 \u982d\u8139\u75db / \u8108\u640f\u8df3\u52d5\u6027\u504f\u982d\u75db\u3001 \u6301\u7e8c\u9ad8\u71d2 / \u754f\u5bd2\u6230\u6144"
+          },
+          "subject": {
+            "reference": "Patient/137595374"
+          },
+          "onsetDateTime": "2026-08-24T02:02:16.230Z",
+          "note": [
+            {
+              "text": "\u7531\u500b\u4eba\u5065\u5eb7\u52a9\u624b\u75c7\u72c0\u6642\u9593\u8ef8\u532f\u51fa\uff1b\u975e\u91ab\u5e2b\u8a3a\u65b7\u3002"
+            }
+          ]
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Condition/137595358",
+        "resource": {
+          "resourceType": "Condition",
+          "id": "137595358",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-27T00:01:29.605-04:00",
+            "source": "#bwvTCaA6D5UlXtS6"
+          },
+          "clinicalStatus": {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+                "code": "active"
+              }
+            ]
+          },
+          "verificationStatus": {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+                "code": "unconfirmed"
+              }
+            ]
+          },
+          "category": [
+            {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                  "code": "problem-list-item"
+                }
+              ]
+            }
+          ],
+          "severity": {
+            "text": "\u4e2d\u5ea6\u75bc\u75db (4-6\u5206)"
+          },
+          "code": {
+            "text": "\u982d\u8139\u75db / \u8108\u640f\u8df3\u52d5\u6027\u504f\u982d\u75db\u3001 \u6301\u7e8c\u9ad8\u71d2 / \u754f\u5bd2\u6230\u6144"
+          },
+          "subject": {
+            "reference": "Patient/137595374"
+          },
+          "onsetDateTime": "2026-08-24T01:23:21.346Z",
+          "note": [
+            {
+              "text": "\u7531\u500b\u4eba\u5065\u5eb7\u52a9\u624b\u75c7\u72c0\u6642\u9593\u8ef8\u532f\u51fa\uff1b\u975e\u91ab\u5e2b\u8a3a\u65b7\u3002"
+            }
+          ]
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Condition/137595360",
+        "resource": {
+          "resourceType": "Condition",
+          "id": "137595360",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-27T00:01:29.605-04:00",
+            "source": "#bwvTCaA6D5UlXtS6"
+          },
+          "clinicalStatus": {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+                "code": "active"
+              }
+            ]
+          },
+          "verificationStatus": {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+                "code": "unconfirmed"
+              }
+            ]
+          },
+          "category": [
+            {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                  "code": "problem-list-item"
+                }
+              ]
+            }
+          ],
+          "severity": {
+            "text": "\u4e2d\u5ea6\u75bc\u75db (4-6\u5206)"
+          },
+          "code": {
+            "text": "\u982d\u8139\u75db / \u8108\u640f\u8df3\u52d5\u6027\u504f\u982d\u75db\u3001 \u6301\u7e8c\u9ad8\u71d2 / \u754f\u5bd2\u6230\u6144"
+          },
+          "subject": {
+            "reference": "Patient/137595374"
+          },
+          "onsetDateTime": "2026-08-24T01:22:00.028Z",
+          "note": [
+            {
+              "text": "\u7531\u500b\u4eba\u5065\u5eb7\u52a9\u624b\u75c7\u72c0\u6642\u9593\u8ef8\u532f\u51fa\uff1b\u975e\u91ab\u5e2b\u8a3a\u65b7\u3002"
+            }
+          ]
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Condition/137595362",
+        "resource": {
+          "resourceType": "Condition",
+          "id": "137595362",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-27T00:01:29.605-04:00",
+            "source": "#bwvTCaA6D5UlXtS6"
+          },
+          "clinicalStatus": {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+                "code": "active"
+              }
+            ]
+          },
+          "verificationStatus": {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+                "code": "unconfirmed"
+              }
+            ]
+          },
+          "category": [
+            {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                  "code": "problem-list-item"
+                }
+              ]
+            }
+          ],
+          "severity": {
+            "text": "\u4e2d\u5ea6\u75bc\u75db (4-6\u5206)"
+          },
+          "code": {
+            "text": "\u982d\u8139\u75db / \u8108\u640f\u8df3\u52d5\u6027\u504f\u982d\u75db\u3001 \u6301\u7e8c\u9ad8\u71d2 / \u754f\u5bd2\u6230\u6144"
+          },
+          "subject": {
+            "reference": "Patient/137595374"
+          },
+          "onsetDateTime": "2026-08-24T01:21:15.180Z",
+          "note": [
+            {
+              "text": "\u7531\u500b\u4eba\u5065\u5eb7\u52a9\u624b\u75c7\u72c0\u6642\u9593\u8ef8\u532f\u51fa\uff1b\u975e\u91ab\u5e2b\u8a3a\u65b7\u3002"
+            }
+          ]
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Condition/137595364",
+        "resource": {
+          "resourceType": "Condition",
+          "id": "137595364",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-27T00:01:29.605-04:00",
+            "source": "#bwvTCaA6D5UlXtS6"
+          },
+          "clinicalStatus": {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+                "code": "active"
+              }
+            ]
+          },
+          "verificationStatus": {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+                "code": "unconfirmed"
+              }
+            ]
+          },
+          "category": [
+            {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                  "code": "problem-list-item"
+                }
+              ]
+            }
+          ],
+          "severity": {
+            "text": "\u4e2d\u5ea6\u75bc\u75db (4-6\u5206)"
+          },
+          "code": {
+            "text": "\u982d\u8139\u75db / \u8108\u640f\u8df3\u52d5\u6027\u504f\u982d\u75db"
+          },
+          "subject": {
+            "reference": "Patient/137595374"
+          },
+          "onsetDateTime": "2026-08-24T01:16:58.863Z",
+          "note": [
+            {
+              "text": "\u7531\u500b\u4eba\u5065\u5eb7\u52a9\u624b\u75c7\u72c0\u6642\u9593\u8ef8\u532f\u51fa\uff1b\u975e\u91ab\u5e2b\u8a3a\u65b7\u3002"
+            }
+          ]
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Condition/137595366",
+        "resource": {
+          "resourceType": "Condition",
+          "id": "137595366",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-27T00:01:29.605-04:00",
+            "source": "#bwvTCaA6D5UlXtS6"
+          },
+          "clinicalStatus": {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+                "code": "active"
+              }
+            ]
+          },
+          "verificationStatus": {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+                "code": "unconfirmed"
+              }
+            ]
+          },
+          "category": [
+            {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                  "code": "problem-list-item"
+                }
+              ]
+            }
+          ],
+          "severity": {
+            "text": "\u4e2d\u5ea6\u75bc\u75db (4-6\u5206)"
+          },
+          "code": {
+            "text": "\u982d\u8139\u75db / \u8108\u640f\u8df3\u52d5\u6027\u504f\u982d\u75db\u3001 \u6301\u7e8c\u9ad8\u71d2 / \u754f\u5bd2\u6230\u6144"
+          },
+          "subject": {
+            "reference": "Patient/137595374"
+          },
+          "onsetDateTime": "2026-08-24T01:09:24.364Z",
+          "note": [
+            {
+              "text": "\u7531\u500b\u4eba\u5065\u5eb7\u52a9\u624b\u75c7\u72c0\u6642\u9593\u8ef8\u532f\u51fa\uff1b\u975e\u91ab\u5e2b\u8a3a\u65b7\u3002"
+            }
+          ]
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Condition/137595368",
+        "resource": {
+          "resourceType": "Condition",
+          "id": "137595368",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-27T00:01:29.605-04:00",
+            "source": "#bwvTCaA6D5UlXtS6"
+          },
+          "clinicalStatus": {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+                "code": "active"
+              }
+            ]
+          },
+          "verificationStatus": {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+                "code": "unconfirmed"
+              }
+            ]
+          },
+          "category": [
+            {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                  "code": "problem-list-item"
+                }
+              ]
+            }
+          ],
+          "severity": {
+            "text": "\u8f15\u5fae\u4e0d\u9069 (1-3\u5206)"
+          },
+          "code": {
+            "text": "\u60a3\u90e8\u7167\u7247 AI \u5206\u6790\u8207\u554f\u5377\u8a55\u4f30"
+          },
+          "subject": {
+            "reference": "Patient/137595374"
+          },
+          "onsetDateTime": "2026-08-09T06:32:29.394Z",
+          "note": [
+            {
+              "text": "\u7531\u500b\u4eba\u5065\u5eb7\u52a9\u624b\u75c7\u72c0\u6642\u9593\u8ef8\u532f\u51fa\uff1b\u975e\u91ab\u5e2b\u8a3a\u65b7\u3002"
+            }
+          ]
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Condition/137595370",
+        "resource": {
+          "resourceType": "Condition",
+          "id": "137595370",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-27T00:01:29.605-04:00",
+            "source": "#bwvTCaA6D5UlXtS6"
+          },
+          "clinicalStatus": {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+                "code": "active"
+              }
+            ]
+          },
+          "verificationStatus": {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+                "code": "unconfirmed"
+              }
+            ]
+          },
+          "category": [
+            {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                  "code": "problem-list-item"
+                }
+              ]
+            }
+          ],
+          "severity": {
+            "text": "\u8f15\u5fae\u4e0d\u9069 (1-3\u5206)"
+          },
+          "code": {
+            "text": "\u60a3\u90e8\u7167\u7247 AI \u5206\u6790\u8207\u554f\u5377\u8a55\u4f30\u3001 \u95dc\u7bc0\u6025\u6027\u626d\u50b7 / \u808c\u8089\u62c9\u50b7 (\u4eca\u5929\u4e0b\u5348\u6a13\u68af\u9593\u8dcc\u5012)"
+          },
+          "subject": {
+            "reference": "Patient/137595374"
+          },
+          "onsetDateTime": "2026-08-09T06:04:39.401Z",
+          "note": [
+            {
+              "text": "\u7531\u500b\u4eba\u5065\u5eb7\u52a9\u624b\u75c7\u72c0\u6642\u9593\u8ef8\u532f\u51fa\uff1b\u975e\u91ab\u5e2b\u8a3a\u65b7\u3002"
+            }
+          ]
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Condition/137595372",
+        "resource": {
+          "resourceType": "Condition",
+          "id": "137595372",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-27T00:01:29.605-04:00",
+            "source": "#bwvTCaA6D5UlXtS6"
+          },
+          "clinicalStatus": {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+                "code": "active"
+              }
+            ]
+          },
+          "verificationStatus": {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+                "code": "unconfirmed"
+              }
+            ]
+          },
+          "category": [
+            {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                  "code": "problem-list-item"
+                }
+              ]
+            }
+          ],
+          "severity": {
+            "text": "\u8f15\u5fae\u4e0d\u9069 (1-3\u5206)"
+          },
+          "code": {
+            "text": "\u60a3\u90e8\u7167\u7247 AI \u5206\u6790\u8207\u554f\u5377\u8a55\u4f30\u3001 \u95dc\u7bc0\u6025\u6027\u626d\u50b7 / \u808c\u8089\u62c9\u50b7"
+          },
+          "subject": {
+            "reference": "Patient/137595374"
+          },
+          "onsetDateTime": "2026-08-09T06:01:26.637Z",
+          "note": [
+            {
+              "text": "\u7531\u500b\u4eba\u5065\u5eb7\u52a9\u624b\u75c7\u72c0\u6642\u9593\u8ef8\u532f\u51fa\uff1b\u975e\u91ab\u5e2b\u8a3a\u65b7\u3002"
+            }
+          ]
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Condition/137595428",
+        "resource": {
+          "resourceType": "Condition",
+          "id": "137595428",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-27T00:02:38.472-04:00",
+            "source": "#AWzBrhkSomdg6Mfx"
+          },
+          "clinicalStatus": {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+                "code": "active"
+              }
+            ]
+          },
+          "verificationStatus": {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+                "code": "unconfirmed"
+              }
+            ]
+          },
+          "category": [
+            {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                  "code": "problem-list-item"
+                }
+              ]
+            }
+          ],
+          "severity": {
+            "text": "\u4e2d\u5ea6\u75bc\u75db (4-6\u5206)"
+          },
+          "code": {
+            "text": "\u54b3\u55fd / \u5589\u56a8\u5982\u5200\u5272\u822c\u75bc\u75db\u3001 \u6301\u7e8c\u9ad8\u71d2 / \u754f\u5bd2\u6230\u6144"
+          },
+          "subject": {
+            "reference": "Patient/137595450"
+          },
+          "onsetDateTime": "2026-08-24T03:47:09.624Z",
+          "note": [
+            {
+              "text": "\u7531\u500b\u4eba\u5065\u5eb7\u52a9\u624b\u75c7\u72c0\u6642\u9593\u8ef8\u532f\u51fa\uff1b\u975e\u91ab\u5e2b\u8a3a\u65b7\u3002"
+            }
+          ]
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Condition/137595430",
+        "resource": {
+          "resourceType": "Condition",
+          "id": "137595430",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-27T00:02:38.472-04:00",
+            "source": "#AWzBrhkSomdg6Mfx"
+          },
+          "clinicalStatus": {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+                "code": "active"
+              }
+            ]
+          },
+          "verificationStatus": {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+                "code": "unconfirmed"
+              }
+            ]
+          },
+          "category": [
+            {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                  "code": "problem-list-item"
+                }
+              ]
+            }
+          ],
+          "severity": {
+            "text": "\u4e2d\u5ea6\u75bc\u75db (4-6\u5206)"
+          },
+          "code": {
+            "text": "\u60a3\u90e8\u7167\u7247 AI \u5206\u6790\u8207\u554f\u5377\u8a55\u4f30\u3001 \u5200\u5272\u5272\u50b7 / \u523a\u50b7 / \u5272\u88c2\u6df1\u50b7\u53e3"
+          },
+          "subject": {
+            "reference": "Patient/137595450"
+          },
+          "onsetDateTime": "2026-08-24T02:02:36.912Z",
+          "note": [
+            {
+              "text": "\u7531\u500b\u4eba\u5065\u5eb7\u52a9\u624b\u75c7\u72c0\u6642\u9593\u8ef8\u532f\u51fa\uff1b\u975e\u91ab\u5e2b\u8a3a\u65b7\u3002"
+            }
+          ]
+        },
+        "search": {
+          "mode": "match"
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,697 @@
+{
+  "resource_type": "Patient",
+  "extraction_timestamp": "2026-08-28T11:03:42.913603",
+  "extraction_date": "2026-08-28",
+  "api_url": "https://hapi.fhir.org/baseR4?_getpages=88da3fc4-0522-4d60-8b4a-bdba09e762a5&_getpagesoffset=800&_count=20&_pretty=true&_bundletype=searchset",
+  "page_number": 40,
+  "entry_count": 20,
+  "response": {
+    "resourceType": "Bundle",
+    "id": "88da3fc4-0522-4d60-8b4a-bdba09e762a5",
+    "meta": {
+      "lastUpdated": "2026-08-28T07:02:54.029-04:00"
+    },
+    "type": "searchset",
+    "total": 921,
+    "link": [
+      {
+        "relation": "self",
+        "url": "https://hapi.fhir.org/baseR4?_getpages=88da3fc4-0522-4d60-8b4a-bdba09e762a5&_getpagesoffset=800&_count=20&_pretty=true&_bundletype=searchset"
+      },
+      {
+        "relation": "next",
+        "url": "https://hapi.fhir.org/baseR4?_getpages=88da3fc4-0522-4d60-8b4a-bdba09e762a5&_getpagesoffset=820&_count=20&_pretty=true&_bundletype=searchset"
+      },
+      {
+        "relation": "previous",
+        "url": "https://hapi.fhir.org/baseR4?_getpages=88da3fc4-0522-4d60-8b4a-bdba09e762a5&_getpagesoffset=780&_count=20&_pretty=true&_bundletype=searchset"
+      }
+    ],
+    "entry": [
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Patient/137596457",
+        "resource": {
+          "resourceType": "Patient",
+          "id": "137596457",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-27T15:54:08.432-04:00",
+            "source": "#3xHUKBmkmewJs5zk"
+          },
+          "text": {
+            "status": "generated",
+            "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>urn:uuid:lerox-care-share-69eb42f4-bbe2-4b4b-81ed-5796d4fbbf8a</td></tr></tbody></table></div>"
+          },
+          "identifier": [
+            {
+              "system": "urn:ietf:rfc:3986",
+              "value": "urn:uuid:lerox-care-share-69eb42f4-bbe2-4b4b-81ed-5796d4fbbf8a"
+            }
+          ],
+          "active": true
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Patient/137596459",
+        "resource": {
+          "resourceType": "Patient",
+          "id": "137596459",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-27T15:54:08.775-04:00",
+            "source": "#reHOl7KxFKgbhuaJ"
+          },
+          "text": {
+            "status": "generated",
+            "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>urn:uuid:lerox-patient-dfd544e3-56fd-4e79-989e-9cdef785e89c</td></tr></tbody></table></div>"
+          },
+          "identifier": [
+            {
+              "system": "urn:ietf:rfc:3986",
+              "value": "urn:uuid:lerox-patient-dfd544e3-56fd-4e79-989e-9cdef785e89c"
+            }
+          ],
+          "active": true
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Patient/137596545",
+        "resource": {
+          "resourceType": "Patient",
+          "id": "137596545",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-27T16:13:03.195-04:00",
+            "source": "#2OyE8KopDb5NWGGu"
+          },
+          "text": {
+            "status": "generated",
+            "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Alejo redondo Id # alejo.redondo</div>"
+          },
+          "identifier": [
+            {
+              "system": "http://mypatientidentifier.com/ids",
+              "value": "alejo.redondo"
+            }
+          ],
+          "name": [
+            {
+              "family": "redondo",
+              "given": [
+                "Alejo"
+              ]
+            }
+          ],
+          "address": [
+            {
+              "line": [
+                "Calle falsa 123"
+              ],
+              "city": "Campana",
+              "state": "Campana",
+              "country": "Argentina"
+            }
+          ],
+          "managingOrganization": {
+            "reference": "Organization/137596544"
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Patient/fus-3368421",
+        "resource": {
+          "resourceType": "Patient",
+          "id": "fus-3368421",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-27T16:25:17.798-04:00",
+            "source": "#pwm6K4mQCfYbzkMk"
+          },
+          "text": {
+            "status": "generated",
+            "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Patient 3368421</div>"
+          },
+          "extension": [
+            {
+              "url": "https://fhir.sisqualis.com.br/StructureDefinition/data-alteracao-origem",
+              "valueInstant": "2025-08-15T10:38:07.145415-03:00"
+            },
+            {
+              "url": "https://fhir.sisqualis.com.br/StructureDefinition/nome-mae",
+              "valueString": "MAE PACIENTE TESTE 45597"
+            },
+            {
+              "url": "https://fhir.sisqualis.com.br/StructureDefinition/nome-pai",
+              "valueString": "PAI PACIENTE TESTE 45597"
+            },
+            {
+              "url": "https://fhir.sisqualis.com.br/StructureDefinition/genero-nome",
+              "valueString": "M"
+            },
+            {
+              "url": "urn:fusion:col:genero:sigla",
+              "valueString": "M"
+            }
+          ],
+          "identifier": [
+            {
+              "system": "https://fhir.sisqualis.com.br/NamingSystem/codigo-paciente",
+              "value": "3368421"
+            },
+            {
+              "extension": [
+                {
+                  "url": "urn:fusion:col:pacientedocumento:ativo",
+                  "valueBoolean": true
+                }
+              ],
+              "system": "https://fhir.sisqualis.com.br/NamingSystem/cpf",
+              "value": "03210254150"
+            },
+            {
+              "extension": [
+                {
+                  "url": "urn:fusion:col:pacientedocumento:ativo",
+                  "valueBoolean": true
+                }
+              ],
+              "system": "https://fhir.sisqualis.com.br/NamingSystem/cns",
+              "value": "709603677093379"
+            },
+            {
+              "system": "https://fhir.sisqualis.com.br/NamingSystem/cns",
+              "value": "709603677093379"
+            }
+          ],
+          "active": true,
+          "name": [
+            {
+              "use": "official",
+              "text": "PACIENTE TESTE 45597"
+            }
+          ],
+          "telecom": [
+            {
+              "id": "telefone-paciente-37782",
+              "extension": [
+                {
+                  "url": "urn:fusion:col:pacientetelefone:numero",
+                  "valueString": "61982755532"
+                }
+              ],
+              "system": "phone",
+              "value": "61982755532",
+              "use": "mobile"
+            }
+          ],
+          "gender": "male",
+          "birthDate": "2005-11-28"
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Patient/137596710",
+        "resource": {
+          "resourceType": "Patient",
+          "id": "137596710",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-27T16:44:21.375-04:00",
+            "source": "#2igjOiiKH6tIXou5"
+          },
+          "text": {
+            "status": "generated",
+            "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>urn:uuid:lerox-care-share-3d3f019d-b34a-4078-a689-7da8612d780f</td></tr></tbody></table></div>"
+          },
+          "identifier": [
+            {
+              "system": "urn:ietf:rfc:3986",
+              "value": "urn:uuid:lerox-care-share-3d3f019d-b34a-4078-a689-7da8612d780f"
+            }
+          ],
+          "active": true
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Patient/137596712",
+        "resource": {
+          "resourceType": "Patient",
+          "id": "137596712",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-27T16:44:21.757-04:00",
+            "source": "#mxWYgWZraLlKvioZ"
+          },
+          "text": {
+            "status": "generated",
+            "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>urn:uuid:lerox-patient-5a08a3b0-1d06-4115-a5f0-ff3bae836602</td></tr></tbody></table></div>"
+          },
+          "identifier": [
+            {
+              "system": "urn:ietf:rfc:3986",
+              "value": "urn:uuid:lerox-patient-5a08a3b0-1d06-4115-a5f0-ff3bae836602"
+            }
+          ],
+          "active": true
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Patient/137596717",
+        "resource": {
+          "resourceType": "Patient",
+          "id": "137596717",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-27T17:09:57.508-04:00",
+            "source": "#dOhCuuaiVDTa4Ctf"
+          },
+          "text": {
+            "status": "generated",
+            "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>urn:uuid:lerox-care-share-039392ac-91e7-42f4-8a5d-7f0328f3ac21</td></tr></tbody></table></div>"
+          },
+          "identifier": [
+            {
+              "system": "urn:ietf:rfc:3986",
+              "value": "urn:uuid:lerox-care-share-039392ac-91e7-42f4-8a5d-7f0328f3ac21"
+            }
+          ],
+          "active": true
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Patient/137596719",
+        "resource": {
+          "resourceType": "Patient",
+          "id": "137596719",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-27T17:09:57.865-04:00",
+            "source": "#2kbi2qXzo4i6IU31"
+          },
+          "text": {
+            "status": "generated",
+            "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>urn:uuid:lerox-patient-d24ade48-f131-40f7-bf5f-6e5f61699e1a</td></tr></tbody></table></div>"
+          },
+          "identifier": [
+            {
+              "system": "urn:ietf:rfc:3986",
+              "value": "urn:uuid:lerox-patient-d24ade48-f131-40f7-bf5f-6e5f61699e1a"
+            }
+          ],
+          "active": true
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Patient/137596721",
+        "resource": {
+          "resourceType": "Patient",
+          "id": "137596721",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-27T17:11:40.901-04:00",
+            "source": "#EDnxLAYCccGKHdgy"
+          },
+          "text": {
+            "status": "generated",
+            "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">\u0415\u043b\u0435\u043d\u0430 <b>\u0414\u0415\u041c\u041e\u0412\u0410 </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>DIP-20260828-001143</td></tr><tr><td>Date of birth</td><td><span>15 April 1999</span></td></tr></tbody></table></div>"
+          },
+          "identifier": [
+            {
+              "system": "https://example.org/diploma/patient-id",
+              "value": "DIP-20260828-001143"
+            }
+          ],
+          "active": true,
+          "name": [
+            {
+              "use": "usual",
+              "family": "\u0414\u0435\u043c\u043e\u0432\u0430",
+              "given": [
+                "\u0415\u043b\u0435\u043d\u0430"
+              ]
+            }
+          ],
+          "gender": "female",
+          "birthDate": "1999-04-15"
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Patient/137596725",
+        "resource": {
+          "resourceType": "Patient",
+          "id": "137596725",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-27T17:14:39.664-04:00",
+            "source": "#C4MxfrNSuT1OHGZi"
+          },
+          "text": {
+            "status": "generated",
+            "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\"/><table class=\"hapiPropertyTable\"><tbody><tr><td>Date of birth</td><td><span>01 January 1968</span></td></tr></tbody></table></div>"
+          },
+          "name": [
+            {
+              "use": "official",
+              "text": "SYNTHETIC TEST PATIENT"
+            }
+          ],
+          "gender": "male",
+          "birthDate": "1968-01-01"
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Patient/137596749",
+        "resource": {
+          "resourceType": "Patient",
+          "id": "137596749",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-27T17:20:21.220-04:00",
+            "source": "#h9rAvwJheYcdx3iD"
+          },
+          "text": {
+            "status": "generated",
+            "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\"/><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>00-0000-0000-0833</td></tr><tr><td>Date of birth</td><td><span>01 January 1968</span></td></tr></tbody></table></div>"
+          },
+          "identifier": [
+            {
+              "use": "official",
+              "system": "https://healthid.abdm.gov.in",
+              "value": "00-0000-0000-0833"
+            }
+          ],
+          "name": [
+            {
+              "use": "official",
+              "text": "SYNTHETIC TEST PATIENT 20260827212020833"
+            }
+          ],
+          "gender": "male",
+          "birthDate": "1968-01-01"
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Patient/137596761",
+        "resource": {
+          "resourceType": "Patient",
+          "id": "137596761",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-27T17:21:27.689-04:00",
+            "source": "#sj1E28T92gPj8CkH"
+          },
+          "text": {
+            "status": "generated",
+            "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">????? <b>??????? </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>ID-20260828-002130</td></tr><tr><td>Date of birth</td><td><span>01 April 2002</span></td></tr></tbody></table></div>"
+          },
+          "identifier": [
+            {
+              "system": "https://example.org/patient-id",
+              "value": "ID-20260828-002130"
+            }
+          ],
+          "active": true,
+          "name": [
+            {
+              "use": "usual",
+              "family": "???????",
+              "given": [
+                "?????"
+              ]
+            }
+          ],
+          "gender": "female",
+          "birthDate": "2002-04-01"
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Patient/137596765",
+        "resource": {
+          "resourceType": "Patient",
+          "id": "137596765",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-27T17:32:22.833-04:00",
+            "source": "#UmTULMZFYgglUejA"
+          },
+          "text": {
+            "status": "generated",
+            "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">\u0426\u0432\u0435\u0442\u0438 <b>\u0422\u0415\u0421\u0422\u041e\u0412\u0410 </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>ID-20260828-003225</td></tr><tr><td>Date of birth</td><td><span>01 April 2002</span></td></tr></tbody></table></div>"
+          },
+          "identifier": [
+            {
+              "system": "https://example.org/patient-id",
+              "value": "ID-20260828-003225"
+            }
+          ],
+          "active": true,
+          "name": [
+            {
+              "use": "usual",
+              "family": "\u0422\u0435\u0441\u0442\u043e\u0432\u0430",
+              "given": [
+                "\u0426\u0432\u0435\u0442\u0438"
+              ]
+            }
+          ],
+          "gender": "female",
+          "birthDate": "2002-04-01"
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Patient/137596769",
+        "resource": {
+          "resourceType": "Patient",
+          "id": "137596769",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-27T17:37:09.168-04:00",
+            "source": "#51D4JK7S7iGKT9o5"
+          },
+          "text": {
+            "status": "generated",
+            "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">TestGiven-b7beba32 <b>TESTFAMILY-B7BEBA32 </b></div><table class=\"hapiPropertyTable\"><tbody/></table></div>"
+          },
+          "name": [
+            {
+              "family": "TestFamily-b7beba32",
+              "given": [
+                "TestGiven-b7beba32"
+              ]
+            }
+          ],
+          "gender": "male"
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Patient/137596770",
+        "resource": {
+          "resourceType": "Patient",
+          "id": "137596770",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-27T17:37:19.096-04:00",
+            "source": "#aEooL3ZfJncCt8pi"
+          },
+          "text": {
+            "status": "generated",
+            "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">TestGiven-6931c19b <b>TESTFAMILY-6931C19B </b></div><table class=\"hapiPropertyTable\"><tbody/></table></div>"
+          },
+          "name": [
+            {
+              "family": "TestFamily-6931c19b",
+              "given": [
+                "TestGiven-6931c19b"
+              ]
+            }
+          ],
+          "gender": "male"
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Patient/137596771",
+        "resource": {
+          "resourceType": "Patient",
+          "id": "137596771",
+          "meta": {
+            "versionId": "2",
+            "lastUpdated": "2026-08-27T17:37:28.679-04:00",
+            "source": "#xzXG7G0lEojxEism"
+          },
+          "text": {
+            "status": "generated",
+            "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">TestGiven <b>TESTFAMILY </b></div><table class=\"hapiPropertyTable\"><tbody/></table></div>"
+          },
+          "name": [
+            {
+              "family": "TestFamily",
+              "given": [
+                "TestGiven"
+              ]
+            }
+          ],
+          "gender": "female"
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Patient/137596774",
+        "resource": {
+          "resourceType": "Patient",
+          "id": "137596774",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-27T17:40:15.466-04:00",
+            "source": "#KMLCXudLtTzWMrFU"
+          },
+          "text": {
+            "status": "generated",
+            "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">TestGiven-17ef7c7e <b>TESTFAMILY-17EF7C7E </b></div><table class=\"hapiPropertyTable\"><tbody/></table></div>"
+          },
+          "name": [
+            {
+              "family": "TestFamily-17ef7c7e",
+              "given": [
+                "TestGiven-17ef7c7e"
+              ]
+            }
+          ],
+          "gender": "male"
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Patient/137596775",
+        "resource": {
+          "resourceType": "Patient",
+          "id": "137596775",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-27T17:40:19.970-04:00",
+            "source": "#r2zg671xR3WEkxm8"
+          },
+          "text": {
+            "status": "generated",
+            "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">TestGiven-4c364e9c <b>TESTFAMILY-4C364E9C </b></div><table class=\"hapiPropertyTable\"><tbody/></table></div>"
+          },
+          "name": [
+            {
+              "family": "TestFamily-4c364e9c",
+              "given": [
+                "TestGiven-4c364e9c"
+              ]
+            }
+          ],
+          "gender": "male"
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Patient/137596776",
+        "resource": {
+          "resourceType": "Patient",
+          "id": "137596776",
+          "meta": {
+            "versionId": "2",
+            "lastUpdated": "2026-08-27T17:40:30.266-04:00",
+            "source": "#W0ipU5NCL0ORtPVN"
+          },
+          "text": {
+            "status": "generated",
+            "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">TestGiven <b>TESTFAMILY </b></div><table class=\"hapiPropertyTable\"><tbody/></table></div>"
+          },
+          "name": [
+            {
+              "family": "TestFamily",
+              "given": [
+                "TestGiven"
+              ]
+            }
+          ],
+          "gender": "female"
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Patient/137596778",
+        "resource": {
+          "resourceType": "Patient",
+          "id": "137596778",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-27T17:45:05.151-04:00",
+            "source": "#ZkVcSPzWFusyfEtK"
+          },
+          "text": {
+            "status": "generated",
+            "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">TestGiven-2b2fdb8b <b>TESTFAMILY-2B2FDB8B </b></div><table class=\"hapiPropertyTable\"><tbody/></table></div>"
+          },
+          "name": [
+            {
+              "family": "TestFamily-2b2fdb8b",
+              "given": [
+                "TestGiven-2b2fdb8b"
+              ]
+            }
+          ],
+          "gender": "male"
+        },
+        "search": {
+          "mode": "match"
+        }
+      }
+    ]
+  }
+}

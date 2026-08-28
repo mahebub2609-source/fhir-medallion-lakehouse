@@ -1,0 +1,911 @@
+{
+  "resource_type": "Patient",
+  "extraction_timestamp": "2026-08-28T11:03:42.913603",
+  "extraction_date": "2026-08-28",
+  "api_url": "https://hapi.fhir.org/baseR4?_getpages=88da3fc4-0522-4d60-8b4a-bdba09e762a5&_getpagesoffset=120&_count=20&_pretty=true&_bundletype=searchset",
+  "page_number": 6,
+  "entry_count": 20,
+  "response": {
+    "resourceType": "Bundle",
+    "id": "88da3fc4-0522-4d60-8b4a-bdba09e762a5",
+    "meta": {
+      "lastUpdated": "2026-08-28T07:02:54.029-04:00"
+    },
+    "type": "searchset",
+    "link": [
+      {
+        "relation": "self",
+        "url": "https://hapi.fhir.org/baseR4?_getpages=88da3fc4-0522-4d60-8b4a-bdba09e762a5&_getpagesoffset=120&_count=20&_pretty=true&_bundletype=searchset"
+      },
+      {
+        "relation": "next",
+        "url": "https://hapi.fhir.org/baseR4?_getpages=88da3fc4-0522-4d60-8b4a-bdba09e762a5&_getpagesoffset=140&_count=20&_pretty=true&_bundletype=searchset"
+      },
+      {
+        "relation": "previous",
+        "url": "https://hapi.fhir.org/baseR4?_getpages=88da3fc4-0522-4d60-8b4a-bdba09e762a5&_getpagesoffset=100&_count=20&_pretty=true&_bundletype=searchset"
+      }
+    ],
+    "entry": [
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Patient/137586375",
+        "resource": {
+          "resourceType": "Patient",
+          "id": "137586375",
+          "meta": {
+            "versionId": "5",
+            "lastUpdated": "2026-08-24T17:48:54.739-04:00",
+            "source": "#yYAF1A7tq2sRuvFO",
+            "tag": [
+              {
+                "system": "http://international-second-opinion.example.org/tags",
+                "code": "IMSO-PROTO-DEMO",
+                "display": "International Medical Second Opinion prototype"
+              }
+            ]
+          },
+          "active": true,
+          "name": [
+            {
+              "text": "Feryal Sami",
+              "family": "Sami",
+              "given": [
+                "Feryal"
+              ]
+            }
+          ],
+          "telecom": [
+            {
+              "system": "email",
+              "value": "patient3@demo.imso"
+            },
+            {
+              "system": "phone",
+              "value": "01721021733"
+            }
+          ],
+          "gender": "female",
+          "birthDate": "1950-01-01",
+          "address": [
+            {
+              "city": "Frankfurt",
+              "country": "Deutschland"
+            }
+          ]
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Patient/137588808",
+        "resource": {
+          "resourceType": "Patient",
+          "id": "137588808",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-24T18:06:31.670-04:00",
+            "source": "#OSNe6stAOdYMD7sz",
+            "tag": [
+              {
+                "system": "http://international-second-opinion.example.org/tags",
+                "code": "IMSO-PROTO-DEMO",
+                "display": "International Medical Second Opinion prototype"
+              }
+            ]
+          },
+          "active": true,
+          "name": [
+            {
+              "text": "Patient2 Test",
+              "family": "Test",
+              "given": [
+                "Patient2"
+              ]
+            }
+          ],
+          "telecom": [
+            {
+              "system": "email",
+              "value": "patien2@demo.intl"
+            }
+          ]
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Patient/137588809",
+        "resource": {
+          "resourceType": "Patient",
+          "id": "137588809",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-24T18:09:58.421-04:00",
+            "source": "#YD21LK4MtR95Mw4t"
+          },
+          "text": {
+            "status": "generated",
+            "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">Maria <b>GONZALEZ </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>VAL-1001</td></tr><tr><td>Date of birth</td><td><span>14 March 1978</span></td></tr></tbody></table></div>"
+          },
+          "identifier": [
+            {
+              "system": "https://valene-health.local/synthetic-mrn",
+              "value": "VAL-1001"
+            }
+          ],
+          "active": true,
+          "name": [
+            {
+              "use": "official",
+              "family": "Gonzalez",
+              "given": [
+                "Maria"
+              ]
+            }
+          ],
+          "telecom": [
+            {
+              "system": "phone",
+              "value": "2025551234",
+              "use": "mobile"
+            },
+            {
+              "system": "email",
+              "value": "maria.gonzalez@example.com"
+            }
+          ],
+          "gender": "female",
+          "birthDate": "1978-03-14"
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Patient/137588810",
+        "resource": {
+          "resourceType": "Patient",
+          "id": "137588810",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-24T18:09:58.774-04:00",
+            "source": "#yqiKOPkgBej3Bz29"
+          },
+          "text": {
+            "status": "generated",
+            "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">James <b>WHITFIELD </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>VAL-1002</td></tr><tr><td>Date of birth</td><td><span>02 November 1965</span></td></tr></tbody></table></div>"
+          },
+          "identifier": [
+            {
+              "system": "https://valene-health.local/synthetic-mrn",
+              "value": "VAL-1002"
+            }
+          ],
+          "active": true,
+          "name": [
+            {
+              "use": "official",
+              "family": "Whitfield",
+              "given": [
+                "James"
+              ]
+            }
+          ],
+          "telecom": [
+            {
+              "system": "phone",
+              "value": "2025552345",
+              "use": "mobile"
+            },
+            {
+              "system": "email",
+              "value": "james.whitfield@example.com"
+            }
+          ],
+          "gender": "male",
+          "birthDate": "1965-11-02"
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Patient/137588811",
+        "resource": {
+          "resourceType": "Patient",
+          "id": "137588811",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-24T18:09:59.125-04:00",
+            "source": "#Jm6GQbf91tSyj5cO"
+          },
+          "text": {
+            "status": "generated",
+            "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">Aisha <b>THOMPSON </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>VAL-1003</td></tr><tr><td>Date of birth</td><td><span>22 July 1990</span></td></tr></tbody></table></div>"
+          },
+          "identifier": [
+            {
+              "system": "https://valene-health.local/synthetic-mrn",
+              "value": "VAL-1003"
+            }
+          ],
+          "active": true,
+          "name": [
+            {
+              "use": "official",
+              "family": "Thompson",
+              "given": [
+                "Aisha"
+              ]
+            }
+          ],
+          "telecom": [
+            {
+              "system": "phone",
+              "value": "2025553456",
+              "use": "mobile"
+            },
+            {
+              "system": "email",
+              "value": "aisha.thompson@example.com"
+            }
+          ],
+          "gender": "female",
+          "birthDate": "1990-07-22"
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Patient/137588812",
+        "resource": {
+          "resourceType": "Patient",
+          "id": "137588812",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-24T18:09:59.466-04:00",
+            "source": "#9irHi5gTGLVd7kVd"
+          },
+          "text": {
+            "status": "generated",
+            "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">Robert <b>NGUYEN </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>VAL-1004</td></tr><tr><td>Date of birth</td><td><span>30 January 1955</span></td></tr></tbody></table></div>"
+          },
+          "identifier": [
+            {
+              "system": "https://valene-health.local/synthetic-mrn",
+              "value": "VAL-1004"
+            }
+          ],
+          "active": true,
+          "name": [
+            {
+              "use": "official",
+              "family": "Nguyen",
+              "given": [
+                "Robert"
+              ]
+            }
+          ],
+          "telecom": [
+            {
+              "system": "phone",
+              "value": "2025554567",
+              "use": "mobile"
+            },
+            {
+              "system": "email",
+              "value": "robert.nguyen@example.com"
+            }
+          ],
+          "gender": "male",
+          "birthDate": "1955-01-30"
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Patient/137588813",
+        "resource": {
+          "resourceType": "Patient",
+          "id": "137588813",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-24T18:09:59.802-04:00",
+            "source": "#69QnXDCe3aa5nLvH"
+          },
+          "text": {
+            "status": "generated",
+            "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">Linda <b>PARK </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>VAL-1005</td></tr><tr><td>Date of birth</td><td><span>09 September 1982</span></td></tr></tbody></table></div>"
+          },
+          "identifier": [
+            {
+              "system": "https://valene-health.local/synthetic-mrn",
+              "value": "VAL-1005"
+            }
+          ],
+          "active": true,
+          "name": [
+            {
+              "use": "official",
+              "family": "Park",
+              "given": [
+                "Linda"
+              ]
+            }
+          ],
+          "telecom": [
+            {
+              "system": "phone",
+              "value": "2025555678",
+              "use": "mobile"
+            },
+            {
+              "system": "email",
+              "value": "linda.park@example.com"
+            }
+          ],
+          "gender": "female",
+          "birthDate": "1982-09-09"
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Patient/137588814",
+        "resource": {
+          "resourceType": "Patient",
+          "id": "137588814",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-24T18:10:00.132-04:00",
+            "source": "#5djTBKZSU8hHBuus"
+          },
+          "text": {
+            "status": "generated",
+            "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">David <b>OKAFOR </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>VAL-1006</td></tr><tr><td>Date of birth</td><td><span>18 May 1970</span></td></tr></tbody></table></div>"
+          },
+          "identifier": [
+            {
+              "system": "https://valene-health.local/synthetic-mrn",
+              "value": "VAL-1006"
+            }
+          ],
+          "active": true,
+          "name": [
+            {
+              "use": "official",
+              "family": "Okafor",
+              "given": [
+                "David"
+              ]
+            }
+          ],
+          "telecom": [
+            {
+              "system": "phone",
+              "value": "2025556789",
+              "use": "mobile"
+            },
+            {
+              "system": "email",
+              "value": "david.okafor@example.com"
+            }
+          ],
+          "gender": "male",
+          "birthDate": "1970-05-18"
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Patient/137588815",
+        "resource": {
+          "resourceType": "Patient",
+          "id": "137588815",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-24T18:10:00.466-04:00",
+            "source": "#fl5JfbeO4GxfsO94"
+          },
+          "text": {
+            "status": "generated",
+            "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">Sophia <b>ROSSI </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>VAL-1007</td></tr><tr><td>Date of birth</td><td><span>25 December 1995</span></td></tr></tbody></table></div>"
+          },
+          "identifier": [
+            {
+              "system": "https://valene-health.local/synthetic-mrn",
+              "value": "VAL-1007"
+            }
+          ],
+          "active": true,
+          "name": [
+            {
+              "use": "official",
+              "family": "Rossi",
+              "given": [
+                "Sophia"
+              ]
+            }
+          ],
+          "telecom": [
+            {
+              "system": "phone",
+              "value": "2025557890",
+              "use": "mobile"
+            },
+            {
+              "system": "email",
+              "value": "sophia.rossi@example.com"
+            }
+          ],
+          "gender": "female",
+          "birthDate": "1995-12-25"
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Patient/137588816",
+        "resource": {
+          "resourceType": "Patient",
+          "id": "137588816",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-24T18:10:00.810-04:00",
+            "source": "#1a5dUl1McEbUSgPT"
+          },
+          "text": {
+            "status": "generated",
+            "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">Michael <b>DOUGLAS </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>VAL-1008</td></tr><tr><td>Date of birth</td><td><span>14 February 1960</span></td></tr></tbody></table></div>"
+          },
+          "identifier": [
+            {
+              "system": "https://valene-health.local/synthetic-mrn",
+              "value": "VAL-1008"
+            }
+          ],
+          "active": true,
+          "name": [
+            {
+              "use": "official",
+              "family": "Douglas",
+              "given": [
+                "Michael"
+              ]
+            }
+          ],
+          "telecom": [
+            {
+              "system": "phone",
+              "value": "2025558901",
+              "use": "mobile"
+            },
+            {
+              "system": "email",
+              "value": "michael.douglas@example.com"
+            }
+          ],
+          "gender": "male",
+          "birthDate": "1960-02-14"
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Patient/137588817",
+        "resource": {
+          "resourceType": "Patient",
+          "id": "137588817",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-24T18:10:01.167-04:00",
+            "source": "#5AG5YV9gyIdcALcu"
+          },
+          "text": {
+            "status": "generated",
+            "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">Emily <b>CARTER </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>VAL-1009</td></tr><tr><td>Date of birth</td><td><span>06 June 1988</span></td></tr></tbody></table></div>"
+          },
+          "identifier": [
+            {
+              "system": "https://valene-health.local/synthetic-mrn",
+              "value": "VAL-1009"
+            }
+          ],
+          "active": true,
+          "name": [
+            {
+              "use": "official",
+              "family": "Carter",
+              "given": [
+                "Emily"
+              ]
+            }
+          ],
+          "telecom": [
+            {
+              "system": "phone",
+              "value": "2025559012",
+              "use": "mobile"
+            },
+            {
+              "system": "email",
+              "value": "emily.carter@example.com"
+            }
+          ],
+          "gender": "female",
+          "birthDate": "1988-06-06"
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Patient/137588818",
+        "resource": {
+          "resourceType": "Patient",
+          "id": "137588818",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-24T18:10:01.498-04:00",
+            "source": "#NSSb1nnr7nEz88rS"
+          },
+          "text": {
+            "status": "generated",
+            "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">Daniel <b>REYES </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>VAL-1010</td></tr><tr><td>Date of birth</td><td><span>11 October 1975</span></td></tr></tbody></table></div>"
+          },
+          "identifier": [
+            {
+              "system": "https://valene-health.local/synthetic-mrn",
+              "value": "VAL-1010"
+            }
+          ],
+          "active": true,
+          "name": [
+            {
+              "use": "official",
+              "family": "Reyes",
+              "given": [
+                "Daniel"
+              ]
+            }
+          ],
+          "telecom": [
+            {
+              "system": "phone",
+              "value": "2025550123",
+              "use": "mobile"
+            },
+            {
+              "system": "email",
+              "value": "daniel.reyes@example.com"
+            }
+          ],
+          "gender": "male",
+          "birthDate": "1975-10-11"
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Patient/137588828",
+        "resource": {
+          "resourceType": "Patient",
+          "id": "137588828",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-24T18:16:45.087-04:00",
+            "source": "#igJLI2EGhQRRr4Fd"
+          },
+          "text": {
+            "status": "generated",
+            "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">Helix <b>TESTPATIENT </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Date of birth</td><td><span>01 January 2010</span></td></tr></tbody></table></div>"
+          },
+          "name": [
+            {
+              "use": "official",
+              "family": "TestPatient",
+              "given": [
+                "Helix"
+              ]
+            }
+          ],
+          "gender": "male",
+          "birthDate": "2010-01-01"
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Patient/137588819",
+        "resource": {
+          "resourceType": "Patient",
+          "id": "137588819",
+          "meta": {
+            "versionId": "2",
+            "lastUpdated": "2026-08-24T18:17:27.876-04:00",
+            "source": "#kPUVIxP9Cfm3WisK",
+            "tag": [
+              {
+                "system": "http://international-second-opinion.example.org/tags",
+                "code": "IMSO-PROTO-DEMO",
+                "display": "International Medical Second Opinion prototype"
+              }
+            ]
+          },
+          "active": true,
+          "name": [
+            {
+              "text": "Ross Voss",
+              "family": "Voss",
+              "given": [
+                "Ross"
+              ]
+            }
+          ],
+          "telecom": [
+            {
+              "system": "email",
+              "value": "patient3@demo.intl"
+            },
+            {
+              "system": "phone",
+              "value": "01721021733"
+            }
+          ],
+          "gender": "male",
+          "birthDate": "1950-01-01",
+          "address": [
+            {
+              "city": "Sankt Augustin",
+              "country": "Deutschland"
+            }
+          ]
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Patient/137588836",
+        "resource": {
+          "resourceType": "Patient",
+          "id": "137588836",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-24T18:28:16.647-04:00",
+            "source": "#wUuxDd3ZoTvX8ikt"
+          },
+          "text": {
+            "status": "generated",
+            "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">PhaseOne <b>HELIXSYNTHETIC </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>HELIX-20260824-001</td></tr><tr><td>Date of birth</td><td><span>01 January 2010</span></td></tr></tbody></table></div>"
+          },
+          "identifier": [
+            {
+              "system": "https://genomebridge.example/synthetic",
+              "value": "HELIX-20260824-001"
+            }
+          ],
+          "name": [
+            {
+              "use": "official",
+              "family": "HelixSynthetic",
+              "given": [
+                "PhaseOne"
+              ]
+            }
+          ],
+          "gender": "male",
+          "birthDate": "2010-01-01"
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Patient/137588841",
+        "resource": {
+          "resourceType": "Patient",
+          "id": "137588841",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-24T20:06:44.144-04:00",
+            "source": "#eMkhlIFE8hLUDUfO"
+          },
+          "text": {
+            "status": "generated",
+            "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">Sarah <b>THOMPSON </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>ARC-DEMO-THOMPSON-DOC-001</td></tr><tr><td>Date of birth</td><td><span>12 April 1962</span></td></tr></tbody></table></div>"
+          },
+          "identifier": [
+            {
+              "system": "https://arca.demo/mrn",
+              "value": "ARC-DEMO-THOMPSON-DOC-001"
+            },
+            {
+              "system": "https://arca.demo/seed-token",
+              "value": "384a6643-6ee4-4fc6-a09d-bbe5730fef51"
+            }
+          ],
+          "name": [
+            {
+              "family": "Thompson",
+              "given": [
+                "Sarah"
+              ]
+            }
+          ],
+          "gender": "female",
+          "birthDate": "1962-04-12"
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Patient/137588842",
+        "resource": {
+          "resourceType": "Patient",
+          "id": "137588842",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-24T20:06:44.149-04:00",
+            "source": "#pCVfnrhTHQqLfPrz"
+          },
+          "text": {
+            "status": "generated",
+            "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">Sarah <b>THOMPSON </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>ARC-DEMO-THOMPSON-001</td></tr><tr><td>Date of birth</td><td><span>12 April 1962</span></td></tr></tbody></table></div>"
+          },
+          "identifier": [
+            {
+              "system": "https://arca.demo/mrn",
+              "value": "ARC-DEMO-THOMPSON-001"
+            },
+            {
+              "system": "https://arca.demo/seed-token",
+              "value": "384a6643-6ee4-4fc6-a09d-bbe5730fef51"
+            }
+          ],
+          "name": [
+            {
+              "family": "Thompson",
+              "given": [
+                "Sarah"
+              ]
+            }
+          ],
+          "gender": "female",
+          "birthDate": "1962-04-12"
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Patient/137588845",
+        "resource": {
+          "resourceType": "Patient",
+          "id": "137588845",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-24T20:09:13.518-04:00",
+            "source": "#0uGtgyWraAKfcif1"
+          },
+          "text": {
+            "status": "generated",
+            "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">Sarah <b>THOMPSON </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>ARC-DEMO-THOMPSON-001</td></tr><tr><td>Date of birth</td><td><span>12 April 1962</span></td></tr></tbody></table></div>"
+          },
+          "identifier": [
+            {
+              "system": "https://arca.demo/mrn",
+              "value": "ARC-DEMO-THOMPSON-001"
+            },
+            {
+              "system": "https://arca.demo/seed-token",
+              "value": "ae70e7d8-8316-433a-aa94-45b6b3222bb2"
+            }
+          ],
+          "name": [
+            {
+              "family": "Thompson",
+              "given": [
+                "Sarah"
+              ]
+            }
+          ],
+          "gender": "female",
+          "birthDate": "1962-04-12"
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Patient/137588844",
+        "resource": {
+          "resourceType": "Patient",
+          "id": "137588844",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-24T20:09:13.522-04:00",
+            "source": "#SyQhGVTVeaebezwQ"
+          },
+          "text": {
+            "status": "generated",
+            "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">Sarah <b>THOMPSON </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>ARC-DEMO-THOMPSON-DOC-001</td></tr><tr><td>Date of birth</td><td><span>12 April 1962</span></td></tr></tbody></table></div>"
+          },
+          "identifier": [
+            {
+              "system": "https://arca.demo/mrn",
+              "value": "ARC-DEMO-THOMPSON-DOC-001"
+            },
+            {
+              "system": "https://arca.demo/seed-token",
+              "value": "ae70e7d8-8316-433a-aa94-45b6b3222bb2"
+            }
+          ],
+          "name": [
+            {
+              "family": "Thompson",
+              "given": [
+                "Sarah"
+              ]
+            }
+          ],
+          "gender": "female",
+          "birthDate": "1962-04-12"
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Patient/137588847",
+        "resource": {
+          "resourceType": "Patient",
+          "id": "137588847",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-24T20:09:26.421-04:00",
+            "source": "#IFoY43WYBLke3896"
+          },
+          "text": {
+            "status": "generated",
+            "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">Sarah <b>THOMPSON </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>ARC-DEMO-THOMPSON-001</td></tr><tr><td>Date of birth</td><td><span>12 April 1962</span></td></tr></tbody></table></div>"
+          },
+          "identifier": [
+            {
+              "system": "https://arca.demo/mrn",
+              "value": "ARC-DEMO-THOMPSON-001"
+            },
+            {
+              "system": "https://arca.demo/seed-token",
+              "value": "fcdde87c-4f41-49d8-98e0-03bc286ba81d"
+            }
+          ],
+          "name": [
+            {
+              "family": "Thompson",
+              "given": [
+                "Sarah"
+              ]
+            }
+          ],
+          "gender": "female",
+          "birthDate": "1962-04-12"
+        },
+        "search": {
+          "mode": "match"
+        }
+      }
+    ]
+  }
+}

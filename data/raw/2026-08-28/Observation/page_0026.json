@@ -1,0 +1,1317 @@
+{
+  "resource_type": "Observation",
+  "extraction_timestamp": "2026-08-28T11:04:36.783636",
+  "extraction_date": "2026-08-28",
+  "api_url": "https://hapi.fhir.org/baseR4?_getpages=bd0d8def-7d79-4915-a54d-b81ea22d6c9a&_getpagesoffset=520&_count=20&_pretty=true&_bundletype=searchset",
+  "page_number": 26,
+  "entry_count": 20,
+  "response": {
+    "resourceType": "Bundle",
+    "id": "bd0d8def-7d79-4915-a54d-b81ea22d6c9a",
+    "meta": {
+      "lastUpdated": "2026-08-28T07:04:36.846-04:00"
+    },
+    "type": "searchset",
+    "total": 1748,
+    "link": [
+      {
+        "relation": "self",
+        "url": "https://hapi.fhir.org/baseR4?_getpages=bd0d8def-7d79-4915-a54d-b81ea22d6c9a&_getpagesoffset=520&_count=20&_pretty=true&_bundletype=searchset"
+      },
+      {
+        "relation": "next",
+        "url": "https://hapi.fhir.org/baseR4?_getpages=bd0d8def-7d79-4915-a54d-b81ea22d6c9a&_getpagesoffset=540&_count=20&_pretty=true&_bundletype=searchset"
+      },
+      {
+        "relation": "previous",
+        "url": "https://hapi.fhir.org/baseR4?_getpages=bd0d8def-7d79-4915-a54d-b81ea22d6c9a&_getpagesoffset=500&_count=20&_pretty=true&_bundletype=searchset"
+      }
+    ],
+    "entry": [
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Observation/137589592",
+        "resource": {
+          "resourceType": "Observation",
+          "id": "137589592",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-25T03:56:00.447-04:00",
+            "source": "#Ek9wmQNFvgpGjvxL"
+          },
+          "identifier": [
+            {
+              "system": "urn:niv:observation",
+              "value": "1236613500008|2026-08-18T03:39:57+08:00|76222-9"
+            }
+          ],
+          "status": "final",
+          "category": [
+            {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                  "code": "procedure",
+                  "display": "Procedure"
+                }
+              ]
+            }
+          ],
+          "code": {
+            "coding": [
+              {
+                "system": "http://loinc.org",
+                "code": "76222-9",
+                "display": "Tidal volume Ventilator --on ventilator"
+              }
+            ]
+          },
+          "subject": {
+            "reference": "Patient/137581429"
+          },
+          "effectiveDateTime": "2026-08-18T03:39:57+08:00",
+          "performer": [
+            {
+              "reference": "Organization/137581430"
+            }
+          ],
+          "valueQuantity": {
+            "value": 0.0,
+            "unit": "mL",
+            "system": "http://unitsofmeasure.org",
+            "code": "mL"
+          },
+          "device": {
+            "reference": "Device/137581431"
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Observation/137589593",
+        "resource": {
+          "resourceType": "Observation",
+          "id": "137589593",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-25T03:56:00.447-04:00",
+            "source": "#Ek9wmQNFvgpGjvxL"
+          },
+          "identifier": [
+            {
+              "system": "urn:niv:observation",
+              "value": "1236613500008|2026-08-18T03:39:57+08:00|76008-2"
+            }
+          ],
+          "status": "final",
+          "category": [
+            {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                  "code": "procedure",
+                  "display": "Procedure"
+                }
+              ]
+            }
+          ],
+          "code": {
+            "coding": [
+              {
+                "system": "http://loinc.org",
+                "code": "76008-2",
+                "display": "Expired minute Volume during Mechanical ventilation"
+              }
+            ]
+          },
+          "subject": {
+            "reference": "Patient/137581429"
+          },
+          "effectiveDateTime": "2026-08-18T03:39:57+08:00",
+          "performer": [
+            {
+              "reference": "Organization/137581430"
+            }
+          ],
+          "valueQuantity": {
+            "value": 0.0,
+            "unit": "L/min",
+            "system": "http://unitsofmeasure.org",
+            "code": "L/min"
+          },
+          "device": {
+            "reference": "Device/137581431"
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Observation/137589594",
+        "resource": {
+          "resourceType": "Observation",
+          "id": "137589594",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-25T03:56:00.447-04:00",
+            "source": "#Ek9wmQNFvgpGjvxL"
+          },
+          "identifier": [
+            {
+              "system": "urn:niv:observation",
+              "value": "1236613500008|2026-08-18T03:39:57+08:00|VENT-SUMMARY"
+            }
+          ],
+          "status": "final",
+          "category": [
+            {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                  "code": "procedure",
+                  "display": "Procedure"
+                }
+              ]
+            }
+          ],
+          "code": {
+            "coding": [
+              {
+                "system": "http://fhir.local/CodeSystem/niv-codes",
+                "code": "VENT-SUMMARY",
+                "display": "Ventilation summary (device)"
+              }
+            ],
+            "text": "\u901a\u6c23\u6458\u8981(\u88dd\u7f6e\u91cf\u6e2c)"
+          },
+          "subject": {
+            "reference": "Patient/137581429"
+          },
+          "effectiveDateTime": "2026-08-18T03:39:57+08:00",
+          "performer": [
+            {
+              "reference": "Organization/137581430"
+            }
+          ],
+          "device": {
+            "reference": "Device/137581431"
+          },
+          "component": [
+            {
+              "code": {
+                "coding": [
+                  {
+                    "system": "http://loinc.org",
+                    "code": "19840-8",
+                    "display": "Breath rate spontaneous and mechanical --on ventilator"
+                  }
+                ]
+              },
+              "valueQuantity": {
+                "value": 17.0,
+                "unit": "/min",
+                "system": "http://unitsofmeasure.org",
+                "code": "/min"
+              }
+            }
+          ]
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Observation/137589595",
+        "resource": {
+          "resourceType": "Observation",
+          "id": "137589595",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-25T03:56:00.447-04:00",
+            "source": "#Ek9wmQNFvgpGjvxL"
+          },
+          "identifier": [
+            {
+              "system": "urn:niv:observation",
+              "value": "1236613500008|2026-08-18T03:49:57+08:00|76222-9"
+            }
+          ],
+          "status": "final",
+          "category": [
+            {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                  "code": "procedure",
+                  "display": "Procedure"
+                }
+              ]
+            }
+          ],
+          "code": {
+            "coding": [
+              {
+                "system": "http://loinc.org",
+                "code": "76222-9",
+                "display": "Tidal volume Ventilator --on ventilator"
+              }
+            ]
+          },
+          "subject": {
+            "reference": "Patient/137581429"
+          },
+          "effectiveDateTime": "2026-08-18T03:49:57+08:00",
+          "performer": [
+            {
+              "reference": "Organization/137581430"
+            }
+          ],
+          "valueQuantity": {
+            "value": 0.0,
+            "unit": "mL",
+            "system": "http://unitsofmeasure.org",
+            "code": "mL"
+          },
+          "device": {
+            "reference": "Device/137581431"
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Observation/137589596",
+        "resource": {
+          "resourceType": "Observation",
+          "id": "137589596",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-25T03:56:00.447-04:00",
+            "source": "#Ek9wmQNFvgpGjvxL"
+          },
+          "identifier": [
+            {
+              "system": "urn:niv:observation",
+              "value": "1236613500008|2026-08-18T03:49:57+08:00|76008-2"
+            }
+          ],
+          "status": "final",
+          "category": [
+            {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                  "code": "procedure",
+                  "display": "Procedure"
+                }
+              ]
+            }
+          ],
+          "code": {
+            "coding": [
+              {
+                "system": "http://loinc.org",
+                "code": "76008-2",
+                "display": "Expired minute Volume during Mechanical ventilation"
+              }
+            ]
+          },
+          "subject": {
+            "reference": "Patient/137581429"
+          },
+          "effectiveDateTime": "2026-08-18T03:49:57+08:00",
+          "performer": [
+            {
+              "reference": "Organization/137581430"
+            }
+          ],
+          "valueQuantity": {
+            "value": 0.0,
+            "unit": "L/min",
+            "system": "http://unitsofmeasure.org",
+            "code": "L/min"
+          },
+          "device": {
+            "reference": "Device/137581431"
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Observation/137589597",
+        "resource": {
+          "resourceType": "Observation",
+          "id": "137589597",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-25T03:56:00.447-04:00",
+            "source": "#Ek9wmQNFvgpGjvxL"
+          },
+          "identifier": [
+            {
+              "system": "urn:niv:observation",
+              "value": "1236613500008|2026-08-18T03:49:57+08:00|VENT-SUMMARY"
+            }
+          ],
+          "status": "final",
+          "category": [
+            {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                  "code": "procedure",
+                  "display": "Procedure"
+                }
+              ]
+            }
+          ],
+          "code": {
+            "coding": [
+              {
+                "system": "http://fhir.local/CodeSystem/niv-codes",
+                "code": "VENT-SUMMARY",
+                "display": "Ventilation summary (device)"
+              }
+            ],
+            "text": "\u901a\u6c23\u6458\u8981(\u88dd\u7f6e\u91cf\u6e2c)"
+          },
+          "subject": {
+            "reference": "Patient/137581429"
+          },
+          "effectiveDateTime": "2026-08-18T03:49:57+08:00",
+          "performer": [
+            {
+              "reference": "Organization/137581430"
+            }
+          ],
+          "device": {
+            "reference": "Device/137581431"
+          },
+          "component": [
+            {
+              "code": {
+                "coding": [
+                  {
+                    "system": "http://loinc.org",
+                    "code": "19840-8",
+                    "display": "Breath rate spontaneous and mechanical --on ventilator"
+                  }
+                ]
+              },
+              "valueQuantity": {
+                "value": 17.0,
+                "unit": "/min",
+                "system": "http://unitsofmeasure.org",
+                "code": "/min"
+              }
+            }
+          ]
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Observation/137589598",
+        "resource": {
+          "resourceType": "Observation",
+          "id": "137589598",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-25T03:56:00.447-04:00",
+            "source": "#Ek9wmQNFvgpGjvxL"
+          },
+          "identifier": [
+            {
+              "system": "urn:niv:observation",
+              "value": "1236613500008|2026-08-18T03:59:57+08:00|76222-9"
+            }
+          ],
+          "status": "final",
+          "category": [
+            {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                  "code": "procedure",
+                  "display": "Procedure"
+                }
+              ]
+            }
+          ],
+          "code": {
+            "coding": [
+              {
+                "system": "http://loinc.org",
+                "code": "76222-9",
+                "display": "Tidal volume Ventilator --on ventilator"
+              }
+            ]
+          },
+          "subject": {
+            "reference": "Patient/137581429"
+          },
+          "effectiveDateTime": "2026-08-18T03:59:57+08:00",
+          "performer": [
+            {
+              "reference": "Organization/137581430"
+            }
+          ],
+          "valueQuantity": {
+            "value": 0.0,
+            "unit": "mL",
+            "system": "http://unitsofmeasure.org",
+            "code": "mL"
+          },
+          "device": {
+            "reference": "Device/137581431"
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Observation/137589599",
+        "resource": {
+          "resourceType": "Observation",
+          "id": "137589599",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-25T03:56:00.447-04:00",
+            "source": "#Ek9wmQNFvgpGjvxL"
+          },
+          "identifier": [
+            {
+              "system": "urn:niv:observation",
+              "value": "1236613500008|2026-08-18T03:59:57+08:00|76008-2"
+            }
+          ],
+          "status": "final",
+          "category": [
+            {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                  "code": "procedure",
+                  "display": "Procedure"
+                }
+              ]
+            }
+          ],
+          "code": {
+            "coding": [
+              {
+                "system": "http://loinc.org",
+                "code": "76008-2",
+                "display": "Expired minute Volume during Mechanical ventilation"
+              }
+            ]
+          },
+          "subject": {
+            "reference": "Patient/137581429"
+          },
+          "effectiveDateTime": "2026-08-18T03:59:57+08:00",
+          "performer": [
+            {
+              "reference": "Organization/137581430"
+            }
+          ],
+          "valueQuantity": {
+            "value": 0.0,
+            "unit": "L/min",
+            "system": "http://unitsofmeasure.org",
+            "code": "L/min"
+          },
+          "device": {
+            "reference": "Device/137581431"
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Observation/137589600",
+        "resource": {
+          "resourceType": "Observation",
+          "id": "137589600",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-25T03:56:00.447-04:00",
+            "source": "#Ek9wmQNFvgpGjvxL"
+          },
+          "identifier": [
+            {
+              "system": "urn:niv:observation",
+              "value": "1236613500008|2026-08-18T03:59:57+08:00|VENT-SUMMARY"
+            }
+          ],
+          "status": "final",
+          "category": [
+            {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                  "code": "procedure",
+                  "display": "Procedure"
+                }
+              ]
+            }
+          ],
+          "code": {
+            "coding": [
+              {
+                "system": "http://fhir.local/CodeSystem/niv-codes",
+                "code": "VENT-SUMMARY",
+                "display": "Ventilation summary (device)"
+              }
+            ],
+            "text": "\u901a\u6c23\u6458\u8981(\u88dd\u7f6e\u91cf\u6e2c)"
+          },
+          "subject": {
+            "reference": "Patient/137581429"
+          },
+          "effectiveDateTime": "2026-08-18T03:59:57+08:00",
+          "performer": [
+            {
+              "reference": "Organization/137581430"
+            }
+          ],
+          "device": {
+            "reference": "Device/137581431"
+          },
+          "component": [
+            {
+              "code": {
+                "coding": [
+                  {
+                    "system": "http://loinc.org",
+                    "code": "19840-8",
+                    "display": "Breath rate spontaneous and mechanical --on ventilator"
+                  }
+                ]
+              },
+              "valueQuantity": {
+                "value": 17.0,
+                "unit": "/min",
+                "system": "http://unitsofmeasure.org",
+                "code": "/min"
+              }
+            }
+          ]
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Observation/137589601",
+        "resource": {
+          "resourceType": "Observation",
+          "id": "137589601",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-25T03:56:00.447-04:00",
+            "source": "#Ek9wmQNFvgpGjvxL"
+          },
+          "identifier": [
+            {
+              "system": "urn:niv:observation",
+              "value": "1236613500008|2026-08-18T04:09:58+08:00|76222-9"
+            }
+          ],
+          "status": "final",
+          "category": [
+            {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                  "code": "procedure",
+                  "display": "Procedure"
+                }
+              ]
+            }
+          ],
+          "code": {
+            "coding": [
+              {
+                "system": "http://loinc.org",
+                "code": "76222-9",
+                "display": "Tidal volume Ventilator --on ventilator"
+              }
+            ]
+          },
+          "subject": {
+            "reference": "Patient/137581429"
+          },
+          "effectiveDateTime": "2026-08-18T04:09:58+08:00",
+          "performer": [
+            {
+              "reference": "Organization/137581430"
+            }
+          ],
+          "valueQuantity": {
+            "value": 0.0,
+            "unit": "mL",
+            "system": "http://unitsofmeasure.org",
+            "code": "mL"
+          },
+          "device": {
+            "reference": "Device/137581431"
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Observation/137589602",
+        "resource": {
+          "resourceType": "Observation",
+          "id": "137589602",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-25T03:56:00.447-04:00",
+            "source": "#Ek9wmQNFvgpGjvxL"
+          },
+          "identifier": [
+            {
+              "system": "urn:niv:observation",
+              "value": "1236613500008|2026-08-18T04:09:58+08:00|76008-2"
+            }
+          ],
+          "status": "final",
+          "category": [
+            {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                  "code": "procedure",
+                  "display": "Procedure"
+                }
+              ]
+            }
+          ],
+          "code": {
+            "coding": [
+              {
+                "system": "http://loinc.org",
+                "code": "76008-2",
+                "display": "Expired minute Volume during Mechanical ventilation"
+              }
+            ]
+          },
+          "subject": {
+            "reference": "Patient/137581429"
+          },
+          "effectiveDateTime": "2026-08-18T04:09:58+08:00",
+          "performer": [
+            {
+              "reference": "Organization/137581430"
+            }
+          ],
+          "valueQuantity": {
+            "value": 0.0,
+            "unit": "L/min",
+            "system": "http://unitsofmeasure.org",
+            "code": "L/min"
+          },
+          "device": {
+            "reference": "Device/137581431"
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Observation/137589603",
+        "resource": {
+          "resourceType": "Observation",
+          "id": "137589603",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-25T03:56:00.447-04:00",
+            "source": "#Ek9wmQNFvgpGjvxL"
+          },
+          "identifier": [
+            {
+              "system": "urn:niv:observation",
+              "value": "1236613500008|2026-08-18T04:09:58+08:00|VENT-SUMMARY"
+            }
+          ],
+          "status": "final",
+          "category": [
+            {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                  "code": "procedure",
+                  "display": "Procedure"
+                }
+              ]
+            }
+          ],
+          "code": {
+            "coding": [
+              {
+                "system": "http://fhir.local/CodeSystem/niv-codes",
+                "code": "VENT-SUMMARY",
+                "display": "Ventilation summary (device)"
+              }
+            ],
+            "text": "\u901a\u6c23\u6458\u8981(\u88dd\u7f6e\u91cf\u6e2c)"
+          },
+          "subject": {
+            "reference": "Patient/137581429"
+          },
+          "effectiveDateTime": "2026-08-18T04:09:58+08:00",
+          "performer": [
+            {
+              "reference": "Organization/137581430"
+            }
+          ],
+          "device": {
+            "reference": "Device/137581431"
+          },
+          "component": [
+            {
+              "code": {
+                "coding": [
+                  {
+                    "system": "http://loinc.org",
+                    "code": "19840-8",
+                    "display": "Breath rate spontaneous and mechanical --on ventilator"
+                  }
+                ]
+              },
+              "valueQuantity": {
+                "value": 17.0,
+                "unit": "/min",
+                "system": "http://unitsofmeasure.org",
+                "code": "/min"
+              }
+            }
+          ]
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Observation/137589604",
+        "resource": {
+          "resourceType": "Observation",
+          "id": "137589604",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-25T03:56:00.447-04:00",
+            "source": "#Ek9wmQNFvgpGjvxL"
+          },
+          "identifier": [
+            {
+              "system": "urn:niv:observation",
+              "value": "1236613500008|2026-08-18T04:19:58+08:00|76222-9"
+            }
+          ],
+          "status": "final",
+          "category": [
+            {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                  "code": "procedure",
+                  "display": "Procedure"
+                }
+              ]
+            }
+          ],
+          "code": {
+            "coding": [
+              {
+                "system": "http://loinc.org",
+                "code": "76222-9",
+                "display": "Tidal volume Ventilator --on ventilator"
+              }
+            ]
+          },
+          "subject": {
+            "reference": "Patient/137581429"
+          },
+          "effectiveDateTime": "2026-08-18T04:19:58+08:00",
+          "performer": [
+            {
+              "reference": "Organization/137581430"
+            }
+          ],
+          "valueQuantity": {
+            "value": 0.0,
+            "unit": "mL",
+            "system": "http://unitsofmeasure.org",
+            "code": "mL"
+          },
+          "device": {
+            "reference": "Device/137581431"
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Observation/137589605",
+        "resource": {
+          "resourceType": "Observation",
+          "id": "137589605",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-25T03:56:00.447-04:00",
+            "source": "#Ek9wmQNFvgpGjvxL"
+          },
+          "identifier": [
+            {
+              "system": "urn:niv:observation",
+              "value": "1236613500008|2026-08-18T04:19:58+08:00|76008-2"
+            }
+          ],
+          "status": "final",
+          "category": [
+            {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                  "code": "procedure",
+                  "display": "Procedure"
+                }
+              ]
+            }
+          ],
+          "code": {
+            "coding": [
+              {
+                "system": "http://loinc.org",
+                "code": "76008-2",
+                "display": "Expired minute Volume during Mechanical ventilation"
+              }
+            ]
+          },
+          "subject": {
+            "reference": "Patient/137581429"
+          },
+          "effectiveDateTime": "2026-08-18T04:19:58+08:00",
+          "performer": [
+            {
+              "reference": "Organization/137581430"
+            }
+          ],
+          "valueQuantity": {
+            "value": 0.0,
+            "unit": "L/min",
+            "system": "http://unitsofmeasure.org",
+            "code": "L/min"
+          },
+          "device": {
+            "reference": "Device/137581431"
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Observation/137589606",
+        "resource": {
+          "resourceType": "Observation",
+          "id": "137589606",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-25T03:56:00.447-04:00",
+            "source": "#Ek9wmQNFvgpGjvxL"
+          },
+          "identifier": [
+            {
+              "system": "urn:niv:observation",
+              "value": "1236613500008|2026-08-18T04:19:58+08:00|VENT-SUMMARY"
+            }
+          ],
+          "status": "final",
+          "category": [
+            {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                  "code": "procedure",
+                  "display": "Procedure"
+                }
+              ]
+            }
+          ],
+          "code": {
+            "coding": [
+              {
+                "system": "http://fhir.local/CodeSystem/niv-codes",
+                "code": "VENT-SUMMARY",
+                "display": "Ventilation summary (device)"
+              }
+            ],
+            "text": "\u901a\u6c23\u6458\u8981(\u88dd\u7f6e\u91cf\u6e2c)"
+          },
+          "subject": {
+            "reference": "Patient/137581429"
+          },
+          "effectiveDateTime": "2026-08-18T04:19:58+08:00",
+          "performer": [
+            {
+              "reference": "Organization/137581430"
+            }
+          ],
+          "device": {
+            "reference": "Device/137581431"
+          },
+          "component": [
+            {
+              "code": {
+                "coding": [
+                  {
+                    "system": "http://loinc.org",
+                    "code": "19840-8",
+                    "display": "Breath rate spontaneous and mechanical --on ventilator"
+                  }
+                ]
+              },
+              "valueQuantity": {
+                "value": 17.0,
+                "unit": "/min",
+                "system": "http://unitsofmeasure.org",
+                "code": "/min"
+              }
+            }
+          ]
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Observation/137589607",
+        "resource": {
+          "resourceType": "Observation",
+          "id": "137589607",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-25T03:56:00.447-04:00",
+            "source": "#Ek9wmQNFvgpGjvxL"
+          },
+          "identifier": [
+            {
+              "system": "urn:niv:observation",
+              "value": "1236613500008|2026-08-18T04:29:58+08:00|76222-9"
+            }
+          ],
+          "status": "final",
+          "category": [
+            {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                  "code": "procedure",
+                  "display": "Procedure"
+                }
+              ]
+            }
+          ],
+          "code": {
+            "coding": [
+              {
+                "system": "http://loinc.org",
+                "code": "76222-9",
+                "display": "Tidal volume Ventilator --on ventilator"
+              }
+            ]
+          },
+          "subject": {
+            "reference": "Patient/137581429"
+          },
+          "effectiveDateTime": "2026-08-18T04:29:58+08:00",
+          "performer": [
+            {
+              "reference": "Organization/137581430"
+            }
+          ],
+          "valueQuantity": {
+            "value": 0.0,
+            "unit": "mL",
+            "system": "http://unitsofmeasure.org",
+            "code": "mL"
+          },
+          "device": {
+            "reference": "Device/137581431"
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Observation/137589608",
+        "resource": {
+          "resourceType": "Observation",
+          "id": "137589608",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-25T03:56:00.447-04:00",
+            "source": "#Ek9wmQNFvgpGjvxL"
+          },
+          "identifier": [
+            {
+              "system": "urn:niv:observation",
+              "value": "1236613500008|2026-08-18T04:29:58+08:00|76008-2"
+            }
+          ],
+          "status": "final",
+          "category": [
+            {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                  "code": "procedure",
+                  "display": "Procedure"
+                }
+              ]
+            }
+          ],
+          "code": {
+            "coding": [
+              {
+                "system": "http://loinc.org",
+                "code": "76008-2",
+                "display": "Expired minute Volume during Mechanical ventilation"
+              }
+            ]
+          },
+          "subject": {
+            "reference": "Patient/137581429"
+          },
+          "effectiveDateTime": "2026-08-18T04:29:58+08:00",
+          "performer": [
+            {
+              "reference": "Organization/137581430"
+            }
+          ],
+          "valueQuantity": {
+            "value": 0.0,
+            "unit": "L/min",
+            "system": "http://unitsofmeasure.org",
+            "code": "L/min"
+          },
+          "device": {
+            "reference": "Device/137581431"
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Observation/137589609",
+        "resource": {
+          "resourceType": "Observation",
+          "id": "137589609",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-25T03:56:00.447-04:00",
+            "source": "#Ek9wmQNFvgpGjvxL"
+          },
+          "identifier": [
+            {
+              "system": "urn:niv:observation",
+              "value": "1236613500008|2026-08-18T04:29:58+08:00|VENT-SUMMARY"
+            }
+          ],
+          "status": "final",
+          "category": [
+            {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                  "code": "procedure",
+                  "display": "Procedure"
+                }
+              ]
+            }
+          ],
+          "code": {
+            "coding": [
+              {
+                "system": "http://fhir.local/CodeSystem/niv-codes",
+                "code": "VENT-SUMMARY",
+                "display": "Ventilation summary (device)"
+              }
+            ],
+            "text": "\u901a\u6c23\u6458\u8981(\u88dd\u7f6e\u91cf\u6e2c)"
+          },
+          "subject": {
+            "reference": "Patient/137581429"
+          },
+          "effectiveDateTime": "2026-08-18T04:29:58+08:00",
+          "performer": [
+            {
+              "reference": "Organization/137581430"
+            }
+          ],
+          "device": {
+            "reference": "Device/137581431"
+          },
+          "component": [
+            {
+              "code": {
+                "coding": [
+                  {
+                    "system": "http://loinc.org",
+                    "code": "19840-8",
+                    "display": "Breath rate spontaneous and mechanical --on ventilator"
+                  }
+                ]
+              },
+              "valueQuantity": {
+                "value": 17.0,
+                "unit": "/min",
+                "system": "http://unitsofmeasure.org",
+                "code": "/min"
+              }
+            }
+          ]
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Observation/137589610",
+        "resource": {
+          "resourceType": "Observation",
+          "id": "137589610",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-25T03:56:00.447-04:00",
+            "source": "#Ek9wmQNFvgpGjvxL"
+          },
+          "identifier": [
+            {
+              "system": "urn:niv:observation",
+              "value": "1236613500008|2026-08-18T04:39:59+08:00|76222-9"
+            }
+          ],
+          "status": "final",
+          "category": [
+            {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                  "code": "procedure",
+                  "display": "Procedure"
+                }
+              ]
+            }
+          ],
+          "code": {
+            "coding": [
+              {
+                "system": "http://loinc.org",
+                "code": "76222-9",
+                "display": "Tidal volume Ventilator --on ventilator"
+              }
+            ]
+          },
+          "subject": {
+            "reference": "Patient/137581429"
+          },
+          "effectiveDateTime": "2026-08-18T04:39:59+08:00",
+          "performer": [
+            {
+              "reference": "Organization/137581430"
+            }
+          ],
+          "valueQuantity": {
+            "value": 0.0,
+            "unit": "mL",
+            "system": "http://unitsofmeasure.org",
+            "code": "mL"
+          },
+          "device": {
+            "reference": "Device/137581431"
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Observation/137589611",
+        "resource": {
+          "resourceType": "Observation",
+          "id": "137589611",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-25T03:56:00.447-04:00",
+            "source": "#Ek9wmQNFvgpGjvxL"
+          },
+          "identifier": [
+            {
+              "system": "urn:niv:observation",
+              "value": "1236613500008|2026-08-18T04:39:59+08:00|76008-2"
+            }
+          ],
+          "status": "final",
+          "category": [
+            {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                  "code": "procedure",
+                  "display": "Procedure"
+                }
+              ]
+            }
+          ],
+          "code": {
+            "coding": [
+              {
+                "system": "http://loinc.org",
+                "code": "76008-2",
+                "display": "Expired minute Volume during Mechanical ventilation"
+              }
+            ]
+          },
+          "subject": {
+            "reference": "Patient/137581429"
+          },
+          "effectiveDateTime": "2026-08-18T04:39:59+08:00",
+          "performer": [
+            {
+              "reference": "Organization/137581430"
+            }
+          ],
+          "valueQuantity": {
+            "value": 0.0,
+            "unit": "L/min",
+            "system": "http://unitsofmeasure.org",
+            "code": "L/min"
+          },
+          "device": {
+            "reference": "Device/137581431"
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      }
+    ]
+  }
+}

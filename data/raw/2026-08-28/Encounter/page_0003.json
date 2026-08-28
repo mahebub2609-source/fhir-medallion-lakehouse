@@ -1,0 +1,701 @@
+{
+  "resource_type": "Encounter",
+  "extraction_timestamp": "2026-08-28T11:04:28.756254",
+  "extraction_date": "2026-08-28",
+  "api_url": "https://hapi.fhir.org/baseR4?_getpages=ed7ec1aa-e0f9-4770-8bed-3119daac773a&_getpagesoffset=60&_count=20&_pretty=true&_bundletype=searchset",
+  "page_number": 3,
+  "entry_count": 20,
+  "response": {
+    "resourceType": "Bundle",
+    "id": "ed7ec1aa-e0f9-4770-8bed-3119daac773a",
+    "meta": {
+      "lastUpdated": "2026-08-28T07:04:28.819-04:00"
+    },
+    "type": "searchset",
+    "total": 146,
+    "link": [
+      {
+        "relation": "self",
+        "url": "https://hapi.fhir.org/baseR4?_getpages=ed7ec1aa-e0f9-4770-8bed-3119daac773a&_getpagesoffset=60&_count=20&_pretty=true&_bundletype=searchset"
+      },
+      {
+        "relation": "next",
+        "url": "https://hapi.fhir.org/baseR4?_getpages=ed7ec1aa-e0f9-4770-8bed-3119daac773a&_getpagesoffset=80&_count=20&_pretty=true&_bundletype=searchset"
+      },
+      {
+        "relation": "previous",
+        "url": "https://hapi.fhir.org/baseR4?_getpages=ed7ec1aa-e0f9-4770-8bed-3119daac773a&_getpagesoffset=40&_count=20&_pretty=true&_bundletype=searchset"
+      }
+    ],
+    "entry": [
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Encounter/137595371",
+        "resource": {
+          "resourceType": "Encounter",
+          "id": "137595371",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-27T00:01:29.605-04:00",
+            "source": "#bwvTCaA6D5UlXtS6"
+          },
+          "status": "finished",
+          "class": {
+            "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+            "code": "AMB",
+            "display": "ambulatory"
+          },
+          "serviceType": {
+            "text": "\u500b\u4eba\u5065\u5eb7\u52a9\u624b\u75c7\u72c0\u8a55\u4f30\u7d00\u9304"
+          },
+          "subject": {
+            "reference": "Patient/137595374"
+          },
+          "period": {
+            "start": "2026-08-09T06:04:39.401Z"
+          },
+          "reasonCode": [
+            {
+              "text": "\u60a3\u90e8\u7167\u7247 AI \u5206\u6790\u8207\u554f\u5377\u8a55\u4f30\u3001 \u95dc\u7bc0\u6025\u6027\u626d\u50b7 / \u808c\u8089\u62c9\u50b7 (\u4eca\u5929\u4e0b\u5348\u6a13\u68af\u9593\u8dcc\u5012)"
+            }
+          ]
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Encounter/137595373",
+        "resource": {
+          "resourceType": "Encounter",
+          "id": "137595373",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-27T00:01:29.605-04:00",
+            "source": "#bwvTCaA6D5UlXtS6"
+          },
+          "status": "finished",
+          "class": {
+            "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+            "code": "AMB",
+            "display": "ambulatory"
+          },
+          "serviceType": {
+            "text": "\u500b\u4eba\u5065\u5eb7\u52a9\u624b\u75c7\u72c0\u8a55\u4f30\u7d00\u9304"
+          },
+          "subject": {
+            "reference": "Patient/137595374"
+          },
+          "period": {
+            "start": "2026-08-09T06:01:26.637Z"
+          },
+          "reasonCode": [
+            {
+              "text": "\u60a3\u90e8\u7167\u7247 AI \u5206\u6790\u8207\u554f\u5377\u8a55\u4f30\u3001 \u95dc\u7bc0\u6025\u6027\u626d\u50b7 / \u808c\u8089\u62c9\u50b7"
+            }
+          ]
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Encounter/137595429",
+        "resource": {
+          "resourceType": "Encounter",
+          "id": "137595429",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-27T00:02:38.472-04:00",
+            "source": "#AWzBrhkSomdg6Mfx"
+          },
+          "status": "finished",
+          "class": {
+            "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+            "code": "AMB",
+            "display": "ambulatory"
+          },
+          "serviceType": {
+            "text": "\u500b\u4eba\u5065\u5eb7\u52a9\u624b\u75c7\u72c0\u8a55\u4f30\u7d00\u9304"
+          },
+          "subject": {
+            "reference": "Patient/137595450"
+          },
+          "period": {
+            "start": "2026-08-24T03:47:09.624Z"
+          },
+          "reasonCode": [
+            {
+              "text": "\u54b3\u55fd / \u5589\u56a8\u5982\u5200\u5272\u822c\u75bc\u75db\u3001 \u6301\u7e8c\u9ad8\u71d2 / \u754f\u5bd2\u6230\u6144"
+            }
+          ]
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Encounter/137595431",
+        "resource": {
+          "resourceType": "Encounter",
+          "id": "137595431",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-27T00:02:38.472-04:00",
+            "source": "#AWzBrhkSomdg6Mfx"
+          },
+          "status": "finished",
+          "class": {
+            "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+            "code": "AMB",
+            "display": "ambulatory"
+          },
+          "serviceType": {
+            "text": "\u500b\u4eba\u5065\u5eb7\u52a9\u624b\u75c7\u72c0\u8a55\u4f30\u7d00\u9304"
+          },
+          "subject": {
+            "reference": "Patient/137595450"
+          },
+          "period": {
+            "start": "2026-08-24T02:02:36.912Z"
+          },
+          "reasonCode": [
+            {
+              "text": "\u60a3\u90e8\u7167\u7247 AI \u5206\u6790\u8207\u554f\u5377\u8a55\u4f30\u3001 \u5200\u5272\u5272\u50b7 / \u523a\u50b7 / \u5272\u88c2\u6df1\u50b7\u53e3"
+            }
+          ]
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Encounter/137595433",
+        "resource": {
+          "resourceType": "Encounter",
+          "id": "137595433",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-27T00:02:38.472-04:00",
+            "source": "#AWzBrhkSomdg6Mfx"
+          },
+          "status": "finished",
+          "class": {
+            "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+            "code": "AMB",
+            "display": "ambulatory"
+          },
+          "serviceType": {
+            "text": "\u500b\u4eba\u5065\u5eb7\u52a9\u624b\u75c7\u72c0\u8a55\u4f30\u7d00\u9304"
+          },
+          "subject": {
+            "reference": "Patient/137595450"
+          },
+          "period": {
+            "start": "2026-08-24T02:02:16.230Z"
+          },
+          "reasonCode": [
+            {
+              "text": "\u60a3\u90e8\u7167\u7247 AI \u5206\u6790\u8207\u554f\u5377\u8a55\u4f30\u3001 \u5200\u5272\u5272\u50b7 / \u523a\u50b7 / \u5272\u88c2\u6df1\u50b7\u53e3\u3001 \u982d\u8139\u75db / \u8108\u640f\u8df3\u52d5\u6027\u504f\u982d\u75db\u3001 \u6301\u7e8c\u9ad8\u71d2 / \u754f\u5bd2\u6230\u6144"
+            }
+          ]
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Encounter/137595435",
+        "resource": {
+          "resourceType": "Encounter",
+          "id": "137595435",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-27T00:02:38.472-04:00",
+            "source": "#AWzBrhkSomdg6Mfx"
+          },
+          "status": "finished",
+          "class": {
+            "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+            "code": "AMB",
+            "display": "ambulatory"
+          },
+          "serviceType": {
+            "text": "\u500b\u4eba\u5065\u5eb7\u52a9\u624b\u75c7\u72c0\u8a55\u4f30\u7d00\u9304"
+          },
+          "subject": {
+            "reference": "Patient/137595450"
+          },
+          "period": {
+            "start": "2026-08-24T01:23:21.346Z"
+          },
+          "reasonCode": [
+            {
+              "text": "\u982d\u8139\u75db / \u8108\u640f\u8df3\u52d5\u6027\u504f\u982d\u75db\u3001 \u6301\u7e8c\u9ad8\u71d2 / \u754f\u5bd2\u6230\u6144"
+            }
+          ]
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Encounter/137595437",
+        "resource": {
+          "resourceType": "Encounter",
+          "id": "137595437",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-27T00:02:38.472-04:00",
+            "source": "#AWzBrhkSomdg6Mfx"
+          },
+          "status": "finished",
+          "class": {
+            "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+            "code": "AMB",
+            "display": "ambulatory"
+          },
+          "serviceType": {
+            "text": "\u500b\u4eba\u5065\u5eb7\u52a9\u624b\u75c7\u72c0\u8a55\u4f30\u7d00\u9304"
+          },
+          "subject": {
+            "reference": "Patient/137595450"
+          },
+          "period": {
+            "start": "2026-08-24T01:22:00.028Z"
+          },
+          "reasonCode": [
+            {
+              "text": "\u982d\u8139\u75db / \u8108\u640f\u8df3\u52d5\u6027\u504f\u982d\u75db\u3001 \u6301\u7e8c\u9ad8\u71d2 / \u754f\u5bd2\u6230\u6144"
+            }
+          ]
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Encounter/137595439",
+        "resource": {
+          "resourceType": "Encounter",
+          "id": "137595439",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-27T00:02:38.472-04:00",
+            "source": "#AWzBrhkSomdg6Mfx"
+          },
+          "status": "finished",
+          "class": {
+            "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+            "code": "AMB",
+            "display": "ambulatory"
+          },
+          "serviceType": {
+            "text": "\u500b\u4eba\u5065\u5eb7\u52a9\u624b\u75c7\u72c0\u8a55\u4f30\u7d00\u9304"
+          },
+          "subject": {
+            "reference": "Patient/137595450"
+          },
+          "period": {
+            "start": "2026-08-24T01:21:15.180Z"
+          },
+          "reasonCode": [
+            {
+              "text": "\u982d\u8139\u75db / \u8108\u640f\u8df3\u52d5\u6027\u504f\u982d\u75db\u3001 \u6301\u7e8c\u9ad8\u71d2 / \u754f\u5bd2\u6230\u6144"
+            }
+          ]
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Encounter/137595441",
+        "resource": {
+          "resourceType": "Encounter",
+          "id": "137595441",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-27T00:02:38.472-04:00",
+            "source": "#AWzBrhkSomdg6Mfx"
+          },
+          "status": "finished",
+          "class": {
+            "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+            "code": "AMB",
+            "display": "ambulatory"
+          },
+          "serviceType": {
+            "text": "\u500b\u4eba\u5065\u5eb7\u52a9\u624b\u75c7\u72c0\u8a55\u4f30\u7d00\u9304"
+          },
+          "subject": {
+            "reference": "Patient/137595450"
+          },
+          "period": {
+            "start": "2026-08-24T01:16:58.863Z"
+          },
+          "reasonCode": [
+            {
+              "text": "\u982d\u8139\u75db / \u8108\u640f\u8df3\u52d5\u6027\u504f\u982d\u75db"
+            }
+          ]
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Encounter/137595443",
+        "resource": {
+          "resourceType": "Encounter",
+          "id": "137595443",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-27T00:02:38.472-04:00",
+            "source": "#AWzBrhkSomdg6Mfx"
+          },
+          "status": "finished",
+          "class": {
+            "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+            "code": "AMB",
+            "display": "ambulatory"
+          },
+          "serviceType": {
+            "text": "\u500b\u4eba\u5065\u5eb7\u52a9\u624b\u75c7\u72c0\u8a55\u4f30\u7d00\u9304"
+          },
+          "subject": {
+            "reference": "Patient/137595450"
+          },
+          "period": {
+            "start": "2026-08-24T01:09:24.364Z"
+          },
+          "reasonCode": [
+            {
+              "text": "\u982d\u8139\u75db / \u8108\u640f\u8df3\u52d5\u6027\u504f\u982d\u75db\u3001 \u6301\u7e8c\u9ad8\u71d2 / \u754f\u5bd2\u6230\u6144"
+            }
+          ]
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Encounter/137595445",
+        "resource": {
+          "resourceType": "Encounter",
+          "id": "137595445",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-27T00:02:38.472-04:00",
+            "source": "#AWzBrhkSomdg6Mfx"
+          },
+          "status": "finished",
+          "class": {
+            "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+            "code": "AMB",
+            "display": "ambulatory"
+          },
+          "serviceType": {
+            "text": "\u500b\u4eba\u5065\u5eb7\u52a9\u624b\u75c7\u72c0\u8a55\u4f30\u7d00\u9304"
+          },
+          "subject": {
+            "reference": "Patient/137595450"
+          },
+          "period": {
+            "start": "2026-08-09T06:32:29.394Z"
+          },
+          "reasonCode": [
+            {
+              "text": "\u60a3\u90e8\u7167\u7247 AI \u5206\u6790\u8207\u554f\u5377\u8a55\u4f30"
+            }
+          ]
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Encounter/137595447",
+        "resource": {
+          "resourceType": "Encounter",
+          "id": "137595447",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-27T00:02:38.472-04:00",
+            "source": "#AWzBrhkSomdg6Mfx"
+          },
+          "status": "finished",
+          "class": {
+            "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+            "code": "AMB",
+            "display": "ambulatory"
+          },
+          "serviceType": {
+            "text": "\u500b\u4eba\u5065\u5eb7\u52a9\u624b\u75c7\u72c0\u8a55\u4f30\u7d00\u9304"
+          },
+          "subject": {
+            "reference": "Patient/137595450"
+          },
+          "period": {
+            "start": "2026-08-09T06:04:39.401Z"
+          },
+          "reasonCode": [
+            {
+              "text": "\u60a3\u90e8\u7167\u7247 AI \u5206\u6790\u8207\u554f\u5377\u8a55\u4f30\u3001 \u95dc\u7bc0\u6025\u6027\u626d\u50b7 / \u808c\u8089\u62c9\u50b7 (\u4eca\u5929\u4e0b\u5348\u6a13\u68af\u9593\u8dcc\u5012)"
+            }
+          ]
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Encounter/137595449",
+        "resource": {
+          "resourceType": "Encounter",
+          "id": "137595449",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-27T00:02:38.472-04:00",
+            "source": "#AWzBrhkSomdg6Mfx"
+          },
+          "status": "finished",
+          "class": {
+            "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+            "code": "AMB",
+            "display": "ambulatory"
+          },
+          "serviceType": {
+            "text": "\u500b\u4eba\u5065\u5eb7\u52a9\u624b\u75c7\u72c0\u8a55\u4f30\u7d00\u9304"
+          },
+          "subject": {
+            "reference": "Patient/137595450"
+          },
+          "period": {
+            "start": "2026-08-09T06:01:26.637Z"
+          },
+          "reasonCode": [
+            {
+              "text": "\u60a3\u90e8\u7167\u7247 AI \u5206\u6790\u8207\u554f\u5377\u8a55\u4f30\u3001 \u95dc\u7bc0\u6025\u6027\u626d\u50b7 / \u808c\u8089\u62c9\u50b7"
+            }
+          ]
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Encounter/sim-876d288c20a2334f-encounter",
+        "resource": {
+          "resourceType": "Encounter",
+          "id": "sim-876d288c20a2334f-encounter",
+          "meta": {
+            "versionId": "2",
+            "lastUpdated": "2026-08-27T02:37:48.079-04:00",
+            "source": "#SB95zkGna7BPfePb"
+          },
+          "status": "finished",
+          "class": {
+            "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+            "code": "IMP",
+            "display": "inpatient encounter"
+          },
+          "subject": {
+            "reference": "Patient/sim-876d288c20a2334f-patient"
+          },
+          "period": {
+            "start": "2026-08-27T02:00:00Z",
+            "end": "2026-08-27T03:30:00Z"
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Encounter/137595541",
+        "resource": {
+          "resourceType": "Encounter",
+          "id": "137595541",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-27T05:35:49.949-04:00",
+            "source": "#xKieXt0D0Hv811dO"
+          },
+          "identifier": [
+            {
+              "system": "https://carebridge.example/encounter",
+              "value": "CB-31B022C3-35"
+            }
+          ],
+          "status": "finished",
+          "class": {
+            "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+            "code": "AMB",
+            "display": "ambulatory"
+          },
+          "subject": {
+            "reference": "Patient/137551239"
+          },
+          "period": {
+            "start": "2026-08-27",
+            "end": "2026-08-27"
+          },
+          "reasonCode": [
+            {
+              "text": "\u88dc\u7fd2\u73ed\u597d\u51b7"
+            }
+          ]
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Encounter/137295928",
+        "resource": {
+          "resourceType": "Encounter",
+          "id": "137295928",
+          "meta": {
+            "versionId": "2",
+            "lastUpdated": "2026-08-27T09:43:33.520-04:00",
+            "source": "#SjAMDyZ6UFBbyz21"
+          },
+          "status": "arrived",
+          "class": {
+            "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+            "code": "AMB"
+          },
+          "subject": {
+            "reference": "Patient/137295876"
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Encounter/137393410",
+        "resource": {
+          "resourceType": "Encounter",
+          "id": "137393410",
+          "meta": {
+            "versionId": "2",
+            "lastUpdated": "2026-08-27T09:44:53.367-04:00",
+            "source": "#SvVow7R8reAHvPAV"
+          },
+          "status": "arrived",
+          "class": {
+            "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode"
+          },
+          "period": {
+            "start": "2026-01-08T14:59:00Z"
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Encounter/137502603",
+        "resource": {
+          "resourceType": "Encounter",
+          "id": "137502603",
+          "meta": {
+            "versionId": "3",
+            "lastUpdated": "2026-08-27T10:29:12.023-04:00",
+            "source": "#40J4IpFKkclQzJ2D"
+          },
+          "status": "finished",
+          "class": {
+            "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+            "code": "AMB"
+          },
+          "priority": {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/v3-ActPriority",
+                "code": "UR"
+              }
+            ]
+          },
+          "subject": {
+            "reference": "Patient/137433331",
+            "display": "Mateo Test"
+          },
+          "period": {
+            "start": "2026-08-20T14:32:21Z"
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Encounter/137586685",
+        "resource": {
+          "resourceType": "Encounter",
+          "id": "137586685",
+          "meta": {
+            "versionId": "2",
+            "lastUpdated": "2026-08-27T10:32:30.618-04:00",
+            "source": "#qEXn7PT181m6qLVK"
+          },
+          "status": "finished",
+          "class": {
+            "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+            "code": "AMB"
+          },
+          "subject": {
+            "reference": "Patient/137433331",
+            "display": "Mateo Test"
+          },
+          "period": {
+            "start": "2026-08-24T19:03:00Z"
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Encounter/137595898",
+        "resource": {
+          "resourceType": "Encounter",
+          "id": "137595898",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-27T10:39:26.438-04:00",
+            "source": "#35vQOKJGUPyujqMX"
+          },
+          "identifier": [
+            {
+              "system": "https://carebridge.example/encounter",
+              "value": "CB-F1F6A055-37"
+            }
+          ],
+          "status": "finished",
+          "class": {
+            "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+            "code": "AMB",
+            "display": "ambulatory"
+          },
+          "subject": {
+            "reference": "Patient/137552818"
+          },
+          "period": {
+            "start": "2026-08-27",
+            "end": "2026-08-27"
+          },
+          "reasonCode": [
+            {
+              "text": "\u70ba\u4ec0\u9ebc\u8cb7\u4e0d\u5230\u5927\u5b78\u751f\u7968\u6c23\u6b7b\u6211\u4e86"
+            }
+          ]
+        },
+        "search": {
+          "mode": "match"
+        }
+      }
+    ]
+  }
+}

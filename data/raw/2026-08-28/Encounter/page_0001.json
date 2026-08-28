@@ -1,0 +1,792 @@
+{
+  "resource_type": "Encounter",
+  "extraction_timestamp": "2026-08-28T11:04:28.756254",
+  "extraction_date": "2026-08-28",
+  "api_url": "https://hapi.fhir.org/baseR4?_getpages=ed7ec1aa-e0f9-4770-8bed-3119daac773a&_getpagesoffset=20&_count=20&_pretty=true&_bundletype=searchset",
+  "page_number": 1,
+  "entry_count": 20,
+  "response": {
+    "resourceType": "Bundle",
+    "id": "ed7ec1aa-e0f9-4770-8bed-3119daac773a",
+    "meta": {
+      "lastUpdated": "2026-08-28T07:04:28.819-04:00"
+    },
+    "type": "searchset",
+    "link": [
+      {
+        "relation": "self",
+        "url": "https://hapi.fhir.org/baseR4?_getpages=ed7ec1aa-e0f9-4770-8bed-3119daac773a&_getpagesoffset=20&_count=20&_pretty=true&_bundletype=searchset"
+      },
+      {
+        "relation": "next",
+        "url": "https://hapi.fhir.org/baseR4?_getpages=ed7ec1aa-e0f9-4770-8bed-3119daac773a&_getpagesoffset=40&_count=20&_pretty=true&_bundletype=searchset"
+      },
+      {
+        "relation": "previous",
+        "url": "https://hapi.fhir.org/baseR4?_getpages=ed7ec1aa-e0f9-4770-8bed-3119daac773a&_getpagesoffset=0&_count=20&_pretty=true&_bundletype=searchset"
+      }
+    ],
+    "entry": [
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Encounter/137593679",
+        "resource": {
+          "resourceType": "Encounter",
+          "id": "137593679",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-25T05:02:51.670-04:00",
+            "source": "#JgAWMfV8TEKOO1Xb"
+          },
+          "identifier": [
+            {
+              "system": "https://truetime.health/poc-id",
+              "value": "tt-poc-mt8fsw5d-encounter"
+            }
+          ],
+          "status": "finished",
+          "class": {
+            "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+            "code": "AMB",
+            "display": "ambulatory"
+          },
+          "subject": {
+            "reference": "Patient/137593674"
+          },
+          "participant": [
+            {
+              "individual": {
+                "reference": "Practitioner/137593675"
+              }
+            }
+          ],
+          "appointment": [
+            {
+              "reference": "Appointment/137593678"
+            }
+          ]
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Encounter/137593769",
+        "resource": {
+          "resourceType": "Encounter",
+          "id": "137593769",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-25T07:16:42.062-04:00",
+            "source": "#rLs3MxJsS1OqblM7"
+          },
+          "identifier": [
+            {
+              "system": "https://truetime.health/poc-id",
+              "value": "tt-poc-mt8kl13l-encounter"
+            }
+          ],
+          "status": "finished",
+          "class": {
+            "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+            "code": "AMB",
+            "display": "ambulatory"
+          },
+          "subject": {
+            "reference": "Patient/137593764"
+          },
+          "participant": [
+            {
+              "individual": {
+                "reference": "Practitioner/137593765"
+              }
+            }
+          ],
+          "appointment": [
+            {
+              "reference": "Appointment/137593768"
+            }
+          ]
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Encounter/sim-encounter-001",
+        "resource": {
+          "resourceType": "Encounter",
+          "id": "sim-encounter-001",
+          "meta": {
+            "versionId": "2",
+            "lastUpdated": "2026-08-25T07:19:33.982-04:00",
+            "source": "#kLvBjhMvjV5OW7ie"
+          },
+          "extension": [
+            {
+              "url": "http://hapifhir.io/fhir/StructureDefinition/resource-placeholder",
+              "valueBoolean": true
+            }
+          ]
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Encounter/137593798",
+        "resource": {
+          "resourceType": "Encounter",
+          "id": "137593798",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-25T07:27:15.356-04:00",
+            "source": "#Wc7YayDzqfSvVuH2"
+          },
+          "status": "finished",
+          "class": {
+            "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+            "code": "AMB",
+            "display": "ambulatory"
+          },
+          "subject": {
+            "reference": "Patient/137593796",
+            "display": "Robert Williams"
+          },
+          "participant": [
+            {
+              "type": [
+                {
+                  "coding": [
+                    {
+                      "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+                      "code": "ATND",
+                      "display": "attender"
+                    }
+                  ]
+                }
+              ],
+              "individual": {
+                "reference": "Practitioner/137593797",
+                "display": "Dr Michael Anderson"
+              }
+            }
+          ],
+          "period": {
+            "start": "2026-08-25T08:30:00Z",
+            "end": "2026-08-25T09:30:00Z"
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Encounter/137593886",
+        "resource": {
+          "resourceType": "Encounter",
+          "id": "137593886",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-25T09:13:41.171-04:00",
+            "source": "#TCELrM4jEweuJvVp"
+          },
+          "status": "in-progress",
+          "class": {
+            "code": "AMB"
+          },
+          "subject": {
+            "reference": "Patient/137593885"
+          },
+          "period": {
+            "start": "2026-08-25T13:13:41.511Z"
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Encounter/137593899",
+        "resource": {
+          "resourceType": "Encounter",
+          "id": "137593899",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-25T09:15:47.759-04:00",
+            "source": "#2qI6xufmOYBILCrW"
+          },
+          "status": "in-progress",
+          "class": {
+            "code": "AMB"
+          },
+          "subject": {
+            "reference": "Patient/137593898"
+          },
+          "period": {
+            "start": "2026-08-25T13:15:47.987Z"
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Encounter/137593918",
+        "resource": {
+          "resourceType": "Encounter",
+          "id": "137593918",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-25T09:17:12.762-04:00",
+            "source": "#JTWC4sfoVTALC8oU"
+          },
+          "status": "in-progress",
+          "class": {
+            "code": "AMB"
+          },
+          "subject": {
+            "reference": "Patient/137593917"
+          },
+          "period": {
+            "start": "2026-08-25T13:17:13.169Z"
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Encounter/137593926",
+        "resource": {
+          "resourceType": "Encounter",
+          "id": "137593926",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-25T09:19:06.837-04:00",
+            "source": "#5ntMFXrclhu5elw6"
+          },
+          "status": "in-progress",
+          "class": {
+            "code": "AMB"
+          },
+          "subject": {
+            "reference": "Patient/137593925"
+          },
+          "period": {
+            "start": "2026-08-25T13:19:07.202Z"
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Encounter/137593932",
+        "resource": {
+          "resourceType": "Encounter",
+          "id": "137593932",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-25T09:20:05.199-04:00",
+            "source": "#g7bjlLLavpISIolD"
+          },
+          "status": "in-progress",
+          "class": {
+            "code": "AMB"
+          },
+          "subject": {
+            "reference": "Patient/137593931"
+          },
+          "period": {
+            "start": "2026-08-25T13:20:05.514Z"
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Encounter/137593942",
+        "resource": {
+          "resourceType": "Encounter",
+          "id": "137593942",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-25T09:24:12.404-04:00",
+            "source": "#4DbkwInmfDM9s9qo"
+          },
+          "status": "in-progress",
+          "class": {
+            "code": "AMB"
+          },
+          "subject": {
+            "reference": "Patient/137593941"
+          },
+          "period": {
+            "start": "2026-08-25T13:24:12.717Z"
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Encounter/137593960",
+        "resource": {
+          "resourceType": "Encounter",
+          "id": "137593960",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-25T09:25:51.333-04:00",
+            "source": "#dLhk4Mkj8qQEXQ0U"
+          },
+          "status": "in-progress",
+          "class": {
+            "code": "AMB"
+          },
+          "subject": {
+            "reference": "Patient/137593959"
+          },
+          "period": {
+            "start": "2026-08-25T13:25:51.740Z"
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Encounter/137593962",
+        "resource": {
+          "resourceType": "Encounter",
+          "id": "137593962",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-25T09:26:00.154-04:00",
+            "source": "#yteVcFFoz2fIlXoJ"
+          },
+          "status": "finished",
+          "class": {
+            "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+            "code": "AMB"
+          },
+          "subject": {
+            "reference": "Patient/137593961"
+          },
+          "period": {
+            "start": "2026-08-25T10:00:00+08:00"
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Encounter/137594026",
+        "resource": {
+          "resourceType": "Encounter",
+          "id": "137594026",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-25T12:42:57.896-04:00",
+            "source": "#ELxwTe40etDoCtfL"
+          },
+          "text": {
+            "status": "generated",
+            "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative with Details</b></p><p><b>id</b>: digitalhealth-f001</p><p><b>identifier</b>: v1451 (OFFICIAL)</p><p><b>status</b>: finished</p><p><b>class</b>: outpatient</p><p><b>type</b>: Patient-initiated encounter <span>(Details : {SNOMED CT code '270427003' = 'Patient-initiated encounter (procedure)', given as 'Patient-initiated encounter'})</span></p><p><b>priority</b>: Non-urgent cardiological admission <span>(Details : {SNOMED CT code '310361003' = 'Non-urgent cardiological admission (procedure)', given as 'Non-urgent cardiological admission'})</span></p><p><b>patient</b>: <a>P. van de Heuvel</a></p><h3>Participants</h3><table><tr><td>-</td><td><b>Individual</b></td></tr><tr><td>*</td><td><a>P. Voigt</a></td></tr></table><p><b>length</b>: 140 min<span> (Details: http://unitsofmeasure.org code min = 'min')</span></p><p><b>reason</b>: Heart valve replacement <span>(Details : {SNOMED CT code '34068001' = 'Heart valve replacement (procedure)', given as 'Heart valve replacement'})</span></p><h3>Hospitalizations</h3><table><tr><td>-</td><td><b>PreAdmissionIdentifier</b></td><td><b>AdmitSource</b></td><td><b>DischargeDisposition</b></td></tr><tr><td>*</td><td>93042 (OFFICIAL)</td><td>Referral by physician <span>(Details : {SNOMED CT code '305956004' = 'Referral by physician (procedure)', given as 'Referral by physician'})</span></td><td>Discharge to home <span>(Details : {SNOMED CT code '306689006' = 'Discharge to home (procedure)', given as 'Discharge to home'})</span></td></tr></table><p><b>serviceProvider</b>: <a>Burgers University Medical Center</a></p></div>"
+          },
+          "identifier": [
+            {
+              "use": "official",
+              "system": "http://www.amc.nl/zorgportal/identifiers/visits",
+              "value": "v1451"
+            }
+          ],
+          "status": "finished",
+          "class": {
+            "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+            "code": "SS",
+            "display": "short stay"
+          },
+          "type": [
+            {
+              "coding": [
+                {
+                  "system": "http://snomed.info/sct",
+                  "code": "270427003",
+                  "display": "Patient-initiated encounter"
+                }
+              ]
+            }
+          ],
+          "priority": {
+            "coding": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "310361003",
+                "display": "Non-urgent cardiological admission"
+              }
+            ]
+          },
+          "subject": {
+            "reference": "Patient/137594025",
+            "display": "P. van de Heuvel"
+          },
+          "length": {
+            "value": 140,
+            "unit": "min",
+            "system": "http://unitsofmeasure.org",
+            "code": "min"
+          },
+          "reasonCode": [
+            {
+              "coding": [
+                {
+                  "system": "http://snomed.info/sct",
+                  "code": "34068001",
+                  "display": "Heart valve replacement"
+                }
+              ]
+            }
+          ],
+          "hospitalization": {
+            "preAdmissionIdentifier": {
+              "use": "official",
+              "system": "http://www.amc.nl/zorgportal/identifiers/pre-admissions",
+              "value": "93042"
+            },
+            "admitSource": {
+              "coding": [
+                {
+                  "system": "http://snomed.info/sct",
+                  "code": "305956004",
+                  "display": "Referral by physician"
+                }
+              ]
+            },
+            "dischargeDisposition": {
+              "coding": [
+                {
+                  "system": "http://snomed.info/sct",
+                  "code": "306689006",
+                  "display": "Discharge to home"
+                }
+              ]
+            }
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Encounter/137594446",
+        "resource": {
+          "resourceType": "Encounter",
+          "id": "137594446",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-25T22:32:17.236-04:00",
+            "source": "#BhM30hYCO0AvSTLD"
+          },
+          "status": "finished",
+          "class": {
+            "system": "http://hl7.org",
+            "code": "AMB",
+            "display": "ambulatory"
+          },
+          "subject": {
+            "reference": "Patient/137594437",
+            "display": "\u738b\u5927\u540c"
+          },
+          "period": {
+            "start": "2026-08-25T10:00:00+08:00",
+            "end": "2026-08-25T10:30:00+08:00"
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Encounter/137594458",
+        "resource": {
+          "resourceType": "Encounter",
+          "id": "137594458",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-25T22:33:54.998-04:00",
+            "source": "#sl3AkpgVTSg07XLo"
+          },
+          "identifier": [
+            {
+              "system": "https://truetime.health/poc-id",
+              "value": "tt-poc-mt9hck51-encounter"
+            }
+          ],
+          "status": "finished",
+          "class": {
+            "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+            "code": "AMB",
+            "display": "ambulatory"
+          },
+          "subject": {
+            "reference": "Patient/137594453"
+          },
+          "participant": [
+            {
+              "individual": {
+                "reference": "Practitioner/137594454"
+              }
+            }
+          ],
+          "appointment": [
+            {
+              "reference": "Appointment/137594457"
+            }
+          ]
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Encounter/137594478",
+        "resource": {
+          "resourceType": "Encounter",
+          "id": "137594478",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-25T23:44:13.795-04:00",
+            "source": "#hy09MTcwQB1iiggh"
+          },
+          "identifier": [
+            {
+              "system": "https://truetime.health/poc-id",
+              "value": "tt-poc-mt9juzf0-encounter"
+            }
+          ],
+          "status": "finished",
+          "class": {
+            "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+            "code": "AMB",
+            "display": "ambulatory"
+          },
+          "subject": {
+            "reference": "Patient/137594473"
+          },
+          "participant": [
+            {
+              "individual": {
+                "reference": "Practitioner/137594474"
+              }
+            }
+          ],
+          "appointment": [
+            {
+              "reference": "Appointment/137594477"
+            }
+          ]
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Encounter/137594485",
+        "resource": {
+          "resourceType": "Encounter",
+          "id": "137594485",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-25T23:48:36.957-04:00",
+            "source": "#njT7XbJbyzEJY77o"
+          },
+          "identifier": [
+            {
+              "system": "https://truetime.health/poc-id",
+              "value": "tt-poc-mt9k0men-encounter"
+            }
+          ],
+          "status": "finished",
+          "class": {
+            "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+            "code": "AMB",
+            "display": "ambulatory"
+          },
+          "subject": {
+            "reference": "Patient/137594480"
+          },
+          "participant": [
+            {
+              "individual": {
+                "reference": "Practitioner/137594481"
+              }
+            }
+          ],
+          "appointment": [
+            {
+              "reference": "Appointment/137594484"
+            }
+          ]
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Encounter/137594499",
+        "resource": {
+          "resourceType": "Encounter",
+          "id": "137594499",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-26T00:04:11.703-04:00",
+            "source": "#CHv6JIih7AmROY0K"
+          },
+          "identifier": [
+            {
+              "system": "https://truetime.health/poc-id",
+              "value": "tt-poc-mt9kkoba-encounter"
+            }
+          ],
+          "status": "finished",
+          "class": {
+            "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+            "code": "AMB",
+            "display": "ambulatory"
+          },
+          "subject": {
+            "reference": "Patient/137594494"
+          },
+          "participant": [
+            {
+              "individual": {
+                "reference": "Practitioner/137594495"
+              }
+            }
+          ],
+          "appointment": [
+            {
+              "reference": "Appointment/137594498"
+            }
+          ]
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Encounter/137594515",
+        "resource": {
+          "resourceType": "Encounter",
+          "id": "137594515",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-26T01:07:41.998-04:00",
+            "source": "#Mzp8vqaztXtPTPxV"
+          },
+          "identifier": [
+            {
+              "system": "https://carebridge.example/encounter",
+              "value": "CB-F1F6A055-30"
+            }
+          ],
+          "status": "finished",
+          "class": {
+            "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+            "code": "AMB",
+            "display": "ambulatory"
+          },
+          "subject": {
+            "reference": "Patient/137552818"
+          },
+          "period": {
+            "start": "2026-08-26",
+            "end": "2026-08-26"
+          },
+          "reasonCode": [
+            {
+              "text": "8465132"
+            }
+          ]
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Encounter/137594578",
+        "resource": {
+          "resourceType": "Encounter",
+          "id": "137594578",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-26T02:41:50.364-04:00",
+            "source": "#BMLmCEY3FlRX8wIB"
+          },
+          "identifier": [
+            {
+              "system": "http://example.org/fhir/sid/encounter-id",
+              "value": "ENC-2026-004711"
+            }
+          ],
+          "status": "finished",
+          "class": {
+            "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+            "code": "IMP",
+            "display": "inpatient encounter"
+          },
+          "type": [
+            {
+              "coding": [
+                {
+                  "system": "http://snomed.info/sct",
+                  "code": "183452005",
+                  "display": "Emergency hospital admission"
+                }
+              ],
+              "text": "Stationaere Notfallaufnahme"
+            }
+          ],
+          "subject": {
+            "reference": "Patient/137594575",
+            "display": "Anna Maria Musterfrau"
+          },
+          "period": {
+            "start": "2026-08-17T09:20:00+02:00",
+            "end": "2026-08-21T11:45:00+02:00"
+          },
+          "reasonCode": [
+            {
+              "coding": [
+                {
+                  "system": "http://snomed.info/sct",
+                  "code": "29857009",
+                  "display": "Chest pain"
+                }
+              ],
+              "text": "Thoraxschmerz zur Abklaerung"
+            }
+          ],
+          "location": [
+            {
+              "location": {
+                "reference": "Location/137594577",
+                "display": "Station 3B, Innere Medizin"
+              },
+              "status": "completed",
+              "period": {
+                "start": "2026-08-17T11:00:00+02:00",
+                "end": "2026-08-21T11:45:00+02:00"
+              }
+            }
+          ]
+        },
+        "search": {
+          "mode": "match"
+        }
+      }
+    ]
+  }
+}

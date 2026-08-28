@@ -1,0 +1,1034 @@
+{
+  "resource_type": "Observation",
+  "extraction_timestamp": "2026-08-28T11:04:36.783636",
+  "extraction_date": "2026-08-28",
+  "api_url": "https://hapi.fhir.org/baseR4/Observation?_lastUpdated=ge2026-08-25&_count=20",
+  "page_number": 0,
+  "entry_count": 20,
+  "response": {
+    "resourceType": "Bundle",
+    "id": "bd0d8def-7d79-4915-a54d-b81ea22d6c9a",
+    "meta": {
+      "lastUpdated": "2026-08-28T07:04:36.846-04:00"
+    },
+    "type": "searchset",
+    "link": [
+      {
+        "relation": "self",
+        "url": "https://hapi.fhir.org/baseR4/Observation?_count=20&_lastUpdated=ge2026-08-25"
+      },
+      {
+        "relation": "next",
+        "url": "https://hapi.fhir.org/baseR4?_getpages=bd0d8def-7d79-4915-a54d-b81ea22d6c9a&_getpagesoffset=20&_count=20&_pretty=true&_bundletype=searchset"
+      }
+    ],
+    "entry": [
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Observation/137584398",
+        "resource": {
+          "resourceType": "Observation",
+          "id": "137584398",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-24T09:03:30.234-04:00",
+            "source": "#KVrKpFEwhj9YRaVG"
+          },
+          "identifier": [
+            {
+              "system": "https://ncs.health/fhir/sid/ncs-notebook-observation",
+              "value": "bf60dedf-834b-4e62-a57d-29b05e5430dd|8480-6"
+            }
+          ],
+          "status": "final",
+          "category": [
+            {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                  "code": "vital-signs",
+                  "display": "Vital Signs"
+                }
+              ],
+              "text": "Vital Signs"
+            }
+          ],
+          "code": {
+            "coding": [
+              {
+                "system": "http://loinc.org",
+                "code": "8480-6",
+                "display": "Systolic blood pressure"
+              }
+            ],
+            "text": "Systolic blood pressure"
+          },
+          "subject": {
+            "reference": "Patient/137584342"
+          },
+          "encounter": {
+            "reference": "Encounter/137584397"
+          },
+          "effectiveDateTime": "2026-08-24T13:03:14.287+00:00",
+          "valueQuantity": {
+            "value": 120,
+            "unit": "mmHg",
+            "system": "http://unitsofmeasure.org",
+            "code": "mmHg"
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Observation/137584399",
+        "resource": {
+          "resourceType": "Observation",
+          "id": "137584399",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-24T09:03:30.425-04:00",
+            "source": "#1b6ay2onJnHsGt1F"
+          },
+          "identifier": [
+            {
+              "system": "https://ncs.health/fhir/sid/ncs-notebook-observation",
+              "value": "bf60dedf-834b-4e62-a57d-29b05e5430dd|8462-4"
+            }
+          ],
+          "status": "final",
+          "category": [
+            {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                  "code": "vital-signs",
+                  "display": "Vital Signs"
+                }
+              ],
+              "text": "Vital Signs"
+            }
+          ],
+          "code": {
+            "coding": [
+              {
+                "system": "http://loinc.org",
+                "code": "8462-4",
+                "display": "Diastolic blood pressure"
+              }
+            ],
+            "text": "Diastolic blood pressure"
+          },
+          "subject": {
+            "reference": "Patient/137584342"
+          },
+          "encounter": {
+            "reference": "Encounter/137584397"
+          },
+          "effectiveDateTime": "2026-08-24T13:03:14.287+00:00",
+          "valueQuantity": {
+            "value": 90,
+            "unit": "mmHg",
+            "system": "http://unitsofmeasure.org",
+            "code": "mmHg"
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Observation/137584400",
+        "resource": {
+          "resourceType": "Observation",
+          "id": "137584400",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-24T09:03:30.603-04:00",
+            "source": "#H7xKnO1unhB3CirW"
+          },
+          "identifier": [
+            {
+              "system": "https://ncs.health/fhir/sid/ncs-notebook-observation",
+              "value": "bf60dedf-834b-4e62-a57d-29b05e5430dd|8867-4"
+            }
+          ],
+          "status": "final",
+          "category": [
+            {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                  "code": "vital-signs",
+                  "display": "Vital Signs"
+                }
+              ],
+              "text": "Vital Signs"
+            }
+          ],
+          "code": {
+            "coding": [
+              {
+                "system": "http://loinc.org",
+                "code": "8867-4",
+                "display": "Heart rate"
+              }
+            ],
+            "text": "Heart rate"
+          },
+          "subject": {
+            "reference": "Patient/137584342"
+          },
+          "encounter": {
+            "reference": "Encounter/137584397"
+          },
+          "effectiveDateTime": "2026-08-24T13:03:14.287+00:00",
+          "valueQuantity": {
+            "value": 12,
+            "unit": "/min",
+            "system": "http://unitsofmeasure.org",
+            "code": "/min"
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Observation/137584401",
+        "resource": {
+          "resourceType": "Observation",
+          "id": "137584401",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-24T09:03:30.793-04:00",
+            "source": "#Ifj4NW1UmxxstXEL"
+          },
+          "identifier": [
+            {
+              "system": "https://ncs.health/fhir/sid/ncs-notebook-observation",
+              "value": "bf60dedf-834b-4e62-a57d-29b05e5430dd|9279-1"
+            }
+          ],
+          "status": "final",
+          "category": [
+            {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                  "code": "vital-signs",
+                  "display": "Vital Signs"
+                }
+              ],
+              "text": "Vital Signs"
+            }
+          ],
+          "code": {
+            "coding": [
+              {
+                "system": "http://loinc.org",
+                "code": "9279-1",
+                "display": "Respiratory rate"
+              }
+            ],
+            "text": "Respiratory rate"
+          },
+          "subject": {
+            "reference": "Patient/137584342"
+          },
+          "encounter": {
+            "reference": "Encounter/137584397"
+          },
+          "effectiveDateTime": "2026-08-24T13:03:14.287+00:00",
+          "valueQuantity": {
+            "value": 32,
+            "unit": "/min",
+            "system": "http://unitsofmeasure.org",
+            "code": "/min"
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Observation/137584402",
+        "resource": {
+          "resourceType": "Observation",
+          "id": "137584402",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-24T09:03:30.976-04:00",
+            "source": "#tThLVjJ3eQTdjrQk"
+          },
+          "identifier": [
+            {
+              "system": "https://ncs.health/fhir/sid/ncs-notebook-observation",
+              "value": "bf60dedf-834b-4e62-a57d-29b05e5430dd|2708-6"
+            }
+          ],
+          "status": "final",
+          "category": [
+            {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                  "code": "vital-signs",
+                  "display": "Vital Signs"
+                }
+              ],
+              "text": "Vital Signs"
+            }
+          ],
+          "code": {
+            "coding": [
+              {
+                "system": "http://loinc.org",
+                "code": "2708-6",
+                "display": "Oxygen saturation in Arterial blood"
+              }
+            ],
+            "text": "Oxygen saturation in Arterial blood"
+          },
+          "subject": {
+            "reference": "Patient/137584342"
+          },
+          "encounter": {
+            "reference": "Encounter/137584397"
+          },
+          "effectiveDateTime": "2026-08-24T13:03:14.287+00:00",
+          "valueQuantity": {
+            "value": 89,
+            "unit": "%",
+            "system": "http://unitsofmeasure.org",
+            "code": "%"
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Observation/137584403",
+        "resource": {
+          "resourceType": "Observation",
+          "id": "137584403",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-24T09:03:31.157-04:00",
+            "source": "#YhxE4Eql3Ps5Ql5l"
+          },
+          "identifier": [
+            {
+              "system": "https://ncs.health/fhir/sid/ncs-notebook-observation",
+              "value": "bf60dedf-834b-4e62-a57d-29b05e5430dd|8310-5"
+            }
+          ],
+          "status": "final",
+          "category": [
+            {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                  "code": "vital-signs",
+                  "display": "Vital Signs"
+                }
+              ],
+              "text": "Vital Signs"
+            }
+          ],
+          "code": {
+            "coding": [
+              {
+                "system": "http://loinc.org",
+                "code": "8310-5",
+                "display": "Body temperature"
+              }
+            ],
+            "text": "Body temperature"
+          },
+          "subject": {
+            "reference": "Patient/137584342"
+          },
+          "encounter": {
+            "reference": "Encounter/137584397"
+          },
+          "effectiveDateTime": "2026-08-24T13:03:14.287+00:00",
+          "valueQuantity": {
+            "value": 36,
+            "unit": "Cel",
+            "system": "http://unitsofmeasure.org",
+            "code": "Cel"
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Observation/137584404",
+        "resource": {
+          "resourceType": "Observation",
+          "id": "137584404",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-24T09:03:31.353-04:00",
+            "source": "#L8nkWNAwOzhoTK8Z"
+          },
+          "identifier": [
+            {
+              "system": "https://ncs.health/fhir/sid/ncs-notebook-observation",
+              "value": "cac4ab00-2b65-4167-a2ae-6b4637a60e7b|cbc.hb"
+            }
+          ],
+          "status": "final",
+          "category": [
+            {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                  "code": "laboratory",
+                  "display": "lab result report"
+                }
+              ],
+              "text": "lab result report"
+            }
+          ],
+          "code": {
+            "coding": [
+              {
+                "system": "https://ncs.health/fhir/CodeSystem/ncs-lab-analyte",
+                "code": "cbc.hb",
+                "display": "CBC HB"
+              }
+            ],
+            "text": "CBC HB"
+          },
+          "subject": {
+            "reference": "Patient/137584342"
+          },
+          "encounter": {
+            "reference": "Encounter/137584397"
+          },
+          "effectiveDateTime": "2026-08-24T13:02:45.551+00:00",
+          "valueQuantity": {
+            "value": 12
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Observation/137584405",
+        "resource": {
+          "resourceType": "Observation",
+          "id": "137584405",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-24T09:03:31.541-04:00",
+            "source": "#BcyztnbtjMnJIAXA"
+          },
+          "identifier": [
+            {
+              "system": "https://ncs.health/fhir/sid/ncs-notebook-observation",
+              "value": "cac4ab00-2b65-4167-a2ae-6b4637a60e7b|4544-3"
+            }
+          ],
+          "status": "final",
+          "category": [
+            {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                  "code": "laboratory",
+                  "display": "lab result report"
+                }
+              ],
+              "text": "lab result report"
+            }
+          ],
+          "code": {
+            "coding": [
+              {
+                "system": "http://loinc.org",
+                "code": "4544-3",
+                "display": "Hematocrit [Volume Fraction] of Blood by Automated count"
+              }
+            ],
+            "text": "Hematocrit [Volume Fraction] of Blood by Automated count"
+          },
+          "subject": {
+            "reference": "Patient/137584342"
+          },
+          "encounter": {
+            "reference": "Encounter/137584397"
+          },
+          "effectiveDateTime": "2026-08-24T13:02:45.551+00:00",
+          "valueQuantity": {
+            "value": 33,
+            "unit": "%",
+            "system": "http://unitsofmeasure.org",
+            "code": "%"
+          },
+          "interpretation": [
+            {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation",
+                  "code": "L",
+                  "display": "Low"
+                }
+              ],
+              "text": "Low"
+            }
+          ]
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Observation/137584406",
+        "resource": {
+          "resourceType": "Observation",
+          "id": "137584406",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-24T09:03:31.732-04:00",
+            "source": "#8RUudLBROaMOhHDp"
+          },
+          "identifier": [
+            {
+              "system": "https://ncs.health/fhir/sid/ncs-notebook-observation",
+              "value": "cac4ab00-2b65-4167-a2ae-6b4637a60e7b|cbc.mcv"
+            }
+          ],
+          "status": "final",
+          "category": [
+            {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                  "code": "laboratory",
+                  "display": "lab result report"
+                }
+              ],
+              "text": "lab result report"
+            }
+          ],
+          "code": {
+            "coding": [
+              {
+                "system": "https://ncs.health/fhir/CodeSystem/ncs-lab-analyte",
+                "code": "cbc.mcv",
+                "display": "CBC MCV"
+              }
+            ],
+            "text": "CBC MCV"
+          },
+          "subject": {
+            "reference": "Patient/137584342"
+          },
+          "encounter": {
+            "reference": "Encounter/137584397"
+          },
+          "effectiveDateTime": "2026-08-24T13:02:45.551+00:00",
+          "valueQuantity": {
+            "value": 87
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Observation/137584407",
+        "resource": {
+          "resourceType": "Observation",
+          "id": "137584407",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-24T09:03:31.914-04:00",
+            "source": "#8CozpcKrrrCpYpFz"
+          },
+          "identifier": [
+            {
+              "system": "https://ncs.health/fhir/sid/ncs-notebook-observation",
+              "value": "cac4ab00-2b65-4167-a2ae-6b4637a60e7b|789-8"
+            }
+          ],
+          "status": "final",
+          "category": [
+            {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                  "code": "laboratory",
+                  "display": "lab result report"
+                }
+              ],
+              "text": "lab result report"
+            }
+          ],
+          "code": {
+            "coding": [
+              {
+                "system": "http://loinc.org",
+                "code": "789-8",
+                "display": "Erythrocytes [#/volume] in Blood by Automated count"
+              }
+            ],
+            "text": "Erythrocytes [#/volume] in Blood by Automated count"
+          },
+          "subject": {
+            "reference": "Patient/137584342"
+          },
+          "encounter": {
+            "reference": "Encounter/137584397"
+          },
+          "effectiveDateTime": "2026-08-24T13:02:45.551+00:00",
+          "valueQuantity": {
+            "value": 4,
+            "unit": "10*6/uL",
+            "system": "http://unitsofmeasure.org",
+            "code": "10*6/uL"
+          },
+          "interpretation": [
+            {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation",
+                  "code": "L",
+                  "display": "Low"
+                }
+              ],
+              "text": "Low"
+            }
+          ]
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Observation/137584408",
+        "resource": {
+          "resourceType": "Observation",
+          "id": "137584408",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-24T09:03:32.101-04:00",
+            "source": "#4CSOYRbjb7itAYKg"
+          },
+          "identifier": [
+            {
+              "system": "https://ncs.health/fhir/sid/ncs-notebook-observation",
+              "value": "cac4ab00-2b65-4167-a2ae-6b4637a60e7b|6690-2"
+            }
+          ],
+          "status": "final",
+          "category": [
+            {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                  "code": "laboratory",
+                  "display": "lab result report"
+                }
+              ],
+              "text": "lab result report"
+            }
+          ],
+          "code": {
+            "coding": [
+              {
+                "system": "http://loinc.org",
+                "code": "6690-2",
+                "display": "Leukocytes [#/volume] in Blood by Automated count"
+              }
+            ],
+            "text": "Leukocytes [#/volume] in Blood by Automated count"
+          },
+          "subject": {
+            "reference": "Patient/137584342"
+          },
+          "encounter": {
+            "reference": "Encounter/137584397"
+          },
+          "effectiveDateTime": "2026-08-24T13:02:45.551+00:00",
+          "valueQuantity": {
+            "value": 4,
+            "unit": "10*3/uL",
+            "system": "http://unitsofmeasure.org",
+            "code": "10*3/uL"
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Observation/137584316",
+        "resource": {
+          "resourceType": "Observation",
+          "id": "137584316",
+          "meta": {
+            "versionId": "2",
+            "lastUpdated": "2026-08-24T09:26:05.463-04:00",
+            "source": "#r2caIFjQyffocC2T"
+          },
+          "status": "final",
+          "category": [
+            {
+              "coding": [
+                {
+                  "system": "http://hl7.org",
+                  "code": "vital-signs",
+                  "display": "Vital Signs"
+                }
+              ]
+            }
+          ],
+          "code": {
+            "coding": [
+              {
+                "system": "http://loinc.org",
+                "code": "8867-4",
+                "display": "Heart rate"
+              }
+            ],
+            "text": "\u5fc3\u7387"
+          },
+          "subject": {
+            "reference": "Patient/137584497"
+          },
+          "effectiveDateTime": "2026-08-24T21:08:00+08:00",
+          "valueQuantity": {
+            "value": 80,
+            "unit": "beats/minute",
+            "system": "http://unitsofmeasure.org",
+            "code": "/min"
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Observation/137584496",
+        "resource": {
+          "resourceType": "Observation",
+          "id": "137584496",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-24T09:26:05.463-04:00",
+            "source": "#r2caIFjQyffocC2T"
+          },
+          "status": "final",
+          "category": [
+            {
+              "coding": [
+                {
+                  "system": "http://hl7.org",
+                  "code": "vital-signs",
+                  "display": "Vital Signs"
+                }
+              ]
+            }
+          ],
+          "code": {
+            "coding": [
+              {
+                "system": "http://loinc.org",
+                "code": "8310-5",
+                "display": "Body temperature"
+              }
+            ],
+            "text": "\u9ad4\u6eab"
+          },
+          "subject": {
+            "reference": "Patient/137584497"
+          },
+          "effectiveDateTime": "2026-08-24T21:08:00+08:00",
+          "valueQuantity": {
+            "value": 36.8,
+            "unit": "C",
+            "system": "http://unitsofmeasure.org",
+            "code": "Cel"
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Observation/137584521",
+        "resource": {
+          "resourceType": "Observation",
+          "id": "137584521",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-24T09:47:03.314-04:00",
+            "source": "#xASXiqqeKbf5t39E"
+          },
+          "status": "final",
+          "code": {
+            "coding": [
+              {
+                "system": "http://fhir-learn-app/lesson-codes",
+                "code": "lesson-01",
+                "display": "\u4ec0\u9ebc\u662f EMR/EHR"
+              }
+            ]
+          },
+          "subject": {
+            "reference": "Patient/137584519"
+          },
+          "encounter": {
+            "reference": "Encounter/137584520"
+          },
+          "effectiveDateTime": "2026-08-24T13:47:04.452Z",
+          "valueQuantity": {
+            "value": 100,
+            "unit": "%"
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Observation/137584522",
+        "resource": {
+          "resourceType": "Observation",
+          "id": "137584522",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-24T09:48:19.459-04:00",
+            "source": "#YzUppip7sEfiKLdl"
+          },
+          "status": "final",
+          "code": {
+            "coding": [
+              {
+                "system": "http://fhir-learn-app/lesson-codes",
+                "code": "lesson-02",
+                "display": "Interoperability\uff08\u4e92\u901a\u6027\uff09\u9019\u500b\u6838\u5fc3\u554f\u984c"
+              }
+            ]
+          },
+          "subject": {
+            "reference": "Patient/137584519"
+          },
+          "encounter": {
+            "reference": "Encounter/137584520"
+          },
+          "effectiveDateTime": "2026-08-24T13:48:20.579Z",
+          "valueQuantity": {
+            "value": 100,
+            "unit": "%"
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Observation/137584523",
+        "resource": {
+          "resourceType": "Observation",
+          "id": "137584523",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-24T09:48:39.614-04:00",
+            "source": "#oiVVsWpKRztMsBJc"
+          },
+          "status": "final",
+          "code": {
+            "coding": [
+              {
+                "system": "http://fhir-learn-app/glossary-query-codes",
+                "code": "term-interoperability",
+                "display": "Interoperability\uff08\u4e92\u901a\u6027\uff09"
+              }
+            ]
+          },
+          "subject": {
+            "reference": "Patient/137584519"
+          },
+          "encounter": {
+            "reference": "Encounter/137584520"
+          },
+          "effectiveDateTime": "2026-08-24T13:48:40.742Z"
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Observation/137584537",
+        "resource": {
+          "resourceType": "Observation",
+          "id": "137584537",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-24T10:09:43.196-04:00",
+            "source": "#JKSAeDdKqNndPwdM"
+          },
+          "identifier": [
+            {
+              "system": "http://hospital.smarthealth.org/obs",
+              "value": "OBS-987685"
+            }
+          ],
+          "status": "final",
+          "category": [
+            {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                  "code": "vital-signs",
+                  "display": "Vital Signs"
+                }
+              ]
+            }
+          ],
+          "code": {
+            "coding": [
+              {
+                "system": "http://loinc.org",
+                "code": "85354-9",
+                "display": "Blood pressure panel"
+              }
+            ]
+          },
+          "subject": {
+            "reference": "Patient/137584536"
+          },
+          "effectiveDateTime": "2026-08-24T22:00:00+08:00",
+          "component": [
+            {
+              "code": {
+                "coding": [
+                  {
+                    "system": "http://loinc.org",
+                    "code": "8480-6",
+                    "display": "Systolic blood pressure"
+                  }
+                ]
+              },
+              "valueQuantity": {
+                "value": 120,
+                "unit": "mmHg",
+                "system": "http://unitsofmeasure.org",
+                "code": "mm[Hg]"
+              }
+            },
+            {
+              "code": {
+                "coding": [
+                  {
+                    "system": "http://loinc.org",
+                    "code": "8462-4",
+                    "display": "Diastolic blood pressure"
+                  }
+                ]
+              },
+              "valueQuantity": {
+                "value": 80,
+                "unit": "mmHg",
+                "system": "http://unitsofmeasure.org",
+                "code": "mm[Hg]"
+              }
+            }
+          ]
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Observation/137584539",
+        "resource": {
+          "resourceType": "Observation",
+          "id": "137584539",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-24T10:18:29.427-04:00",
+            "source": "#Sm3FP9WPnP3AIILz"
+          },
+          "status": "final",
+          "code": {
+            "text": "Heart Rate"
+          },
+          "subject": {
+            "reference": "Patient/137584518"
+          },
+          "effectiveDateTime": "2026-08-23",
+          "valueQuantity": {
+            "value": 75,
+            "unit": "bpm"
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Observation/137584541",
+        "resource": {
+          "resourceType": "Observation",
+          "id": "137584541",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-24T10:18:55.377-04:00",
+            "source": "#IxayOk46WPuvQRed"
+          },
+          "status": "final",
+          "code": {
+            "text": "Body Temperature"
+          },
+          "subject": {
+            "reference": "Patient/137584518"
+          },
+          "effectiveDateTime": "2026-08-23",
+          "valueQuantity": {
+            "value": 36.5,
+            "unit": "\u00b0C"
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Observation/137584542",
+        "resource": {
+          "resourceType": "Observation",
+          "id": "137584542",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-24T10:19:22.181-04:00",
+            "source": "#mMrgDoQM8YZkp56r"
+          },
+          "status": "final",
+          "code": {
+            "text": "Heart Rate"
+          },
+          "subject": {
+            "reference": "Patient/137584518"
+          },
+          "effectiveDateTime": "2026-08-23",
+          "valueQuantity": {
+            "value": 80,
+            "unit": "bpm"
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      }
+    ]
+  }
+}

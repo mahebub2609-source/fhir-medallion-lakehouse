@@ -1,0 +1,664 @@
+{
+  "resource_type": "Patient",
+  "extraction_timestamp": "2026-08-28T11:03:42.913603",
+  "extraction_date": "2026-08-28",
+  "api_url": "https://hapi.fhir.org/baseR4?_getpages=88da3fc4-0522-4d60-8b4a-bdba09e762a5&_getpagesoffset=520&_count=20&_pretty=true&_bundletype=searchset",
+  "page_number": 26,
+  "entry_count": 20,
+  "response": {
+    "resourceType": "Bundle",
+    "id": "88da3fc4-0522-4d60-8b4a-bdba09e762a5",
+    "meta": {
+      "lastUpdated": "2026-08-28T07:02:54.029-04:00"
+    },
+    "type": "searchset",
+    "total": 921,
+    "link": [
+      {
+        "relation": "self",
+        "url": "https://hapi.fhir.org/baseR4?_getpages=88da3fc4-0522-4d60-8b4a-bdba09e762a5&_getpagesoffset=520&_count=20&_pretty=true&_bundletype=searchset"
+      },
+      {
+        "relation": "next",
+        "url": "https://hapi.fhir.org/baseR4?_getpages=88da3fc4-0522-4d60-8b4a-bdba09e762a5&_getpagesoffset=540&_count=20&_pretty=true&_bundletype=searchset"
+      },
+      {
+        "relation": "previous",
+        "url": "https://hapi.fhir.org/baseR4?_getpages=88da3fc4-0522-4d60-8b4a-bdba09e762a5&_getpagesoffset=500&_count=20&_pretty=true&_bundletype=searchset"
+      }
+    ],
+    "entry": [
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Patient/137594813",
+        "resource": {
+          "resourceType": "Patient",
+          "id": "137594813",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-26T06:21:16.635-04:00",
+            "source": "#mHS8OKPz2cRbI9XX"
+          },
+          "text": {
+            "status": "generated",
+            "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">Sarah <b>THOMPSON </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>ARC-DEMO-THOMPSON-DOC-001</td></tr><tr><td>Date of birth</td><td><span>12 April 1962</span></td></tr></tbody></table></div>"
+          },
+          "identifier": [
+            {
+              "system": "https://arca.demo/mrn",
+              "value": "ARC-DEMO-THOMPSON-DOC-001"
+            },
+            {
+              "system": "https://arca.demo/seed-token",
+              "value": "da3df4d3-c35f-41e2-9b75-5fe965ab5c9d"
+            }
+          ],
+          "name": [
+            {
+              "family": "Thompson",
+              "given": [
+                "Sarah"
+              ]
+            }
+          ],
+          "gender": "female",
+          "birthDate": "1962-04-12"
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Patient/137594815",
+        "resource": {
+          "resourceType": "Patient",
+          "id": "137594815",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-26T06:23:09.308-04:00",
+            "source": "#tzb1HApL6Eylg1ne"
+          },
+          "text": {
+            "status": "generated",
+            "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">Sarah <b>THOMPSON </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>ARC-DEMO-THOMPSON-001</td></tr><tr><td>Date of birth</td><td><span>12 April 1962</span></td></tr></tbody></table></div>"
+          },
+          "identifier": [
+            {
+              "system": "https://arca.demo/mrn",
+              "value": "ARC-DEMO-THOMPSON-001"
+            },
+            {
+              "system": "https://arca.demo/seed-token",
+              "value": "f752e8d5-80d9-4b2f-a10d-ee55264b9324"
+            }
+          ],
+          "name": [
+            {
+              "family": "Thompson",
+              "given": [
+                "Sarah"
+              ]
+            }
+          ],
+          "gender": "female",
+          "birthDate": "1962-04-12"
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Patient/137594817",
+        "resource": {
+          "resourceType": "Patient",
+          "id": "137594817",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-26T06:23:13.631-04:00",
+            "source": "#vyjrcyWE00whHiwA"
+          },
+          "text": {
+            "status": "generated",
+            "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">Sarah <b>THOMPSON </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>ARC-DEMO-THOMPSON-DOC-001</td></tr><tr><td>Date of birth</td><td><span>12 April 1962</span></td></tr></tbody></table></div>"
+          },
+          "identifier": [
+            {
+              "system": "https://arca.demo/mrn",
+              "value": "ARC-DEMO-THOMPSON-DOC-001"
+            },
+            {
+              "system": "https://arca.demo/seed-token",
+              "value": "f752e8d5-80d9-4b2f-a10d-ee55264b9324"
+            }
+          ],
+          "name": [
+            {
+              "family": "Thompson",
+              "given": [
+                "Sarah"
+              ]
+            }
+          ],
+          "gender": "female",
+          "birthDate": "1962-04-12"
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Patient/137594818",
+        "resource": {
+          "resourceType": "Patient",
+          "id": "137594818",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-26T06:25:35.067-04:00",
+            "source": "#QMva1ZyrgFaDPv2O"
+          },
+          "text": {
+            "status": "generated",
+            "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">Sarah <b>THOMPSON </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>ARC-DEMO-THOMPSON-001</td></tr><tr><td>Date of birth</td><td><span>12 April 1962</span></td></tr></tbody></table></div>"
+          },
+          "identifier": [
+            {
+              "system": "https://arca.demo/mrn",
+              "value": "ARC-DEMO-THOMPSON-001"
+            },
+            {
+              "system": "https://arca.demo/seed-token",
+              "value": "4b201508-a0ec-4547-92d2-c28a939b813c"
+            }
+          ],
+          "name": [
+            {
+              "family": "Thompson",
+              "given": [
+                "Sarah"
+              ]
+            }
+          ],
+          "gender": "female",
+          "birthDate": "1962-04-12"
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Patient/137594819",
+        "resource": {
+          "resourceType": "Patient",
+          "id": "137594819",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-26T06:25:38.177-04:00",
+            "source": "#tBBBEGGam2TllZlm"
+          },
+          "text": {
+            "status": "generated",
+            "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">Sarah <b>THOMPSON </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>ARC-DEMO-THOMPSON-DOC-001</td></tr><tr><td>Date of birth</td><td><span>12 April 1962</span></td></tr></tbody></table></div>"
+          },
+          "identifier": [
+            {
+              "system": "https://arca.demo/mrn",
+              "value": "ARC-DEMO-THOMPSON-DOC-001"
+            },
+            {
+              "system": "https://arca.demo/seed-token",
+              "value": "4b201508-a0ec-4547-92d2-c28a939b813c"
+            }
+          ],
+          "name": [
+            {
+              "family": "Thompson",
+              "given": [
+                "Sarah"
+              ]
+            }
+          ],
+          "gender": "female",
+          "birthDate": "1962-04-12"
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Patient/137594824",
+        "resource": {
+          "resourceType": "Patient",
+          "id": "137594824",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-26T06:29:24.837-04:00",
+            "source": "#3ocxGnQ10kO8cL52"
+          },
+          "text": {
+            "status": "generated",
+            "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>urn:uuid:lerox-care-share-a18f325f-c891-4903-898a-54d3d21ee660</td></tr></tbody></table></div>"
+          },
+          "identifier": [
+            {
+              "system": "urn:ietf:rfc:3986",
+              "value": "urn:uuid:lerox-care-share-a18f325f-c891-4903-898a-54d3d21ee660"
+            }
+          ],
+          "active": true
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Patient/137594826",
+        "resource": {
+          "resourceType": "Patient",
+          "id": "137594826",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-26T06:29:25.192-04:00",
+            "source": "#3ocjyaUo59SlBZEQ"
+          },
+          "text": {
+            "status": "generated",
+            "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>urn:uuid:lerox-patient-ae2abe82-1401-42a3-b494-ce598ce7704c</td></tr></tbody></table></div>"
+          },
+          "identifier": [
+            {
+              "system": "urn:ietf:rfc:3986",
+              "value": "urn:uuid:lerox-patient-ae2abe82-1401-42a3-b494-ce598ce7704c"
+            }
+          ],
+          "active": true
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Patient/137594829",
+        "resource": {
+          "resourceType": "Patient",
+          "id": "137594829",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-26T06:44:48.402-04:00",
+            "source": "#z2f10YcAJjbK1L8Y"
+          },
+          "text": {
+            "status": "generated",
+            "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>urn:uuid:lerox-care-share-2dcf4991-7cda-4240-95d1-10d48cb1cc45</td></tr></tbody></table></div>"
+          },
+          "identifier": [
+            {
+              "system": "urn:ietf:rfc:3986",
+              "value": "urn:uuid:lerox-care-share-2dcf4991-7cda-4240-95d1-10d48cb1cc45"
+            }
+          ],
+          "active": true
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Patient/137594831",
+        "resource": {
+          "resourceType": "Patient",
+          "id": "137594831",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-26T06:44:48.749-04:00",
+            "source": "#7qxH8JmZDV4B4qNc"
+          },
+          "text": {
+            "status": "generated",
+            "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>urn:uuid:lerox-patient-659ccb19-16a0-464e-b602-c44d3038bbd8</td></tr></tbody></table></div>"
+          },
+          "identifier": [
+            {
+              "system": "urn:ietf:rfc:3986",
+              "value": "urn:uuid:lerox-patient-659ccb19-16a0-464e-b602-c44d3038bbd8"
+            }
+          ],
+          "active": true
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Patient/137594833",
+        "resource": {
+          "resourceType": "Patient",
+          "id": "137594833",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-26T06:45:30.560-04:00",
+            "source": "#JEtYKJzdHGY9scBJ"
+          },
+          "text": {
+            "status": "generated",
+            "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>urn:uuid:lerox-care-share-8b08376f-1d5e-4114-9a65-9ce6db473c02</td></tr></tbody></table></div>"
+          },
+          "identifier": [
+            {
+              "system": "urn:ietf:rfc:3986",
+              "value": "urn:uuid:lerox-care-share-8b08376f-1d5e-4114-9a65-9ce6db473c02"
+            }
+          ],
+          "active": true
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Patient/137594835",
+        "resource": {
+          "resourceType": "Patient",
+          "id": "137594835",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-26T06:45:30.983-04:00",
+            "source": "#KgL6SGdkuoA3AxD5"
+          },
+          "text": {
+            "status": "generated",
+            "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>urn:uuid:lerox-patient-c1946c78-c9c5-4bf7-86a3-841a216638bf</td></tr></tbody></table></div>"
+          },
+          "identifier": [
+            {
+              "system": "urn:ietf:rfc:3986",
+              "value": "urn:uuid:lerox-patient-c1946c78-c9c5-4bf7-86a3-841a216638bf"
+            }
+          ],
+          "active": true
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Patient/137594841",
+        "resource": {
+          "resourceType": "Patient",
+          "id": "137594841",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-26T06:55:32.215-04:00",
+            "source": "#5GfbYWgUXzkuvpfr"
+          },
+          "text": {
+            "status": "generated",
+            "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">Sarah <b>THOMPSON </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>ARC-DEMO-THOMPSON-DOC-001</td></tr><tr><td>Date of birth</td><td><span>12 April 1962</span></td></tr></tbody></table></div>"
+          },
+          "identifier": [
+            {
+              "system": "https://arca.demo/mrn",
+              "value": "ARC-DEMO-THOMPSON-DOC-001"
+            },
+            {
+              "system": "https://arca.demo/seed-token",
+              "value": "f2fc6d78-164c-406a-86c8-27c2b98af647"
+            }
+          ],
+          "name": [
+            {
+              "family": "Thompson",
+              "given": [
+                "Sarah"
+              ]
+            }
+          ],
+          "gender": "female",
+          "birthDate": "1962-04-12"
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Patient/137594842",
+        "resource": {
+          "resourceType": "Patient",
+          "id": "137594842",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-26T06:55:32.229-04:00",
+            "source": "#a2GUxxHS19owfDiG"
+          },
+          "text": {
+            "status": "generated",
+            "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">Sarah <b>THOMPSON </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>ARC-DEMO-THOMPSON-001</td></tr><tr><td>Date of birth</td><td><span>12 April 1962</span></td></tr></tbody></table></div>"
+          },
+          "identifier": [
+            {
+              "system": "https://arca.demo/mrn",
+              "value": "ARC-DEMO-THOMPSON-001"
+            },
+            {
+              "system": "https://arca.demo/seed-token",
+              "value": "f2fc6d78-164c-406a-86c8-27c2b98af647"
+            }
+          ],
+          "name": [
+            {
+              "family": "Thompson",
+              "given": [
+                "Sarah"
+              ]
+            }
+          ],
+          "gender": "female",
+          "birthDate": "1962-04-12"
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Patient/137594846",
+        "resource": {
+          "resourceType": "Patient",
+          "id": "137594846",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-26T06:57:45.578-04:00",
+            "source": "#sVD1ASh7PhMSAW56"
+          },
+          "text": {
+            "status": "generated",
+            "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>urn:uuid:lerox-care-share-1802c853-4378-4b1f-9091-02e1f1363c89</td></tr></tbody></table></div>"
+          },
+          "identifier": [
+            {
+              "system": "urn:ietf:rfc:3986",
+              "value": "urn:uuid:lerox-care-share-1802c853-4378-4b1f-9091-02e1f1363c89"
+            }
+          ],
+          "active": true
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Patient/137594848",
+        "resource": {
+          "resourceType": "Patient",
+          "id": "137594848",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-26T06:57:45.920-04:00",
+            "source": "#1JFCCzsaa2d3kxKF"
+          },
+          "text": {
+            "status": "generated",
+            "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>urn:uuid:lerox-patient-f33e06e4-afa5-4ed3-a90c-34298286f84f</td></tr></tbody></table></div>"
+          },
+          "identifier": [
+            {
+              "system": "urn:ietf:rfc:3986",
+              "value": "urn:uuid:lerox-patient-f33e06e4-afa5-4ed3-a90c-34298286f84f"
+            }
+          ],
+          "active": true
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Patient/137594851",
+        "resource": {
+          "resourceType": "Patient",
+          "id": "137594851",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-26T07:10:11.898-04:00",
+            "source": "#AuYdRwp0twLqf3eN"
+          },
+          "text": {
+            "status": "generated",
+            "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>urn:uuid:lerox-care-share-64d312b2-e865-49b6-8f28-d184c6f99728</td></tr></tbody></table></div>"
+          },
+          "identifier": [
+            {
+              "system": "urn:ietf:rfc:3986",
+              "value": "urn:uuid:lerox-care-share-64d312b2-e865-49b6-8f28-d184c6f99728"
+            }
+          ],
+          "active": true
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Patient/137594853",
+        "resource": {
+          "resourceType": "Patient",
+          "id": "137594853",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-26T07:10:12.332-04:00",
+            "source": "#ahmvra5zX2qcmQ1y"
+          },
+          "text": {
+            "status": "generated",
+            "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>urn:uuid:lerox-patient-01ea2ef9-0129-441b-b33c-e941cf24e485</td></tr></tbody></table></div>"
+          },
+          "identifier": [
+            {
+              "system": "urn:ietf:rfc:3986",
+              "value": "urn:uuid:lerox-patient-01ea2ef9-0129-441b-b33c-e941cf24e485"
+            }
+          ],
+          "active": true
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Patient/137594856",
+        "resource": {
+          "resourceType": "Patient",
+          "id": "137594856",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-26T07:36:05.232-04:00",
+            "source": "#pz62UCdib9ZGqqgE",
+            "tag": [
+              {
+                "code": "app-salute-digitale-francesco",
+                "display": "App Salute Digitale"
+              }
+            ]
+          },
+          "text": {
+            "status": "generated",
+            "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">Francesco Pio <b>COLACINO </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>clcfnc03d14g813y</td></tr><tr><td>Date of birth</td><td><span>14 April 2003</span></td></tr></tbody></table></div>"
+          },
+          "identifier": [
+            {
+              "system": "http://hl7.it/sid/codiceFiscale",
+              "value": "clcfnc03d14g813y"
+            }
+          ],
+          "name": [
+            {
+              "family": "Colacino",
+              "given": [
+                "Francesco Pio"
+              ]
+            }
+          ],
+          "telecom": [
+            {
+              "system": "phone",
+              "value": "3920064842"
+            }
+          ],
+          "birthDate": "2003-04-14"
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Patient/137594857",
+        "resource": {
+          "resourceType": "Patient",
+          "id": "137594857",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-26T07:37:42.755-04:00",
+            "source": "#4aCJ8GeqvGloapQ6"
+          },
+          "text": {
+            "status": "generated",
+            "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>urn:uuid:lerox-care-share-0a10b7e8-5b19-470a-9869-c4cb86660821</td></tr></tbody></table></div>"
+          },
+          "identifier": [
+            {
+              "system": "urn:ietf:rfc:3986",
+              "value": "urn:uuid:lerox-care-share-0a10b7e8-5b19-470a-9869-c4cb86660821"
+            }
+          ],
+          "active": true
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Patient/137594859",
+        "resource": {
+          "resourceType": "Patient",
+          "id": "137594859",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-26T07:37:43.089-04:00",
+            "source": "#cMYOn27cYB8goz2W"
+          },
+          "text": {
+            "status": "generated",
+            "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>urn:uuid:lerox-patient-d65e7ecd-b953-4d81-af73-76c8cdcfa170</td></tr></tbody></table></div>"
+          },
+          "identifier": [
+            {
+              "system": "urn:ietf:rfc:3986",
+              "value": "urn:uuid:lerox-patient-d65e7ecd-b953-4d81-af73-76c8cdcfa170"
+            }
+          ],
+          "active": true
+        },
+        "search": {
+          "mode": "match"
+        }
+      }
+    ]
+  }
+}

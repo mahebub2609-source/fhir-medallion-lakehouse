@@ -1,0 +1,629 @@
+{
+  "resource_type": "Patient",
+  "extraction_timestamp": "2026-08-28T11:03:42.913603",
+  "extraction_date": "2026-08-28",
+  "api_url": "https://hapi.fhir.org/baseR4?_getpages=88da3fc4-0522-4d60-8b4a-bdba09e762a5&_getpagesoffset=760&_count=20&_pretty=true&_bundletype=searchset",
+  "page_number": 38,
+  "entry_count": 20,
+  "response": {
+    "resourceType": "Bundle",
+    "id": "88da3fc4-0522-4d60-8b4a-bdba09e762a5",
+    "meta": {
+      "lastUpdated": "2026-08-28T07:02:54.029-04:00"
+    },
+    "type": "searchset",
+    "total": 921,
+    "link": [
+      {
+        "relation": "self",
+        "url": "https://hapi.fhir.org/baseR4?_getpages=88da3fc4-0522-4d60-8b4a-bdba09e762a5&_getpagesoffset=760&_count=20&_pretty=true&_bundletype=searchset"
+      },
+      {
+        "relation": "next",
+        "url": "https://hapi.fhir.org/baseR4?_getpages=88da3fc4-0522-4d60-8b4a-bdba09e762a5&_getpagesoffset=780&_count=20&_pretty=true&_bundletype=searchset"
+      },
+      {
+        "relation": "previous",
+        "url": "https://hapi.fhir.org/baseR4?_getpages=88da3fc4-0522-4d60-8b4a-bdba09e762a5&_getpagesoffset=740&_count=20&_pretty=true&_bundletype=searchset"
+      }
+    ],
+    "entry": [
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Patient/137595985",
+        "resource": {
+          "resourceType": "Patient",
+          "id": "137595985",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-27T12:41:14.352-04:00",
+            "source": "#1BEvIG5ajVJ7cbU3"
+          },
+          "text": {
+            "status": "generated",
+            "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>urn:uuid:lerox-care-share-7b4f5451-70db-445d-b7af-fe8d0bf06940</td></tr></tbody></table></div>"
+          },
+          "identifier": [
+            {
+              "system": "urn:ietf:rfc:3986",
+              "value": "urn:uuid:lerox-care-share-7b4f5451-70db-445d-b7af-fe8d0bf06940"
+            }
+          ],
+          "active": true
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Patient/137595987",
+        "resource": {
+          "resourceType": "Patient",
+          "id": "137595987",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-27T12:41:14.707-04:00",
+            "source": "#EnU1nDdbFxn7GtyD"
+          },
+          "text": {
+            "status": "generated",
+            "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>urn:uuid:lerox-patient-4f7c400d-39f8-4bbe-bc32-0c1762fe1de1</td></tr></tbody></table></div>"
+          },
+          "identifier": [
+            {
+              "system": "urn:ietf:rfc:3986",
+              "value": "urn:uuid:lerox-patient-4f7c400d-39f8-4bbe-bc32-0c1762fe1de1"
+            }
+          ],
+          "active": true
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Patient/137595995",
+        "resource": {
+          "resourceType": "Patient",
+          "id": "137595995",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-27T13:00:06.423-04:00",
+            "source": "#JvMGsTMX5jUUoPLe"
+          },
+          "text": {
+            "status": "generated",
+            "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>urn:uuid:lerox-care-share-1d885da2-d010-4781-8d04-852a29af560c</td></tr></tbody></table></div>"
+          },
+          "identifier": [
+            {
+              "system": "urn:ietf:rfc:3986",
+              "value": "urn:uuid:lerox-care-share-1d885da2-d010-4781-8d04-852a29af560c"
+            }
+          ],
+          "active": true
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Patient/137595997",
+        "resource": {
+          "resourceType": "Patient",
+          "id": "137595997",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-27T13:00:06.809-04:00",
+            "source": "#kcfabVVYdhHcbMSF"
+          },
+          "text": {
+            "status": "generated",
+            "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>urn:uuid:lerox-patient-7b43c677-08f4-4fbf-87dc-88bf8f98b4d4</td></tr></tbody></table></div>"
+          },
+          "identifier": [
+            {
+              "system": "urn:ietf:rfc:3986",
+              "value": "urn:uuid:lerox-patient-7b43c677-08f4-4fbf-87dc-88bf8f98b4d4"
+            }
+          ],
+          "active": true
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Patient/cds-emrz228-latitude-patient-1787851606295-66011",
+        "resource": {
+          "resourceType": "Patient",
+          "id": "cds-emrz228-latitude-patient-1787851606295-66011",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-27T13:26:47.531-04:00",
+            "source": "#Fk532bghvX3FOwWr"
+          },
+          "text": {
+            "status": "generated",
+            "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">EmrzLat <b>TESTLATITUDE </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>MRN-EMRZ228-LAT-1787851606295-66011</td></tr><tr><td>Date of birth</td><td><span>22 March 1955</span></td></tr></tbody></table></div>"
+          },
+          "identifier": [
+            {
+              "type": {
+                "coding": [
+                  {
+                    "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+                    "code": "MR"
+                  }
+                ]
+              },
+              "system": "http://hospital.smarthealthit.org",
+              "value": "MRN-EMRZ228-LAT-1787851606295-66011"
+            }
+          ],
+          "name": [
+            {
+              "use": "official",
+              "family": "TestLatitude",
+              "given": [
+                "EmrzLat"
+              ]
+            }
+          ],
+          "gender": "male",
+          "birthDate": "1955-03-22"
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Patient/cds-emrz228-latitude-patient-1787851608028-520604",
+        "resource": {
+          "resourceType": "Patient",
+          "id": "cds-emrz228-latitude-patient-1787851608028-520604",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-27T13:26:48.726-04:00",
+            "source": "#fwU7nVqn9G2rUy3u"
+          },
+          "text": {
+            "status": "generated",
+            "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">EmrzLat <b>TESTLATITUDE </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>MRN-EMRZ228-LAT-1787851608028-520604</td></tr><tr><td>Date of birth</td><td><span>22 March 1955</span></td></tr></tbody></table></div>"
+          },
+          "identifier": [
+            {
+              "type": {
+                "coding": [
+                  {
+                    "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+                    "code": "MR"
+                  }
+                ]
+              },
+              "system": "http://hospital.smarthealthit.org",
+              "value": "MRN-EMRZ228-LAT-1787851608028-520604"
+            }
+          ],
+          "name": [
+            {
+              "use": "official",
+              "family": "TestLatitude",
+              "given": [
+                "EmrzLat"
+              ]
+            }
+          ],
+          "gender": "male",
+          "birthDate": "1955-03-22"
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Patient/cds-emrz228-latitude-patient-1787851608307-249364",
+        "resource": {
+          "resourceType": "Patient",
+          "id": "cds-emrz228-latitude-patient-1787851608307-249364",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-27T13:26:48.904-04:00",
+            "source": "#McC6pVgKWuxbYvEN"
+          },
+          "text": {
+            "status": "generated",
+            "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">EmrzLat <b>TESTLATITUDE </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>MRN-EMRZ228-LAT-1787851608307-249364</td></tr><tr><td>Date of birth</td><td><span>22 March 1955</span></td></tr></tbody></table></div>"
+          },
+          "identifier": [
+            {
+              "type": {
+                "coding": [
+                  {
+                    "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+                    "code": "MR"
+                  }
+                ]
+              },
+              "system": "http://hospital.smarthealthit.org",
+              "value": "MRN-EMRZ228-LAT-1787851608307-249364"
+            }
+          ],
+          "name": [
+            {
+              "use": "official",
+              "family": "TestLatitude",
+              "given": [
+                "EmrzLat"
+              ]
+            }
+          ],
+          "gender": "male",
+          "birthDate": "1955-03-22"
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Patient/cds-emrz228-latitude-patient-1787851609407-970119",
+        "resource": {
+          "resourceType": "Patient",
+          "id": "cds-emrz228-latitude-patient-1787851609407-970119",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-27T13:26:50.017-04:00",
+            "source": "#yEpSvio2jaHhbOZm"
+          },
+          "text": {
+            "status": "generated",
+            "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">EmrzLat <b>TESTLATITUDE </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>MRN-EMRZ228-LAT-1787851609407-970119</td></tr><tr><td>Date of birth</td><td><span>22 March 1955</span></td></tr></tbody></table></div>"
+          },
+          "identifier": [
+            {
+              "type": {
+                "coding": [
+                  {
+                    "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+                    "code": "MR"
+                  }
+                ]
+              },
+              "system": "http://hospital.smarthealthit.org",
+              "value": "MRN-EMRZ228-LAT-1787851609407-970119"
+            }
+          ],
+          "name": [
+            {
+              "use": "official",
+              "family": "TestLatitude",
+              "given": [
+                "EmrzLat"
+              ]
+            }
+          ],
+          "gender": "male",
+          "birthDate": "1955-03-22"
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Patient/137596003",
+        "resource": {
+          "resourceType": "Patient",
+          "id": "137596003",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-27T13:29:21.934-04:00",
+            "source": "#5ax4sicmkYWYogaJ"
+          },
+          "text": {
+            "status": "generated",
+            "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>urn:uuid:lerox-care-share-68f652b2-d390-4bcc-8055-aae4079a5444</td></tr></tbody></table></div>"
+          },
+          "identifier": [
+            {
+              "system": "urn:ietf:rfc:3986",
+              "value": "urn:uuid:lerox-care-share-68f652b2-d390-4bcc-8055-aae4079a5444"
+            }
+          ],
+          "active": true
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Patient/137596005",
+        "resource": {
+          "resourceType": "Patient",
+          "id": "137596005",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-27T13:29:22.273-04:00",
+            "source": "#vluro5DY1tG5ZgKg"
+          },
+          "text": {
+            "status": "generated",
+            "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>urn:uuid:lerox-patient-467ded75-cca5-4774-99ce-52ce9691c299</td></tr></tbody></table></div>"
+          },
+          "identifier": [
+            {
+              "system": "urn:ietf:rfc:3986",
+              "value": "urn:uuid:lerox-patient-467ded75-cca5-4774-99ce-52ce9691c299"
+            }
+          ],
+          "active": true
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Patient/137596013",
+        "resource": {
+          "resourceType": "Patient",
+          "id": "137596013",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-27T13:36:50.711-04:00",
+            "source": "#oG3c9sG2VkCMainh"
+          },
+          "text": {
+            "status": "generated",
+            "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">Arun <b>KUMAR </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>HX-001</td></tr><tr><td>Date of birth</td><td><span>17 April 1990</span></td></tr></tbody></table></div>"
+          },
+          "identifier": [
+            {
+              "system": "http://cogniauth.example/mrn",
+              "value": "HX-001"
+            }
+          ],
+          "name": [
+            {
+              "family": "Kumar",
+              "given": [
+                "Arun"
+              ]
+            }
+          ],
+          "gender": "male",
+          "birthDate": "1990-04-17"
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Patient/137596015",
+        "resource": {
+          "resourceType": "Patient",
+          "id": "137596015",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-27T13:43:39.761-04:00",
+            "source": "#AGQRu1ATB5tPfV3s"
+          },
+          "text": {
+            "status": "generated",
+            "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>urn:uuid:lerox-care-share-e820445a-716c-41c4-9a7f-4b34f20156f1</td></tr></tbody></table></div>"
+          },
+          "identifier": [
+            {
+              "system": "urn:ietf:rfc:3986",
+              "value": "urn:uuid:lerox-care-share-e820445a-716c-41c4-9a7f-4b34f20156f1"
+            }
+          ],
+          "active": true
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Patient/137596017",
+        "resource": {
+          "resourceType": "Patient",
+          "id": "137596017",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-27T13:43:40.117-04:00",
+            "source": "#2pYhbXhUCUyzT1a2"
+          },
+          "text": {
+            "status": "generated",
+            "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>urn:uuid:lerox-patient-c3f15e2c-7fed-4320-913f-84afd123520e</td></tr></tbody></table></div>"
+          },
+          "identifier": [
+            {
+              "system": "urn:ietf:rfc:3986",
+              "value": "urn:uuid:lerox-patient-c3f15e2c-7fed-4320-913f-84afd123520e"
+            }
+          ],
+          "active": true
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Patient/E27866D98BDF8D74",
+        "resource": {
+          "resourceType": "Patient",
+          "id": "E27866D98BDF8D74",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-27T13:54:20.001-04:00",
+            "source": "#atJwiPSnL6TFV32D"
+          },
+          "text": {
+            "status": "generated",
+            "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Generated from CMS's synthetic DE-SynPUF research dataset (Sample 1). This is NOT a real patient -- DESYNPUF_ID is a synthetic identifier with no relationship to any real Medicare beneficiary.</div>"
+          },
+          "identifier": [
+            {
+              "system": "https://www.cms.gov/data-research/statistics-trends-and-reports/medicare-claims-synthetic-public-use-files",
+              "value": "E27866D98BDF8D74"
+            }
+          ]
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Patient/E27FBEDDF8CF5F30",
+        "resource": {
+          "resourceType": "Patient",
+          "id": "E27FBEDDF8CF5F30",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-27T13:54:20.782-04:00",
+            "source": "#7ArdOekYWaboMGEd"
+          },
+          "text": {
+            "status": "generated",
+            "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Generated from CMS's synthetic DE-SynPUF research dataset (Sample 1). This is NOT a real patient -- DESYNPUF_ID is a synthetic identifier with no relationship to any real Medicare beneficiary.</div>"
+          },
+          "identifier": [
+            {
+              "system": "https://www.cms.gov/data-research/statistics-trends-and-reports/medicare-claims-synthetic-public-use-files",
+              "value": "E27FBEDDF8CF5F30"
+            }
+          ]
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Patient/E28C64D578DE8EC3",
+        "resource": {
+          "resourceType": "Patient",
+          "id": "E28C64D578DE8EC3",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-27T13:54:21.606-04:00",
+            "source": "#3fd58Ur1uOMDdoi2"
+          },
+          "text": {
+            "status": "generated",
+            "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Generated from CMS's synthetic DE-SynPUF research dataset (Sample 1). This is NOT a real patient -- DESYNPUF_ID is a synthetic identifier with no relationship to any real Medicare beneficiary.</div>"
+          },
+          "identifier": [
+            {
+              "system": "https://www.cms.gov/data-research/statistics-trends-and-reports/medicare-claims-synthetic-public-use-files",
+              "value": "E28C64D578DE8EC3"
+            }
+          ]
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Patient/E2A8376DEE1E88D2",
+        "resource": {
+          "resourceType": "Patient",
+          "id": "E2A8376DEE1E88D2",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-27T13:54:22.563-04:00",
+            "source": "#eq2Am1kfOYwf1Ve0"
+          },
+          "text": {
+            "status": "generated",
+            "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Generated from CMS's synthetic DE-SynPUF research dataset (Sample 1). This is NOT a real patient -- DESYNPUF_ID is a synthetic identifier with no relationship to any real Medicare beneficiary.</div>"
+          },
+          "identifier": [
+            {
+              "system": "https://www.cms.gov/data-research/statistics-trends-and-reports/medicare-claims-synthetic-public-use-files",
+              "value": "E2A8376DEE1E88D2"
+            }
+          ]
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Patient/E2B60AD9CAFC1698",
+        "resource": {
+          "resourceType": "Patient",
+          "id": "E2B60AD9CAFC1698",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-27T13:54:23.588-04:00",
+            "source": "#Rcv2zX5vycD2h6Gl"
+          },
+          "text": {
+            "status": "generated",
+            "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Generated from CMS's synthetic DE-SynPUF research dataset (Sample 1). This is NOT a real patient -- DESYNPUF_ID is a synthetic identifier with no relationship to any real Medicare beneficiary.</div>"
+          },
+          "identifier": [
+            {
+              "system": "https://www.cms.gov/data-research/statistics-trends-and-reports/medicare-claims-synthetic-public-use-files",
+              "value": "E2B60AD9CAFC1698"
+            }
+          ]
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Patient/137596033",
+        "resource": {
+          "resourceType": "Patient",
+          "id": "137596033",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-27T13:59:04.811-04:00",
+            "source": "#ckGnKHLW8HPZwx8O"
+          },
+          "text": {
+            "status": "generated",
+            "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>urn:uuid:lerox-care-share-65e54da5-bc24-4b54-a4e9-ba227ebdbe34</td></tr></tbody></table></div>"
+          },
+          "identifier": [
+            {
+              "system": "urn:ietf:rfc:3986",
+              "value": "urn:uuid:lerox-care-share-65e54da5-bc24-4b54-a4e9-ba227ebdbe34"
+            }
+          ],
+          "active": true
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Patient/137596035",
+        "resource": {
+          "resourceType": "Patient",
+          "id": "137596035",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-27T13:59:05.190-04:00",
+            "source": "#nTqVYDupJLGRtBy7"
+          },
+          "text": {
+            "status": "generated",
+            "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>urn:uuid:lerox-patient-f2cb4916-8062-4277-8a7a-915266d6f688</td></tr></tbody></table></div>"
+          },
+          "identifier": [
+            {
+              "system": "urn:ietf:rfc:3986",
+              "value": "urn:uuid:lerox-patient-f2cb4916-8062-4277-8a7a-915266d6f688"
+            }
+          ],
+          "active": true
+        },
+        "search": {
+          "mode": "match"
+        }
+      }
+    ]
+  }
+}
