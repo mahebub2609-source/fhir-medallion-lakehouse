@@ -1,0 +1,150 @@
+{
+  "resourceType": "Observation",
+  "id": "observation-bp-54321",
+  "meta": {
+    "versionId": "1",
+    "lastUpdated": "2024-03-15T14:45:30.456Z",
+    "source": "https://fhir.example.org/Observation/observation-bp-54321",
+    "profile": [
+      "http://hl7.org/fhir/StructureDefinition/vitalsigns"
+    ]
+  },
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Blood Pressure: 128/82 mmHg</div>"
+  },
+  "identifier": [
+    {
+      "system": "http://hospital.example.org/observations",
+      "value": "OBS-BP-2024-0315-001"
+    }
+  ],
+  "status": "final",
+  "category": [
+    {
+      "coding": [
+        {
+          "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+          "code": "vital-signs",
+          "display": "Vital Signs"
+        }
+      ],
+      "text": "Vital Signs"
+    }
+  ],
+  "code": {
+    "coding": [
+      {
+        "system": "http://loinc.org",
+        "code": "85354-9",
+        "display": "Blood pressure panel with all children optional"
+      }
+    ],
+    "text": "Blood Pressure"
+  },
+  "subject": {
+    "reference": "Patient/patient-12345",
+    "display": "Sarah Johnson"
+  },
+  "encounter": {
+    "reference": "Encounter/encounter-98765",
+    "display": "Office Visit - March 15, 2024"
+  },
+  "effectiveDateTime": "2024-03-15T14:30:00Z",
+  "issued": "2024-03-15T14:45:30.456Z",
+  "performer": [
+    {
+      "reference": "Practitioner/practitioner-67890",
+      "display": "Nurse Jane Smith, RN"
+    }
+  ],
+  "component": [
+    {
+      "code": {
+        "coding": [
+          {
+            "system": "http://loinc.org",
+            "code": "8480-6",
+            "display": "Systolic blood pressure"
+          }
+        ],
+        "text": "Systolic BP"
+      },
+      "valueQuantity": {
+        "value": 128,
+        "unit": "mmHg",
+        "system": "http://unitsofmeasure.org",
+        "code": "mm[Hg]"
+      },
+      "interpretation": [
+        {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation",
+              "code": "N",
+              "display": "Normal"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": {
+        "coding": [
+          {
+            "system": "http://loinc.org",
+            "code": "8462-4",
+            "display": "Diastolic blood pressure"
+          }
+        ],
+        "text": "Diastolic BP"
+      },
+      "valueQuantity": {
+        "value": 82,
+        "unit": "mmHg",
+        "system": "http://unitsofmeasure.org",
+        "code": "mm[Hg]"
+      },
+      "interpretation": [
+        {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation",
+              "code": "N",
+              "display": "Normal"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "note": [
+    {
+      "text": "Patient was seated and at rest for 5 minutes prior to measurement. Measured on right arm.",
+      "time": "2024-03-15T14:30:00Z"
+    }
+  ],
+  "bodySite": {
+    "coding": [
+      {
+        "system": "http://snomed.info/sct",
+        "code": "368209003",
+        "display": "Right arm"
+      }
+    ]
+  },
+  "method": {
+    "coding": [
+      {
+        "system": "http://snomed.info/sct",
+        "code": "17146006",
+        "display": "Auscultatory method"
+      }
+    ],
+    "text": "Manual blood pressure cuff"
+  },
+  "device": {
+    "reference": "Device/device-bp-monitor-101",
+    "display": "Welch Allyn Aneroid Sphygmomanometer"
+  }
+}

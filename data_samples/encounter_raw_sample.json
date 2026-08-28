@@ -1,0 +1,288 @@
+{
+  "resourceType": "Encounter",
+  "id": "encounter-98765",
+  "meta": {
+    "versionId": "2",
+    "lastUpdated": "2024-03-15T16:20:15.789Z",
+    "source": "https://fhir.example.org/Encounter/encounter-98765",
+    "profile": [
+      "http://hl7.org/fhir/us/core/StructureDefinition/us-core-encounter"
+    ]
+  },
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Office Visit for Sarah Johnson on March 15, 2024</div>"
+  },
+  "identifier": [
+    {
+      "use": "official",
+      "system": "http://hospital.example.org/encounters",
+      "value": "ENC-2024-0315-001"
+    },
+    {
+      "use": "usual",
+      "type": {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+            "code": "VN",
+            "display": "Visit number"
+          }
+        ]
+      },
+      "system": "http://hospital.example.org/visit-numbers",
+      "value": "V2024031500123"
+    }
+  ],
+  "status": "finished",
+  "statusHistory": [
+    {
+      "status": "planned",
+      "period": {
+        "start": "2024-03-01T09:00:00Z",
+        "end": "2024-03-15T14:00:00Z"
+      }
+    },
+    {
+      "status": "arrived",
+      "period": {
+        "start": "2024-03-15T14:00:00Z",
+        "end": "2024-03-15T14:15:00Z"
+      }
+    },
+    {
+      "status": "in-progress",
+      "period": {
+        "start": "2024-03-15T14:15:00Z",
+        "end": "2024-03-15T15:30:00Z"
+      }
+    },
+    {
+      "status": "finished",
+      "period": {
+        "start": "2024-03-15T15:30:00Z"
+      }
+    }
+  ],
+  "class": {
+    "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+    "code": "AMB",
+    "display": "ambulatory"
+  },
+  "classHistory": [
+    {
+      "class": {
+        "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+        "code": "AMB",
+        "display": "ambulatory"
+      },
+      "period": {
+        "start": "2024-03-15T14:00:00Z",
+        "end": "2024-03-15T15:30:00Z"
+      }
+    }
+  ],
+  "type": [
+    {
+      "coding": [
+        {
+          "system": "http://snomed.info/sct",
+          "code": "185349003",
+          "display": "Encounter for check up"
+        },
+        {
+          "system": "http://www.ama-assn.org/go/cpt",
+          "code": "99213",
+          "display": "Office outpatient visit 15 minutes"
+        }
+      ],
+      "text": "Annual Physical Exam"
+    }
+  ],
+  "serviceType": {
+    "coding": [
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/service-type",
+        "code": "124",
+        "display": "General Practice"
+      }
+    ]
+  },
+  "priority": {
+    "coding": [
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v3-ActPriority",
+        "code": "R",
+        "display": "routine"
+      }
+    ]
+  },
+  "subject": {
+    "reference": "Patient/patient-12345",
+    "display": "Sarah Johnson"
+  },
+  "episodeOfCare": [
+    {
+      "reference": "EpisodeOfCare/episode-2024-primary-care"
+    }
+  ],
+  "basedOn": [
+    {
+      "reference": "ServiceRequest/sr-annual-physical-2024"
+    }
+  ],
+  "participant": [
+    {
+      "type": [
+        {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+              "code": "PPRF",
+              "display": "primary performer"
+            }
+          ]
+        }
+      ],
+      "period": {
+        "start": "2024-03-15T14:15:00Z",
+        "end": "2024-03-15T15:30:00Z"
+      },
+      "individual": {
+        "reference": "Practitioner/practitioner-67890",
+        "display": "Dr. Emily Chen, MD"
+      }
+    },
+    {
+      "type": [
+        {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+              "code": "ATND",
+              "display": "attender"
+            }
+          ]
+        }
+      ],
+      "period": {
+        "start": "2024-03-15T14:00:00Z",
+        "end": "2024-03-15T14:15:00Z"
+      },
+      "individual": {
+        "reference": "Practitioner/practitioner-nurse-smith",
+        "display": "Nurse Jane Smith, RN"
+      }
+    }
+  ],
+  "appointment": [
+    {
+      "reference": "Appointment/appointment-2024-0315"
+    }
+  ],
+  "period": {
+    "start": "2024-03-15T14:00:00Z",
+    "end": "2024-03-15T15:30:00Z"
+  },
+  "length": {
+    "value": 90,
+    "unit": "min",
+    "system": "http://unitsofmeasure.org",
+    "code": "min"
+  },
+  "reasonCode": [
+    {
+      "coding": [
+        {
+          "system": "http://snomed.info/sct",
+          "code": "702826002",
+          "display": "Annual physical examination"
+        }
+      ],
+      "text": "Annual physical exam and preventive care"
+    }
+  ],
+  "diagnosis": [
+    {
+      "condition": {
+        "reference": "Condition/condition-hypertension-23456",
+        "display": "Essential hypertension"
+      },
+      "use": {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/diagnosis-role",
+            "code": "AD",
+            "display": "Admission diagnosis"
+          }
+        ]
+      },
+      "rank": 1
+    },
+    {
+      "condition": {
+        "reference": "Condition/condition-prediabetes-34567",
+        "display": "Prediabetes"
+      },
+      "use": {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/diagnosis-role",
+            "code": "DD",
+            "display": "Discharge diagnosis"
+          }
+        ]
+      },
+      "rank": 2
+    }
+  ],
+  "account": [
+    {
+      "reference": "Account/account-patient-12345"
+    }
+  ],
+  "hospitalization": {
+    "preAdmissionIdentifier": {
+      "system": "http://hospital.example.org/pre-admission",
+      "value": "PA-2024-0315-001"
+    },
+    "admitSource": {
+      "coding": [
+        {
+          "system": "http://terminology.hl7.org/CodeSystem/admit-source",
+          "code": "outp",
+          "display": "From outpatient department"
+        }
+      ]
+    },
+    "dischargeDisposition": {
+      "coding": [
+        {
+          "system": "http://terminology.hl7.org/CodeSystem/discharge-disposition",
+          "code": "home",
+          "display": "Home"
+        }
+      ]
+    }
+  },
+  "location": [
+    {
+      "location": {
+        "reference": "Location/location-clinic-room-3",
+        "display": "Example Hospital - Clinic Room 3"
+      },
+      "status": "active",
+      "period": {
+        "start": "2024-03-15T14:15:00Z",
+        "end": "2024-03-15T15:30:00Z"
+      }
+    }
+  ],
+  "serviceProvider": {
+    "reference": "Organization/org-11223",
+    "display": "Example Hospital System"
+  },
+  "partOf": {
+    "reference": "Encounter/encounter-parent-episode"
+  }
+}
