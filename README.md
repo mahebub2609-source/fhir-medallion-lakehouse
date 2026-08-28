@@ -174,46 +174,237 @@ Run notebooks in sequence:
    - Extracts structured fields from JSON
    - Creates clean `silver.{resource}_clean` tables
 
-#### Option 2: Scheduled Job (Recommended for Production)
+#### Option 2: Automated Job Pipeline (Recommended for Production)
+
+**Quick Start**: Run the job creation script:
+
+```bash
+python create_pipeline_job.py
+```
+
+📖 **Full Documentation**: See [PIPELINE_ARCHITECTURE.md](PIPELINE_ARCHITECTURE.md) for detailed pipeline flow, dependencies, and monitoring queries.
+
+This creates a production-ready Databricks Workflow with:
+
+**Pipeline Architecture**:
+```
+┌─────────────────────────┐
+│  01_raw_ingestion      │ ← FHIR API: Patient → Encounter → Observation → Condition
+│  (Bronze: API Fetch)   │    Output: data/raw/{date}/{resource}/page_*.json
+└───────────┬─────────────┘
+           │
+           │ Depends On: 01_raw_ingestion
+           │
+┌───────────┴─────────────┐
+│  02_bronze_transform   │ ← Load JSON → Delta Tables
+│  (Bronze: Delta Load)  │    Output: bronze.patient, bronze.encounter, etc.
+└───────────┬─────────────┘
+           │
+           │ Depends On: 02_bronze_transform
+           │
+┌───────────┴─────────────┐
+│  03_scd2_versioning    │ ← Hash-based Change Detection + SCD Type 2
+│  (Silver: Versioning)  │    Output: silver.patient (versioned with valid_from/to)
+└───────────┬─────────────┘
+           │
+           │ Depends On: 03_scd2_versioning
+           │
+┌───────────┴─────────────┐
+│  04_silver_clean       │ ← Extract Fields + Resolve References
+│  (Silver: Cleansing)   │    Output: silver.encounter_clean (with patient_id)
+└─────────────────────────┘
+```
+
+**Job Features**:
+* ✅ **Dependency Management**: Tasks run in correct order with automatic failure propagation
+* ✅ **Retry Logic**: 2 retries per task with 1-minute backoff
+* ✅ **Scheduling**: Every 6 hours (configurable, starts PAUSED for manual first run)
+* ✅ **Notifications**: Email alerts on success/failure
+* ✅ **Resource Order**: Patient → Encounter → Observation → Condition (via `config/resources.json`)
+* ✅ **Monitoring**: Full lineage tracking with `bronze_load_date` and `valid_from` timestamps
+
+**Manual Job Creation** (alternative to script):
 
 ```python
-# Create a Databricks job with all pipeline tasks
 from databricks.sdk import WorkspaceClient
+from databricks.sdk.service import jobs
 
 w = WorkspaceClient()
+user_email = w.current_user.me().user_name
+base_path = f"/Users/{user_email}/fhir-medallion-lakehouse/notebooks"
+
 job = w.jobs.create(
     name="FHIR Medallion Pipeline",
     tasks=[
-        {
-            "task_key": "01_raw_ingestion",
-            "notebook_task": {
-                "notebook_path": "/Users/{user}/fhir-medallion-lakehouse/notebooks/01_raw_ingestion"
-            }
-        },
-        {
-            "task_key": "02_bronze_transform",
-            "depends_on": [{"task_key": "01_raw_ingestion"}],
-            "notebook_task": {
-                "notebook_path": "/Users/{user}/fhir-medallion-lakehouse/notebooks/02_bronze_transform"
-            }
-        },
-        {
-            "task_key": "03_scd2_versioning",
-            "depends_on": [{"task_key": "02_bronze_transform"}],
-            "notebook_task": {
-                "notebook_path": "/Users/{user}/fhir-medallion-lakehouse/notebooks/03_scd2_versioning"
-            }
-        },
-        {
-            "task_key": "04_silver_clean",
-            "depends_on": [{"task_key": "03_scd2_versioning"}],
-            "notebook_task": {
-                "notebook_path": "/Users/{user}/fhir-medallion-lakehouse/notebooks/04_silver_clean"
-            }
-        }
+        jobs.Task(
+            task_key="01_raw_ingestion",
+            notebook_task=jobs.NotebookTask(
+                notebook_path=f"{base_path}/01_raw_ingestion",
+                source=jobs.Source.WORKSPACE
+            ),
+            timeout_seconds=3600,
+            max_retries=2
+        ),
+        jobs.Task(
+            task_key="02_bronze_transform",
+            depends_on=[jobs.TaskDependency(task_key="01_raw_ingestion")],
+            notebook_task=jobs.NotebookTask(
+                notebook_path=f"{base_path}/02_bronze_transform"
+            ),
+            timeout_seconds=3600,
+            max_retries=2
+        ),
+        jobs.Task(
+            task_key="03_scd2_versioning",
+            depends_on=[jobs.TaskDependency(task_key="02_bronze_transform")],
+            notebook_task=jobs.NotebookTask(
+                notebook_path=f"{base_path}/03_scd2_versioning"
+            ),
+            timeout_seconds=3600,
+            max_retries=2
+        ),
+        jobs.Task(
+            task_key="04_silver_clean",
+            depends_on=[jobs.TaskDependency(task_key="03_scd2_versioning")],
+            notebook_task=jobs.NotebookTask(
+                notebook_path=f"{base_path}/04_silver_clean"
+            ),
+            timeout_seconds=3600,
+            max_retries=2
+        )
     ],
-    schedule={"quartz_cron_expression": "0 0 */6 * * ?"}  # Every 6 hours
+    schedule=jobs.CronSchedule(
+        quartz_cron_expression="0 0 */6 * * ?",
+        timezone_id="UTC",
+        pause_status=jobs.PauseStatus.PAUSED
+    ),
+    max_concurrent_runs=1
 )
+
+print(f"Job created: {w.config.host}/jobs/{job.job_id}")
+```
+
+**Trigger a Run**:
+```python
+# Manual trigger
+run = w.jobs.run_now(job_id=job.job_id)
+print(f"Run started: {w.config.host}/jobs/{job.job_id}/runs/{run.run_id}")
+
+# Check status
+run_status = w.jobs.get_run(run_id=run.run_id)
+print(f"Status: {run_status.state.life_cycle_state}")
+```
+
+### Pipeline Outputs by Task
+
+#### Task 1: `01_raw_ingestion`
+**Output**: Raw JSON files organized by date and resource type
+```
+file:/Workspace/Users/{user}/fhir-medallion-lakehouse/data/raw/
+  ├── 2026-01-15/
+  │   ├── Patient/
+  │   │   ├── page_1.json  (20 records)
+  │   │   ├── page_2.json  (20 records)
+  │   │   └── ...
+  │   ├── Encounter/
+  │   │   └── page_1.json
+  │   ├── Observation/
+  │   └── Condition/
+```
+**Metadata Logged**: extraction_timestamp, api_url, page number, total records
+
+#### Task 2: `02_bronze_transform`
+**Output**: Delta tables with raw FHIR JSON + metadata
+```sql
+SELECT COUNT(*) FROM bronze.patient;      -- e.g., 150 records
+SELECT COUNT(*) FROM bronze.encounter;    -- e.g., 450 records
+SELECT COUNT(*) FROM bronze.observation;  -- e.g., 1200 records
+SELECT COUNT(*) FROM bronze.condition;    -- e.g., 300 records
+```
+**Columns Added**: `resource_id`, `bronze_load_date`, `ingestion_ts`
+
+#### Task 3: `03_scd2_versioning`
+**Output**: Versioned Delta tables with historical tracking
+```sql
+-- Example output: 150 unique patients, 3 changed records = 153 total rows
+SELECT 
+  COUNT(*) as total_rows,
+  COUNT(DISTINCT resource_id) as unique_resources,
+  SUM(CASE WHEN is_current THEN 1 ELSE 0 END) as current_versions,
+  SUM(CASE WHEN NOT is_current THEN 1 ELSE 0 END) as historical_versions
+FROM silver.patient;
+-- Result: total_rows=153, unique_resources=150, current=150, historical=3
+```
+**Columns Added**: `row_hash`, `valid_from`, `valid_to`, `is_current`
+
+#### Task 4: `04_silver_clean`
+**Output**: Analytical-ready tables with resolved references
+```sql
+-- Encounters with resolved patient IDs
+SELECT 
+  resource_id as encounter_id,
+  patient_id,           -- Extracted from reference field
+  status,              -- e.g., 'finished'
+  COUNT(*) as count
+FROM silver.encounter_clean
+GROUP BY resource_id, patient_id, status
+LIMIT 5;
+```
+**Transformations**: Nested JSON flattened, FHIR references resolved to IDs
+
+### Monitoring Pipeline Execution
+
+**Check Job Status**:
+```python
+from databricks.sdk import WorkspaceClient
+
+w = WorkspaceClient()
+job_id = 123456  # Your job ID from create_pipeline_job.py output
+
+# Get recent runs
+runs = w.jobs.list_runs(job_id=job_id, limit=5)
+for run in runs:
+    print(f"Run {run.run_id}: {run.state.result_state} ({run.start_time})")
+
+# Get specific run details
+run = w.jobs.get_run(run_id=run_id)
+for task in run.tasks:
+    print(f"  Task {task.task_key}: {task.state.result_state}")
+    print(f"    Duration: {task.execution_duration/1000:.1f}s")
+```
+
+**Query Pipeline Metrics**:
+```sql
+-- Data freshness by layer
+SELECT 'Bronze' as layer, bronze_load_date, COUNT(*) as records
+FROM bronze.patient
+GROUP BY bronze_load_date
+UNION ALL
+SELECT 'Silver', DATE(valid_from), COUNT(*)
+FROM silver.patient
+WHERE is_current = true
+GROUP BY DATE(valid_from)
+ORDER BY bronze_load_date DESC;
+
+-- Pipeline data lineage
+SELECT 
+  'Raw Files' as stage,
+  COUNT(DISTINCT bronze_load_date) as batches,
+  NULL as current_records
+FROM bronze.patient
+UNION ALL
+SELECT 
+  'Bronze Tables',
+  COUNT(DISTINCT bronze_load_date),
+  COUNT(*)
+FROM bronze.patient
+UNION ALL
+SELECT 
+  'Silver Versioned',
+  NULL,
+  COUNT(*)
+FROM silver.patient
+WHERE is_current = true;
 ```
 
 ## Table Schemas
@@ -391,20 +582,6 @@ GROUP BY bronze_load_date
 ORDER BY bronze_load_date DESC;
 ```
 
-## Migration from Fabric Lakehouse
-
-This project was designed to be portable between Microsoft Fabric and Databricks:
-
-| Fabric Lakehouse | Databricks (Serverless) | Notes |
-|------------------|------------------------|-------|
-| `/lakehouse/default/Files/` | `file:/Workspace/Users/{user}/` | Workspace paths for file storage |
-| DBFS paths (`/dbfs/`) | Not supported | Use workspace or Unity Catalog volumes |
-| `dbfs:/` protocol | `file:` protocol | Required for serverless compute |
-| Notebook utilities | `dbutils` | Available in Databricks |
-| Spark runtime | Databricks Runtime | Full Spark API support |
-| Delta tables | Delta tables | Same format, Unity Catalog integration |
-| SQL cells | SQL cells | Language must match cell type |
-
 ### Key Differences
 
 1. **File Paths**: Use `file:/Workspace/...` instead of `/dbfs/` or `dbfs:/`
@@ -488,10 +665,17 @@ modified.write.format('delta').mode('append').saveAsTable('bronze.patient')
 
 ## Resources
 
+### Project Documentation
+* **[PIPELINE_ARCHITECTURE.md](PIPELINE_ARCHITECTURE.md)**: Complete pipeline architecture with visual flow, dependencies, triggers, and outputs
+* **[create_pipeline_job.py](create_pipeline_job.py)**: Automated Databricks Workflow creation script
+* **[config/resources.json](config/resources.json)**: FHIR resource configuration
+
+### External Resources
 * [FHIR R4 Specification](https://hl7.org/fhir/R4/)
 * [Databricks Medallion Architecture](https://www.databricks.com/glossary/medallion-architecture)
 * [HAPI FHIR Server](https://hapi.fhir.org/)
-* [Delta Live Tables](https://docs.databricks.com/delta-live-tables/index.html)
+* [Databricks Workflows](https://docs.databricks.com/workflows/)
+* [Delta Lake Documentation](https://docs.delta.io/)
 
 ## License
 
@@ -579,6 +763,7 @@ For issues or questions:
 4. Ensure configuration is valid
 5. Check that file paths use the correct format for your compute type
 
----
 
-**Built with**  **for healthcare data engineering**
+
+
+---

@@ -1,30 +1,30 @@
 {
   "resource_type": "Encounter",
-  "extraction_timestamp": "2026-08-28T13:29:30.245351+00:00",
+  "extraction_timestamp": "2026-08-28T15:56:59.506282+00:00",
   "extraction_date": "2026-08-28",
-  "api_url": "https://hapi.fhir.org/baseR4?_getpages=f592eee8-a7d0-47bc-b31a-20e0a6ac3546&_getpagesoffset=100&_count=20&_pretty=true&_bundletype=searchset",
+  "api_url": "https://hapi.fhir.org/baseR4?_getpages=a9e6818e-a718-4f3f-a081-09736d2409b5&_getpagesoffset=100&_count=20&_pretty=true&_bundletype=searchset",
   "page_number": 5,
   "entry_count": 20,
   "response": {
     "resourceType": "Bundle",
-    "id": "f592eee8-a7d0-47bc-b31a-20e0a6ac3546",
+    "id": "a9e6818e-a718-4f3f-a081-09736d2409b5",
     "meta": {
-      "lastUpdated": "2026-08-28T09:29:30.308-04:00"
+      "lastUpdated": "2026-08-28T11:56:59.573-04:00"
     },
     "type": "searchset",
-    "total": 151,
+    "total": 155,
     "link": [
       {
         "relation": "self",
-        "url": "https://hapi.fhir.org/baseR4?_getpages=f592eee8-a7d0-47bc-b31a-20e0a6ac3546&_getpagesoffset=100&_count=20&_pretty=true&_bundletype=searchset"
+        "url": "https://hapi.fhir.org/baseR4?_getpages=a9e6818e-a718-4f3f-a081-09736d2409b5&_getpagesoffset=100&_count=20&_pretty=true&_bundletype=searchset"
       },
       {
         "relation": "next",
-        "url": "https://hapi.fhir.org/baseR4?_getpages=f592eee8-a7d0-47bc-b31a-20e0a6ac3546&_getpagesoffset=120&_count=20&_pretty=true&_bundletype=searchset"
+        "url": "https://hapi.fhir.org/baseR4?_getpages=a9e6818e-a718-4f3f-a081-09736d2409b5&_getpagesoffset=120&_count=20&_pretty=true&_bundletype=searchset"
       },
       {
         "relation": "previous",
-        "url": "https://hapi.fhir.org/baseR4?_getpages=f592eee8-a7d0-47bc-b31a-20e0a6ac3546&_getpagesoffset=80&_count=20&_pretty=true&_bundletype=searchset"
+        "url": "https://hapi.fhir.org/baseR4?_getpages=a9e6818e-a718-4f3f-a081-09736d2409b5&_getpagesoffset=80&_count=20&_pretty=true&_bundletype=searchset"
       }
     ],
     "entry": [

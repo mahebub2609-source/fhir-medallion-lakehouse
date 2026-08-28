@@ -1,26 +1,26 @@
 {
   "resource_type": "Patient",
-  "extraction_timestamp": "2026-08-28T13:28:41.845688+00:00",
+  "extraction_timestamp": "2026-08-28T15:56:14.178719+00:00",
   "extraction_date": "2026-08-28",
-  "api_url": "https://hapi.fhir.org/baseR4?_getpages=63d0716c-bab4-4a9a-8b13-5aee046c3431&_getpagesoffset=940&_count=20&_pretty=true&_bundletype=searchset",
+  "api_url": "https://hapi.fhir.org/baseR4?_getpages=8c70973a-4035-47ef-ae0b-49953efb8d0b&_getpagesoffset=940&_count=20&_pretty=true&_bundletype=searchset",
   "page_number": 47,
-  "entry_count": 3,
+  "entry_count": 8,
   "response": {
     "resourceType": "Bundle",
-    "id": "63d0716c-bab4-4a9a-8b13-5aee046c3431",
+    "id": "8c70973a-4035-47ef-ae0b-49953efb8d0b",
     "meta": {
-      "lastUpdated": "2026-08-28T09:28:42.369-04:00"
+      "lastUpdated": "2026-08-28T11:56:14.785-04:00"
     },
     "type": "searchset",
-    "total": 943,
+    "total": 948,
     "link": [
       {
         "relation": "self",
-        "url": "https://hapi.fhir.org/baseR4?_getpages=63d0716c-bab4-4a9a-8b13-5aee046c3431&_getpagesoffset=940&_count=20&_pretty=true&_bundletype=searchset"
+        "url": "https://hapi.fhir.org/baseR4?_getpages=8c70973a-4035-47ef-ae0b-49953efb8d0b&_getpagesoffset=940&_count=20&_pretty=true&_bundletype=searchset"
       },
       {
         "relation": "previous",
-        "url": "https://hapi.fhir.org/baseR4?_getpages=63d0716c-bab4-4a9a-8b13-5aee046c3431&_getpagesoffset=920&_count=20&_pretty=true&_bundletype=searchset"
+        "url": "https://hapi.fhir.org/baseR4?_getpages=8c70973a-4035-47ef-ae0b-49953efb8d0b&_getpagesoffset=920&_count=20&_pretty=true&_bundletype=searchset"
       }
     ],
     "entry": [
@@ -124,6 +124,223 @@
           ],
           "gender": "male",
           "birthDate": "1962-07-16"
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Patient/137611028",
+        "resource": {
+          "resourceType": "Patient",
+          "id": "137611028",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-28T11:23:51.952-04:00",
+            "source": "#q2TLcu99rJZFfIDh"
+          },
+          "text": {
+            "status": "generated",
+            "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">Mrs. Suganya <b>RAJU </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Address</td><td><span>Toronto </span><span>ON </span></td></tr><tr><td>Date of birth</td><td><span>16 July 1990</span></td></tr></tbody></table></div>"
+          },
+          "active": true,
+          "name": [
+            {
+              "use": "official",
+              "family": "Raju",
+              "given": [
+                "Suganya"
+              ],
+              "prefix": [
+                "Mrs."
+              ]
+            }
+          ],
+          "gender": "female",
+          "birthDate": "1990-07-16",
+          "deceasedBoolean": false,
+          "address": [
+            {
+              "type": "physical",
+              "text": "5229 dundas st w",
+              "city": "Toronto",
+              "state": "ON"
+            }
+          ],
+          "contact": [
+            {
+              "relationship": [
+                {
+                  "text": "Mother"
+                }
+              ]
+            },
+            {
+              "name": {
+                "given": [
+                  "Mohana"
+                ]
+              }
+            }
+          ],
+          "generalPractitioner": [
+            {
+              "reference": "Practitioner/137610953"
+            }
+          ]
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Patient/137611115",
+        "resource": {
+          "resourceType": "Patient",
+          "id": "137611115",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-28T11:26:22.428-04:00",
+            "source": "#UnZyae0rv1xImTZD"
+          },
+          "text": {
+            "status": "generated",
+            "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\"/><table class=\"hapiPropertyTable\"><tbody/></table></div>"
+          },
+          "name": [
+            {
+              "text": "\u7504\u771f\u5047"
+            }
+          ],
+          "gender": "other"
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Patient/137611513",
+        "resource": {
+          "resourceType": "Patient",
+          "id": "137611513",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-28T11:38:49.328-04:00",
+            "source": "#dCQovcEAQW9NlXEJ"
+          },
+          "text": {
+            "status": "generated",
+            "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\"/><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>CB-3B183D1D</td></tr><tr><td>Date of birth</td><td><span>05 August 2026</span></td></tr></tbody></table></div>"
+          },
+          "identifier": [
+            {
+              "system": "https://carebridge.example/patient-id",
+              "value": "CB-3B183D1D"
+            }
+          ],
+          "name": [
+            {
+              "text": "45445554"
+            }
+          ],
+          "telecom": [
+            {
+              "system": "phone",
+              "value": "09465455154514"
+            }
+          ],
+          "gender": "male",
+          "birthDate": "2026-08-05"
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Patient/137611584",
+        "resource": {
+          "resourceType": "Patient",
+          "id": "137611584",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-28T11:39:48.875-04:00",
+            "source": "#mAV11DriKegAyWKw"
+          },
+          "text": {
+            "status": "generated",
+            "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">\u5c0f\u8317 <b>\u9673 </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>ID-1787931588862-378</td></tr></tbody></table></div>"
+          },
+          "identifier": [
+            {
+              "system": "https://hospital.example.org/id",
+              "value": "ID-1787931588862-378"
+            }
+          ],
+          "active": true,
+          "name": [
+            {
+              "use": "official",
+              "text": "\u9673\u5c0f\u8317",
+              "family": "\u9673",
+              "given": [
+                "\u5c0f\u8317"
+              ]
+            }
+          ],
+          "gender": "male",
+          "generalPractitioner": [
+            {
+              "reference": "Practitioner/137611583"
+            }
+          ],
+          "managingOrganization": {
+            "reference": "Organization/137611582"
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Patient/137611732",
+        "resource": {
+          "resourceType": "Patient",
+          "id": "137611732",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-28T11:44:31.335-04:00",
+            "source": "#sNBJbOCBgdI7du90"
+          },
+          "text": {
+            "status": "generated",
+            "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">\u5c0f\u660e <b>\u738b </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>1787931871324-78</td></tr></tbody></table></div>"
+          },
+          "identifier": [
+            {
+              "system": "urn:course:b3-demo",
+              "value": "1787931871324-78"
+            }
+          ],
+          "active": true,
+          "name": [
+            {
+              "use": "official",
+              "text": "\u738b\u5c0f\u660e",
+              "family": "\u738b",
+              "given": [
+                "\u5c0f\u660e"
+              ]
+            }
+          ],
+          "gender": "male",
+          "generalPractitioner": [
+            {
+              "reference": "Practitioner/137611731"
+            }
+          ],
+          "managingOrganization": {
+            "reference": "Organization/137611730"
+          }
         },
         "search": {
           "mode": "match"

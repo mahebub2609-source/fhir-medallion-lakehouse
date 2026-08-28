@@ -1,15 +1,15 @@
 {
   "resource_type": "Condition",
-  "extraction_timestamp": "2026-08-28T13:31:00.209557+00:00",
+  "extraction_timestamp": "2026-08-28T15:58:24.838099+00:00",
   "extraction_date": "2026-08-28",
   "api_url": "https://hapi.fhir.org/baseR4/Condition?_lastUpdated=ge2026-08-25&_count=20",
   "page_number": 0,
   "entry_count": 20,
   "response": {
     "resourceType": "Bundle",
-    "id": "1a79af75-a283-454c-8aa8-4b63b505d1f0",
+    "id": "9860150f-2a77-4406-ac58-6371f831ca76",
     "meta": {
-      "lastUpdated": "2026-08-28T09:31:00.272-04:00"
+      "lastUpdated": "2026-08-28T11:58:24.899-04:00"
     },
     "type": "searchset",
     "link": [
@@ -19,7 +19,7 @@
       },
       {
         "relation": "next",
-        "url": "https://hapi.fhir.org/baseR4?_getpages=1a79af75-a283-454c-8aa8-4b63b505d1f0&_getpagesoffset=20&_count=20&_pretty=true&_bundletype=searchset"
+        "url": "https://hapi.fhir.org/baseR4?_getpages=9860150f-2a77-4406-ac58-6371f831ca76&_getpagesoffset=20&_count=20&_pretty=true&_bundletype=searchset"
       }
     ],
     "entry": [
